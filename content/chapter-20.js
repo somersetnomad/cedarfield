@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[20] = {
+n: 20, title: 'LoveMyFamily', pov: 'Adam', when: 'That evening', strands: ['adam'], places: ['cedarfield','pittsburgh'],
+summary: [
+ 'Adam sits Thomas down in the kitchen. Looking at his elder son, he sees himself in the boy’s gestures and has no doubt Thomas is his; he admits, privately, that the stranger has dragged into the light a misgiving every man keeps in a dark corner, and wonders whether that explains his outburst at Ryan. Thomas, snapping a green lacrosse wristband against his skin, says Mom will be angry: he promised never to do this. He asks whether Adam was telling the truth about the conference. Adam says no; they had a fight. Thomas reasons that perhaps Mom wouldn’t want him to say where she is. Adam agrees that’s possible, but says Corinne would never put the boys in that position.',
+ 'Thomas explains. Years ago Corinne installed an upgraded phone-locator app on all their phones. The deal was that she would use it only in emergencies, never to spy, and Thomas would never use it at all. He hands Adam the map: three dots in the same house, blue, red, and green. The green dot is Adam. For three or four years Corinne could have seen exactly where her husband was. Adam, proud of keeping his phone free of apps, absorbs this.',
+ 'Thomas zooms out. An orange dot sits, no longer blinking, in Pittsburgh, more than six hours’ drive away. A few hours earlier it was moving; then the battery ran down to four per cent and died. The last location is a strip mall on South Braddock Avenue: a supermarket, a dollar store, a sports-shoe shop, a video-game shop. Corinne knows no one in Pittsburgh, as far as Adam knows. Maybe she stopped for supplies; maybe she met the stranger. The app is on Adam’s phone too, hidden on the last screen. The password is LoveMyFamily.'
+],
+beats: [
+ 'Adam and Thomas in the kitchen; Adam’s certainty about Thomas, and the secret misgiving all men keep.',
+ 'Thomas snaps his wristband; he broke a promise to his mother.',
+ 'Adam admits the conference was a lie: they had a fight.',
+ 'The phone-locator app and Corinne’s rule: emergencies only; Thomas must never use it.',
+ 'Three dots at home, one of them Adam: she could track him for years.',
+ 'Zooming out: the orange dot in Pittsburgh.',
+ 'The battery died at four per cent; the dot stopped.',
+ 'A strip mall on South Braddock Avenue.',
+ 'The app is on Adam’s phone too. Password: LoveMyFamily.'
+],
+cast: [['Thomas Price','Tech-savvy, conflicted, honest with his father.'],['Adam Price','Learning how much he was watched.'],['Corinne Price','Present as an orange dot and a set of rules.']],
+motifs: ['surveillance','technology','parenting','marriage','fatherhood','secrets','truth','lies'],
+secrets: [['Corinne','She has been able to track Adam’s phone for years.','Discovered by Adam'],['Thomas','He broke his promise and used the app.','Told to Adam'],['Corinne','Her last location: Pittsburgh.','Discovered']],
+clues: ['Corinne’s phone was last in Pittsburgh, on South Braddock Avenue.','It was moving a few hours ago, then died at 4%.','Corinne could track all the family phones, including Adam’s.','The app’s password is LoveMyFamily.','Corinne doesn’t know anyone in Pittsburgh, as far as Adam knows.'],
+dilemma: { q: 'Is a family location-sharing app an act of love or of control?', a: 'Love: it keeps everyone safe', b: 'Control: it removes trust' },
+food: ['Pasta later; for now, a kitchen table and a phone.'],
+refs: [['Phone-locator apps','By 2015 most smartphones had built-in "find my phone" features; family-sharing upgrades showed each member’s location.'],['South Braddock Avenue','A real street in the Pittsburgh area with shops along it.'],['Cause wristbands','Silicone wristbands became popular after a cancer-charity campaign in 2004; teams sell their own.'],['Pinch to zoom','The touchscreen gesture popularised by smartphones from 2007.']],
+questions: [
+ ['What does Thomas reveal about the app?',0],
+ ['What was the deal between Thomas and Corinne?',0],
+ ['Which dot is Adam?',0],
+ ['Where is Corinne’s last location?',0],
+ ['Why did the dot stop blinking?',0],
+ ['What is the password?',0],
+ ['Adam admits a secret misgiving all men keep. What is it, and why voice it now?',1],
+ ['Why does Thomas snap the wristband?',0],
+ ['Is Thomas right that Mom might not want Adam to know?',0],
+ ['Adam tells Thomas the truth about the fight. Was that right?',1],
+ ['Corinne could see Adam’s location for years. How should he feel?',1],
+ ['Is the emergencies-only rule meaningful if only Corinne enforced it?',0],
+ ['What does Adam’s pride in having no apps reveal about him?',0],
+ ['Why Pittsburgh? Brainstorm explanations.',0],
+ ['Could she have been meeting the stranger?',0],
+ ['What does the password say about Corinne? Is it ironic now?',1],
+ ['How does technology both reveal and conceal in this chapter?',0],
+ ['Thomas explains tech to his father. What does the role reversal show?',0],
+ ['How is surveillance framed as love here?',0],
+ ['Compare this tracking with Adam reading Thomas’s messages years ago.',1],
+ ['What do the shops in the strip mall suggest?',0],
+ ['Why does the narrative include the battery percentage?',0],
+ ['What should Adam do next?',0],
+ ['How does the chapter treat Thomas’s guilt?',0],
+ ['Is it better to know where people are?',1],
+ ['What does the four per cent detail add?',0],
+ ['How might Corinne have used this app before?',0],
+ ['Does this change your view of Corinne?',0],
+ ['What would your family’s password be?',0],
+ ['Predict when the dot will reappear.',0]
+],
+close: [
+ { cite: 'Chapter 20, opening: Adam watching Thomas and thinking about paternity.', focus: 'The dark corner',
+   steps: ['Find where Adam sees himself in Thomas.','Find the reflection on a secret misgiving.','Note how the stranger is blamed.','Find Adam’s question about his outburst.'],
+   ask: 'Why does the novel make Adam admit this universal doubt here?' },
+ { cite: 'Chapter 20, middle: the dots on the map.', focus: 'Watched without knowing',
+   steps: ['Note the colours of the dots.','Find Adam’s realisation that one is him.','Find how long the app has existed.','Find his pride in his app-free phone.'],
+   ask: 'How does the scene turn Adam from investigator into the investigated?' },
+ { cite: 'Chapter 20, close: zooming to Pittsburgh.', focus: 'A dot on a map',
+   steps: ['Follow the zoom-out.','Note the battery detail.','Read the strip mall description.','Read the password.'],
+   ask: 'How does the chapter make a dot on a screen feel like a person?' }
+],
+lenses: {
+ office: 'A dialogue chapter that builds slowly through Thomas’s guilt to the technical reveal. The prose mirrors the app: zooming in on a face, zooming out to a state, then in again on a strip mall. The password closes the chapter like a punchline that hurts.',
+ classroom: 'Surveillance as care; the asymmetry of who watches whom in a family; trust between parent and teenager; and the irony of loving words used as a lock.',
+ records: 'Location sharing spread rapidly in the 2010s. Apple’s Find My iPhone (2010) and family-sharing features let relatives see each other’s phones. Battery-dependent tracking stops when a phone dies, which the plot uses.',
+ stacks: 'Surveillance by those who love us is a theme of Coben’s Hold Tight and of Dave Eggers’s The Circle. Orwell made watching political; this novel makes it domestic.',
+ turnpike: 'Six hours west on the interstates: Pittsburgh, South Braddock Avenue, a strip mall. The map jumps from Bergen County to western Pennsylvania. Measure it.',
+ field: 'Corinne watched without telling. Thomas watched against a promise. Adam reads both as betrayals and is grateful for both. Surveillance ethics depend on consent and purpose.',
+ board: 'A major clue: the last known location. It also plants a suspicion that will be explained later. A dead battery is a classic way to freeze a trail.',
+ diner: 'Three coloured dots in a house, one orange dot hundreds of miles away. The map on a phone screen is a new kind of family portrait.',
+ kitchen: 'The kitchen table becomes an interrogation room where a son confesses to his father, snapping a rubber wristband against his skin. Kitchens are where families hold their hardest conversations, sitting where they eat every day.',
+ driveway: 'Adam learns his wife could see where he was for years. Write about how you would feel learning someone had always known where you were, and whether it would feel like love.'
+},
+acts: {
+ office: [
+  ['Zoom structure','Map the chapter’s "zooms" from close to wide and back.',20],
+  ['Guilt dialogue','Analyse how Thomas’s guilt is written.',15],
+  ['Punchline ending','Write about the password as an ending.',15],
+  ['Tech exposition','How does Coben explain the app without boring us?',20],
+  ['Role reversal','Write a scene where a child teaches a parent.',30],
+  ['Free indirect doubt','Find the paternity reflection and paraphrase it.',15],
+  ['Detail selection','Why list the strip mall shops?',15],
+  ['Pacing','Compare pace with chapter 19.',15],
+  ['Rewrite','Rewrite the reveal from Thomas’s point of view.',30]
+ ],
+ classroom: [
+  ['Surveillance and love','Discuss surveillance as care or control.',25],
+  ['Consent','Discuss consent in family tracking.',25],
+  ['Promises to children','Discuss Thomas’s broken promise.',20],
+  ['Asymmetry','Who watches whom in your family?',20],
+  ['Irony','Discuss the password as irony.',15],
+  ['Theme update','Add "watching" to your themes.',15],
+  ['Paternal doubt','Discuss the misgiving Adam admits.',25],
+  ['Honesty with teenagers','Discuss Adam’s admission of the fight.',20],
+  ['Seminar plan','Plan a discussion of family tracking.',25]
+ ],
+ records: [
+  ['Location sharing','Research the history of family location apps.',25],
+  ['Teen tracking surveys','Find surveys on parents tracking teens.',20],
+  ['Pittsburgh','Research Pittsburgh and South Braddock Avenue area.',20],
+  ['Battery and GPS','Read how location services work and when they stop.',20],
+  ['Wristbands','Look up the history of charity wristbands.',15],
+  ['Smartphones 2015','Find smartphone ownership rates in 2015.',15],
+  ['Privacy law','Research spousal tracking and law (neutral source).',25],
+  ['Drive time','Calculate the drive from Bergen County to Pittsburgh.',15],
+  ['Passwords','Research password advice and common passwords.',15]
+ ],
+ stacks: [
+  ['Hold Tight','Read the opening of Coben’s Hold Tight.',35],
+  ['The Circle','Compare transparency culture.',25],
+  ['Nineteen Eighty-Four','Compare watching at the state and family level.',30],
+  ['Zuboff','Read on location data.',30],
+  ['Bentham','Read about the panopticon.',20],
+  ['Family tech essays','Find an essay on family tracking.',20],
+  ['Solove','Read on privacy within families.',25],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about watching over someone.',15]
+ ],
+ turnpike: [
+  ['Pittsburgh pin','Add Pittsburgh to your map.',15],
+  ['Distance','Use the Distance calculator for Cedarfield to Pittsburgh.',15],
+  ['Route','Trace the interstate route from New Jersey to Pittsburgh.',20],
+  ['Strip mall','Sketch a strip mall from the description.',20],
+  ['Dots map','Draw a map with family dots.',15],
+  ['Mapping journal','Add chapter 20.',15],
+  ['Where next?','From Pittsburgh, where could she be heading?',20],
+  ['Dead zone','Write about places where phones die.',15],
+  ['Six hours','Write about a six-hour drive alone.',20]
+ ],
+ field: [
+  ['Love or control?','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to Corinne’s app.',30],
+  ['Broken promise','Was Thomas right to break his promise?',20],
+  ['Telling teenagers','Was Adam right to admit the fight?',20],
+  ['Watching spouses','Is tracking a spouse ever acceptable?',25],
+  ['Ring of Gyges','Does being watched make people better?',15],
+  ['Doubt','Is paternal doubt a moral failing?',20],
+  ['Rules','Who should make family tech rules?',15],
+  ['Personal','Write about being tracked.',20]
+ ],
+ board: [
+  ['Last location','Pin Pittsburgh.',15],
+  ['Dead battery','Write about dead batteries as plot devices.',15],
+  ['Plant','Pin the years of tracking.',15],
+  ['Scene','Write a 300-word scene where a map on a phone reveals a location.',40],
+  ['Suspicion meter','Rate Corinne.',15],
+  ['Timeline','Update Corinne’s timeline with Pittsburgh.',15],
+  ['Tension curve','Rate the ending.',15],
+  ['Strand braid','Note the Adam strand.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Dot map','Paint a map with coloured dots as a family portrait.',30],
+  ['Strip mall','Paint a strip mall at dusk.',35],
+  ['Wristband','Design a wristband for your family.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the zoom-out.',15],
+  ['Screen art','Design a phone screen showing the orange dot.',20],
+  ['Two faces','Sketch father and son across the table.',25],
+  ['Sound','Describe the sound of a phone’s silence.',15],
+  ['Cover brief','Add the orange dot.',15]
+ ],
+ kitchen: [
+  ['Kitchen confession','Hold a conversation over the kitchen table without phones.',25],
+  ['Ledger notebook','Record the app and the last location.',15],
+  ['Secrets box','Add Corinne’s tracking.',15],
+  ['Table talk','Ask: do you share locations? Why?',25],
+  ['Making: password card','Finish your password card; discuss what passwords say.',20],
+  ['Pittsburgh food','Cook a Pittsburgh dish (pierogies) and discuss the city.',45],
+  ['Phone-free dinner','Hold a phone-free dinner.',30],
+  ['Recipe of trust','Write a recipe for trust in a family.',15],
+  ['Comfort','Make something comforting for a guilty teenager.',20]
+ ],
+ driveway: [
+  ['Being watched','Write about being watched without knowing.',20],
+  ['Promises','Write about a promise you broke for a good reason.',20],
+  ['Mood dial','Rate trust in Corinne.',15],
+  ['Prediction','Why Pittsburgh? Log it.',15],
+  ['Letter to Thomas','Write Adam’s thanks.',15],
+  ['Letter to Corinne','Write about the app.',20],
+  ['Doubt','Write privately about a doubt you keep in a dark corner.',20],
+  ['Password','Write what your password would be and why.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 20 explore surveillance within families? Consider Corinne’s app, Thomas’s promise and Adam’s earlier reading of messages.',
+ 'Essay: Analyse the role reversal between Thomas and Adam in chapter 20.',
+ 'Creative: Write the evening Corinne installed the app, years ago, and set the password.'
+],
+reading: [
+ ['holdtight','Coben on parents, technology and surveillance.'],
+ ['circle','A world where everything is visible.'],
+ ['orwell','The classic novel of being watched.'],
+ ['zuboff','How location data is gathered and used.'],
+ ['solove','Privacy inside families and communities.'],
+ ['gopnik','Trust and freedom in parenting.'],
+ ['nevertold','Family pressure and the things not said.'],
+ ['tellnoone','A husband following electronic traces of a wife.'],
+ ['caught','Parents, teenagers and what technology reveals.']
+],
+projects: [
+ { t: 'Family Tech Charter', rooms: ['classroom','kitchen','field'], steps: ['Discuss tracking.','Use the Dilemma scale.','Hold a phone-free dinner.','Draft a charter.'] },
+ { t: 'The Orange Dot', rooms: ['turnpike','board','diner'], steps: ['Map Pittsburgh.','Pin the clue.','Paint the dot map.','Predict.'] },
+ { t: 'Watched Without Knowing', rooms: ['office','driveway','stacks'], steps: ['Close-read the dots.','Write privately.','Read on the panopticon.','Discuss.'] },
+ { t: 'Promises to Children', rooms: ['field','classroom','driveway'], steps: ['Discuss Thomas’s promise.','Apply the lenses.','Write a letter.','Reflect.'] },
+ { t: 'Pittsburgh Night', rooms: ['kitchen','records','turnpike'], steps: ['Research Pittsburgh.','Cook pierogies.','Trace the route.','Discuss.'] },
+ { t: 'Role Reversal', rooms: ['office','board','classroom'], steps: ['Analyse the scene.','Write a child-teaches-parent scene.','Discuss.','Perform.'] }
+],
+quiz: [
+ ['What does the app do?', ['Records calls','Shows where family phones are','Reads texts','Blocks sites'], 1],
+ ['Which colour dot is Adam?', ['Blue','Red','Green','Orange'], 2],
+ ['Where is Corinne’s last location?', ['Atlantic City','Pittsburgh','Ohio','New York'], 1],
+ ['Why did the dot stop?', ['She turned it off','The battery died','She crashed','She left the country'], 1],
+ ['What is the password?', ['Panthers2015','LoveMyFamily','Cedarfield1','Jersey'], 1]
+]
+};

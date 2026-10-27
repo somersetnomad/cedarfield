@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[21] = {
+n: 21, title: 'Big Bob on Fire', pov: 'Bob', when: 'That evening', strands: ['lacrosse'], places: ['cedarfield'],
+summary: [
+ 'For the first time we are inside Bob Baime’s head, at a pickup basketball game for town fathers in a church gym, and he is on fire: hitting jumpers, crashing the boards, even shoving past a former college star and NBA draft pick with a bad knee. His late father, the high school’s old-school athletic director for thirty years, mocked him throughout childhood with girls’ names and slurs, and Bob believes the hard love made him. He has climbed from the teachers-and-tradesmen side of town to a mansard-roofed manor in the country-club district, his-and-hers Mercedes, membership of the golf club his father only ever visited as a guest.',
+ 'But he lost his job, his wife Melanie (once the cheerleading captain) has turned from worship to nagging, the bank is moving to foreclose and the repo man is circling the cars. Today, though, he aced an interview arranged by Jimmy Hoch’s father, the headhunter. There was no quid pro quo, he tells himself, just the mutual back-scratching sport teaches. All three of those B-team boys were towel boys anyway. His son Pete is losing his scholarship chances as Thomas Price takes his position.',
+ 'The call comes from the big investment bank: it’s a no. Smiling into the phone like an idiot so he’ll sound confident, Bob feels darkness seep into his chest. A thought surfaces about draft night: Adam had been hit with crushing news at the Legion bar just minutes before he started arguing, and yet he bounced back fast enough to pick a fight. Maybe, like Bob on the court, Adam needed an outlet. And how would Adam react to everything about his wife, beyond the deception he has already learned? Bob jogs back onto the court. He’ll find out soon enough.'
+],
+beats: [
+ 'Bob’s point of view: pickup basketball at a church gym; he’s unstoppable.',
+ 'He bullies a former star with a bad knee.',
+ 'His father: the high school’s tough athletic director who mocked him as a boy.',
+ 'Bob’s climb: the country-club house, the cars, the golf club.',
+ 'The fall: job loss, a nagging wife, foreclosure, repossession threats.',
+ 'Today’s interview via the headhunter; his self-justifications about the draft.',
+ 'Pete losing ground to Thomas Price.',
+ 'The rejection call from the bank.',
+ 'Bob reveals he knew Adam had just been given crushing news on draft night.',
+ 'He hints there is more to Corinne’s story than Adam knows, and that Adam will find out.'
+],
+cast: [['Bob Baime','Proud, wounded, bullying, desperate; more complicated than his nickname.'],['Robert Baime Sr.','Bob’s late father, the school’s athletic director, cruel and admired.'],['Melanie Baime','Bob’s wife, a former cheerleading captain, now anxious about money.'],['Pete Baime','Bob’s son, losing his place to Thomas.'],['Jerry Katz','The caller from the bank with bad news.'],['The former star','A one-time college All-American whose pro career ended with a knee injury.']],
+motifs: ['money','class','fatherhood','sport','secrets','dream','identity','violence'],
+secrets: [['Bob Baime','His house faces foreclosure; his cars face repossession.','Kept from the town'],['Bob Baime','He knew the stranger had given Adam crushing news on draft night.','Revealed to the reader'],['Bob Baime','He believes there is more to Corinne’s story than Adam knows.','Withheld']],
+clues: ['Bob knew Adam had been given crushing news at the Legion before the draft.','Bob thinks Adam doesn’t yet know the whole story about his wife.','Bob’s finances are collapsing.','Pete is losing his position to Thomas Price.','Bob’s cousin Daz runs an investigation firm (from chapter 6).'],
+dilemma: { q: 'Does a cruel upbringing excuse cruelty in the adult it produced?', a: 'It explains and partly excuses', b: 'It explains but never excuses' },
+food: [],
+refs: [['Pickup basketball','Informal games common in US churches and community centres.'],['Mansard roof','A French-style four-sided roof associated with grand houses.'],['Mercedes S-Class coupe','A luxury car; "his and hers" pairs are a status display.'],['Goldman','The caller is from a major New York investment bank.'],['Quid pro quo','Latin: "something for something", an exchange of favours.']],
+questions: [
+ ['Where is Bob, and how is he playing?',0],
+ ['Who was Bob’s father, and how did he treat Bob?',0],
+ ['What signs of status has Bob achieved?',0],
+ ['What is going wrong in Bob’s life?',0],
+ ['What news does the phone call bring?',0],
+ ['What does Bob realise about draft night?',0],
+ ['Does this chapter make you pity Bob? Should it?',1],
+ ['How did Bob’s father shape him? Is "hard love" love?',1],
+ ['Bob calls the draft favour "back-scratching". Is that self-deception?',0],
+ ['Why does Bob think the B-team boys didn’t matter?',0],
+ ['What does the bullying of the former star show?',0],
+ ['How does the novel present masculinity through Bob?',1],
+ ['What does Melanie’s change from worship to nagging reveal about the marriage?',0],
+ ['Compare Bob’s fall with Adam’s fears for his own dream.',1],
+ ['Bob smiles on the phone to sound confident. What does that say about performance?',0],
+ ['How did Bob know about Adam’s news?',0],
+ ['What more might there be to Corinne’s story, according to Bob?',0],
+ ['Why give Bob a point-of-view chapter now?',0],
+ ['Is Bob a villain, a victim, or both?',1],
+ ['How does class mobility work in Cedarfield, according to this chapter?',0],
+ ['What does the golf club symbolise?',0],
+ ['Why does the chapter end with Bob returning to the game?',0],
+ ['How does this change your reading of chapter 2?',0],
+ ['Bob blames others. Find three examples.',0],
+ ['What is the effect of the homophobic slurs remembered from his father?',0],
+ ['How is sport his refuge?',0],
+ ['What does Pete’s situation add?',0],
+ ['Does Bob’s knowledge make him dangerous?',1],
+ ['What would you say to Bob after the call?',0],
+ ['Predict what Bob will do with what he knows.',0]
+],
+close: [
+ { cite: 'Chapter 21, opening: Bob on the court and the memory of his father.', focus: 'Inside the bully',
+   steps: ['Note the boastful voice of the opening.','Find the memory of his father’s insults (paraphrase, don’t copy the slurs).','Find Bob’s verdict on that upbringing.','Note his wish his father could see him now.'],
+   ask: 'How does the chapter make us understand Bob without excusing him?' },
+ { cite: 'Chapter 21, middle: Bob’s account of his rise and fall.', focus: 'Status and collapse',
+   steps: ['List his status symbols.','List his troubles.','Find his justification about the draft.','Note his view of the B-team boys.'],
+   ask: 'What does Bob’s self-justification reveal about how people defend their own corruption?' },
+ { cite: 'Chapter 21, close: the phone call and Bob’s realisation about Adam.', focus: 'The turn',
+   steps: ['Find Bob’s fake smile.','Note the darkness in his chest.','Find his question about draft night.','Read the final thought about what Adam doesn’t know.'],
+   ask: 'How does the chapter convert Bob’s humiliation into a threat?' }
+],
+lenses: {
+ office: 'A new point of view with its own voice: boastful, sporty, crude, self-pitying. The narration adopts Bob’s idiom (on fire, the man, the zone) then lets the phone call puncture it. The final paragraph turns a comic figure sinister.',
+ classroom: 'Masculinity, fathers and sons, status and its collapse, and self-justification. Bob’s chapter mirrors Adam’s fear: the dream can be repossessed. It also reveals that others know more about Corinne than Adam does.',
+ records: 'After the 2008 financial crisis many US professionals faced long unemployment and foreclosure; suburban status anxieties of the period are well documented. The interview is with a major investment bank.',
+ stacks: 'Arthur Miller’s Willy Loman in Death of a Salesman is the great American portrait of a man who confuses being liked with being worthy, and of a son crushed by a father’s expectations.',
+ turnpike: 'Cedarfield has sides: the country-club section with manors, the side where teachers and tradesmen live. Bob crossed the town’s internal border and fears being sent back.',
+ field: 'Does Bob’s upbringing excuse him? The chapter invites compassion without exoneration. Ethics of character: Bob has been formed by cruelty and passes it on.',
+ board: 'A minor antagonist gains a point of view and a secret, and the reader learns something Adam doesn’t: others knew of the stranger’s visit. A classic way to widen the conspiracy.',
+ diner: 'A church gym at night, sneakers squeaking, grown men playing as if it matters. Basketball as a stage for male status, painted under fluorescent light.',
+ kitchen: 'No food here; the chapter’s appetite is for status. Bob imagines celebrating with Melanie in her pink outfit: rewards imagined, never delivered.',
+ driveway: 'Bob smiles into the phone while his hopes collapse, so he will still sound confident. Write about a time you kept smiling through bad news, and what it cost.'
+},
+acts: {
+ office: [
+  ['Voice study','Collect Bob’s idioms. Write a paragraph about something you love in his voice.',25],
+  ['Puncture','Find where the phone call deflates the voice.',15],
+  ['Comic to sinister','Trace the chapter’s tonal arc.',15],
+  ['Free indirect self-pity','Find self-pity in the prose.',15],
+  ['Rewrite','Rewrite the court scene from the former star’s point of view.',30],
+  ['Status list','Analyse the list of status symbols.',15],
+  ['Final line','Analyse the last line’s threat.',15],
+  ['Inside the antagonist','Write about how POV changes sympathy.',20],
+  ['Reported speech','Rewrite the rejection call as direct dialogue.',20]
+ ],
+ classroom: [
+  ['Masculinity','Discuss masculinity in Bob’s chapter.',25],
+  ['Fathers','Discuss how fathers shape sons in the novel so far.',25],
+  ['Status','Discuss status anxiety in suburbs.',25],
+  ['Self-justification','Discuss how we justify favours.',20],
+  ['Sympathy','Debate whether Bob deserves sympathy.',25],
+  ['Theme update','Add "status" to your themes.',15],
+  ['Hidden knowledge','Discuss who else knows Corinne’s secret.',20],
+  ['Repossession','Discuss the fragility of the dream.',20],
+  ['Seminar plan','Plan a discussion of Bob.',25]
+ ],
+ records: [
+  ['Foreclosure crisis','Research US foreclosures after 2008.',25],
+  ['Long-term unemployment','Find statistics on long-term unemployment among professionals.',25],
+  ['Athletic directors','Research the role of a high-school athletic director.',15],
+  ['Country clubs','Research the history of US country clubs and exclusion.',25],
+  ['Pickup culture','Research pickup basketball culture.',15],
+  ['Headhunters','Research executive search firms.',15],
+  ['Repossession','Look up how car repossession works.',15],
+  ['Slurs','Research the history of homophobic language in sport.',25],
+  ['Mansard roofs','Look up mansard architecture.',15]
+ ],
+ stacks: [
+  ['Death of a Salesman','Read the scene where Biff confronts Willy.',35],
+  ['Masculinity studies','Read a short essay on masculinity and sport.',25],
+  ['Pastoral','Compare Swede Levov’s status.',25],
+  ['Sports novels','Find a novel about a father living through sport.',20],
+  ['The Corrections','Compare fathers and failure.',25],
+  ['Revolutionary Road','Compare Frank Wheeler’s pride.',20],
+  ['Status anxiety','Read about Alain de Botton’s Status Anxiety (2004).',20],
+  ['Source list','Add two works.',15],
+  ['Bullies in fiction','List three adult bullies in fiction.',15]
+ ],
+ turnpike: [
+  ['Sides of town','Map Cedarfield’s sides: country club, teachers and tradesmen.',20],
+  ['Church gym','Add the church gym.',15],
+  ['Bob’s house','Add Bob’s manor.',15],
+  ['Golf club','Add the golf club.',15],
+  ['Status ladder','Place Bob on your status ladder.',15],
+  ['Mapping journal','Add chapter 21.',15],
+  ['Commute','Map Bob’s commute to the city interview.',15],
+  ['Crossing borders','Write about crossing a town’s internal border.',20],
+  ['Foreclosure map','Imagine foreclosure signs on your map.',15]
+ ],
+ field: [
+  ['Upbringing','Use the Dilemma scale.',15],
+  ['Favours','Was the B-team pick corrupt? Revisit with new information.',20],
+  ['Five lenses','Apply the lenses to Bob’s secret knowledge.',30],
+  ['Bullying adults','Discuss Bob’s treatment of the former star.',15],
+  ['Pride','Is pride a vice here?',20],
+  ['Compassion','Write about compassion for unpleasant people.',20],
+  ['Knowledge','Is knowing someone’s secret a responsibility?',20],
+  ['Family pressure','Discuss Melanie’s nagging fairly.',15],
+  ['Personal','Write about a time pride came before a fall.',20]
+ ],
+ board: [
+  ['New POV','Write about adding a POV for a minor antagonist.',15],
+  ['Clue','Pin Bob’s knowledge of the stranger’s visit to Adam.',15],
+  ['Clue','Pin Bob’s hint that there is more to Corinne’s story.',15],
+  ['Suspicion meter','Rate Bob.',15],
+  ['Scene','Write a 300-word scene from a bully’s viewpoint.',40],
+  ['Strand braid','Add the lacrosse strand.',15],
+  ['Plant and payoff','Log Bob’s knowledge.',15],
+  ['Tension curve','Rate the ending.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Church gym','Paint a church gym at night.',35],
+  ['On fire','Draw a comic sports-page panel of Big Bob.',20],
+  ['Status still life','Arrange status objects (car keys, club card) and photograph.',20],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick Bob’s walk-on song.',15],
+  ['Father portrait','Draw Robert Baime Sr. as a stern photograph.',20],
+  ['Sound of a gym','Describe squeaks and grunts.',15],
+  ['Fake smile','Draw a face smiling while falling apart.',20],
+  ['Cover brief','Add a sports image.',15]
+ ],
+ kitchen: [
+  ['Post-game food','Cook a post-game meal and talk about sport as refuge.',40],
+  ['Ledger notebook','Record Bob’s debts.',15],
+  ['Secrets box','Add Bob’s knowledge.',15],
+  ['Table talk','Ask: what did your father teach you about winning?',25],
+  ['Making: two-faced portrait','Draw Big Bob and the frightened man.',30],
+  ['Budget crisis','Make a crisis budget for the Baimes.',25],
+  ['Celebration that wasn’t','Discuss cancelled celebrations.',15],
+  ['Recipe of a fall','Write a recipe for a fall from status.',15],
+  ['Team dinner','Plan a team dinner for fathers and sons.',20]
+ ],
+ driveway: [
+  ['Smiling through','Write about smiling through bad news.',20],
+  ['Fathers','Write privately about your father’s voice in your head.',25],
+  ['Mood dial','Rate sympathy for Bob.',15],
+  ['Prediction','What will Bob do?',15],
+  ['Letter to Bob','Write to Bob after the call.',20],
+  ['Letter to Pete','Write to Pete.',15],
+  ['Status','Write about something you own to prove something.',20],
+  ['Refuge','Write about your refuge activity.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does Bob Baime’s point-of-view chapter complicate our view of him? Discuss sympathy, masculinity and status.',
+ 'Essay: Compare Bob’s and Adam’s relationships to "the dream" and its fragility.',
+ 'Creative: Write Melanie Baime’s account of the same evening at home, waiting for the call.'
+],
+reading: [
+ ['salesman','A father, a son, and the American measure of success.'],
+ ['pastoral','A golden boy’s faith in the dream.'],
+ ['revroad','Male pride in the suburbs.'],
+ ['corrections','Fathers, failure and judgement.'],
+ ['gameon','Fathers living through children’s sport.'],
+ ['playingtowin','Status and children’s competition.'],
+ ['lareau','Class and parental investment.'],
+ ['sportswriter','A former athlete in a New Jersey suburb.'],
+ ['dealbreaker','Coben on sport, money and pride.']
+],
+projects: [
+ { t: 'Inside Big Bob', rooms: ['office','classroom','field'], steps: ['Analyse Bob’s voice.','Discuss sympathy.','Use the Five lenses.','Write from his POV.'] },
+ { t: 'Fathers and Sons', rooms: ['stacks','driveway','classroom'], steps: ['Read Death of a Salesman.','Write privately.','Discuss fathers in the novel.','Write a theme claim.'] },
+ { t: 'Status Map', rooms: ['turnpike','records','diner'], steps: ['Map the sides of town.','Research foreclosure.','Paint a status still life.','Use the Status ladder.'] },
+ { t: 'Who Knows?', rooms: ['board','classroom','field'], steps: ['Pin Bob’s knowledge.','List who knows what.','Debate responsibility.','Predict.'] },
+ { t: 'Crisis Budget', rooms: ['kitchen','records','driveway'], steps: ['Research costs.','Make a budget.','Discuss.','Reflect.'] },
+ { t: 'Church Gym Night', rooms: ['diner','kitchen','office'], steps: ['Paint the gym.','Cook post-game food.','Read the opening aloud.','Discuss sport as refuge.'] }
+],
+quiz: [
+ ['Where does Bob play basketball?', ['The Legion','A church gym','The high school','A club'], 1],
+ ['What was Bob’s father’s job?', ['Coach of the Giants','High-school athletic director','Banker','Police chief'], 1],
+ ['What threatens Bob’s house?', ['Fire','Foreclosure','Eminent domain','Divorce'], 1],
+ ['What does the phone call say?', ['He got the job','He didn’t get the job','Melanie left','Pete is injured'], 1],
+ ['What does Bob realise?', ['He knew Adam had received devastating news on draft night','Corinne is in Ohio','Tripp stole money','Pete cheated'], 0]
+]
+};
