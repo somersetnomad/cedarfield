@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[9] = {
+n: 9, title: 'The Minefield', pov: 'Adam', when: 'That night, in the kitchen', strands: ['adam'], places: ['cedarfield','ramsey','nyack'],
+summary: [
+ 'Corinne absorbs the question and stays on her feet. Adam asks her to skip the denials, then goes further: are the boys his? She is appalled, tells him to look at them, to buy the tests if he wants. Facing her across the granite island she chose after a long search, Adam reflects that he married her partly in reaction to his own parents: his father was drawn to his mother’s volatile "crackle" and worn down by it, so Adam chose a woman he believed was steady and controlled, as if people were that simple.',
+ 'He tells her about the credit-card charge and the website. She wants to know why he was looking at a two-year-old bill. Instead of answering, she starts telling a story. Years ago, with an unusually long lunch break, she used to eat alone at a café in a bookshop and became part of a little community of regulars, among them a heavily pregnant young woman called Suzanne Hope whom everyone fussed over. Months later Corinne saw Suzanne in a coffee shop in another town, still eight months pregnant, holding court about vitamins. Confronted, Suzanne admitted she lived in Nyack and faked pregnancy for the attention: people held doors, asked how she was, smiled at her. It was, Corinne says, like a drug, and she seemed to find it more pitiable than sick.',
+ 'Adam presses: does Corinne crave attention like that? She says she needs to think. They are in a minefield, she says; move too fast and everything blows up. He says she put them there. She asks how he found out; when he says a stranger at the Legion told him, she is visibly shaken. It isn’t what he thinks, she insists; there is more to it. Ryan calls down for help with his maths homework, and her smile snaps back into place. She begs for time until tomorrow, because the stakes are so high.'
+],
+beats: [
+ 'Corinne takes the blow; Adam asks her to skip denials and asks if the boys are his.',
+ 'She is outraged; tells him to buy the tests.',
+ 'Adam’s parents: the volatile mother, the worn-down father, and why he chose Corinne.',
+ 'He explains the Visa charge; she asks why he was looking.',
+ 'Corinne’s story: the bookshop café, the regulars, and Suzanne Hope.',
+ 'Suzanne seen months later, still "eight months" pregnant; her confession about attention.',
+ 'Adam asks if Corinne is like Suzanne; she refuses to say more tonight.',
+ 'The minefield image; who put them there.',
+ 'She asks how he found out and is shaken by "a stranger".',
+ 'Ryan interrupts; she begs for one more day.'
+],
+cast: [['Corinne Price','Cornered, articulate, stalling with a story; frightened by the word "stranger".'],['Adam Price','Angry, sarcastic, trying to stay a lawyer.'],['Suzanne Hope','A woman Corinne met at a café who faked pregnancies for attention (in Corinne’s account).'],['Adam’s parents','His father drawn to, then exhausted by, his mother’s volatility.'],['Ryan','Interrupts with maths homework.']],
+motifs: ['lies','secrets','marriage','identity','parenting','fatherhood','truth','anonymity'],
+secrets: [['Corinne','Whatever "more" there is behind the fake pregnancy.','Withheld'],['Suzanne Hope','She faked pregnancies to be noticed.','Discovered by Corinne']],
+clues: ['Corinne does not deny the fake pregnancy.','Suzanne Hope lives in Nyack and pointed Corinne to the site (implied).','Corinne cares intensely about how Adam found out.','She is frightened by the word "stranger".','She says there is more to this than he thinks.','Kristin covered Corinne’s classes the day she confronted Suzanne.'],
+dilemma: { q: 'Corinne asks for a day before explaining. Should Adam give it to her?', a: 'Yes: give her time', b: 'No: he deserves answers now' },
+food: ['A café panini and iced tea, the taste of Corinne’s old lunchtime freedom.','The wine Corinne goes looking for mid-confession.'],
+refs: [['Cheers','A US sitcom (1982–93) set in a Boston bar full of regulars: Corinne’s comparison for her café community.'],['Bergen Pines','A former county psychiatric and nursing facility in Paramus, NJ.'],['Nyack','A Hudson River village in Rockland County, New York.'],['Factitious disorder','A real psychiatric category in which people feign illness for attention; faked pregnancy has been documented.']],
+questions: [
+ ['How does Corinne react to the question?',0],
+ ['What does Adam ask about the boys, and what does Corinne say?',0],
+ ['Why did Adam marry someone he thought was "steady"?',0],
+ ['Who is Suzanne Hope, and where did Corinne meet her?',0],
+ ['Why did Suzanne fake pregnancies, according to Corinne?',0],
+ ['What does Corinne want to know before she will say more?',0],
+ ['Why does Corinne tell a long story instead of answering? Is it evasion, explanation, or both?',1],
+ ['Adam’s sarcasm returns. What is it protecting?',0],
+ ['Was asking about the boys’ paternity fair, cruel, or understandable?',1],
+ ['What do the café regulars tell us about Corinne’s loneliness or needs?',0],
+ ['Corinne seems sympathetic to Suzanne. Why might that be?',0],
+ ['Is faking pregnancy for attention "harmless", as Corinne suggests? Who is harmed?',1],
+ ['The minefield image: who is in it and who laid the mines?',0],
+ ['Why does the word "stranger" frighten her more than the accusation?',0],
+ ['"It isn’t what you think." What could the "more" be? List possibilities.',0],
+ ['How does Ryan’s interruption work dramatically?',0],
+ ['Corinne’s smile returns instantly for Ryan. What does that show?',0],
+ ['Adam’s reflection on his parents: is it insight or excuse?',0],
+ ['People are not "that simple". What does Adam now realise about choosing a partner by type?',1],
+ ['Which of them behaves better in this scene?',1],
+ ['Notice the granite island. Why does Corinne pick at it?',0],
+ ['What does Corinne’s lunchtime "bliss" reveal about her life?',0],
+ ['Why do some people crave being noticed by strangers?',0],
+ ['How does the chapter keep us uncertain about Corinne?',0],
+ ['Compare Suzanne’s motive with what you suspect Corinne’s was.',0],
+ ['Does Corinne’s request for time seem genuine or manipulative?',1],
+ ['How does the chapter use dialogue rhythm to show a fight?',0],
+ ['Is Adam right to block her path? What does that gesture mean?',0],
+ ['What would you have asked Corinne at this point?',0],
+ ['Predict what tomorrow brings.',0]
+],
+close: [
+ { cite: 'Chapter 9, early: Adam’s memory of his parents and why he chose Corinne.', focus: 'Choosing against your parents',
+   steps: ['Find the description of his mother’s volatility and his father’s attraction to it.','Note the word the father used for her quality (paraphrase it).','Find Adam’s "reaction" theory of life.','Find the qualifying clause that undermines his choice.'],
+   ask: 'How does this flashback reframe the marriage as a decision made against a fear?' },
+ { cite: 'Chapter 9, middle: Corinne’s story of the café regulars and Suzanne Hope.', focus: 'A story as a defence',
+   steps: ['Outline the story’s stages.','Note each time Adam interrupts.','Find Corinne’s description of how pregnancy makes a person feel.','Notice where she stops.'],
+   ask: 'Why does Corinne tell Suzanne’s story, and what does she reveal about herself without meaning to?' },
+ { cite: 'Chapter 9, close: the minefield image and the interruption from upstairs.', focus: 'Freezing the scene',
+   steps: ['Paraphrase the minefield image.','Note Adam’s retort.','Find Corinne’s reaction to "a stranger".','Read the final plea.'],
+   ask: 'How does the chapter end with more questions than it began with?' }
+],
+lenses: {
+ office: 'The scene is a duel conducted largely through a story-within-a-story. Corinne narrates Suzanne’s tale in a calm, reasonable voice while Adam’s sarcasm keeps cutting in. Track who controls the conversation, line by line.',
+ classroom: 'Attention as a human need, deception as a way to meet it, and the idea that we choose partners as reactions to our parents. Also the novel’s refrain: there is more to it than you think.',
+ records: 'Faked pregnancy for attention has been documented in medical literature under factitious disorder. Nyack and Ramsey are real; Bergen Pines was a real county facility in Paramus.',
+ stacks: 'Suzanne’s performance recalls Goffman’s idea of the self as a performance in front of audiences. Corinne’s café is a little Cheers, a found community that exists only in one place at one time.',
+ turnpike: 'Corinne’s story maps a small world: a bookshop café, a coffee shop fifteen minutes away in Ramsey, a home in Nyack thirty minutes off. Suzanne moved lunch spots to avoid being seen; geography as camouflage.',
+ field: 'Is a lie that harms no one wrong? Suzanne lied to strangers. Corinne, it seems, lied to her husband. The chapter separates the two cases and invites us to judge them differently.',
+ board: 'The chapter delivers a confession that is not a confession, introduces Suzanne (a thread for later), and plants Corinne’s fear of "the stranger". It ends on a deferral that keeps the engine running.',
+ diner: 'Picture a café inside a bookshop at midday: corner table, panini, iced tea, regulars who know each other only there. It is the opposite of the kitchen island under pendant lights.',
+ kitchen: 'The fight happens across a kitchen island Corinne chose with great care. She picks at a fleck on the stone while talking. Kitchens are where families negotiate.',
+ driveway: 'Corinne says they are standing in a minefield and that moving too fast could blow everything up. Write about a conversation where you felt that way, and whether you moved or froze.'
+},
+acts: {
+ office: [
+  ['Who controls the scene?','Annotate the scene, marking each line as an attack, deflection, story, or plea. Count each. Who controls the conversation?',30],
+  ['Story within story','Retell Suzanne’s story in 150 words as Suzanne might tell it. What changes?',30],
+  ['Sarcasm as armour','Collect Adam’s sarcastic lines. Rewrite them sincerely. What would happen to the scene?',25],
+  ['The image','Analyse the minefield image. Is it fresh or familiar? Why does it work here?',20],
+  ['Gesture','Find the gestures: picking at the granite, pouring wine, blocking a path, hands on shoulders. Write about each.',20],
+  ['Flashback placement','Why is the parents’ flashback inserted after the paternity question?',20],
+  ['Interruption','Write a scene in which a child interrupts a marital fight. Keep the child innocent.',35],
+  ['Dialogue punctuation','Notice short lines and questions. Write about rhythm in a fight.',15],
+  ['Last line','Rewrite the final plea in three ways and compare.',15]
+ ],
+ classroom: [
+  ['Attention hunger','Discuss attention as a human need and the ways people seek it, including online.',30],
+  ['Reaction marriages','Discuss the idea that we choose partners in reaction to our parents.',25],
+  ['Victimless lies?','Debate whether Suzanne’s deception harmed anyone.',25],
+  ['Third places','Read about "third places" (Ray Oldenburg). Discuss Corinne’s café community.',30],
+  ['Truth on demand','Does a spouse have the right to an immediate explanation?',20],
+  ['Theme update','Add "attention" and "time" to your themes.',15],
+  ['Paternity question','Discuss the ethics of asking that question in a fight.',25],
+  ['Women’s narratives','How does Corinne use storytelling as power?',20],
+  ['Seminar plan','Plan a discussion on harmless lies.',25]
+ ],
+ records: [
+  ['Factitious disorder','Read a reputable medical explainer on factitious disorder.',30],
+  ['Third places','Research the term "third place" and its origin.',20],
+  ['Nyack','Find facts about Nyack and its distance from Bergen County.',15],
+  ['Bergen Pines','Look up the history of Bergen Pines hospital.',20],
+  ['Bookshop cafés','Research the rise of cafés in bookshops in the 1990s–2000s.',20],
+  ['Cheers','Look up the sitcom’s premise and cultural impact.',15],
+  ['Bipolar disorder','Read a reputable explainer on bipolar disorder. Note the novel only hints at Adam’s mother’s condition.',25],
+  ['Teacher schedules','Find out how teachers’ free periods are scheduled.',15],
+  ['Prenatal culture','Research the social attention pregnant women receive (studies on helping behaviour).',30]
+ ],
+ stacks: [
+  ['Goffman','Read a section of The Presentation of Self on performances. Apply to Suzanne.',35],
+  ['Bok on lying','Read Bok on "harmless" lies.',30],
+  ['Ladder of Years','Read about Anne Tyler’s novel of a wife who walks away. Compare Corinne’s needs.',25],
+  ['Cheers and community','Watch a short clip of Cheers. Compare the bar with the café.',20],
+  ['Marriage fights in fiction','Find a famous marital fight scene (e.g. in Revolutionary Road). Compare.',35],
+  ['Factitious memoirs','Find a nonfiction account of feigned illness. Note the motives.',30],
+  ['Rebecca','Compare Corinne’s self-protection with the second Mrs de Winter’s insecurity.',25],
+  ['Source list','Add two works.',15],
+  ['Third places book','Read about Oldenburg’s The Great Good Place (1989).',20]
+ ],
+ turnpike: [
+  ['Small world map','Map the café, Ramsey and Nyack. Draw Suzanne’s circle of avoidance.',25],
+  ['Distances','Use the Distance calculator for Ramsey and Nyack.',15],
+  ['The kitchen','Sketch the kitchen as a battlefield: island, cabinet, stairs.',20],
+  ['Third places map','Map the third places in your own life.',20],
+  ['Corinne’s commute','Imagine Corinne’s drive to the café on her long lunch. Map it.',15],
+  ['Hudson','Add the Hudson River to your map.',15],
+  ['Mapping journal','Add chapter 9.',15],
+  ['Hiding places','Write about how people use distance to keep secrets.',20],
+  ['Same town, different worlds','Write about places in your town that host different "lives".',20]
+ ],
+ field: [
+  ['Victimless?','Use the Five ethical lenses on Suzanne’s deception.',30],
+  ['Time to explain','Use the Dilemma scale on giving Corinne a day.',15],
+  ['Cruel questions','Is asking a cruel question justified by betrayal?',25],
+  ['Attention and dignity','Is there anything dignified in Suzanne’s need?',20],
+  ['Responsibility of storytellers','Is Corinne using a story to manipulate?',20],
+  ['Physical blocking','Is blocking a doorway in an argument a form of coercion?',20],
+  ['Shared blame','Who put them in the minefield? Write both cases.',25],
+  ['Parents and choices','Are we responsible for choices made in reaction to our parents?',20],
+  ['Personal','Write about a time you asked for time to explain.',20]
+ ],
+ board: [
+  ['Non-confession','Write a 300-word scene in which a character avoids confessing by telling someone else’s story.',40],
+  ['Plant: Suzanne','Pin Suzanne Hope. Predict her return.',15],
+  ['Plant: fear of the stranger','Pin Corinne’s reaction to the word "stranger".',15],
+  ['Deferral','Chart deferrals in the novel so far.',15],
+  ['Suspicion meter','Rate Corinne now.',15],
+  ['Reveal management','What has been revealed versus implied?',20],
+  ['Chapter architecture','Use the Chapter architecture tool.',15],
+  ['Strand braid','Note the return to Adam.',15],
+  ['Pacing','Add to your chart.',15]
+ ],
+ diner: [
+  ['Café painting','Paint a corner table in a bookshop café with someone reading alone.',40],
+  ['Portrait of Suzanne','Draw Suzanne holding court in a coffee shop.',30],
+  ['Kitchen at night','Paint the kitchen island with two figures on either side.',40],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the minefield moment.',15],
+  ['Sitcom title card','Design a title card for the café regulars as if they were a sitcom.',20],
+  ['Granite','Photograph a stone countertop close up as abstract art.',15],
+  ['Sound of a fight','Describe the sounds of the fight: what is loud, what is quiet.',15],
+  ['Cover brief','Add the minefield image to your cover brief.',15]
+ ],
+ kitchen: [
+  ['Café panini','Make the Café Turkey-and-Swiss Panini and eat it alone with a book.',30],
+  ['Homemade iced tea','Brew iced tea and talk about small daily pleasures.',20],
+  ['Kitchen island','Discuss: where are fights held in your home?',20],
+  ['Ledger notebook','Record "what Corinne admitted" and "what she didn’t" in two columns.',15],
+  ['Secrets box','Add Suzanne’s secret.',15],
+  ['Table talk','Ask: do you have a "third place"?',25],
+  ['Maths homework','Help someone with homework and notice the role switch it demands.',30],
+  ['Making: two-faced portrait','Add Corinne’s "smile for Ryan" to your two-faced portrait.',30],
+  ['Recipe of a deferral','Write a recipe for buying time.',15]
+ ],
+ driveway: [
+  ['Minefield','Write about a conversation that felt like a minefield.',20],
+  ['Being noticed','Write about when you most enjoyed being noticed.',20],
+  ['Choosing partners','Write privately about what you looked for in a partner and why.',25],
+  ['Mood dial','Rate trust in Corinne.',15],
+  ['Prediction','What is the "more"? Log your guess.',15],
+  ['The smile','Write about the face you put on for children or colleagues.',20],
+  ['Letter to Suzanne','Write to Suzanne Hope.',20],
+  ['Questions you regret','Write about a question you wish you hadn’t asked.',20],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: Analyse Corinne’s use of Suzanne Hope’s story in chapter 9. Is it an evasion, an explanation, or a confession by proxy?',
+ 'Essay: Discuss how chapter 9 uses Adam’s parents’ marriage to interpret his own.',
+ 'Creative: Write the scene of Corinne confronting Suzanne in the Ramsey coffee shop, from Suzanne’s point of view.'
+],
+reading: [
+ ['goffman','Selves as performances for audiences: Suzanne’s stage.'],
+ ['boklying','A philosopher on whether any lie is harmless.'],
+ ['ladder','A wife who steps out of her life to be seen differently.'],
+ ['revroad','The famous fights of a suburban marriage.'],
+ ['rebecca','Insecurity, comparison and the fear of being replaced.'],
+ ['perelaffairs','On secrets, attention and the needs they serve.'],
+ ['gottman','Patterns of escalation in couples’ conflict.'],
+ ['husbandsecret','A wife deciding whether to open a secret.'],
+ ['nevertold','Parents’ hidden needs and the children who feel them.']
+],
+projects: [
+ { t: 'Third Places', rooms: ['classroom','records','kitchen'], steps: ['Research Oldenburg’s idea.','Map your own third places.','Eat a panini alone with a book.','Write about Corinne’s café.'] },
+ { t: 'Story as Defence', rooms: ['office','board','field'], steps: ['Annotate the fight.','Write your own non-confession scene.','Debate whether it’s manipulation.','Pin Suzanne.'] },
+ { t: 'Attention Economy', rooms: ['classroom','stacks','records'], steps: ['Read on factitious disorder.','Read Goffman.','Discuss attention online.','Write a theme claim.'] },
+ { t: 'The Minefield', rooms: ['driveway','diner','field'], steps: ['Paint the kitchen standoff.','Use the Dilemma scale.','Write privately.','Discuss who laid the mines.'] },
+ { t: 'Parents’ Marriages', rooms: ['classroom','driveway','stacks'], steps: ['Close-read the flashback.','Write about your parents’ influence.','Read a fight scene from Revolutionary Road.','Discuss reaction choices.'] },
+ { t: 'Suzanne’s Map', rooms: ['turnpike','board','diner'], steps: ['Map her lunch spots.','Pin her to the board.','Draw her holding court.','Predict her return.'] }
+],
+quiz: [
+ ['Where did Corinne meet Suzanne Hope?', ['At school','At a café in a bookshop','At the gym','At a lacrosse game'], 1],
+ ['Where did Corinne see Suzanne again, still "pregnant"?', ['A Starbucks in Ramsey','Atlantic City','Nyack','The Legion'], 0],
+ ['Where does Suzanne really live?', ['Hackensack','Nyack, New York','Paramus','Ohio'], 1],
+ ['What image does Corinne use for their situation?', ['A tightrope','A minefield','A sinking ship','A storm'], 1],
+ ['What interrupts them?', ['The phone','Ryan asking for maths help','The dog','Thomas coming home'], 1]
+]
+};

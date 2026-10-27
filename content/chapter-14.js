@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[14] = {
+n: 14, title: 'A Visitor for Heidi', pov: 'Heidi', when: 'That evening and the next morning, in Ohio', strands: ['heidi','kuntz','stranger'], places: ['beachwood'],
+summary: [
+ 'The stranger has left Heidi a link and her daughter’s login. She signs in as Kimberly and finds everything confirmed. He has also asked for money: ten thousand dollars within three days, or Kimberly’s "hobby" goes public. Heidi cries, washes her face and decides first that Marty must not know. He overreacts, and Heidi remembers what happened years ago when a well-meaning busybody told them about a teenage Kimberly at a party: Marty exploded, the father-daughter bond never recovered, and Kimberly chose a college far away. Heidi doesn’t want to know this, and does; she can’t un-know it now.',
+ 'She calls Kimberly. The conversation passes through denial, innocent explanations and angry accusations of privacy invasion before Kimberly opens up: money is tight in New York; a classmate said the men only want company. They talk for two hours. Kimberly promises to break it off, asks her mother not to come yet, and begs her not to tell Dad. That evening Marty grills burgers and the secret sits at the table in Kimberly’s empty chair.',
+ 'In the morning a man knocks: Detective John Kuntz of the NYPD’s cyber crime unit, gap-toothed, comb-over, tired eyes. He reassures her Kimberly is safe, then says they know about the online prostitution but only want help catching the syndicate behind the couple who approached her. Heidi asks for a lawyer, then for the restaurant’s name to be left alone, and starts to notice things that don’t fit: how did he know so fast? Who told him? She tells him to leave. He says he can’t, shoots her in the knee, covers her mouth, and threatens her daughter. Then he asks again which restaurant it was.'
+],
+beats: [
+ 'Heidi logs in as Kimberly and confirms the truth; the stranger demands $10,000 in three days.',
+ 'She cries, composes herself, and decides not to tell Marty.',
+ 'Memory: a neighbour’s "helpful" call about teenage Kimberly, Marty’s overreaction, the damage.',
+ 'The parental paradox: not wanting to know, and needing to.',
+ 'Two hours on the phone: denial, defence, defiance, then honesty. "Don’t tell Dad."',
+ 'Burgers with Marty; the secret in Kimberly’s chair.',
+ 'Morning: "Detective Kuntz" of the NYPD cyber crime unit.',
+ 'His questions and claims; Heidi’s growing suspicion about how he knew.',
+ 'She asks him to leave; he shoots her in the knee and threatens her daughter.'
+],
+cast: [['Heidi Dann','Shocked, steady, protective, perceptive to the end of the chapter.'],['Kimberly Dann','At NYU; ashamed, defensive, then candid.'],['Marty Dann','Kind, volatile when it comes to his daughter; kept in the dark.'],['John Kuntz','Claims to be an NYPD cyber crime detective; middle-aged, tired, sinister.'],['The stranger','Absent, but his demand for money changes how we see him.']],
+motifs: ['secrets','money','parenting','violence','technology','anonymity','lies','truth'],
+secrets: [['Heidi','She knows about Kimberly and keeps it from Marty.','Kept'],['Kimberly','Her arrangements; she asks her mother not to tell her father.','Shared with Heidi'],['The stranger','He demands $10,000 for silence.','Revealed to Heidi'],['Kuntz','Who he really works for.','Hidden']],
+clues: ['The stranger asks for ten thousand dollars within three days.','Heidi told no one about the restaurant encounter except Kimberly.','Kuntz arrives the next morning, claiming to have flown in.','Kuntz wants to know which restaurant: he is hunting the stranger and his partner.','Kuntz claims to be with an NYPD cyber crime unit.'],
+dilemma: { q: 'Heidi decides not to tell her husband about their daughter. Is that protection or a betrayal?', a: 'Protection: he would make it worse', b: 'Betrayal: he has a right to know' },
+food: ['Burgers Marty grills in the yard; drinks poured by Heidi.','A glass of wine Heidi decides against.'],
+refs: [['NYPD cyber crime','The New York Police Department does have cyber-crime investigators; Kuntz’s claimed unit is how he presents himself.'],['NYU','New York University, a private university in Greenwich Village, notoriously expensive.'],['Golf pencils','Small pencils used for scorecards.'],['"Loss leader"','A product sold at a loss to draw customers into a store: Heidi’s sardonic metaphor for "company".']],
+questions: [
+ ['What does the stranger demand from Heidi?',0],
+ ['Why does Heidi decide not to tell Marty?',0],
+ ['What happened when Kimberly was in high school?',0],
+ ['What stages does Kimberly go through on the phone?',0],
+ ['Who comes to Heidi’s door, and what does he claim?',0],
+ ['What makes Heidi suspicious?',0],
+ ['The stranger asks for money. How does that change your view of him?',1],
+ ['Heidi’s secret from Marty mirrors other secrets in the book. How?',0],
+ ['Was the busybody neighbour right to tell, years ago?',1],
+ ['The "parental paradox": wanting and not wanting to know. Do you recognise it?',1],
+ ['How does Heidi handle the call with Kimberly? What does it show about her as a mother?',0],
+ ['Kimberly asks her mother not to tell her father. Is that fair to ask?',0],
+ ['The secret "sits" in Kimberly’s chair. Discuss the image.',0],
+ ['How does Kuntz manipulate Heidi before the violence?',0],
+ ['What does his description (comb-over, gap teeth) do to our impression?',0],
+ ['How does Heidi’s intelligence show in this scene?',0],
+ ['Why does Kuntz want the restaurant’s name?',0],
+ ['Is the violence shocking within the novel’s tone? Why might Coben choose this moment?',1],
+ ['Who might Kuntz really work for? Speculate from the evidence.',0],
+ ['How does this chapter raise the stakes of the stranger’s operation?',0],
+ ['What does the chapter suggest about the dangers of revelation?',1],
+ ['How do the two halves of the chapter (mother and daughter; mother and gunman) mirror each other?',0],
+ ['Why does Kuntz say he has kids too?',0],
+ ['What would you have done at the door?',0],
+ ['How does Heidi’s point of view differ from Adam’s?',0],
+ ['The stranger told Heidi; now someone else knows. How?',0],
+ ['What does the chapter show about secrets travelling?',0],
+ ['How is Marty characterised in absentia?',0],
+ ['What is the effect of ending on a question?',0],
+ ['Predict what Kuntz will do next.',0]
+],
+close: [
+ { cite: 'Chapter 14, opening: Heidi’s decisions after logging in, and the memory of the busybody’s call.', focus: 'Telling, then and now',
+   steps: ['Find Heidi’s first decision.','Summarise the earlier incident.','List its consequences for the family.','Find the "paradox" sentence and paraphrase it.'],
+   ask: 'How does the earlier "helpful" disclosure comment on the stranger’s?' },
+ { cite: 'Chapter 14, middle: the phone call with Kimberly.', focus: 'Stages of confession',
+   steps: ['List the stages Kimberly passes through.','Note Heidi’s steadiness.','Find Kimberly’s explanation of how she started.','Find the final request.'],
+   ask: 'Why does the novel spell out the predictable stages of confession, and how do they compare with Corinne’s?' },
+ { cite: 'Chapter 14, close: Kuntz at the door through to the shot.', focus: 'Reading a threat',
+   steps: ['Note Kuntz’s reassurances.','Find the moment Heidi’s "tingling" begins (paraphrase).','Trace her logic about the timing.','Note how quickly the violence comes.'],
+   ask: 'How does Coben build the scene so that Heidi, and the reader, realise the danger together?' }
+],
+lenses: {
+ office: 'The first chapter from a victim’s point of view. Heidi’s voice is practical and wry even in grief. The chapter moves from long reflective paragraphs to clipped dialogue to sudden violence in a few lines; note how the prose refuses to linger on the gunshot.',
+ classroom: 'The ethics of telling cuts both ways here: an old disclosure damaged a family; a new one leads to violence. The novel’s optimism about truth darkens. Also, secrets within secrets: Heidi keeps one from Marty while learning one from Kimberly.',
+ records: 'Students using sugar-dating sites to pay tuition made headlines around 2014–15. Impersonating police is a serious crime; real investigators would not arrive alone from another state overnight without coordination, which is one thing Heidi notices.',
+ stacks: 'The menacing man who presents as an official recalls the false policemen of noir. Kuntz enters a tradition including the soft-spoken killers of Patricia Highsmith and Dennis Lehane.',
+ turnpike: 'The Dann house in Beachwood; Kimberly in New York; Kuntz claims to have flown in that morning. The novel’s map now has a second hub, and danger travels between them.',
+ field: 'Was Heidi right not to tell Marty? Was the stranger right to tell Heidi? Did he consider who else might learn? The chapter adds a new moral variable: unforeseen consequences.',
+ board: 'A new antagonist enters, fully menacing, with motives hidden. The strand braid gains a dark thread. The chapter ends on a question we know Heidi will answer.',
+ diner: 'A suburban living room on a bright morning: couch, chair, rug, a stranger with a golf pencil. Violence in a bright domestic room is one of the most unsettling images in suspense art.',
+ kitchen: 'Burgers on the grill, drinks poured, two people talking about their days while a third chair holds a secret. The family dinner as a performance of normality, once more.',
+ driveway: 'Heidi says she didn’t want to know, and did. Write about a truth you wished you hadn’t learned and also couldn’t have lived without knowing.'
+},
+acts: {
+ office: [
+  ['Victim’s voice','Compare Heidi’s narrative voice with Adam’s. Write 150 words in her voice about something ordinary.',30],
+  ['Stages','Map Kimberly’s stages as a graph of emotional intensity.',20],
+  ['Restraint in violence','Analyse how few words the shooting takes. Why?',20],
+  ['Menace in description','List Kuntz’s physical details. Which create menace?',15],
+  ['Logic on the page','Trace Heidi’s reasoning about timing line by line.',20],
+  ['Image of the chair','Write a paragraph about the secret in the empty chair.',15],
+  ['Dialogue as trap','Show how Kuntz’s questions trap Heidi.',20],
+  ['Rewrite','Rewrite the door scene from Kuntz’s point of view (no violence detail).',30],
+  ['Ending on a question','Why end with Kuntz repeating his question?',15]
+ ],
+ classroom: [
+  ['Telling and harm','Discuss how disclosure caused harm then and now.',25],
+  ['Secrets within families','Discuss Heidi keeping Kimberly’s secret from Marty.',25],
+  ['Money and silence','Discuss blackmail as a business model.',25],
+  ['Student finance','Discuss pressures that push students toward risky income.',25],
+  ['Violence','Discuss how violence changes a novel’s moral world.',20],
+  ['Theme update','Add "consequences" to your themes.',15],
+  ['Mothers and daughters','Discuss the phone call as a portrait of a relationship.',20],
+  ['Father-daughter rifts','Discuss Marty and Kimberly.',20],
+  ['Seminar plan','Plan a discussion of "was the busybody right?"',25]
+ ],
+ records: [
+  ['Impersonating police','Research the crime of impersonating a police officer.',20],
+  ['Student debt 2015','Research student debt and living costs in New York around 2015.',25],
+  ['Cybercrime units','Look up when big-city police forces created cyber units.',20],
+  ['Blackmail law','Research the legal definition of extortion.',25],
+  ['Sugar dating press','Find a balanced article on students and sugar dating.',25],
+  ['Victim support','Look up what victim-support services do (for knowledge).',15],
+  ['NYU costs','Find NYU’s cost of attendance around 2015.',15],
+  ['Teen party culture','Find research on parents learning about teenage parties.',20],
+  ['Burgers','Look up the American backyard grill as a cultural ritual.',15]
+ ],
+ stacks: [
+  ['Lehane','Read about the menacing figures in Gone, Baby, Gone.',25],
+  ['Highsmith','Read about Ripley’s calm menace.',25],
+  ['Mothers and secrets','Find a novel where a mother keeps a child’s secret from a father.',25],
+  ['Milverton','Revisit: does the stranger now look like Milverton?',20],
+  ['False police','Find a classic crime story with a false policeman.',25],
+  ['Ronson','Read Ronson on exposure online.',30],
+  ['Bok','Read Bok on blackmail.',25],
+  ['Source list','Add two works.',15],
+  ['Little Fires','Compare a mother’s investigation of a daughter.',25]
+ ],
+ turnpike: [
+  ['Beachwood house','Sketch the Dann house: door, living room, chair.',15],
+  ['Travel time','How long would it take to fly from New York to Cleveland and reach Beachwood by morning?',20],
+  ['Strand map','Draw lines between Beachwood, New York and Cedarfield.',20],
+  ['Kimberly’s New York','Add NYU and Greenwich Village to your map.',15],
+  ['Red Lobster','Mark it relative to the house.',15],
+  ['Mapping journal','Add chapter 14.',15],
+  ['Suburban vulnerability','Write about how houses can feel unsafe.',20],
+  ['Neighbours','Map the busybody neighbour’s house.',15],
+  ['Danger map','Mark where danger has appeared so far.',15]
+ ],
+ field: [
+  ['Tell Marty?','Use the Dilemma scale.',15],
+  ['Blackmail','Is the stranger’s demand morally different from telling for free?',30],
+  ['Busybody','Use the Five lenses on the neighbour’s call years ago.',30],
+  ['Consequences','Is the stranger responsible for Kuntz’s violence?',25],
+  ['Daughter’s request','Should Heidi honour "don’t tell Dad"?',20],
+  ['Court','Update your verdict on the stranger in the Tell or keep tool.',15],
+  ['Lying to police','Was Heidi right to ask for a lawyer?',15],
+  ['Protection','Heidi protects Kimberly to the end. Discuss.',20],
+  ['Personal','Write privately about a family secret kept from one parent.',20]
+ ],
+ board: [
+  ['New antagonist','Write about how Kuntz is introduced and what is withheld.',20],
+  ['Clue cards','Pin the $10,000 demand and Kuntz’s question.',15],
+  ['Strand braid','Add the Kuntz strand.',15],
+  ['Threat scene','Write a 300-word scene in which a polite visitor becomes a threat.',40],
+  ['Suspicion meter','Rate Kuntz and the stranger.',15],
+  ['Plant and payoff','Log "who told Kuntz?" as a plant.',15],
+  ['Tension curve','Rate the ending.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Bright room, dark act','Paint a bright suburban living room with an ominous figure.',40],
+  ['Kuntz portrait','Draw Kuntz from the description, without caricature.',25],
+  ['Empty chair','Paint Kimberly’s empty chair at the dinner table.',25],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the phone call.',15],
+  ['Badge','Design a fake badge and note what makes it look real.',20],
+  ['Morning light','Describe Ohio morning light.',15],
+  ['Sound of a knock','Write about how a knock can sound wrong.',15],
+  ['Cover brief','Add the door to your cover brief.',15]
+ ],
+ kitchen: [
+  ['Backyard burgers','Grill burgers and discuss performances of normality.',45],
+  ['Ledger notebook','Record the $10,000 demand.',15],
+  ['Secrets box','Add Heidi’s secret from Marty.',15],
+  ['Table talk','Ask: would you tell your partner about your child’s secret?',25],
+  ['Empty place','Set an empty place at dinner and discuss absence.',15],
+  ['Comfort','Make tea for someone after a hard phone call.',15],
+  ['Making: secrets box','Add a "dangerous secrets" compartment.',20],
+  ['Student budget','Make a student’s weekly budget for New York and discuss.',25],
+  ['Recipe of a phone call','Write the recipe for a hard conversation.',15]
+ ],
+ driveway: [
+  ['Not wanting to know','Write about a truth you wish you hadn’t learned.',20],
+  ['Protecting a child','Write privately about protecting a child from a parent’s reaction.',25],
+  ['Mood dial','Rate dread.',15],
+  ['Prediction','Will Heidi tell him?',15],
+  ['Letter to Kimberly','Write from Heidi.',20],
+  ['Letter to Marty','Write what Heidi might have told him.',20],
+  ['Fear','Write about a moment you sensed danger.',20],
+  ['Busybodies','Write about someone who "helpfully" told you something.',20],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 14 complicate the novel’s view of truth-telling? Consider the old disclosure, the stranger’s demand and the consequences.',
+ 'Essay: Analyse Heidi Dann as a point-of-view character. How does Coben make her vivid and sympathetic so quickly?',
+ 'Creative: Write Kimberly’s side of the two-hour phone call, beginning after she hangs up.'
+],
+reading: [
+ ['milverton','Holmes’ blackmailer, who sells silence.'],
+ ['gonebaby','A crime story full of people who are not what they say.'],
+ ['ripley','A charming, ruthless impostor.'],
+ ['ronson','The real damage of public exposure online.'],
+ ['boksecrets','On secrecy, revelation and blackmail.'],
+ ['littlefires','A mother investigating another family’s secrets.'],
+ ['deadknow','Family secrets and false identities.'],
+ ['nevertold','What children hide from parents and why.'],
+ ['solove','How an online record can follow a young person.']
+],
+projects: [
+ { t: 'Telling, Then and Now', rooms: ['field','classroom','driveway'], steps: ['Close-read the busybody memory.','Compare with the stranger.','Apply the Five lenses.','Write privately.'] },
+ { t: 'The Kuntz File', rooms: ['board','records','turnpike'], steps: ['Pin Kuntz.','Research police impersonation.','Map his travel.','Predict his employer.'] },
+ { t: 'Mothers and Daughters', rooms: ['office','stacks','kitchen'], steps: ['Close-read the phone call.','Read a mother-daughter novel excerpt.','Discuss at table.','Write a letter from Heidi.'] },
+ { t: 'Blackmail as Business', rooms: ['classroom','records','field'], steps: ['Research extortion law.','Discuss the stranger’s demand.','Debate.','Write a verdict.'] },
+ { t: 'Bright Room, Dark Act', rooms: ['diner','office','board'], steps: ['Paint the room.','Analyse restraint in violence.','Write a threat scene.','Discuss what to show and not show.'] },
+ { t: 'Normality as Performance', rooms: ['kitchen','classroom','driveway'], steps: ['Grill burgers.','Discuss the empty chair.','Write about performing normal.','Compare with the Prices’ dinner.'] }
+],
+quiz: [
+ ['How much does the stranger demand from Heidi?', ['$5,000','$10,000','$1,200','Nothing'], 1],
+ ['Who does Heidi decide not to tell?', ['Kimberly','Marty','Her friends','The police'], 1],
+ ['Who comes to Heidi’s door?', ['The stranger','A man calling himself Detective John Kuntz','Johanna Griffin','Ingrid'], 1],
+ ['What does he say he investigates?', ['Fraud','Cyber crime','Drugs','Missing persons'], 1],
+ ['What does he want to know?', ['Kimberly’s address','The name of the restaurant','Marty’s job','The password'], 1]
+]
+};

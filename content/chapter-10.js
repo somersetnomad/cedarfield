@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[10] = {
+n: 10, title: 'Give Me Until Tomorrow', pov: 'Adam', when: 'That night and the next morning', strands: ['adam'], places: ['cedarfield'],
+summary: [
+ 'Upstairs, Corinne simply shuts down. Adam tries anger, pleading, threats, love, shame; she says nothing. At midnight she removes the anniversary studs, puts them on her night table, says goodnight and sleeps. Adam feels the urge to shake the truth out of her and recoils from it. At twelve he watched his father, goaded past endurance by his mother, put his hands around her throat, and what stayed with him was not the danger but how small and pitiful it made his father. Adam will not be that man.',
+ 'He takes his pillow to the couch, barely sleeps, and creeps back upstairs before dawn so the boys won’t notice. Corinne sleeps deeply. He recalls a police theory that the guilty sleep in interrogation rooms and the innocent stay awake, and notes the irony. He asks himself the real question: if it’s true, is he still in love with her, and does he want to stay? His gut says yes. All families ignore elephants, he reflects; could he learn to ignore this one?',
+ 'He oversleeps. Downstairs, Corinne has made him his favourite breakfast, a bacon, egg and cheese bagel (she has suddenly become big on favourites), and the boys are grunting over cereal. Through the window he sees her in the garden on the phone; when he storms out she hangs up and claims it was the school, and won’t show him the phone. She asks what his worst case is: would he leave them? He says he can’t live with someone he can’t trust. Everyone has secrets, she says, even you. She proposes dinner that night at Janice’s Bistro, seven o’clock, the back table.'
+],
+beats: [
+ 'Corinne refuses to talk; Adam tries every tactic.',
+ 'She removes the anniversary studs at midnight and sleeps.',
+ 'Adam remembers his father choking his mother after she goaded him; he resolves never to touch a woman in anger.',
+ 'He sleeps on the couch and returns before dawn.',
+ 'The theory that the guilty sleep; Adam awake, Corinne asleep.',
+ 'Does he still love her? Yes. Could they live with the elephant?',
+ 'Morning: his favourite bagel, the boys’ cereal grunts.',
+ 'Corinne on the phone in the garden; she hangs up, claims it was the school, refuses to show him.',
+ 'Worst case; trust; "even you"; dinner at Janice’s at seven.'
+],
+cast: [['Adam Price','Exhausted, tempted to force the truth, refusing to be his father.'],['Corinne Price','Silent at night, tactical in the morning: favourites, a secret call, a counter-accusation, a dinner date.'],['Thomas & Ryan','Pre-school grunts and shrugs.'],['Adam’s parents','A memory of violence that shaped him.']],
+motifs: ['secrets','marriage','violence','fatherhood','lies','truth','parenting'],
+secrets: [['Corinne','A phone call in the garden she won’t explain.','Withheld'],['Adam','Corinne hints he has secrets too.','Implied'],['Adam’s parents','Domestic violence he witnessed at twelve.','Told to the reader']],
+clues: ['Corinne takes off the studs at midnight, as always.','She makes Adam’s favourite breakfast.','A phone call at breakfast she ends abruptly; she claims it was the school.','She hints that Adam has secrets of his own.','Dinner arranged at Janice’s Bistro, seven, back table.'],
+dilemma: { q: 'If you discovered a serious deception, could you stay with someone you still love?', a: 'Yes: love can absorb it', b: 'No: trust is the foundation' },
+food: ['Bacon, egg and cheese on a sesame bagel, made by Corinne.','Ryan’s sugary cereal, studied like scripture.'],
+refs: [['Interrogation folklore','The idea that guilty suspects fall asleep in interview rooms is police lore, not established science.'],['"The elephant in the room"','An idiom for an obvious problem everyone avoids mentioning.'],['Reese’s Puffs','A US breakfast cereal flavoured like peanut-butter cups.']],
+questions: [
+ ['What tactics does Adam try in the bedroom?',0],
+ ['What does Corinne do at midnight?',0],
+ ['What memory stops Adam from using force?',0],
+ ['Where does Adam sleep, and why does he go back upstairs?',0],
+ ['What does Corinne make for breakfast?',0],
+ ['Who does Corinne say was on the phone?',0],
+ ['Why does Adam’s memory of his father focus on pity rather than danger?',1],
+ ['What does the chapter suggest about how violence passes, or doesn’t, between generations?',0],
+ ['Is Corinne’s silence cruel, strategic, or self-protective?',1],
+ ['What does the studs ritual mean tonight?',0],
+ ['The guilty-sleep theory: why include a theory Adam doesn’t believe?',0],
+ ['Adam’s gut says he still loves her. Should feelings decide this?',1],
+ ['"All families ignore elephants." True? Name some.',1],
+ ['Why might Corinne make his favourite breakfast?',0],
+ ['Is the phone call suspicious? List innocent and guilty explanations.',0],
+ ['Corinne asks what his worst case is. Why turn the question back?',0],
+ ['"We all have secrets, even you." What might she mean?',0],
+ ['Why choose a restaurant for the conversation?',0],
+ ['How does the chapter balance Adam’s anger with his restraint?',0],
+ ['Is it significant that Corinne says "leave us" rather than "leave me"?',0],
+ ['How does the chapter portray the boys’ obliviousness?',0],
+ ['What does Adam’s sneaking upstairs show about protecting children from parental conflict?',0],
+ ['Is Adam right that he can’t live with someone he can’t trust?',1],
+ ['How does the narration handle the passage of the night?',0],
+ ['Which moment is the emotional centre of the chapter?',0],
+ ['How does this chapter deepen Adam as a character?',0],
+ ['Does Corinne seem to have a plan? What evidence?',0],
+ ['Is forgiving a lie the same as ignoring it?',1],
+ ['How does the breakfast scene echo earlier family scenes?',0],
+ ['Predict what will happen at Janice’s.',0]
+],
+close: [
+ { cite: 'Chapter 10, opening: Adam’s memory of his father’s violence.', focus: 'The pitiful father',
+   steps: ['Find the trigger thought that brings the memory.','Note how his mother’s role is described.','Find what bothered twelve-year-old Adam most.','Find his resolution and its reason.'],
+   ask: 'How does this memory both explain Adam’s restraint and complicate our view of conflict in marriages?' },
+ { cite: 'Chapter 10, middle: the night on the couch and the sleeping-guilt theory.', focus: 'Insomnia and verdicts',
+   steps: ['Locate the theory and Adam’s opinion of it.','Note the irony he points out.','Find the question he asks himself about love.','Find the elephant image.'],
+   ask: 'What does Adam decide during the night, and how firmly?' },
+ { cite: 'Chapter 10, close: the garden phone call and the dinner proposal.', focus: 'Counter-moves',
+   steps: ['List Corinne’s moves in order: breakfast, phone, refusal, counter-question, accusation, invitation.','Note Adam’s responses.','Find where he nearly loses control.','Read the final details of the plan.'],
+   ask: 'How does Corinne take control of the timeline here, and why might she need to?' }
+],
+lenses: {
+ office: 'A chapter of interior struggle framed by two domestic tableaux, bed at night and kitchen in the morning. Note the paragraph that starts with Adam’s urge and slides into childhood memory: Coben uses memory as a brake on action.',
+ classroom: 'Violence and restraint across generations; whether love survives deception; the family habit of ignoring elephants; and the counter-claim that everyone has secrets. The moral centre of the book is shifting.',
+ records: 'The idea that guilty suspects sleep while innocent ones stay awake circulates in police culture and popular media; it is not a validated method. Domestic violence research shows complex intergenerational patterns: many who witness it, like Adam, become determined never to repeat it.',
+ stacks: 'Marital silence as a weapon appears in fiction from Ibsen’s A Doll’s House to Revolutionary Road. Corinne’s "even you" anticipates a reversal common to marriage novels: the accuser also has something to hide.',
+ turnpike: 'The house becomes a map of avoidance: bedroom, couch, stairs crept before dawn, garden for a private call. Domestic space divides along lines of secrecy.',
+ field: 'The ethical question is no longer what Corinne did but what Adam will do: force, wait, leave or forgive. Restraint becomes a moral achievement, and trust becomes the issue.',
+ board: 'The phone call is the chapter’s plant. Corinne’s "even you" is a second plant. The dinner sets a deadline, which every thriller needs.',
+ diner: 'Two images: earrings on a night table under a lamp, and a woman in a garden on a phone seen through a kitchen window. Both are pictures of something set aside or hidden.',
+ kitchen: 'Corinne cooks Adam’s favourite on the morning after. Food as apology, bribe, or diplomacy? Ryan reads a cereal box as if it were scripture: the ordinary carrying on.',
+ driveway: 'Adam asks himself, honestly, whether he still loves her. Write about a time you had to ask yourself a question you were afraid of answering, and what your first answer was.'
+},
+acts: {
+ office: [
+  ['Memory as brake','Find how the father memory interrupts Adam’s urge. Write a scene where a memory stops a character from acting.',35],
+  ['Silence on the page','How does Coben write a character who says nothing? Analyse the techniques.',20],
+  ['Two tableaux','Compare the night scene and the morning scene in a table: light, sound, who speaks.',20],
+  ['Interior question','Rewrite Adam’s self-questioning as a dialogue between two parts of him.',30],
+  ['Favourites','Note the narrator’s aside about Corinne and "favourites". How does an aside shape judgement?',15],
+  ['Pace of night','How is time conveyed overnight? Find the markers.',15],
+  ['Accusation reversal','Analyse "even you". Write a reversal line for a different argument.',20],
+  ['Morning comedy','Find the comic notes in the morning scene. Do they belong?',15],
+  ['Final plan','Why end on concrete logistics (time, place, table)?',15]
+ ],
+ classroom: [
+  ['Violence and restraint','Discuss Adam’s resolution never to lay hands on a woman and its reasons.',25],
+  ['Love and trust','Debate whether love can survive without trust.',30],
+  ['Family elephants','List common "elephants" families ignore. Discuss why.',20],
+  ['Secrets as universal','Discuss Corinne’s claim that everyone has secrets. Is that a defence?',25],
+  ['Children and conflict','Discuss shielding children from parental conflict.',25],
+  ['Theme update','Add "restraint" to your themes.',15],
+  ['Pity and power','Discuss how violence can make the violent look weak.',20],
+  ['Food as language','Discuss cooking as apology.',20],
+  ['Seminar plan','Plan a discussion around "Is forgiving the same as ignoring?"',25]
+ ],
+ records: [
+  ['Interrogation myths','Research how police interview methods have changed and which "signs" are myths.',30],
+  ['Intergenerational violence','Read a reputable summary on children who witness domestic violence.',30],
+  ['Idioms','Look up the origin of "elephant in the room".',15],
+  ['Restaurants and confrontations','Research why people choose public places for hard conversations.',20],
+  ['Sleep and stress','Read about stress and sleep from a reliable health source.',20],
+  ['Phone privacy in marriages','Find surveys on partners checking each other’s phones.',25],
+  ['Breakfast culture','Look up the bacon, egg and cheese as a New Jersey and New York staple.',15],
+  ['Help lines','Find the US domestic violence hotline and note what it offers (for knowledge, not crisis).',15],
+  ['Marriage research','Find one study on how couples handle betrayal.',30]
+ ],
+ stacks: [
+  ['A Doll’s House','Read the final scene of Ibsen’s play. Compare Nora’s exit with Corinne’s silence.',40],
+  ['Revolutionary Road','Read a fight between the Wheelers. Compare.',35],
+  ['Gottman','Read on "stonewalling" in Gottman’s research.',25],
+  ['Sons and fathers','Find a novel where a son vows not to repeat a father’s violence.',25],
+  ['Bok on secrets','Read Bok on whether everyone is entitled to secrets.',30],
+  ['Short story','Read Cheever’s "The Swimmer" and think about denial.',30],
+  ['Source list','Add two works.',15],
+  ['Perel','Read Perel on trust after betrayal.',30],
+  ['Poetry','Find a public-domain poem about a sleepless night.',20]
+ ],
+ turnpike: [
+  ['House of avoidance','Map where each person is during the night and morning.',20],
+  ['Janice’s','Place Janice’s Bistro on your town map.',15],
+  ['Garden','Add the garden and kitchen window to your house plan.',15],
+  ['Bedroom','Note the layout of bed and night table.',15],
+  ['Walking routes','Where do people in your house go to make private calls?',15],
+  ['Restaurant geography','Why the back table? Sketch a restaurant floor and mark the private spots.',20],
+  ['Mapping journal','Add chapter 10.',15],
+  ['School','Mark Corinne’s school and the drive time from home.',15],
+  ['Couch','Write about the couch as the place of marital exile.',15]
+ ],
+ field: [
+  ['Love vs trust','Use the Dilemma scale on staying after deception.',15],
+  ['Force','Is there ever a right to force a confession? Write 300 words.',35],
+  ['Silence','Is Corinne’s silence a right or a wrong?',25],
+  ['Reciprocal secrets','If Adam has secrets too, does that change the moral picture?',25],
+  ['Five lenses','Apply the lenses to Corinne’s request for time.',30],
+  ['Children','Is sneaking back upstairs a lie to the boys?',15],
+  ['Pity','Write about pity as a moral emotion.',20],
+  ['Ignoring','Is choosing to ignore a wrong ever wise?',20],
+  ['Personal','Write about a time you held back from force.',20]
+ ],
+ board: [
+  ['Deadline','Write about why thrillers set deadlines. Find this one.',15],
+  ['Plant: phone call','Pin the garden call and list possible callers.',15],
+  ['Plant: "even you"','Pin it and predict.',15],
+  ['Suspicion meter','Rate Corinne again.',15],
+  ['Scene: restraint','Write a 300-word scene where a character holds back violence.',40],
+  ['Quiet chapter','How does a chapter without action raise tension?',20],
+  ['Chapter architecture','Use the tool for this chapter.',15],
+  ['Prediction board','Pin your prediction for Janice’s.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Earrings on a table','Paint or draw the studs on a night table under lamplight.',30],
+  ['Through the window','Paint a woman on a phone in a garden seen through a kitchen window.',40],
+  ['Couch at dawn','Draw the couch with a pillow at first light.',20],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the sleepless night.',15],
+  ['Restaurant sign','Design a sign for Janice’s Bistro.',20],
+  ['Elephant','Draw an elephant in a suburban living room, played for comedy or dread.',25],
+  ['Sound of sleep','Describe a sleeping person’s breathing from an insomniac’s side.',15],
+  ['Cover brief','Add the studs image.',15]
+ ],
+ kitchen: [
+  ['The bagel','Make the Bacon, Egg and Cheese bagel from the Recipe cards. Discuss food as apology.',25],
+  ['Breakfast silence','Eat breakfast with someone without speaking for ten minutes; then talk about it.',20],
+  ['Ledger notebook','Record Corinne’s moves this morning as entries.',15],
+  ['Secrets box','Add the garden phone call.',15],
+  ['Table talk','Ask: what does your family never talk about?',25],
+  ['Making: secrets box','Decorate your secrets box lid.',30],
+  ['Cereal boxes','Read a cereal box like scripture and parody it.',15],
+  ['Favourites list','Write each family member’s favourite breakfast.',15],
+  ['Reservation','Book a table at a local restaurant for your book club’s chapter-12 meeting.',15]
+ ],
+ driveway: [
+  ['Restraint','Write privately about a time you held back.',20],
+  ['Parents’ fights','Write about what you learned from your parents’ arguments.',25],
+  ['Love question','Write the honest answer to Adam’s question as if for yourself.',20],
+  ['Mood dial','Rate dread.',15],
+  ['Prediction','Log a prediction for dinner.',15],
+  ['Insomnia','Write about a sleepless night.',20],
+  ['Letter to young Adam','Write to twelve-year-old Adam.',20],
+  ['Elephants','Name an elephant in your life.',20],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 10 use Adam’s childhood memory to define his character and the moral boundaries of the novel?',
+ 'Essay: Analyse Corinne’s strategy in the morning scene. What does the chapter suggest about power and timing in marriage?',
+ 'Creative: Write the garden phone call from the other end of the line, without revealing who the caller is.'
+],
+reading: [
+ ['dollshouse','A wife, a secret, and a marriage reckoning.'],
+ ['revroad','Silence and explosion in a suburban marriage.'],
+ ['gottman','Stonewalling and repair in couples.'],
+ ['perelaffairs','Trust, betrayal and whether marriages survive them.'],
+ ['boksecrets','Whether everyone is entitled to secrets.'],
+ ['swimmer','A suburban man in denial, mile by mile.'],
+ ['corrections','Families who avoid what everyone knows.'],
+ ['sixyears','Coben on love, absence and unanswered questions.'],
+ ['ekman','How unreliable folk "tells" of guilt really are.']
+],
+projects: [
+ { t: 'Restraint and Its Roots', rooms: ['office','classroom','driveway'], steps: ['Close-read the father memory.','Research intergenerational patterns.','Discuss restraint as a virtue.','Write privately.'] },
+ { t: 'The Breakfast Strategy', rooms: ['kitchen','field','board'], steps: ['Cook the bagel.','Map Corinne’s morning moves.','Debate food as apology.','Pin the phone call.'] },
+ { t: 'Love Without Trust?', rooms: ['field','stacks','classroom'], steps: ['Use the Dilemma scale.','Read Perel on betrayal.','Hold a debate.','Write a verdict.'] },
+ { t: 'Night House', rooms: ['diner','turnpike','driveway'], steps: ['Map the night positions.','Paint the studs on the table.','Write about insomnia.','Choose a song.'] },
+ { t: 'Even You', rooms: ['board','classroom','office'], steps: ['Close-read the reversal.','List Adam’s possible secrets.','Write a reversal scene.','Revisit at chapter 35.'] },
+ { t: 'Doll’s House Evening', rooms: ['stacks','kitchen','diner'], steps: ['Read Ibsen’s final scene aloud.','Serve breakfast-for-dinner.','Compare Nora and Corinne.','Design a poster for the evening.'] }
+],
+quiz: [
+ ['What does Corinne take off at midnight?', ['Her ring','The anniversary diamond studs','Her watch','Her glasses'], 1],
+ ['What did Adam witness at twelve?', ['His father leaving','His father choking his mother','A car crash','A robbery'], 1],
+ ['Where does Adam sleep?', ['In the car','On the couch','In Thomas’s room','At a hotel'], 1],
+ ['Who does Corinne say was on the phone?', ['Kristin','The school','Her sister','Tripp'], 1],
+ ['Where will they meet for dinner?', ['The Legion','Janice’s Bistro','A diner','Red Lobster'], 1]
+]
+};

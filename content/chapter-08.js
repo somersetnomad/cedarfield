@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[8] = {
+n: 8, title: 'Red Lobster, Beachwood', pov: 'The stranger', when: 'An afternoon, about the same time', strands: ['stranger','heidi','victims'], places: ['beachwood','universityheights'],
+summary: [
+ 'The point of view jumps to the stranger. He and Ingrid, the young blond woman from the car, have spent nearly two hours at a corner table in a Red Lobster in Beachwood, Ohio, outside Cleveland, nursing cocktails and watching four women at a long lunch. Their target is Heidi Dann, forty-nine, big-hearted, with a laugh the stranger has come to like. They know her life in detail: married twenty years to Marty, a vacuum-cleaner sales executive who travels to Arkansas to sell to Walmart; three children, the eldest, Kimberly, a freshman at NYU; a job on department-store makeup counters.',
+ 'The stranger has a creed: if a house’s foundation is rotten, you demolish it rather than paint over it. He believes it, but he admits he never stays to watch the rebuilding, or to check whether anyone was left inside. Ingrid offers to do this one alone; he refuses. She is there because a young man approaching a middle-aged woman alone in a car park looks wrong, whereas a couple doesn’t.',
+ 'In the lot, Heidi sees them and knows before he speaks that her life is about to change. He launches straight in, the way he has learned to: a website called FindYourSugarBaby.com, where supposedly wealthy men negotiate monthly "arrangements" with young women, contracts specifying days and fees. Heidi, calm and sharp, does the maths and braces for news about her husband. It is not Marty. It is Kimberly, who is paying her way through college with several such arrangements, one man for each day of the week.'
+],
+beats: [
+ 'Shift to the stranger’s point of view: a Red Lobster in Beachwood, Ohio.',
+ 'He and Ingrid watch a lunch of four women; their target is Heidi Dann.',
+ 'Dossier details: Marty’s job at a floor-care company, the three children, Heidi’s makeup-counter work.',
+ 'The stranger’s creed: demolish a house with a rotten foundation. His admitted blind spot.',
+ 'Why Ingrid is along: a couple approaching a woman looks harmless.',
+ 'The bill, the hugs, Heidi walks to her car alone.',
+ 'The approach: the stranger leaps straight into the sugar-baby site.',
+ 'Heidi assumes it is her husband.',
+ 'The reveal: it is her daughter Kimberly.'
+],
+cast: [['The stranger','Twenty-seven, honest-faced, uneasy with his role but committed to it.'],['Ingrid','Young, blond, keeps pulling her hair back; kind and pragmatic.'],['Heidi Dann','Forty-nine, warm, quick, a good hugger with a contagious laugh.'],['Marty Dann','Heidi’s husband, a vacuum-cleaner sales VP (offstage).'],['Kimberly Dann','Their daughter, an NYU freshman (offstage).']],
+motifs: ['secrets','truth','anonymity','technology','money','parenting','identity','surveillance'],
+secrets: [['Kimberly Dann','She earns money through "arrangements" with several older men via a sugar-dating site.','Told to her mother by the stranger'],['The stranger & Ingrid','They operate together, research targets, and follow a method.','Kept']],
+clues: ['The stranger is twenty-seven; Ingrid is the blond driver from chapter 2.','They know their targets’ lives in detail, including family schedules and workplaces.','He never stays to see what happens after.','Heidi drives a grey Nissan; they park two spaces away in a rental car.','Approaching a victim at home is avoided: it makes people defensive.','This visit has nothing to do with the Prices.'],
+dilemma: { q: 'Should a parent be told what an adult child is secretly doing to pay for college?', a: 'Yes: a parent would want to know', b: 'No: the child is an adult with a right to privacy' },
+food: ['A mango mai tai and garlic shrimp scampi left to congeal.','At the women’s table: crab platters, linguine Alfredo, wood-grilled salmon.','A carefully split bill; Heidi just throws in twenties.'],
+refs: [['Red Lobster','An American seafood restaurant chain popular for casual family and group meals.'],['Beachwood, Ohio','A suburb east of Cleveland.'],['Bentonville, Arkansas','Home of Walmart’s corporate headquarters, where suppliers pitch to buyers.'],['Sugar dating','Websites marketing "mutually beneficial" relationships between older wealthy people and younger partners became widely publicised in the 2010s.'],['Dirt Devil, Hoover, Oreck','Real vacuum-cleaner brands; the novel places Marty at their parent company.']],
+questions: [
+ ['Where are the stranger and Ingrid, and who are they watching?',0],
+ ['What do they know about Heidi’s family?',0],
+ ['Why does the stranger bring Ingrid?',0],
+ ['What is the stranger’s "rotten foundation" belief?',0],
+ ['What website does he tell Heidi about?',0],
+ ['Whom does Heidi assume the news is about, and whom is it actually about?',0],
+ ['Why might Coben switch to the stranger’s point of view now, just after Adam asks his question?',0],
+ ['The stranger says he never stays to see if anyone was left in the house. What does this admission reveal?',1],
+ ['Why does the stranger like Heidi? Does liking her make what he does better or worse?',1],
+ ['How does the chapter make the stranger sympathetic? Does it succeed?',0],
+ ['What does the bill-splitting scene tell us about each woman?',0],
+ ['Heidi knows before he speaks. Why might people sense bad news?',0],
+ ['Why does the stranger launch straight in without preamble? Is that kind?',0],
+ ['Heidi does the maths on the monthly fee. What does this show about her?',0],
+ ['Why is the twist (the daughter, not the husband) so effective?',0],
+ ['Is what Kimberly is doing any of her mother’s business? She’s an adult.',1],
+ ['How does the novel present the sugar-dating site? Neutrally? Critically?',0],
+ ['What does the stranger’s team seem to have access to?',0],
+ ['Why does the stranger refer to people he approaches as "victims"? (He uses the word.)',0],
+ ['What ethical difference is there between telling a husband about a wife and a mother about a daughter?',1],
+ ['How does Ingrid differ from the stranger in manner?',0],
+ ['The stranger’s demolition metaphor: list its strengths and weaknesses as a moral argument.',0],
+ ['Is Heidi a victim here, or a beneficiary of the truth?',0],
+ ['How does this chapter change your view of what happened to Adam?',1],
+ ['What does the chapter not tell us about the stranger’s motives?',0],
+ ['Why set the scene at a casual chain restaurant?',0],
+ ['Notice the ages: the stranger is twenty-seven, Heidi forty-nine. Why does age matter in this approach?',0],
+ ['What do you predict Heidi will do next?',0],
+ ['What would you do if you were Heidi?',1],
+ ['Which parts of this chapter make you uneasy? Why?',0]
+],
+close: [
+ { cite: 'Chapter 8, early: the stranger’s reflection on demolishing houses with rotten foundations.', focus: 'The creed and its blind spot',
+   steps: ['Find the metaphor and paraphrase it.','Find the sentences that qualify it (what he doesn’t do).','Note the verbs: believe, understand, live.','Find his discomfort with his own role.'],
+   ask: 'How does the novel use the stranger’s own metaphor to raise doubts about him?' },
+ { cite: 'Chapter 8, middle: the lunch table and the bill.', focus: 'Character by payment',
+   steps: ['List what each woman ordered.','Describe how each pays.','Find the stranger’s response to Heidi’s payment.','Note how he describes her hug.'],
+   ask: 'How does the chapter build our affection for Heidi before her life is upended?' },
+ { cite: 'Chapter 8, close: the conversation in the car park from his opening line to the final revelation.', focus: 'Delivering devastation',
+   steps: ['Mark each stage: introduction, explanation, negotiation details, Heidi’s assumption, the reveal.','Note Heidi’s responses at each stage.','Find where Ingrid speaks for the first time.','Read the last line aloud.'],
+   ask: 'How does the scene’s structure exploit Heidi’s (and our) assumptions?' }
+],
+lenses: {
+ office: 'The point of view jumps to the antagonist, or the catalyst. His interiority is spare and self-justifying. Notice how the restaurant details (congealed scampi, a manhole-sized platter) keep comedy alive in a scene of devastation.',
+ classroom: 'The stranger’s philosophy is now explicit: truth demolishes rotten houses. The chapter also opens the novel’s scope: this is not about one marriage, but about many secrets kept online.',
+ records: 'Sugar-dating sites drew wide press coverage in the 2010s, especially stories of students using them to pay tuition. Beachwood is a real suburb of Cleveland; Bentonville, Arkansas, is where suppliers pitch to Walmart.',
+ stacks: 'Ibsen’s Gregers Werle in The Wild Duck is the classic idealist who demolishes a family with truth and leaves. Conan Doyle’s Milverton profits from secrets. The stranger seems to want to be the first and may be the second.',
+ turnpike: 'The novel suddenly leaps four hundred miles west to Ohio. The geography of the stranger’s work is wide; Adam’s problem is one pin on a larger map.',
+ field: 'The test case changes: an adult daughter, a mother, a secret that is legally ambiguous. Does a parent have a right to know about an adult child’s sex life and finances?',
+ board: 'A strand switch right after a cliffhanger is a classic thriller cut: we are denied Corinne’s answer and given a parallel case instead. The braid begins.',
+ diner: 'A chain restaurant at mid-afternoon: big plates, cocktails with paper umbrellas, a lunch that won’t end. Picture it in flat, bright, unforgiving light.',
+ kitchen: 'The menu tells the story: shared platters, rich pasta, and Heidi’s healthier salmon; the stranger’s cocktail; the careful accounting of the bill. Food as a portrait of a friendship group.',
+ driveway: 'Heidi’s smile drops before the stranger has said anything; some part of her already knows. Have you ever read bad news in someone’s face before they spoke? Write about the seconds in between, and what you did with them.'
+},
+acts: {
+ office: [
+  ['POV switch','Write about the effect of shifting to the stranger right after chapter 7’s cliffhanger. Then outline how a film might cut here.',25],
+  ['Antagonist interiority','List what the stranger tells us about himself and what he avoids saying.',20],
+  ['Comic details in tragedy','Collect the comic food details. Write about why comedy here makes the ending hurt more.',20],
+  ['The approach','Rewrite the car-park scene as a script with stage directions only.',30],
+  ['Assumption trap','Analyse how the reader is led to assume Marty is the subject. Write a scene of your own that sets a similar trap.',40],
+  ['Metaphor test','Extend the stranger’s demolition metaphor in a paragraph, then break it.',20],
+  ['Dialogue economy','Count Ingrid’s lines. What does a single line do?',15],
+  ['Dossier voice','Find the passage summarising the Danns. How does Coben deliver research without a data dump?',20],
+  ['Last-line study','Compare the endings of chapters 7 and 8. Why do they rhyme?',15]
+ ],
+ classroom: [
+  ['Truth as demolition','Write an argument for and against the stranger’s metaphor.',30],
+  ['Adult children','Discuss what parents are owed by adult children, and vice versa.',25],
+  ['Commerce and intimacy','Discuss the sugar-dating site’s claim that all relationships are transactions.',30],
+  ['Victims?','Discuss whether the stranger’s word "victim" is accurate.',20],
+  ['Scale','How does the novel change by revealing this is a pattern?',20],
+  ['Theme update','Add "transaction" to your themes.',15],
+  ['Women’s friendship','Discuss the lunch group as a portrait of friendship.',20],
+  ['Ethical difference','Compare telling a spouse and telling a parent.',25],
+  ['Seminar plan','Plan a discussion on whether Heidi should have been told.',25]
+ ],
+ records: [
+  ['Sugar dating','Research press coverage of students using sugar-dating sites in the 2010s. Note facts, not sensation.',35],
+  ['Beachwood','Find facts about Beachwood, Ohio.',20],
+  ['Walmart suppliers','Read about how suppliers pitch to Walmart in Bentonville.',25],
+  ['Student debt','Research average US student debt around 2015.',25],
+  ['NYU costs','Look up NYU’s cost of attendance in 2015.',20],
+  ['Red Lobster','Read a short history of the chain.',15],
+  ['Floor-care industry','Look up which companies own major vacuum brands.',15],
+  ['Online privacy promises','Research how sites describe "discretion" in their terms.',25],
+  ['Sex work law','Read a neutral explainer on how US law treats paid sexual arrangements.',30]
+ ],
+ stacks: [
+  ['The Wild Duck again','Compare Gregers Werle and the stranger in a page.',35],
+  ['Milverton again','Compare Milverton and the stranger.',30],
+  ['The Circle','Read about Eggers’ transparency cult. How does it echo the stranger’s creed?',30],
+  ['Bok on secrets','Read a short section of Sissela Bok on the ethics of revelation.',35],
+  ['Mother-daughter novels','List three novels where a mother learns a daughter’s secret.',20],
+  ['What the Dead Know','Read about Lippman’s novel of family secrets.',20],
+  ['Goffman','Revisit "front stage" and "back stage" for Kimberly’s double life.',25],
+  ['Source list','Add two works.',15],
+  ['Restaurant scenes','Find a famous restaurant scene in a thriller and compare.',20]
+ ],
+ turnpike: [
+  ['Ohio pin','Add Beachwood and University Heights to your map.',15],
+  ['Distance','Use the Distance calculator between Cedarfield and Beachwood.',15],
+  ['Car-park map','Sketch the Red Lobster lot: Heidi’s car, the rental two spaces away.',20],
+  ['Network map','Start a map of the stranger’s operations as cases appear.',25],
+  ['NYU','Add New York City and NYU to your map.',15],
+  ['Bentonville','Note Bentonville on an inset map.',15],
+  ['Suburban Ohio','Compare Beachwood with Cedarfield in a short paragraph.',20],
+  ['Travel logistics','How might the stranger and Ingrid travel between jobs?',20],
+  ['Mapping journal','Add chapter 8.',15]
+ ],
+ field: [
+  ['Should she know?','Use the Dilemma scale for Heidi.',15],
+  ['Court of telling','Use the Tell or keep tool for Heidi.',20],
+  ['Autonomy','Write about Kimberly’s autonomy versus her mother’s concern.',30],
+  ['Paternalism','Define paternalism. Is the stranger paternalistic?',25],
+  ['Five lenses','Apply the lenses to the stranger’s visit.',30],
+  ['Means','Does researching people’s private lives in detail wrong them even if nothing is revealed?',25],
+  ['Liking the victim','Does the stranger’s affection for Heidi make him more or less culpable?',20],
+  ['Never staying','Is there a duty to stay after delivering bad news?',20],
+  ['Personal','Write about news you were glad, or sorry, to learn about family.',20]
+ ],
+ board: [
+  ['Braided plot','Start a strand chart: Adam, the stranger, Heidi.',20],
+  ['Parallel case','Write about how a parallel case deepens a mystery.',20],
+  ['Clue cards','Pin the stranger’s age, the method, the rental car.',15],
+  ['Misdirection','Write a 300-word scene that misdirects the reader about who a secret concerns.',40],
+  ['Character intro','How does Coben introduce Heidi so we care in a few pages?',20],
+  ['Suspicion meter','Rate the stranger and Ingrid.',15],
+  ['Strand braid','Open the Strand braid tool.',15],
+  ['Withholding','What does the chapter still withhold about the stranger?',15],
+  ['Pacing','Add to your pacing chart.',15]
+ ],
+ diner: [
+  ['Restaurant painting','Paint the lunch table in bright chain-restaurant light.',45],
+  ['Car-park watercolour','Paint the approach in the car park from above.',35],
+  ['Hair gesture','Draw Ingrid’s hair-pulling gesture in three sketches.',20],
+  ['Laugh','Describe Heidi’s laugh as music: pitch, rhythm, volume.',15],
+  ['Palette','Choose Ohio colours in the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for Heidi walking to her car.',15],
+  ['Menu design','Design a menu for the lunch with prices.',20],
+  ['Portrait of Heidi','Paint Heidi in a tiger-print top, kindly.',30],
+  ['Cover brief','Add an idea from this chapter to your cover brief.',15]
+ ],
+ kitchen: [
+  ['Mango mai tai','Make the Mango Mai Tai Mocktail and watch a room for twenty minutes, noting what you learn.',35],
+  ['Salmon lunch','Cook a simple grilled salmon lunch for friends and talk about long lunches.',45],
+  ['Bill splitting','Discuss how your friends split bills. What does it reveal?',20],
+  ['Ledger notebook','Record the sugar-site arrangement terms as a ledger entry (in your own words).',15],
+  ['Secrets box','Add Kimberly’s secret.',15],
+  ['Table talk','Ask: would you want to know an adult child’s secret?',25],
+  ['Making: secrets box','Add a second compartment for secrets that aren’t the Prices’.',25],
+  ['Seafood platter','Cook a shared seafood or vegetable platter and talk about sharing food.',45],
+  ['Recipe for an approach','Write a "recipe" for the stranger’s method.',15]
+ ],
+ driveway: [
+  ['Knowing before','Write about sensing bad news before it was spoken.',20],
+  ['Parenting adult children','Write privately about what you would want to know.',25],
+  ['Mood dial','Rate your feelings toward the stranger.',15],
+  ['Prediction','Predict Heidi’s next move.',15],
+  ['The hug','Write about someone who hugs as if they mean it.',20],
+  ['Letter to Kimberly','Write a letter from Heidi to Kimberly.',25],
+  ['Letter to the stranger','Write what you’d say to him in the car park.',20],
+  ['Rotten foundations','Is there something in your life you’d rather demolish than paint over?',20],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: Evaluate the stranger’s philosophy of demolition as presented in chapter 8. Is the novel endorsing or questioning it?',
+ 'Essay: Why does Coben interrupt the Price story at its turning point with an apparently unrelated case? Discuss structure and theme.',
+ 'Creative: Write Ingrid’s account of the lunch-hour wait, in first person, including what she thinks of the stranger.'
+],
+reading: [
+ ['wildduck','The idealist who demolishes a household with truth.'],
+ ['milverton','The professional trader in secrets.'],
+ ['boksecrets','When is revealing a secret justified?'],
+ ['circle','A world in which secrets are treated as sins.'],
+ ['goffman','Front-stage and back-stage selves.'],
+ ['deadknow','A family’s secret life uncovered decades later.'],
+ ['perelaffairs','On secret lives and what they mean to the people who keep them.'],
+ ['solove','How private information online becomes public harm.'],
+ ['ronson','The modern culture of exposure and shaming.']
+],
+projects: [
+ { t: 'The Stranger’s Creed', rooms: ['field','stacks','classroom'], steps: ['Close-read the demolition metaphor.','Compare with Ibsen’s Gregers.','Debate it.','Write a verdict on the creed.'] },
+ { t: 'Ohio Strand', rooms: ['turnpike','board','records'], steps: ['Map Beachwood.','Start a strand chart.','Research the town.','Pin the new characters.'] },
+ { t: 'Adult Children', rooms: ['field','driveway','kitchen'], steps: ['Use the Dilemma scale.','Write privately.','Discuss over a meal.','Write a letter from Heidi.'] },
+ { t: 'Long Lunch', rooms: ['kitchen','diner','office'], steps: ['Make the mocktail.','Paint the table.','Close-read the bill scene.','Discuss friendship.'] },
+ { t: 'Sugar and Contracts', rooms: ['records','classroom','field'], steps: ['Research sugar dating neutrally.','Discuss transaction and intimacy.','Use the Five lenses.','Write a paragraph.'] },
+ { t: 'Misdirection Lab', rooms: ['board','office','driveway'], steps: ['Analyse the assumption trap.','Write your own.','Test it on a friend.','Reflect on how assumptions form.'] }
+],
+quiz: [
+ ['Where is the Red Lobster?', ['Paramus, NJ','Beachwood, Ohio','Austin, Texas','Nyack, NY'], 1],
+ ['How old is the stranger?', ['19','27','35','44'], 1],
+ ['What does Marty Dann sell?', ['Cars','Vacuum cleaners','Insurance','Mattresses'], 1],
+ ['What is the website?', ['Fake-A-Pregnancy.com','FindYourSugarBaby.com','Silk Road','A revenge site'], 1],
+ ['Whom is the secret about?', ['Marty','Heidi','Kimberly','Charlie'], 2]
+]
+};

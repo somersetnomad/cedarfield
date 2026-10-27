@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[6] = {
+n: 6, title: 'The Away Sideline', pov: 'Adam', when: 'That evening', strands: ['adam','lacrosse'], places: ['glenrock','cedarfield'],
+summary: [
+ 'At Thomas’s away game the Cedarfield parents gather on one sideline. Corinne stands next to Kristin Hoy; Tripp Evans and a knot of fathers watch with folded arms like a security detail; Bob Baime smirks beside his cousin Daz, who runs CBW, an expensive corporate investigation firm. Bob persuaded the lacrosse board to pay CBW for coaches’ background checks, work that could be done cheaply online. Corinne is in a quiet panic because Thomas isn’t starting, and Bob’s son Pete, supposedly still recovering from a concussion, has taken his place.',
+ 'When Thomas finally goes on, Corinne relaxes enough to flirt with Adam, a rare playful moment that makes him wonder why now. He notices the diamond studs he gave her on their fifteenth anniversary at a Chinese restaurant, which she never takes off except to sleep and swim. Could a woman who treasures that symbol fake a pregnancy? He watches the parents watching only their own children, and reflects that what once seemed like love now looks like obsession. The fathers howl at the referee over penalty calls; the loudest is the normally mild Cal Gottesman, whose son has suddenly become a college prospect.',
+ 'Becky Evans, Tripp’s endlessly cheerful wife and mother of five, joins Corinne to marvel that a freshman goalie has already committed to a college. Becky and Corinne have known each other since childhood in Cedarfield; Corinne was the one who had to leave. Adam drifts off to stand alone, between the mothers and the fathers. Watching Corinne, he realises that knowing her so well is exactly why the stranger’s story rings true. Then Thomas scores a beautiful goal, and Adam feels both his duty to keep his sons happy and safe and a certainty that luck and chaos will defeat him.'
+],
+beats: [
+ 'The away sideline: Corinne with Kristin, fathers in a cluster, Bob with cousin Daz of CBW.',
+ 'Background: Bob had the board hire Daz’s firm for coaches’ background checks.',
+ 'Corinne panics because Thomas isn’t starting; Bob’s concussed son Pete is.',
+ 'A mother shouts at her son; the novel notes that every parent hears that tone in others but not themselves.',
+ 'Thomas goes on; Corinne relaxes and flirts; Adam notices the anniversary diamond studs.',
+ 'Parents watching only their own children: love or obsession?',
+ 'The fathers rage at penalties, led by the newly zealous Cal Gottesman.',
+ 'Becky Evans and Corinne gossip about a freshman’s college commitment; they are old friends.',
+ 'Adam stands alone; Thomas scores; Adam feels luck and chaos closing in.'
+],
+cast: [['Corinne Price','Anxious about Thomas, playful for a moment, watched closely by Adam.'],['Kristin Hoy','At Corinne’s side in very little clothing.'],['Bob Baime & Daz','Bob smirks; his cousin Daz owns CBW, a high-end investigation firm paid by the league.'],['Pete Baime','Bob’s son, starting despite a concussion.'],['Cal Gottesman','Mild insurance salesman turned sideline zealot as his son Eric rises.'],['Becky Evans','Tripp’s cheerful wife, mother of five, Corinne’s childhood friend.'],['Tripp Evans','The fathers’ natural centre.']],
+motifs: ['sport','parenting','marriage','community','class','surveillance','dream','identity'],
+secrets: [['Bob Baime','He steered league money to his cousin’s firm.','Known to the board'],['Corinne','Whether a woman so attached to her anniversary studs could fake a pregnancy.','Unknown']],
+clues: ['CBW, cousin Daz’s corporate investigation firm, runs the league’s background checks.','Bob pushed the board to pay for it.','Pete Baime is playing despite a concussion.','Corinne wears the anniversary studs constantly.','Becky and Corinne grew up together in Cedarfield.','Cal Gottesman has become intense as his son attracts college interest.'],
+dilemma: { q: 'Is it wrong for a parent to watch only their own child at a team game?', a: 'No: that’s what love looks like', b: 'Yes: it teaches children the team doesn’t matter' },
+food: [],
+refs: [['A Croatian proverb','The narrator recalls a proverb about a hunchback who sees others’ humps and not his own: a folk version of the mote and the beam.'],['Boston College','A Jesuit university near Boston with a strong lacrosse programme.'],['Forty-Seventh Street','Manhattan’s Diamond District.'],['Slashing','A lacrosse foul for striking an opponent with the stick; it earns a timed penalty.']],
+questions: [
+ ['Who is Daz and what does his firm do for the league?',0],
+ ['Why is Corinne upset at the start of the game?',0],
+ ['What are the diamond studs and when did Adam give them?',0],
+ ['Who leads the fathers’ complaints at the referee?',0],
+ ['How do Becky and Corinne know each other?',0],
+ ['What happens at the end of the chapter?',0],
+ ['Was it a conflict of interest for the board to hire Bob’s cousin?',1],
+ ['Why does Corinne’s playful moment make Adam suspicious rather than happy?',0],
+ ['What does the proverb about not seeing your own flaws say about the parents, and about Adam?',0],
+ ['Is watching only your own child love or obsession? Where is the line?',1],
+ ['Why does Adam stand halfway between the mothers and the fathers?',0],
+ ['What does the chapter suggest about gender roles on the sideline?',0],
+ ['How is Becky Evans described? Why might Adam distrust relentless cheerfulness?',0],
+ ['Why does the chapter mention a freshman committing to college?',0],
+ ['How does Coben use the anniversary studs as a symbol?',0],
+ ['Corinne’s childhood: "not so lucky" to have left town. What does that hint?',0],
+ ['Adam says knowing her so well is why the story rings true. Explain the paradox.',1],
+ ['What does Pete Baime playing despite a concussion say about Bob’s priorities?',0],
+ ['How do the fathers behave as a herd? Have you seen this behaviour?',0],
+ ['Does Adam’s silence during the abuse of the referee make him complicit?',1],
+ ['Why end on luck, randomness and chaos?',0],
+ ['How is Kristin seen through Adam’s eyes? How might she see the scene?',0],
+ ['What do the four mesh chairs with two cup holders each tell us about Corinne?',0],
+ ['What would you say to Cal Gottesman if you stood next to him?',0],
+ ['Is the youth-sports world here a satire, a tragedy or a realistic portrait?',1],
+ ['Why does the chapter describe the parental "ping" of disappointment in a mother’s voice?',0],
+ ['How does the chapter show Corinne’s focus as both admirable and frightening?',0],
+ ['What do we learn about Tripp’s status in the town?',0],
+ ['Which detail here might matter later? Pick one and say why.',0],
+ ['If you could follow one other person on this sideline for an evening, who and why?',1]
+],
+close: [
+ { cite: 'Chapter 6, opening: the sideline groupings and the introduction of cousin Daz.', focus: 'A social map in a paragraph',
+   steps: ['List each group on the sideline and where it stands.','Note the comparisons used for the fathers.','Find the details about CBW and why it was hired.','Notice the narrator’s tone toward Bob and Daz.'],
+   ask: 'How does the opening paragraph map power and alliance in the town?' },
+ { cite: 'Chapter 6, middle: the anniversary studs and the memory of the restaurant.', focus: 'An object that argues',
+   steps: ['Find where Adam notices the earrings.','Summarise the anniversary story.','Note what Corinne does with them daily.','Read the question Adam asks himself afterwards.'],
+   ask: 'Why does Adam use the earrings as evidence about his wife’s character, and is that reasoning sound?' },
+ { cite: 'Chapter 6, close: Thomas’s goal and Adam’s reflection on luck and chaos.', focus: 'Joy shadowed by doom',
+   steps: ['Read the description of the goal play by play.','Find Adam’s reaction to Thomas’s controlled celebration.','Locate the turn from protection to chaos.','Note the season named in the last line.'],
+   ask: 'How does the ending convert a moment of triumph into foreboding?' }
+],
+lenses: {
+ office: 'The narration works by cluster and comparison: fathers compared to a protection detail, Kristin’s outfit turned into a punchline, a parent’s voice caught in its tone of disappointment. Note how the observational comedy suddenly drops into Adam’s long, looping meditation on the spotlight parents shine on their own children.',
+ classroom: 'Love that narrows into obsession; knowing someone so well you can imagine their worst; a town that rewards those who never leave. The chapter quietly moves the novel’s theme from one secret to a culture of watching.',
+ records: 'Early college recruitment of high-school freshmen was a real controversy in US lacrosse in the 2010s; governing bodies later restricted early contact. The Croatian proverb is a folk version of the Gospel saying about the mote and the beam.',
+ stacks: 'Liane Moriarty’s Big Little Lies (2014) is the great novel of school-gate social hierarchy. Shirley Jackson’s "The Lottery" shows a community in friendly unison doing something terrible. Consider both as companions to the sideline.',
+ turnpike: 'An away game in a neighbouring town: Cedarfield parents bring their tribe with them, staking a sideline as territory. The neighbouring towns of Bergen County compete in schools and sport as much as on the field.',
+ field: 'Partiality is the moral topic here. Most ethical theories allow special duties to our own children; few allow us to harm others’ children to serve ours. The concussed Pete starting is the test case.',
+ board: 'CBW is introduced in passing, wrapped in a joke about nepotism. Thriller writers often hide important information inside comedy or character colour. Pin it.',
+ diner: 'A sideline at dusk: folding chairs, sunglasses, uniforms in away colours. Picture it as a photograph by Bill Owens, whose Suburbia (1973) caught the rituals of American family life with deadpan affection.',
+ kitchen: 'No food, but the chairs with two cup holders each are a detail of suburban provisioning. What do our accessories say about how we expect to spend our time?',
+ driveway: 'Adam stands alone between the mothers and the fathers and, at the very moment his son scores, feels certain that chance will defeat him. Have you had that feeling at a moment of happiness? Sit with it here.'
+},
+acts: {
+ office: [
+  ['Simile hunt','Collect every simile and comparison in the chapter. Rate each for freshness. Rewrite the weakest.',25],
+  ['Group portrait in prose','Write a 200-word description of a sideline, PTA meeting or office party that maps its social groups as this chapter does.',35],
+  ['The long sentence','Find the long sentence about parents’ spotlights. Diagram its clauses. Why does it need to be long?',25],
+  ['Dialogue as gossip','Analyse the Becky–Corinne exchange. What does gossip reveal about the speakers rather than its subject?',20],
+  ['Flirtation','Look at how the brief flirtation is written. How does Coben signal rarity?',15],
+  ['Object as hinge','Write a paragraph tracing how the earrings move the chapter from present to memory and back.',20],
+  ['Narratorial judgement','Find moments where the narration judges characters. Is it Adam’s voice or a separate one?',20],
+  ['Tone mapping','Colour-code the chapter for comedy, tenderness, dread. Where are the transitions?',25],
+  ['Last line','Rewrite the chapter’s ending without the season. Does it lose anything?',15]
+ ],
+ classroom: [
+  ['Obsessive love','Write about the line between devotion and obsession in parenting, with examples from the chapter.',30],
+  ['Nepotism','Define nepotism and cronyism. Find both in chapters 1–6.',20],
+  ['Insiders and returners','Discuss how towns treat those who never left versus those who came back.',25],
+  ['Herd behaviour','Research social conformity (Asch’s experiments). Connect to the fathers’ chorus.',30],
+  ['Cheerfulness','Is relentless positivity a mask? Discuss with reference to Becky.',20],
+  ['Knowing someone','Explore the paradox that intimacy makes betrayal more believable.',25],
+  ['Theme update','Add "watching" and "belonging" to your themes.',15],
+  ['Luck and agency','Discuss whether the novel believes in control or in chance.',20],
+  ['Seminar plan','Plan a discussion around the nepotism question.',25]
+ ],
+ records: [
+  ['Early recruiting','Research the controversy over early college recruiting in US lacrosse in the 2010s.',30],
+  ['Concussion protocols','Find the standard return-to-play protocol for youth concussions. Was Pete’s return plausible?',30],
+  ['Background checks','Research how youth sports organisations run volunteer background checks and what they cost.',25],
+  ['The Diamond District','Read about Manhattan’s Forty-Seventh Street jewellers.',20],
+  ['Proverbs','Find the Gospel passage about the mote and the beam (Matthew 7). Compare with the Croatian proverb.',20],
+  ['Sideline behaviour','Find a youth-sports organisation’s code of conduct for parents.',20],
+  ['Lacrosse penalties','Look up common lacrosse penalties and their lengths.',15],
+  ['Boston College lacrosse','Find out when BC’s lacrosse programme became prominent.',15],
+  ['Suburban childhood friendships','Find research on how class changes friendships among children.',30]
+ ],
+ stacks: [
+  ['Big Little Lies','Read the first chapters of Moriarty’s novel. Compare the school-gate world with the sideline.',45],
+  ['The Lottery','Read Shirley Jackson’s story. Discuss communal behaviour and the cheerful surface.',30],
+  ['Suburbia','Look at photographs from Bill Owens’s Suburbia. Pick one that matches this chapter.',25],
+  ['Asch','Read a summary of Solomon Asch’s conformity experiments.',20],
+  ['Dare Me','Read about Megan Abbott’s novel of cheerleaders and competition.',20],
+  ['Game On','Read a chapter of Tom Farrey’s Game On.',35],
+  ['Sports parent essays','Find an essay by a parent reflecting on sideline behaviour.',25],
+  ['Source list','Add Big Little Lies and The Lottery to your list.',15],
+  ['Matthew 7','Read the mote-and-beam passage and write a modern paraphrase.',15]
+ ],
+ turnpike: [
+  ['Sideline map','Draw the sideline: who stands where, sun direction, chairs.',20],
+  ['Neighbouring towns','Map Bergen County towns that might play each other.',20],
+  ['Childhood map','Mark Corinne’s childhood Cedarfield and where she had to move.',20],
+  ['Becky’s route','Imagine Becky’s daily Durango route with five children. Map it.',20],
+  ['College map','Map the colleges mentioned so far.',15],
+  ['Diamond route','Trace the route from Cedarfield to the Diamond District.',15],
+  ['Restaurant','Place the anniversary restaurant on your map.',15],
+  ['Away territory','Write about how fans claim space at away games.',20],
+  ['Mapping journal','Add chapter 6 pins.',15]
+ ],
+ field: [
+  ['Partiality','Write 300 words: when is it right to favour your own child?',35],
+  ['Concussion ethics','Is a parent who plays an injured child to win wrong? Argue.',25],
+  ['Bystander','Is Adam’s silence at the abuse of referees a moral failure?',20],
+  ['Nepotism','Use the Five ethical lenses on hiring cousin Daz.',30],
+  ['Dilemma scale','Use the Dilemma scale on watching only your own child.',15],
+  ['Cheerfulness as virtue','Is sustained cheerfulness a virtue or a performance? Discuss.',20],
+  ['Evidence of character','Can one object (the earrings) be evidence of honesty? Discuss reasoning from character.',25],
+  ['Luck','Moral luck: are we responsible for outcomes chance decides? Read a summary of Bernard Williams on moral luck.',30],
+  ['Personal','Write about a time you were in a herd.',20]
+ ],
+ board: [
+  ['Hidden info','Write a scene that hides a crucial fact inside a joke.',35],
+  ['Cast management','Count the characters on the sideline. How does Coben keep them distinct?',20],
+  ['Clue cards','Pin CBW, Daz and the hiring decision.',15],
+  ['Foreshadowing','Find the foreshadowing at the end. Rewrite it more subtly.',20],
+  ['Sports scene craft','How does Coben make a game readable for non-fans?',20],
+  ['Secondary arcs','Track Cal Gottesman: what change is shown in a few lines?',15],
+  ['Suspicion meter','Use the Suspicion meter for everyone on the sideline.',15],
+  ['Group dynamics','Write the same game from Kristin’s viewpoint.',35],
+  ['Pacing','Add this chapter to your pacing chart.',15]
+ ],
+ diner: [
+  ['Sideline painting','Paint the sideline at dusk, focusing on body language.',45],
+  ['Photograph a crowd','Photograph spectators (with permission) and study their gazes.',30],
+  ['Earring design','Design a simple piece of jewellery that stands for a commitment.',25],
+  ['Chant','Write a sideline chant and analyse its herd psychology.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the goal.',15],
+  ['Caricatures','Draw the "Secret Service" fathers.',25],
+  ['Spotlight','Draw a field in darkness with a single spotlight on one child.',30],
+  ['Owens study','Write a caption in Owens’s deadpan style for a photo of the sideline.',15]
+ ],
+ kitchen: [
+  ['Sideline snacks','Make a sideline snack pack and list the unwritten rules of team snack duty.',30],
+  ['Folding chair talk','Bring folding chairs to a garden or park and hold your book club there.',45],
+  ['Ledger notebook','Add the CBW expense to your ledger.',15],
+  ['Secrets box','Add the nepotism to your secrets box.',15],
+  ['Table talk','Ask: have you been a sideline parent? What did you shout?',25],
+  ['Anniversary dinner','Plan a Chinese takeaway night with fortune cookies; write your own fortunes about the book.',40],
+  ['Making: coasters','Make the lacrosse-mesh coasters project.',40],
+  ['Recipe card','Write a recipe for a "sideline parent".',15],
+  ['Team sheet','Write a team sheet for your book club with positions.',15]
+ ],
+ driveway: [
+  ['Spotlight','Write about a time you could only see your own child, or your own self.',20],
+  ['Rare moments','Write about a rare playful moment with someone you love.',20],
+  ['Alone between groups','Write about standing between two groups and belonging to neither.',20],
+  ['Mood dial','Rate trust and sympathy.',15],
+  ['Prediction','Predict a role for CBW.',15],
+  ['Chaos','Write about how you cope with things you can’t control.',20],
+  ['Letter to Thomas','Write the note Adam might leave on Thomas’s pillow after the goal.',20],
+  ['Childhood friends','Write about a childhood friend you lost when you moved.',25],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 6 use the youth-sports sideline as a microcosm of Cedarfield’s values?',
+ 'Essay: Analyse the paradox that knowing Corinne well makes the stranger’s claim more believable to Adam.',
+ 'Creative: Write the game from Becky Evans’s point of view, keeping her cheerful surface and letting the reader see beneath it.'
+],
+reading: [
+ ['biglies','Parents, social ranking and secrets at a school gate.'],
+ ['lottery','A friendly community doing something terrible in unison.'],
+ ['owens','Deadpan photographs of 1970s American suburban life.'],
+ ['gameon','How youth sport became a high-stakes industry.'],
+ ['dareme','Competition, loyalty and secrets among teenage girls.'],
+ ['virgin','A suburb watching a family it cannot understand.'],
+ ['putnam','On American community life and its changing forms.'],
+ ['goffman','Performances of self in public places, like a sideline.'],
+ ['playingtowin','Why affluent parents invest so heavily in children’s competition.']
+],
+projects: [
+ { t: 'Sideline Sociology', rooms: ['classroom','records','diner'], steps: ['Map the sideline.','Research conformity experiments.','Photograph a real crowd.','Write a short sociological report.'] },
+ { t: 'The CBW Thread', rooms: ['board','field','records'], steps: ['Pin CBW to your board.','Research background-check services.','Debate the nepotism.','Note what CBW could know.'] },
+ { t: 'Objects of Commitment', rooms: ['office','diner','driveway'], steps: ['Close-read the earrings passage.','Design a commitment object.','Write about one of your own.','Discuss objects as evidence.'] },
+ { t: 'Partiality and Fairness', rooms: ['field','classroom','kitchen'], steps: ['Read a short piece on special obligations.','Debate the concussion case.','Discuss at table.','Write a verdict.'] },
+ { t: 'Insiders and Leavers', rooms: ['turnpike','classroom','stacks'], steps: ['Map Corinne’s childhood moves.','Discuss returners.','Read a suburb novel opening.','Write a theme claim.'] },
+ { t: 'A Book Club Outdoors', rooms: ['kitchen','diner','classroom'], steps: ['Bring folding chairs.','Pack sideline snacks.','Choose two questions.','Pick a playlist.','Note who sits where.'] }
+],
+quiz: [
+ ['What does CBW do?', ['Sells sports equipment','Corporate investigations and background checks','Manages the field','Runs the bar'], 1],
+ ['Who started instead of Thomas?', ['Eric Gottesman','Pete Baime','Justin Hoy','Richard Fee'], 1],
+ ['What did Adam give Corinne for their fifteenth anniversary?', ['A watch','Diamond studs','A ring','A trip'], 1],
+ ['Who leads the jeering at the referee?', ['Tripp Evans','Cal Gottesman','Len Gilman','Adam'], 1],
+ ['How long have Becky and Corinne known each other?', ['Since college','Since childhood','Since last year','They just met'], 1]
+]
+};

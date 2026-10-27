@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[5] = {
+n: 5, title: 'Daddy Eggs', pov: 'Adam', when: 'The next day', strands: ['adam','rinsky'], places: ['cedarfield','paramus','kasselton','glenrock'],
+summary: [
+ 'Morning brings the official email: Ryan has made the A team. Ryan, undemonstrative like his mother, hides his smile and asks to go to a friend’s after school. Adam makes "Daddy eggs" (scrambled with milk, mustard and Parmesan), a dish Ryan once declared babyish and has revived on his coach’s advice about protein. Watching him eat, Adam tries and fails to picture his son at six. He slept well, as he usually does; he has always prided himself on letting go of what he can’t control, and now he wonders whether that is wisdom or just blocking.',
+ 'At a pharmacy he finds the paternity tests by the counter. The box claims a startling percentage of tested "fathers" turn out not to be; he drops it and leaves with toothpaste and gum. After the gym he drives to his office in Paramus, where his paralegal Andy Gribbel, a bearded seventies-cover-band singer nicknamed the Dude, drags him into a comic argument about the old ballad "Please Come to Boston": Adam thinks the woman who keeps refusing to move is the problem; Gribbel defends her. Adam’s work is eminent domain. His current client, Mr Rinsky, is resisting a town that wants his house for a redevelopment, and Adam is holding a "nuclear option" in reserve. Through it all, Adam recalls the lesson he learned at fourteen, when his father died suddenly: the world goes on regardless of your private disaster.',
+ 'Coming home, he finds Corinne’s minivan already in the drive, covered in town and team stickers. Thomas has an away game; Corinne is taking him. Adam watches her and remembers how they met, as idealistic young volunteers training in Atlanta to teach reading abroad, bonding in a bar over the early deaths of their fathers. Early in their marriage he was a public defender and she taught in Newark. When Thomas came, she chose this town and this house, and Adam took a well-paid private job to afford them. The dream is delicate, he thinks; you don’t smash it lightly. In the kitchen he picks up Thomas’s scattered algebra homework and tells himself to tread gently.'
+],
+beats: [
+ 'Ryan makes the A team and asks for Daddy eggs, provided they aren’t called that.',
+ 'Adam wonders whether his calm is healthy compartmentalising or simple denial.',
+ 'At the pharmacy he reads the paternity-test box and flees with decoy toiletries.',
+ 'Gym, then the office in Paramus. Gribbel and the "Please Come to Boston" debate.',
+ 'The Rinsky case: a town and a developer want an old man’s house. Adam has a "nuclear option".',
+ 'Memory: his father’s sudden death when Adam was fourteen, and the indifference of the world.',
+ 'Home: Corinne’s minivan is back. Thomas needs a ride to an away game.',
+ 'How Adam and Corinne met in Atlanta; how she chose the town and he changed jobs.',
+ 'Algebra homework on the kitchen table. Tread gently.'
+],
+cast: [['Ryan Price','Reserved, rule-following, pleased in private.'],['Andy Gribbel','Adam’s best paralegal: older, bearded, laid-back, sings in a seventies cover band.'],['Mr Rinsky','An elderly client fighting to keep his house in Kasselton.'],['Corinne Price','Home early; first seen in person, still beautiful to Adam.'],['Thomas Price','Heading to an away game.'],['Adam’s father','Died suddenly of a heart attack when Adam was fourteen.']],
+motifs: ['parenting','fatherhood','marriage','dream','class','justice','sport','secrets','identity'],
+secrets: [['Adam','He nearly bought a paternity test.','Kept'],['Adam','He is no longer sure his calm is wisdom rather than denial.','Kept']],
+clues: ['Adam is good at not worrying, which may also mean not seeing.','Gribbel mentions "big guns" for the Rinsky case: Adam has a plan in reserve.','Corinne came home earlier than expected.','Corinne chose the town, the house, and the life; Adam went along.','Corinne lost her father young too: it is what bonded them.'],
+dilemma: { q: 'Is the ability to "let go" of what you can’t control a strength or a way of avoiding hard truths?', a: 'A strength: it keeps you sane', b: 'A weakness: it keeps you blind' },
+food: ['Daddy eggs: scrambled with milk, mustard and Parmesan, revived for protein.','A peanut-butter protein shake after the gym.','Gum bought as a decoy at the pharmacy.'],
+refs: [['"Please Come to Boston"','A 1974 ballad by Dave Loggins about a wandering man asking a woman to join him in a new city.'],['The Dude','Jeff Bridges’ slacker hero in the Coen brothers’ film The Big Lebowski (1998).'],['Eminent domain','The power of US government to take private property for public use with fair compensation.'],['Paramus','A Bergen County borough known for shopping malls along Route 17.']],
+questions: [
+ ['What are Daddy eggs, and why has Ryan started eating them again?',0],
+ ['What does the paternity-test box claim, and how does Adam react?',0],
+ ['What is Adam’s area of law, and what is the Rinsky case about?',0],
+ ['What do Adam and Gribbel argue about?',0],
+ ['How did Adam and Corinne meet?',0],
+ ['Who chose the town and the house?',0],
+ ['Is Adam’s calm healthy compartmentalising or denial? What’s the difference?',1],
+ ['Why does Adam fail to picture Ryan at six?',0],
+ ['Why does Coben include the comic song debate on this of all days?',0],
+ ['Could the song argument be read as about Adam’s marriage? How?',1],
+ ['What does Adam’s father’s death teach him about the world, and how does it apply now?',0],
+ ['The stickers on the minivan: what do they say about the family’s identity?',0],
+ ['What does Corinne’s brief hesitation at the door tell Adam?',0],
+ ['Adam says he wanted Corinne happy partly because the details didn’t matter to him. Is that generosity or passivity?',1],
+ ['Why did Adam leave public defence? What did he gain and lose?',0],
+ ['What did each of them want from life when they met? Did either get it?',0],
+ ['How does the chapter define "the dream" now? Is it Adam’s or Corinne’s?',1],
+ ['Why does the narrator mention the "dead spot" storefront in town?',0],
+ ['What do Gribbel and Rinsky add to the novel beyond comedy?',0],
+ ['Is it significant that both Adam and Corinne lost fathers young?',0],
+ ['Why buy decoy toiletries? What adolescent memory does it echo?',0],
+ ['How does the chapter balance the mundane and the dreadful?',0],
+ ['Thomas winces at "playdate". What does the moment show about the family’s banter?',0],
+ ['Is "tread gently" good advice for Adam? What would you do?',1],
+ ['How does the chapter move us from Adam’s inner life to his public role and back?',0],
+ ['What does Adam’s relationship with Gribbel tell us about him as a boss?',0],
+ ['The world doesn’t care about our private disasters. Comforting or cruel?',1],
+ ['What does the algebra homework add to the final image?',0],
+ ['Which character introduced here do you expect to matter most later?',0],
+ ['Write a prediction about the Rinsky case.',0]
+],
+close: [
+ { cite: 'Chapter 5, opening: breakfast, Daddy eggs, and Adam’s reflection on sleeping well.', focus: 'Ordinary morning, extraordinary dread',
+   steps: ['Find where Adam almost forgets the stranger.','Note the description of the eggs and their history.','Locate the reflection on compartmentalising versus blocking.','Find the failed attempt to picture young Ryan.'],
+   ask: 'How does a breakfast scene become a meditation on memory and denial?' },
+ { cite: 'Chapter 5, middle: the office conversation about the 1970s ballad.', focus: 'A comic argument with a hidden subject',
+   steps: ['Summarise each man’s position on the song.','Note how Adam’s rant escalates.','Find Gribbel’s final counterpoint about practicalities.','Consider what Adam might be arguing about underneath.'],
+   ask: 'What does Adam’s irritation with the woman in the song reveal about his state of mind?' },
+ { cite: 'Chapter 5, close: the memory of meeting Corinne and the choice of house.', focus: 'Whose dream?',
+   steps: ['Trace the sequence from Atlanta to Newark to Cedarfield.','Note each decision and who made it.','Find the phrase in which the dream is described as delicate (paraphrase it).','Read the final image of the homework.'],
+   ask: 'How does the backstory complicate our sense of who owns the life Adam is afraid to lose?' }
+],
+lenses: {
+ office: 'Two modes alternate: interior reflection in long, qualifying sentences, and quick-fire comic dialogue with Gribbel. The comic set piece about a song is a classic Coben move: a bit of fun that is secretly about the character’s situation.',
+ classroom: 'Denial, delicacy, and whose dream it is. The chapter asks whether a family’s life can belong more to one partner than the other, and whether keeping the peace is love or avoidance.',
+ records: 'Eminent domain is Adam’s field: the government’s power to take private land for public use with compensation. After the Supreme Court’s Kelo v. New London decision (2005) the issue became politically charged, especially when land was handed to private developers.',
+ stacks: 'The marriage-as-trap theme of Richard Yates’s Revolutionary Road meets Richard Ford’s wry New Jersey suburbanite. Gribbel’s cover band takes us to the seventies AM radio that shaped Adam’s generation.',
+ turnpike: 'The geography of a day: home, a pharmacy on a familiar road, Route 17’s mattress shops, a glass office in Paramus, home again. Then the long arc from Atlanta to Newark to Cedarfield: a life measured in moves.',
+ field: 'Adam’s philosophy of letting go has Stoic roots: concern yourself only with what is in your control. The chapter tests that philosophy against a problem that is entirely within his control to investigate.',
+ board: 'A breather chapter that does serious structural work: it introduces the Rinsky subplot, Gribbel, Corinne’s physical presence, and the couple’s history. Count how many future threads are seeded.',
+ diner: 'A 1974 ballad becomes a debate about relationships. Songs carry arguments people can’t have directly. The minivan’s stickers are folk art of suburban identity.',
+ kitchen: 'Daddy eggs: a dish a child outgrew and returned to for practical reasons. Food carries family memory, and the inability to picture the younger child at the same table is the chapter’s ache.',
+ driveway: 'Adam stands on the stoop watching his wife and son drive off. Think about a time you watched your own household from outside, as if it were someone else’s.'
+},
+acts: {
+ office: [
+  ['Comic set piece','Analyse the song argument line by line: setup, escalation, reversal, button. Then write a comic argument of your own about a song that is secretly about a relationship.',40],
+  ['Long and short','Find the longest and shortest sentences in the chapter. Write about what each is used for.',20],
+  ['Interior monologue','Rewrite the "blocking" reflection as a short poem in your own words. What does compression reveal?',25],
+  ['Exposition disguised','How is the couple’s backstory delivered? Identify the trigger that sets off the memory.',20],
+  ['Free indirect humour','Find three wry asides about suburbia. Imitate them about your own town.',25],
+  ['Character in dialogue','Write five lines of Gribbel dialogue on a new topic, keeping his voice.',20],
+  ['Repetition of "dream"','Track every use of the dream idea so far. Write about how the word gains weight.',20],
+  ['Pharmacy scene','Rewrite the pharmacy scene as pure action with no thoughts. Compare with the original.',25],
+  ['Final image','Write about the effect of ending on homework rather than on Corinne.',15]
+ ],
+ classroom: [
+  ['Compartmentalising vs blocking','Define each. Write about how to tell them apart in your own life.',30],
+  ['Whose dream?','Make a two-column list of what Corinne wanted and what Adam wanted. Discuss what that imbalance means for the marriage.',25],
+  ['Father loss','Both lost fathers young. Discuss how early loss might shape a person’s craving for security.',30],
+  ['The indifferent world','Discuss the idea that the world doesn’t notice private tragedy. Find a poem that treats this theme (Auden’s "Musée des Beaux Arts" is a famous example) and compare.',35],
+  ['Masculinity and providing','Adam changed careers to provide. Discuss pressures on men to earn in this novel so far.',25],
+  ['Ideals and compromise','They met as idealistic volunteers. Trace what happened to their ideals.',25],
+  ['Theme update','Add "ownership of the dream" to your theme statements.',15],
+  ['Song as argument','Discuss: can art help couples argue indirectly?',20],
+  ['Seminar plan','Plan a discussion using the two book-club questions marked here.',25]
+ ],
+ records: [
+  ['Kelo v. New London','Read a reliable summary of the 2005 case and its aftermath. Note three consequences.',35],
+  ['Dave Loggins','Look up the song’s history and chart performance. Does knowing it change the debate?',20],
+  ['Public defenders','Research typical public defender caseloads and salaries compared with private practice.',30],
+  ['Newark schools','Read about Newark public schools’ history. Why might a young idealist teach there?',30],
+  ['Literacy volunteering','Research international literacy charities and volunteer teaching programmes.',25],
+  ['Bergen County','Find facts about Bergen County: population, wealth, transport.',25],
+  ['Sudden cardiac death','Read a reliable health page on sudden cardiac death in middle-aged men.',20],
+  ['Pharmacy DNA claims','Investigate the statistic printed on paternity-test boxes. What does research actually say about rates of misattributed paternity?',35],
+  ['Route 17','Look up the history of Route 17’s retail strip in Bergen County.',20]
+ ],
+ stacks: [
+  ['Revolutionary Road','Read the opening of Yates’s novel. Compare the Wheelers’ move to the suburbs with the Prices’.',40],
+  ['Independence Day','Read a passage from Richard Ford’s novel. Compare its narrator’s voice with Adam’s.',35],
+  ['Auden’s Musée','Read Auden’s poem "Musée des Beaux Arts" in a library edition. Compare its view of suffering with Adam’s memory of his father’s funeral.',30],
+  ['Stoicism','Read a short passage of Epictetus on what is in our control. Apply it to Adam.',30],
+  ['Pinkhouse','Read the opening of Jeff Benedict’s Little Pink House about the Kelo case.',40],
+  ['Cover bands','Read about cover bands and nostalgia culture. Why the seventies?',20],
+  ['The Big Lebowski','Look up the Dude as a cultural icon. What does Gribbel’s nickname tell us?',15],
+  ['Source list','Add Revolutionary Road and Little Pink House to your list.',15],
+  ['Marriage stories','List three novels where one spouse chooses the house and the other regrets not choosing.',25]
+ ],
+ turnpike: [
+  ['Day route','Map Adam’s day: home, school drop-off, pharmacy, gym, office, home.',25],
+  ['Paramus pin','Add Paramus and Kasselton to your map, with a note on each.',15],
+  ['Life map','Make a second map of Adam and Corinne’s life: Atlanta, the condo off I-78, Newark, Cedarfield.',30],
+  ['Dead storefront','Find a "dead spot" storefront in your town and write its history.',30],
+  ['Glen Rock','Locate Glen Rock and estimate drive time from a Bergen County town.',15],
+  ['Lawns','Compare the Prices’ lawn with the neighbours’. Map lawn status on your street (kindly).',20],
+  ['Mattress stores','Notice the narrator’s joke about mattress stores. Count chain stores on a route near you.',25],
+  ['Garage','Note why the Prices park in the drive. Add the overstuffed garage to your house plan.',15],
+  ['Mapping journal','Add chapter 5 pins.',15]
+ ],
+ field: [
+  ['Stoic test','Is Adam’s letting go a Stoic virtue or a vice? Write 300 words.',35],
+  ['Provider ethic','Is it admirable or problematic that Adam changed careers to fund Corinne’s dream?',25],
+  ['Property rights','Use the Eminent domain casebook tool and write your verdict on the Rinsky house.',30],
+  ['Deference in marriage','When is deferring to a partner’s wishes generous, and when is it abdication?',25],
+  ['Decoys','Is buying decoy items a lie? Discuss small social deceptions.',20],
+  ['The world’s indifference','Do we have duties to notice others’ hidden suffering? Discuss.',25],
+  ['Dilemma scale','Use the Dilemma scale on letting go.',15],
+  ['Lawyerly ethics','Adam has a "nuclear option". What limits should lawyers observe in fighting for a client?',25],
+  ['Personal reflection','Write privately about something you chose not to see.',20]
+ ],
+ board: [
+  ['Subplot launch','How is the Rinsky subplot introduced? Write about why thrillers need a second plot line.',25],
+  ['Seeds','List every new thread seeded in this chapter and predict which pays off.',20],
+  ['Reveal pacing','Corinne appears in person for the first time. Why so late?',20],
+  ['Backstory test','Remove the backstory paragraph. What does the chapter lose?',20],
+  ['Comic counterweight','Write a scene that uses comedy to frame dread, about 300 words.',40],
+  ['Clue cards','Add the "nuclear option" and the early return to your board.',15],
+  ['Strand braid','Open the Strand braid tool and note the new strand.',15],
+  ['Dialogue economy','Find the line where Corinne’s hesitation is signalled. How little does it take?',15],
+  ['Chapter ending','Compare this "tread gently" ending with earlier endings.',15]
+ ],
+ diner: [
+  ['Song study','Listen to "Please Come to Boston". Write your own verdict on the debate.',25],
+  ['Sticker art','Design a car-sticker collection for your own family. What do they declare?',25],
+  ['Seventies set list','Compose a set list for Gribbel’s band and explain the order.',20],
+  ['Morning light','Paint the breakfast scene in morning light, contrasting with the night palette so far.',40],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Office portrait','Draw Gribbel with his boots on the desk.',25],
+  ['Minivan','Draw the minivan with its stickers as a portrait of a family.',30],
+  ['Soundtrack builder','Pick a song for the Atlanta meeting memory.',15],
+  ['Cover idea','Sketch a cover based on the stoop image.',25]
+ ],
+ kitchen: [
+  ['Daddy eggs','Cook the Mustard-and-Parmesan Scramble from the Recipe cards and discuss family dishes that children outgrow and return to.',30],
+  ['Protein shake','Make the peanut-butter shake and talk about rewards after effort.',15],
+  ['Family dish history','Write the history of one dish in your family.',25],
+  ['Ledger notebook','Add a page for the Prices’ big decisions and who made each.',20],
+  ['Secrets box','Add the near-purchase of the test.',15],
+  ['Table talk','Ask: who chose where you live?',25],
+  ['Kitchen table homework','Lay out a "homework" table still life and photograph it.',20],
+  ['Storage riddle','Visit the Kitchen’s riddle door if you’ve read this far. The answer is in this chapter.',15],
+  ['Making: password card','Finish the family password card project.',25]
+ ],
+ driveway: [
+  ['Letting go','Write about what you let go of easily and what you can’t.',20],
+  ['Picturing childhood','Try to picture a family member as a child. Write what you can and can’t see.',20],
+  ['Watching from the stoop','Write about watching your family leave.',20],
+  ['Mood dial','Rate your feelings for chapter 5.',15],
+  ['Loss','Write privately about a loss that taught you the world goes on.',30],
+  ['Whose life','Write about which parts of your life you chose and which you agreed to.',25],
+  ['Prediction','Predict how Adam will raise the subject, and when.',15],
+  ['Letter to young Adam','Write to Adam at fourteen.',20],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: Discuss how chapter 5 uses a comic interlude (the song debate) and domestic detail to deepen the novel’s central tension.',
+ 'Essay: "The dream is delicate." Analyse the backstory of Adam and Corinne’s marriage and argue whose dream Cedarfield represents.',
+ 'Creative: Write the scene in the Atlanta bar where Adam and Corinne first met, in the third person, without using any dialogue from the novel.'
+],
+reading: [
+ ['revroad','A couple, a suburb, and ideals traded for a house.'],
+ ['independence','Richard Ford’s New Jersey estate agent reflects on a family life.'],
+ ['pinkhouse','The true story behind Kelo v. New London and eminent domain.'],
+ ['evicted','On losing a home, and why a house can be a whole life.'],
+ ['gottman','Research on what keeps marriages stable, including avoidance.'],
+ ['salesman','A father, a house, and the price of the dream.'],
+ ['pastoral','Philip Roth’s New Jersey father who believes in the American dream.'],
+ ['perelcaptivity','Security and desire, and why long marriages go quiet.'],
+ ['crabgrass','The history of American suburbanisation.']
+],
+projects: [
+ { t: 'Whose Dream Is It?', rooms: ['classroom','stacks','driveway'], steps: ['List decisions in the Prices’ backstory.','Read the opening of Revolutionary Road.','Write a comparison.','Reflect on your own choices.'] },
+ { t: 'The Rinsky File', rooms: ['records','field','turnpike'], steps: ['Research Kelo v. New London.','Map Kasselton and Cedarfield.','Use the Eminent domain casebook.','Open a file for the case to update later.'] },
+ { t: 'Song as Argument', rooms: ['diner','office','classroom'], steps: ['Listen to the ballad.','Close-read the debate.','Write a comic argument of your own.','Discuss what the debate is really about.'] },
+ { t: 'Family Recipes', rooms: ['kitchen','driveway','diner'], steps: ['Cook the scramble.','Write a family dish history.','Paint the breakfast table.','Share at your book club.'] },
+ { t: 'Letting Go', rooms: ['field','driveway','stacks'], steps: ['Read Epictetus on control.','Use the Dilemma scale.','Write a private reflection.','Discuss whether Adam’s calm is a strength.'] },
+ { t: 'Two Lives in Maps', rooms: ['turnpike','records','diner'], steps: ['Map Adam’s day.','Map the couple’s life.','Research Newark and Bergen County.','Paint a combined map.'] }
+],
+quiz: [
+ ['What goes into Daddy eggs besides eggs?', ['Cream and chives','Milk, mustard and Parmesan','Ketchup','Cheddar and ham'], 1],
+ ['What area of law does Adam practise?', ['Divorce','Eminent domain','Criminal defence','Tax'], 1],
+ ['Which song do Adam and Gribbel argue about?', ['Hotel California','Please Come to Boston','Born to Run','Dust in the Wind'], 1],
+ ['Where did Adam and Corinne meet?', ['College in New Jersey','Atlanta, during volunteer training','A Springsteen concert','At work'], 1],
+ ['How old was Adam when his father died?', ['Eight','Fourteen','Twenty','Thirty'], 1]
+]
+};

@@ -183,11 +183,11 @@ acts: {
   ['The bell you can’t unring','Write about a time you learned something you couldn’t unlearn. How did it change how you looked at someone?',30],
   ['Where were you?','Recall a moment when news reached you in an ordinary place. Describe the place in detail: what you remember and what you don’t.',25],
   ['A letter you might send','Draft a note to someone you trust telling them a hard truth gently. Notice what you choose to leave out.',30],
-  ['Body check','Note how you physically felt reading the stranger’s accusations. Where did you feel it? Thrillers work on the body.',10],
-  ['Prediction','Write down what you think the credit-card charge will show and what Adam will do next.',10],
+  ['Body check','Note how you physically felt reading the stranger’s accusations. Where did you feel it? Thrillers work on the body. Then write 100 words on why a story about a marriage can produce a physical response.',15],
+  ['Prediction','Write down what you think the credit-card charge will show and what Adam will do next. Add your reasoning and the one detail you are basing it on, then seal it in the Prediction log.',15],
   ['Self-deception','The chapter opens with Adam lying to himself. Write honestly about one story you tell yourself about your past.',30],
   ['Trust inventory','List the people whose word you’d accept without checking. What earned it?',20],
-  ['Reading ritual','Decide where, when and how you’ll read this book. Set up the ritual; note it in the reading log.',10]
+  ['Reading ritual','Decide where, when and how you’ll read this book. Set up the ritual, log it, and write a short paragraph on how setting (bed, train, bath) changes the way a thriller feels.',15]
  ]
 },
 prompts: [

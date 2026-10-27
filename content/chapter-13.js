@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[13] = {
+n: 13, title: 'Room 233', pov: 'Adam', when: 'That night and the next morning', strands: ['adam'], places: ['cedarfield'],
+summary: [
+ 'Adam bombards Corinne with texts, nice, angry, calm, desperate; nothing comes back. Janice insists he take two veal Milaneses home. At the door Ryan asks where his mother is and frets about his missing home uniform. Adam notices that Ryan, like Corinne, agonises over small things, while Corinne is calm, even clutch, in real crises. He snaps at the boy, then covers with a story about a teachers’ conference running over. At three in the morning he checks Ryan’s phone too. Nothing. Would Corinne abandon her sons?',
+ 'At dawn a thought strikes him: whatever she does to him, Corinne never misses school. In four years she has taken one day off, the day after the "miscarriage" (a Thursday), which he insisted she take after she had driven herself to the doctor alone so as not to worry him. He marvelled then at how quickly she bounced back. Now he wonders how naive one man can be. He drives to the 1970s high school, grey with faded aqua trim, talks his way through the buzzer and signs in illegibly to wait outside her homeroom, 233. A young substitute comes out.',
+ 'Kristin Hoy grabs him with a grip like a steel trap and pulls him into an empty chemistry lab. Where is Corinne? Adam admits he doesn’t know. Kristin got a text too. Reluctantly she reveals that Corinne has been acting strangely for a month, distracted, missing classes and workouts, and once asked Kristin to say she’d been with her if anyone asked. The day before, Corinne asked Kristin to cover her lunchtime study hall, ran to her car, and never came back. The text to Kristin arrived around two that afternoon.'
+],
+beats: [
+ 'Unanswered texts; Janice sends dinner home.',
+ 'Ryan’s missing uniform; Adam snaps, then lies about a conference.',
+ 'A 3 a.m. check of Ryan’s phone: no reply from Corinne there either.',
+ 'Realisation: Corinne never misses school; only once, after the "miscarriage".',
+ 'Memory of that day and Adam’s naivety.',
+ 'The high school: security buzzer, sign-in, visitor pass.',
+ 'Homeroom 233: a substitute.',
+ 'Kristin pulls him into a chemistry lab: she got a text too.',
+ 'Corinne had been acting oddly for a month and asked Kristin for an alibi.',
+ 'Yesterday she left at lunchtime and never came back.'
+],
+cast: [['Adam Price','Sleepless, guilty about snapping, driven to act.'],['Ryan Price','Anxious about a uniform, like his mother over small things.'],['Kristin Hoy','Strong, loyal to Corinne, reluctantly forthcoming.'],['A substitute teacher','Under thirty, in Corinne’s room.']],
+motifs: ['secrets','parenting','marriage','lies','surveillance','community','truth'],
+secrets: [['Corinne','She has been distracted for a month and asked Kristin for an alibi.','Told to Adam by Kristin'],['Corinne','She left school yesterday at lunchtime and never returned.','Discovered by Adam'],['Adam','He checked his son’s phone at 3 a.m.','Kept']],
+clues: ['Corinne never misses school; her only absence was after the "miscarriage".','She drove herself to the doctor alone that day.','A month of odd behaviour preceded the stranger’s visit.','She asked Kristin to cover for her whereabouts.','She left school around lunchtime yesterday; Kristin’s text came at about 2 p.m.','Adam’s confrontation was the night before last.'],
+dilemma: { q: 'Kristin is torn between loyalty to her friend and helping a worried husband. What should she do?', a: 'Keep her friend’s confidence', b: 'Tell him everything she knows' },
+food: ['Two veal Milaneses sent home by Janice.'],
+refs: [['Logan’s Run','A 1976 science-fiction film whose futuristic sets now look dated: the narrator’s comparison for the school building.'],['School security','After school shootings, US schools widely adopted locked doors, buzzers, cameras and visitor sign-ins.'],['The periodic table','A fixture of every chemistry classroom.']],
+questions: [
+ ['How does Adam try to reach Corinne?',0],
+ ['What does Ryan need, and how does Adam react?',0],
+ ['What does Adam realise about Corinne and school?',0],
+ ['When did Corinne last miss school, and why?',0],
+ ['Who is in Corinne’s classroom?',0],
+ ['What does Kristin tell Adam?',0],
+ ['Why does Adam snap at Ryan? Is he to blame?',1],
+ ['Ryan worries about small things; Corinne is "clutch" in crises. What does this tell us about her?',0],
+ ['Why check Ryan’s phone at 3 a.m.?',0],
+ ['How does the memory of the miscarriage day read differently now?',0],
+ ['"How naive could one man be?" Is Adam naive or trusting? Is there a difference?',1],
+ ['What does the security process at school show about modern schools?',0],
+ ['Why does Adam sign in illegibly?',0],
+ ['What does the narrator’s comparison of the school to an old sci-fi set convey?',0],
+ ['Why might Kristin pull him into a chemistry lab?',0],
+ ['Kristin assumes the couple has been fighting a lot. Why might she think so?',0],
+ ['What does Corinne’s request for an alibi suggest?',1],
+ ['Was Kristin right to tell Adam? Was she right to hold back?',1],
+ ['How does the timeline change: did Corinne leave before or after their confrontation?',0],
+ ['Why does this matter: odd behaviour for a month before the stranger came?',1],
+ ['How does the chapter use the word "missing" without the police?',0],
+ ['Adam says "it’s one thing to be mad at him". Why is abandoning the boys worse?',0],
+ ['How does the chapter treat Kristin’s body? Compare with earlier chapters.',0],
+ ['What does Adam do well as an investigator here?',0],
+ ['What emotions does Adam cycle through?',0],
+ ['How are teachers presented in this novel?',0],
+ ['What is the effect of ending on "she never came back"?',0],
+ ['What would you do next if you were Adam?',0],
+ ['Write a timeline of Corinne’s last known movements.',0],
+ ['Predict what Corinne was doing during her odd month.',1]
+],
+close: [
+ { cite: 'Chapter 13, middle: the memory of the day after the miscarriage.', focus: 'Rereading the past',
+   steps: ['Find what Corinne said she did when the cramps started.','Note her reason for not calling Adam.','Find Adam’s insistence she stay home.','Find his reaction now.'],
+   ask: 'How does the novel teach us to reread earlier events as Adam does?' },
+ { cite: 'Chapter 13, the school entrance and the wait outside 233.', focus: 'Infiltration',
+   steps: ['List the security barriers.','Note each of Adam’s small deceptions.','Describe the corridor rush.','Find the moment the substitute appears.'],
+   ask: 'What does the school scene say about Adam’s willingness to bend rules?' },
+ { cite: 'Chapter 13, close: Kristin’s revelations in the chemistry room.', focus: 'Pulling it out of her',
+   steps: ['Note each of Adam’s questions.','Note each of Kristin’s hesitations.','Find the alibi request.','Read the final exchange.'],
+   ask: 'How does the scene balance loyalty and disclosure, and who wins?' }
+],
+lenses: {
+ office: 'A chapter of action after a chapter of waiting. Coben uses the school’s physical barriers as a series of mini-obstacles, then a cross-examination in a chemistry lab, where Adam, the lawyer, extracts a witness’s story question by question.',
+ classroom: 'Responsibility to children, loyalty between friends, and the past made strange by new knowledge. The chapter also shows how ordinary life (uniforms, homework) continues around a crisis.',
+ records: 'Following school shootings such as Columbine (1999) and Sandy Hook (2012), US schools adopted locked doors, buzzers, cameras and sign-in procedures, which Adam has to negotiate.',
+ stacks: 'Rereading the past in light of a revelation is the engine of detective fiction from Oedipus onward. Tana French’s In the Woods shows a detective whose own past keeps changing meaning.',
+ turnpike: 'The high school, a 1970s building on a parking lot with no spaces; room 233 down additions and corridors. Corinne’s last known location is this lot at lunchtime.',
+ field: 'Kristin’s dilemma is loyalty versus helping. Adam’s is honesty with his son versus protecting him. The ethics of covering for people keep multiplying.',
+ board: 'A new timeline emerges: odd behaviour for a month, departure at lunchtime, a text at 2 p.m. Detective stories run on timelines; start one now.',
+ diner: 'A chemistry lab with beakers, high taps and the obligatory periodic table: the setting for a secret conversation. Classrooms empty between periods have their own eerie stillness.',
+ kitchen: 'Janice’s pity Milanese sits uneaten. Ryan’s missing uniform is the domestic emergency. The household is short of the person who runs it.',
+ driveway: 'Adam snaps at his son and regrets it at once. Write about a time you took your fear out on someone smaller than the problem, and what you did afterwards.'
+},
+acts: {
+ office: [
+  ['Obstacle course','List each barrier at the school and how Adam passes it. Write a scene with a similar obstacle sequence.',35],
+  ['Cross-examination','Annotate the chemistry-room conversation as a lawyer: open questions, leading questions, silences.',25],
+  ['Memory revision','Rewrite the miscarriage memory twice: as Adam saw it then, as he sees it now.',30],
+  ['Similes','Collect the chapter’s similes (heart disease, Cheez Whiz, mullet). Which work?',15],
+  ['Snapping','Analyse the moment Adam snaps at Ryan. How is regret shown?',15],
+  ['Pacing','Compare the speed of this chapter with chapter 12.',15],
+  ['Dialogue tags','Note how Kristin’s hesitations are written.',15],
+  ['Ending','Analyse the final line’s rhythm.',15],
+  ['Free indirect worry','Find where narration becomes Adam’s panic.',15]
+ ],
+ classroom: [
+  ['Loyalty','Discuss loyalty between friends versus duties to spouses.',25],
+  ['Reinterpreting','Discuss how new knowledge rewrites memory.',25],
+  ['Children in crisis','Discuss how adults should talk to children when a parent goes missing.',25],
+  ['Alibis','What does asking for an alibi imply? Discuss.',20],
+  ['Teachers’ duty','Discuss Corinne’s professional responsibility.',20],
+  ['Theme update','Add "loyalty" to your themes.',15],
+  ['Naivety','Is trust a form of naivety?',20],
+  ['Small and big worries','Discuss personality differences in handling crises.',20],
+  ['Seminar plan','Plan a discussion of Kristin’s choice.',25]
+ ],
+ records: [
+  ['School security','Research post-Columbine security measures in US schools.',30],
+  ['Teacher absence','Find typical teacher absence rates.',15],
+  ['Substitutes','Look up how schools arrange substitutes at short notice.',15],
+  ['1970s school design','Research 1970s school architecture.',20],
+  ['Logan’s Run','Look up the film and its look.',15],
+  ['Missing persons','Research when police treat a voluntary absence as a missing-person case.',25],
+  ['Miscarriage and work','Find guidance on bereavement leave after pregnancy loss.',20],
+  ['Teen phones','Find research on parents checking children’s phones.',20],
+  ['Visitor logs','Look up how visitor management systems work.',15]
+ ],
+ stacks: [
+  ['In the Woods','Read the opening of Tana French’s novel.',35],
+  ['Oedipus','Reread a summary: how does the past change meaning?',20],
+  ['Friends’ secrets','Find a novel where a friend keeps another’s secret from a spouse.',25],
+  ['School novels','Find a novel set largely in a school.',20],
+  ['Big Little Lies','Compare women’s friendship and covering in Moriarty.',25],
+  ['Teacher heroes','List fictional teachers with double lives.',20],
+  ['Rebecca','Compare reinterpreting a dead or absent wife’s past.',25],
+  ['Source list','Add two works.',15],
+  ['Poems of absence','Find a public-domain poem about someone absent.',20]
+ ],
+ turnpike: [
+  ['School map','Sketch the school: lot, front door, office, corridors, room 233, chemistry lab.',25],
+  ['Lunchtime route','Map possible routes Corinne could have taken from the school at lunchtime.',20],
+  ['Timeline map','Combine a timeline with your map.',20],
+  ['Parkway','Note the nearest major highway to the school.',15],
+  ['Kristin’s house','Add it to your map.',15],
+  ['Mapping journal','Add chapter 13.',15],
+  ['Parking','Write about illegal parking as a small rebellion.',15],
+  ['Corridors','Describe a school corridor between periods.',15],
+  ['Hidden rooms','Map the empty rooms of a school where conversations happen.',15]
+ ],
+ field: [
+  ['Kristin’s choice','Use the Dilemma scale.',15],
+  ['Lying to children','Is Adam’s conference story right?',20],
+  ['Checking phones','Is checking Ryan’s phone justified?',20],
+  ['Alibi ethics','Is giving a friend an alibi ever right?',25],
+  ['Five lenses','Apply the lenses to Kristin.',30],
+  ['Abandonment','Weigh Corinne’s duty to her sons.',20],
+  ['Breaking rules','Is Adam’s sign-in deception wrong?',15],
+  ['Anger at children','Discuss parental anger and apology.',20],
+  ['Personal','Write about covering for a friend.',20]
+ ],
+ board: [
+  ['Timeline','Build a timeline of Corinne’s last 36 hours.',25],
+  ['Clue cards','Pin the alibi request and the lunchtime departure.',15],
+  ['Witness scene','Write a 300-word scene in which a reluctant witness reveals a key fact.',40],
+  ['Suspicion meter','Rate Kristin and Corinne.',15],
+  ['Reversal','How does the realisation about school drive action?',15],
+  ['Plant and payoff','Log the miscarriage memory as a plant.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Tension curve','Rate the ending.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Chemistry lab','Paint an empty chemistry lab with two figures.',40],
+  ['1970s school','Draw the school with grey walls and aqua trim.',30],
+  ['Visitor pass','Design a school visitor pass.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the corridor rush.',15],
+  ['Periodic poem','Write a short poem using element names.',20],
+  ['Substitute','Draw the substitute teacher.',15],
+  ['Sound of a bell','Describe a school bell and corridor noise.',15],
+  ['Cover brief','Add room 233 to your cover brief.',15]
+ ],
+ kitchen: [
+  ['Leftover Milanese','Repurpose leftover Milanese into sandwiches; talk about leftovers of an evening.',25],
+  ['Uniform hunt','Discuss the hunt for lost kit in your home.',15],
+  ['Ledger notebook','Record Corinne’s timeline.',15],
+  ['Secrets box','Add the alibi request.',15],
+  ['Table talk','Ask: have you ever covered for a friend?',25],
+  ['Lunch break','Make a teacher’s packed lunch and talk about workplace escapes.',20],
+  ['Making: notebook','Add a timeline page to your ledger notebook.',20],
+  ['Breakfast alone','Make breakfast for children when a parent is away; discuss routines.',20],
+  ['Recipe of a crisis','Write a recipe for "keeping it together".',15]
+ ],
+ driveway: [
+  ['Snapping','Write about snapping at someone you love.',20],
+  ['3 a.m.','Write about 3 a.m. worries.',20],
+  ['Naivety','Write about a time you trusted and were wrong.',25],
+  ['Mood dial','Rate dread.',15],
+  ['Prediction','Where did Corinne go at lunchtime?',15],
+  ['Letter to Ryan','Write an apology to Ryan.',20],
+  ['Friend’s secret','Write about keeping a friend’s secret.',20],
+  ['Schools','Write a memory of your school corridors.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: Analyse how chapter 13 reinterprets the "miscarriage" through Adam’s new knowledge. What does the novel suggest about memory and trust?',
+ 'Essay: Discuss Kristin Hoy’s role as witness in chapter 13 and the ethics of loyalty she embodies.',
+ 'Creative: Write Corinne’s lunchtime departure from the school car park from Kristin’s window.'
+],
+reading: [
+ ['inthewoods','A detective whose understanding of the past keeps shifting.'],
+ ['oedipus','A man whose past changes meaning with each revelation.'],
+ ['biglies','Women covering for each other.'],
+ ['rebecca','An absent wife reinterpreted through others’ accounts.'],
+ ['goneforgood','A family disappearance and a reinterpreted past.'],
+ ['boksecrets','The ethics of confidences between friends.'],
+ ['gonebaby','Searching for a missing person in a tight community.'],
+ ['tellnoone','A husband who reinterprets the day his wife vanished.'],
+ ['lareau','Parenting styles and children’s anxieties.']
+],
+projects: [
+ { t: 'Corinne’s Timeline', rooms: ['board','turnpike','office'], steps: ['Build the timeline.','Map her possible routes.','Annotate with sources (who told Adam what).','Update each chapter.'] },
+ { t: 'Loyalty Lab', rooms: ['field','classroom','driveway'], steps: ['Use the Dilemma scale.','Discuss alibis.','Write about covering for a friend.','Write a verdict on Kristin.'] },
+ { t: 'School Investigation', rooms: ['turnpike','diner','records'], steps: ['Map the school.','Research security.','Paint the chemistry lab.','Write the infiltration scene from the guard’s side.'] },
+ { t: 'Rereading the Past', rooms: ['office','stacks','driveway'], steps: ['Close-read the miscarriage memory.','Read the opening of In the Woods.','Write a "then and now" memory.','Discuss memory and trust.'] },
+ { t: 'Children in Crisis', rooms: ['classroom','kitchen','field'], steps: ['Discuss how to talk to children.','Cook a normal breakfast.','Debate the conference lie.','Write a guide.'] },
+ { t: 'Suspicion Board', rooms: ['board','classroom','diner'], steps: ['Use the Suspicion meter.','Rate Kristin and Corinne.','Draw a suspect wall.','Discuss.'] }
+],
+quiz: [
+ ['What is Ryan looking for?', ['His phone','His home uniform','His book','The dog'], 1],
+ ['When did Corinne last miss school before now?', ['Never','The day after the "miscarriage"','Last week','For the conference'], 1],
+ ['What is Corinne’s homeroom number?', ['112','233','301','17'], 1],
+ ['Where does Kristin take Adam to talk?', ['The gym','An empty chemistry lab','The office','The car park'], 1],
+ ['What did Corinne ask Kristin to say?', ['That she was ill','That she was with her if anyone asked','That she was at a conference','Nothing'], 1]
+]
+};

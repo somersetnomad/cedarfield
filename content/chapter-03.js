@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[3] = {
+n: 3, title: 'Novelty Funsy', pov: 'Adam', when: 'Later the same night', strands: ['adam','lacrosse'], places: ['cedarfield','atlanticcity'],
+summary: [
+ 'In the dark parking lot Adam sits in his car without moving. Corinne texts, eager for news of the draft. Bob Baime knocks on the window for a show of no hard feelings, and Adam can’t resist a jab about his job hunt. Adam drives the 2.6 miles home (Corinne measured it with her odometer when she took up running) to a house with every light burning and Jersey, the border collie, ecstatic at the door.',
+ 'Looking at his sons, Adam fights the stranger’s poison. Thomas, the sophomore, is his double down to an oddly long second toe. Ryan, asleep with a fantasy novel on his chest, looks like his mother. Adam reflects on all the lessons about stranger danger they gave the boys, and on a time he read Thomas’s private messages and regretted it. He tells himself a lawyer’s rule: don’t trust your gut, do the research. On the shared family computer he finds the charge on the "business" credit card from just over two years ago, $387.83 to a company called Novelty Funsy. He remembers asking about it; Corinne said it was classroom decorations the school would repay. Online the name returns nothing at all.',
+ 'He phones the card company. A representative explains that some merchants bill under discreet names and promises a detailed receipt by email. Thomas interrupts: he needs a ride to a friend’s house for practice shorts, and wants to drive on his learner’s permit. At Justin’s, his mother Kristin Hoy, a maths teacher at Corinne’s school and a competitive fitness model who trains with Corinne, chats at the car window. On the way home Thomas jokes about her; Adam’s phone buzzes with the bank’s email. The billing name belongs to a website called Fake-A-Pregnancy.com.'
+],
+beats: [
+ 'Adam sits frozen in the dark lot; Corinne texts asking how the draft went.',
+ 'Bob knocks for a handshake; Adam needles him about the job search.',
+ 'Adam texts Corinne that Ryan made A; she promises to call.',
+ 'Home: every light on, Jersey the dog, Thomas who looks like Adam, Ryan asleep who looks like Corinne.',
+ 'Reflections on stranger danger, and on Adam’s guilt about once reading Thomas’s messages.',
+ 'The shared computer: browser history, then the business Visa and a $387.83 charge to Novelty Funsy.',
+ 'No search results; a call to the card company and a promised itemised receipt.',
+ 'Thomas needs a lift for practice shorts; Kristin Hoy at the door; jokes on the drive.',
+ 'The email arrives: Novelty Funsy is Fake-A-Pregnancy.com.'
+],
+cast: [['Adam Price','Trying to be a lawyer about his own marriage.'],['Thomas Price','Sophomore, looks like Adam, new learner’s permit, mayor-of-the-town charm.'],['Ryan Price','Sixth-grader, rule-follower, reader, looks like Corinne.'],['Jersey','The border collie, always ready to go out.'],['Kristin Hoy','Maths teacher at Corinne’s school, competitive fitness model, Corinne’s training partner.'],['Bob Baime','Apologises in the lot, stiffens at the job jab.']],
+motifs: ['secrets','lies','parenting','fatherhood','technology','surveillance','marriage','identity','truth'],
+secrets: [['Corinne','A two-year-old card charge under a discreet name, explained away as classroom decorations.','Discovered by Adam'],['Adam','He once read Thomas’s private messages and never told anyone.','Kept'],['Thomas','Messages showing ordinary teenage things he’d rather his father not know.','Unknowingly exposed']],
+clues: ['Corinne measured the distance home with her odometer: precise, controlling, a planner.','The charge was on the "business" card for work expenses.','The family computer was meant to keep everyone honest.','The card company says discreet billing hides embarrassing purchases.','Kristin Hoy trains with Corinne and teaches at her school.','Thomas has his learner’s permit; Corinne is a nervous passenger.'],
+dilemma: { q: 'Is it ever right for a parent to read a teenager’s private messages?', a: 'Yes: safety first', b: 'No: privacy builds trust' },
+food: ['Nothing is eaten tonight; Adam refills the dog’s empty water bowl.'],
+refs: [['Rick Riordan','American author of the Percy Jackson novels, which retell Greek myths for young readers.'],['Learner’s permit','In New Jersey, teenagers can begin supervised driving with a permit at sixteen.'],['WBFF','A real fitness and modelling federation that runs competitions combining physique and stage presentation.'],['Stranger danger','A child-safety slogan popular from the 1980s onward.']],
+questions: [
+ ['What does Adam do in the parking lot before he drives home?',0],
+ ['How far is the drive home, and how does Adam know?',0],
+ ['Which son does Adam think looks like him, and which like Corinne?',0],
+ ['What did Corinne say the Novelty Funsy charge was for?',0],
+ ['Who is Kristin Hoy, and what is her connection to Corinne?',0],
+ ['What does the bank’s email reveal?',0],
+ ['Adam says listening to your gut means being fooled with more certainty. Do you agree?',1],
+ ['Why does the chapter dwell on the house lights being left on?',0],
+ ['How does the irony of "stranger danger" lessons work in this chapter?',0],
+ ['Adam once read Thomas’s messages. Why include this story now?',0],
+ ['Was Adam wrong to read his son’s messages? Was he right not to confront him?',1],
+ ['What does the shared family computer represent in this household?',0],
+ ['Why does the chapter make us wait for the email by inserting the drive to Justin’s?',0],
+ ['How does Coben write the teenage voice? Find two lines that sound authentic.',0],
+ ['Thomas finds Kristin annoying. What does the chapter suggest about how teenagers judge adults?',0],
+ ['Notice how Adam treats the card representative’s jargon. What does it say about his mood?',0],
+ ['What do Corinne’s texts reveal about her eagerness and her priorities?',0],
+ ['Adam asks whether finding out Ryan wasn’t his would change his love. What do you think the honest answer is for most parents?',1],
+ ['How do the "business" and "personal" credit cards reflect the way this marriage runs?',0],
+ ['Why might discreet billing exist? Is it a service or a cover?',1],
+ ['What small details show Corinne’s personality even though she’s absent?',0],
+ ['How does Adam use humour to manage his fear? Find an example.',0],
+ ['Is Adam investigating or snooping? Where is the line?',1],
+ ['What does the dog add to this chapter?',0],
+ ['Describe the domestic geography: who is where in the house and what are they doing?',0],
+ ['How does the chapter build to its final reveal? Map the steps.',0],
+ ['What does the name Novelty Funsy suggest, and why is it a clever cover?',0],
+ ['Kristin’s fridge pictures: what do they suggest about how she sees herself?',0],
+ ['Which line in this chapter would you underline, and why?',1],
+ ['Predict: will Adam confront Corinne tonight, tomorrow, or later? Why?',0]
+],
+close: [
+ { cite: 'Chapter 3, early: Adam looking at Thomas on the stairs and then at Ryan asleep.', focus: 'Looking for yourself in a child',
+   steps: ['Find the two moments where Adam studies each son.','List the physical features he notices in each case.','Find where his thoughts turn to the stranger’s suggestion.','Locate the sentence where he steps back from philosophising.'],
+   ask: 'How does the chapter make the most ordinary parental act, looking at your child, feel suddenly dangerous?' },
+ { cite: 'Chapter 3, middle: the home-office nook and the memory of reading Thomas’s Facebook messages.', focus: 'The ethics of the shared screen',
+   steps: ['Identify why the family computer was put in a public room and why it moved.','Summarise the Facebook episode in three sentences.','Find Adam’s conclusion about what he should have done.','Connect it to what he is about to do with the credit card.'],
+   ask: 'How does this flashback prepare us to judge Adam’s investigation of his wife?' },
+ { cite: 'Chapter 3, close: the drive back from Justin’s and the email’s top line.', focus: 'Comedy before the blow',
+   steps: ['Read the exchange between Adam and Thomas about Kristin.','Note how Adam tries not to laugh while disapproving.','Find the moment the phone vibrates.','Look at how the final reveal is formatted on the page.'],
+   ask: 'Why place a joke immediately before the worst news of the chapter?' }
+],
+lenses: {
+ office: 'Adam’s legal mantra, do the work, do the research, gives the chapter its procedural rhythm: one check, one result, next step. Watch how the prose alternates domestic comedy (teen code, the dog at the door) with forensic steps, so the reveal lands mid-laugh.',
+ classroom: 'Privacy and surveillance inside a family: the public computer, the read messages, the parental lessons about strangers. The chapter quietly asks whether Adam’s search of his wife’s purchases is different in kind from reading his son’s messages.',
+ records: 'By 2015 most US families did banking online and many shared one household computer. Discreet billing names, which hide what was bought on a statement, were a standard feature of online retail. This is the technology that both protects and betrays Corinne.',
+ stacks: 'Poe’s "The Purloined Letter" hides a secret in plain sight, as Corinne hid a $387.83 charge among household bills. Coben’s own Hold Tight (2008) asks whether parents should spy on their children’s computers.',
+ turnpike: 'Count the geography: 2.6 miles from the Legion to home, four blocks to Justin’s. Cedarfield is small enough to measure with an odometer and to drive with a learner’s permit. Smallness is safety and surveillance at once.',
+ field: 'Snooping for safety, investigating for truth, invading privacy: the chapter draws three lines and lets Adam cross them. Is he justified in searching joint accounts? Does the earlier Facebook episode make him a hypocrite or a wiser man?',
+ board: 'A textbook escalation ladder: a text, a charge, a dead search, a phone call, a delay, a reveal. Coben inserts a mundane errand to stretch time, and ends on a website name formatted like a slap.',
+ diner: 'A suburban house at night with every light left on is one of the novel’s images. Painters from Hopper to Crewdson used lit windows to suggest lives on display and secrets inside.',
+ kitchen: 'The kitchen is offstage tonight but the house’s routines are everywhere: the dog’s water bowl, the bedtime rules, the practice shorts. Domestic logistics are the texture of the "dream".',
+ driveway: 'Adam stares at his phone in the dark car as though the text hides a message. Most of us have read a message too many times looking for what isn’t there.'
+},
+acts: {
+ office: [
+  ['Procedure as prose','List each investigative step Adam takes. Write a paragraph on how a procedural structure creates suspense even in domestic scenes.',25],
+  ['Teen code','Find the "teen code" jokes. Write three more in the same format from your own household or memory.',20],
+  ['Free indirect fatherhood','Identify two passages where narration becomes Adam’s private voice about his sons. Rewrite one in first person. Which is more intimate?',30],
+  ['The reveal on the page','Notice how the final email line is set apart. Experiment by rewriting the ending three ways (mid-paragraph, as dialogue, as a single word). Compare effects.',25],
+  ['Representative voice','Analyse the card representative’s speech. How does Coben make a minor character comic in two lines?',20],
+  ['Kristin in description','List every adjective used for Kristin. What attitudes (Adam’s, the narrator’s, the town’s) are mixed in?',25],
+  ['Rhythm of interruption','Map where Adam is interrupted in this chapter. Write about how interruption builds tension.',20],
+  ['Parenthesis and asides','Find asides and parentheses. Do they slow or speed the reading?',20],
+  ['Paraphrase drill','Paraphrase the chapter’s key reflection on gut instinct in under twenty words without using any of the original phrasing.',15]
+ ],
+ classroom: [
+  ['Privacy map','Draw concentric circles: self, marriage, children, town. Place each privacy breach in the chapter in a ring.',25],
+  ['Gut versus evidence','Write a short essay on when intuition is reliable. Use Adam’s claim as your starting point.',35],
+  ['Stranger danger','Research the history of "stranger danger" education. Most harm to children comes from known adults. How does this fact resonate with the novel’s title?',35],
+  ['Paternity anxiety','Discuss, in a group or in writing, why the stranger’s suggestion about the boys hurts so much, and whether biology should matter to fatherhood.',30],
+  ['Household systems','Analyse the family’s "business" and "personal" cards as a symbol of how they divide life. What systems run your household?',20],
+  ['Surveillance spectrum','Rank: shared family computer, reading messages, checking card statements, tracking apps. Which are acceptable?',25],
+  ['Theme sentences','Update your theme statements with "privacy". Draft one new claim.',15],
+  ['Women’s bodies','Kristin’s body is constantly assessed by men and boys. Discuss how the chapter presents this and whether it critiques or reproduces it.',30],
+  ['Seminar plan','Pick the two book-club questions and plan a 20-minute discussion.',30]
+ ],
+ records: [
+  ['Discreet billing','Research how and why online retailers use alternative billing names. Write a short factual note.',25],
+  ['Teen driving in NJ','Look up New Jersey’s graduated driver licensing rules for teenagers. Was Thomas legal?',20],
+  ['Family computers','Find articles from the 2000s advising parents to put computers in family rooms. How did smartphones change this?',30],
+  ['Fitness competitions','Research the WBFF and fitness-model competitions. What do they judge?',25],
+  ['Riordan and myth','Find out when the Percy Jackson books began and why Greek myth is popular with children.',20],
+  ['Online banking history','When did online banking become mainstream in the US? Find a statistic.',20],
+  ['Children’s privacy law','Read about COPPA, the US law on children’s online privacy (1998). Who does it protect?',30],
+  ['Learner’s permits','Compare teen-driving rules in two US states or two countries.',20],
+  ['Coben on parenting','Find an interview where Coben talks about parenting and technology.',25]
+ ],
+ stacks: [
+  ['The Purloined Letter','Read Poe’s story. Write a paragraph comparing hiding in plain sight with a discreet charge on a bill.',40],
+  ['Hold Tight','Read a synopsis of Coben’s Hold Tight. Compare its parents’ spyware with Adam’s reading of messages.',30],
+  ['Percy Jackson','Read the first chapter of a Percy Jackson book. What does Ryan’s reading suggest about him?',30],
+  ['Fathers in fiction','List three novels where a father doubts a child’s paternity. How does each resolve it?',30],
+  ['Domestic noir','Read a definition of "domestic noir" (a term popularised in the 2010s). Note which features chapter 3 shows.',20],
+  ['Teen voice','Compare Thomas’s dialogue with a teenager in another novel you know.',25],
+  ['Solove','Read a short excerpt from Daniel Solove on reputation and privacy online.',35],
+  ['Source list','Add two works to your running list, each with a paragraph explaining the connection to chapter 3.',15],
+  ['Poe’s Dupin','Note how Dupin reasons in Poe’s story. Compare with Adam’s "do the research".',20]
+ ],
+ turnpike: [
+  ['Measured town','Mark the 2.6-mile route from the Legion to the Price house and the four blocks to Justin’s on your map.',20],
+  ['House plan','Sketch the Price house as described so far: stairs, bedrooms, the "home office" nook, the front door.',30],
+  ['Commercial strip','Note the shops mentioned (coffee-and-ice-cream combo, petrol station). Add them to your map.',15],
+  ['Suburban night','Walk or drive your own neighbourhood at night and note which houses keep every light on.',30],
+  ['Atlantic City distance','Estimate how quickly Corinne could drive home from the shore if she wanted to, and what it means that she doesn’t. Write a paragraph on distance as a measure of emotional reach in the novel so far.',15],
+  ['Kristin’s house','Imagine and sketch the Hoy house from Thomas’s description.',20],
+  ['Map of trust','Overlay your map with who trusts whom. Draw lines.',20],
+  ['Learner route','Plan a learner driver’s safe route around a suburb. What makes a route "safe"?',15],
+  ['Mapping journal','Add chapter 3 to your running map with pins for the house, Justin’s and the route home, and annotate each with the scene it hosts.',15]
+ ],
+ field: [
+  ['Snoop or investigate?','Write a 300-word argument on whether Adam is entitled to search his wife’s old charges.',35],
+  ['Parental privacy','Use the Dilemma scale tool on reading a teenager’s messages.',20],
+  ['Kantian check','Could "parents may read children’s messages when worried" be a universal rule?',25],
+  ['Care ethics','How would care ethics weigh Thomas’s privacy against Adam’s fear?',25],
+  ['White lies to children','Adam tells Ryan the email hasn’t gone out. Is a white lie to a child ever right?',25],
+  ['Gut and judgement','Is acting on intuition a moral failing if you could check the facts?',20],
+  ['Teasing and respect','Thomas mocks Kristin. Where is the line between teenage humour and disrespect?',20],
+  ['Biology and love','Write a reasoned paragraph: does genetics matter to fatherhood?',30],
+  ['Court of one','Write a verdict on Adam’s conduct tonight as a judge would.',25]
+ ],
+ board: [
+  ['Escalation ladder','Draw the six-step ladder of this chapter’s investigation and note how long each step takes on the page.',20],
+  ['Delay devices','List the devices Coben uses to delay the reveal. Use two of them in a scene of your own.',35],
+  ['Character in a line','Pick three minor characters and identify the single line that defines each.',15],
+  ['Clue cards','Add Novelty Funsy, the business card and the classroom-decorations excuse to your board. Connect each with string to anything from chapters 1–2 and justify each link.',15],
+  ['Reversal','Write a 250-word scene where a character checks an alibi and finds it false, ending on the evidence itself.',40],
+  ['Pacing chart','Add chapter 3’s length to your pacing chart and compare the number of scenes per chapter so far. Write a note on how Coben speeds up and slows down.',15],
+  ['Joke placement','Find where humour sits relative to dread. Plot them on a line.',20],
+  ['Kristin as plant','What might Kristin know? List three possibilities.',15],
+  ['POV limits','What does Adam not notice that a reader might? List anything you caught.',15]
+ ],
+ diner: [
+  ['Every light on','Paint a suburban house at night with every window lit. Leave one dark.',45],
+  ['Dog portrait','Draw Jersey blocking the door.',25],
+  ['Photograph a screen','Photograph a glowing screen in a dark room. What mood does it set?',20],
+  ['Brand names','Collect the brand names in this chapter. Make a collage that captures Cedarfield.',30],
+  ['Mood colours','Use the Chapter palette tool for chapter 3, then paint a small swatch card of those colours and title it.',15],
+  ['Sound sketch','Describe in 100 words the sounds of the house at night: computer hum, dog, shower.',20],
+  ['Fitness imagery','Look at how fitness-competition photography poses bodies. Write a short critical note.',25],
+  ['Song for the drive','Pick a song for the four-block drive with Thomas and one for the moment the email arrives. Write about the contrast.',15],
+  ['Typeface for a fake','Design a logo for a fictional "discreet" company. What fonts suggest innocence?',30]
+ ],
+ kitchen: [
+  ['Family logistics board','Make a kitchen whiteboard of a family’s week: practices, homework, dog walks. Notice how full it is.',25],
+  ['Daddy-eggs preview','Try the Mustard-and-Parmesan Scramble recipe card in preparation for chapter 5.',25],
+  ['Household rules','Write the house rules you grew up with (bedtimes, screens, lights). Share at dinner.',20],
+  ['Practice kit','Lay out a teenager’s sports kit and discuss the parental labour behind it.',15],
+  ['Ledger notebook','Add a page for the Novelty Funsy charge: date, amount, explanation given, truth.',15],
+  ['Table talk','Ask: would you check your partner’s card statements if a stranger told you to?',25],
+  ['Secrets box','Add Corinne’s "classroom decorations" cover story to your box in your own words, along with how plausible it would have sounded to you at the time.',15],
+  ['Password card','Start the family password card project from the Maker’s bench.',20],
+  ['Dog treats','Bake simple dog biscuits (oats, peanut butter, banana) in honour of Jersey.',40]
+ ],
+ driveway: [
+  ['Rereading messages','Write about a message you reread looking for hidden meaning.',20],
+  ['Your double','Who in your family looks like you? Write about what resemblance means to you.',25],
+  ['Privacy you took','Write privately about a time you looked at something you shouldn’t have.',25],
+  ['Mood dial','Rate dread and trust in Corinne for chapter 3, then write a paragraph explaining the gap between your two numbers.',15],
+  ['Prediction','Predict what the website will show in chapter 4 and how Adam will react. Log it with your reasons.',15],
+  ['Lights on','What does a house with every light on mean to you: safety, waste, love?',15],
+  ['Letter to Thomas','Write a note to Thomas from his father about the messages he read.',25],
+  ['Gut check','Recall a time your gut was wrong. What did you learn?',20],
+  ['Reading log','Log this session and write about the moment in the chapter where you most wanted to stop reading, and why you didn’t.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 3 frame Adam’s investigation of his wife through his earlier invasion of his son’s privacy? Discuss what the novel suggests about surveillance inside families.',
+ 'Essay: Analyse the role of humour in building suspense in chapter 3, with reference to at least three moments.',
+ 'Creative: Write the representative’s side of the phone call: what she sees on her screen and what she thinks Mr Price is hiding.'
+],
+reading: [
+ ['purloined','The classic story of a secret hidden in plain sight.'],
+ ['holdtight','Coben’s novel about parents monitoring a teenager’s computer.'],
+ ['solove','How online information shapes private reputations.'],
+ ['nevertold','A family’s silences, and what children don’t say to parents.'],
+ ['gopnik','A developmental psychologist on what parenting is for.'],
+ ['ekman','The science of detecting lies, and its limits.'],
+ ['harrislying','A short argument that even white lies corrode trust.'],
+ ['corrections','A family novel of secrets and generational disappointment.'],
+ ['circle','A novel about a world where privacy is treated as theft.']
+],
+projects: [
+ { t: 'Family Privacy Charter', rooms: ['classroom','field','kitchen'], steps: ['List the privacy breaches in chapters 1–3.','Discuss which are justified.','Draft a household privacy charter.','Share it at a family or club meal.','Revisit after chapter 20.'] },
+ { t: 'Paper Trail', rooms: ['records','board','office'], steps: ['Research discreet billing.','Map Adam’s investigative steps.','Write a forensic note on the charge.','Pin it to your board.'] },
+ { t: 'Hidden in Plain Sight', rooms: ['stacks','office','diner'], steps: ['Read Poe’s "The Purloined Letter".','Close-read the computer scene.','Design a "discreet" logo.','Write a paragraph connecting the three.'] },
+ { t: 'Fathers and Resemblance', rooms: ['driveway','classroom','diner'], steps: ['Close-read Adam watching his sons.','Discuss biology and fatherhood.','Draw or photograph a family resemblance.','Write a private reflection.'] },
+ { t: 'House at Night', rooms: ['diner','turnpike','kitchen'], steps: ['Sketch the Price house plan.','Paint it at night.','Write a sound portrait.','Make a family logistics board.'] },
+ { t: 'Teen Voice Lab', rooms: ['office','board','driveway'], steps: ['Collect Thomas’s lines.','Analyse "teen code".','Write a scene with a teenager.','Read it to a teenager if you can and ask what rings false.'] }
+],
+quiz: [
+ ['How much was the Novelty Funsy charge?', ['$38.73','$387.83','$3,878','$1,200'], 1],
+ ['Which card was it on?', ['The personal Visa','The business Visa','A store card','Corinne’s debit card'], 1],
+ ['Why does Thomas need a lift?', ['To get practice shorts from Justin’s','To a party','To the gym','To school'], 0],
+ ['Who is Justin’s mother?', ['Becky Evans','Kristin Hoy','Melanie Baime','Janice'], 1],
+ ['What does the bank email say Novelty Funsy is?', ['A party store','Fake-A-Pregnancy.com','A dating site','A school supplier'], 1]
+]
+};

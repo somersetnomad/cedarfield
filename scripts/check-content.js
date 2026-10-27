@@ -25,7 +25,7 @@ for (const f of files) {
   need(d.motifs.every(m => ctx.CF.MOTIFS[m]), 'motif ids ' + d.motifs.filter(m => !ctx.CF.MOTIFS[m]));
   need(d.strands.every(s => ctx.CF.STRANDS[s]), 'strands');
   need((d.places || []).every(p => ctx.CF.PLACES[p]), 'places ' + (d.places || []).filter(p => !ctx.CF.PLACES[p]));
-  for (const r of rooms) { need(d.lenses[r] && d.lenses[r].length > 120, 'lens ' + r); need(d.acts[r] && d.acts[r].length === 9 && d.acts[r].every(a => a[0] && a[1] && a[2] >= 10 && a[2] <= 60), 'acts ' + r + ' ' + (d.acts[r] || []).length); }
+  for (const r of rooms) { need(d.lenses[r] && d.lenses[r].length > 120, 'lens ' + r); need(d.acts[r] && d.acts[r].length === 9 && d.acts[r].every(a => a[0] && a[1] && a[2] >= 15 && a[2] <= 60), 'acts ' + r + ' ' + (d.acts[r] || []).length); }
   // crude quote scan: long runs inside straight or curly double quotes
   const strs = []; (function walk(o){ if (typeof o === 'string') strs.push(o); else if (o && typeof o === 'object') Object.values(o).forEach(walk); })(d);
   const txt = strs.join(' \n '); const qs = strs.flatMap(s => s.match(/[“"][^“”"]{25,}[”"]/g) || []);
