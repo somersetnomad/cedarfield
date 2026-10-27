@@ -36,7 +36,7 @@ questions: [
  ['Was the busybody neighbour right to tell, years ago?',1],
  ['The "parental paradox": wanting and not wanting to know. Do you recognise it?',1],
  ['How does Heidi handle the call with Kimberly? What does it show about her as a mother?',0],
- ['Kimberly asks her mother not to tell her father. Is that fair to ask?',0],
+ ['Kimberly asks her mother not to tell her father. Is that fair to ask?',1],
  ['The secret "sits" in Kimberly’s chair. Discuss the image.',0],
  ['How does Kuntz manipulate Heidi before the violence?',0],
  ['What does his description (comb-over, gap teeth) do to our impression?',0],

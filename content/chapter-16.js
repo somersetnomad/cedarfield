@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[16] = {
+n: 16, title: 'Call Me Gush', pov: 'Adam', when: 'That evening', strands: ['rinsky'], places: ['kasselton'],
+summary: [
+ 'Mayor Rick Gusherowski looks exactly as Adam expected: soft, ruddy, practised smile. Three of Kasselton’s last four mayors were indicted, and Gusherowski served in two of those administrations. The town hall meeting he’s ending is at PineCliff Luxury Village, a new retirement community whose median resident looks to be in their eighties. He greets Adam with a game-show grin and a politician’s handshake and insists on being called "Gush".',
+ 'He gives Adam a tour. Asked what makes the place "state-of-the-art", Gush can only offer flat-screen televisions and internet access. The deluxe unit looks, Adam says, like an airport chain hotel. Gush’s pitch moves through nostalgia (memories hold us back), community (progress, jobs, a new centre, an end to blight) and finally Eunice, who would be happier here.',
+ 'Adam refuses on principle: in America it isn’t the state’s job to rule on what will make a citizen happy. Gush offers fifty thousand dollars more. Adam answers in a movie villain’s voice with a joke figure and then a straight no. Gush reminds him a judge has already approved the taking and the Rinskys’ previous lawyer lost the appeal. Adam suggests the developers simply build around the house. Gush, his smile gone, says that can’t happen, and that after the way they’ve behaved he’ll throw them out with pleasure. Adam says he figured as much and leaves.'
+],
+beats: [
+ 'Gush’s appearance and Kasselton’s record of indicted mayors.',
+ 'The town hall at PineCliff Luxury Village.',
+ '"Call me Gush."',
+ 'The tour: "state-of-the-art" means flat screens and Wi-Fi.',
+ 'The deluxe unit, compared to a chain hotel.',
+ 'The pitch: memories, progress, community, Eunice.',
+ 'Adam: it isn’t the state’s job to rule on a citizen’s happiness.',
+ 'Fifty thousand more; Adam’s villain joke; no.',
+ 'Gush: the law is on his side; he’ll throw them out with pleasure.',
+ 'Adam: "build around the house"; he leaves.'
+],
+cast: [['Rick "Gush" Gusherowski','Mayor of Kasselton: a showman with a sharp edge.'],['Adam Price','Dry, principled, enjoying himself a little.'],['The PineCliff residents','An elderly audience for a town hall meeting.']],
+motifs: ['justice','money','class','community','dream','identity'],
+secrets: [['Gush','His own history with Rinsky, and his ties to the developer.','Known to Adam'],['Adam','His "nuclear option".','Kept']],
+clues: ['Gush is authorised to raise the offer by $50,000.','A judge already approved the taking; the previous appeal failed.','Gush won’t consider building around the house.','His smile vanishes when crossed: there is a vindictive streak.'],
+dilemma: { q: 'Is it ever right for government to decide that someone would be "happier" elsewhere?', a: 'Sometimes: officials see the bigger picture', b: 'Never: people decide their own happiness' },
+food: ['A Tic Tac on the mayor’s breath.'],
+refs: [['Guy Smiley','A game-show-host Muppet on Sesame Street; Adam’s comparison for Gush’s grin.'],['The Price Is Right','The long-running TV game show; Gush opens a door with a model’s flourish.'],['Courtyard Marriott','A mid-priced hotel chain known for neat, generic rooms.'],['New Jersey corruption','The state has a long, well-documented history of municipal corruption prosecutions.'],['"One billion dollars"','Adam’s villain voice parodies a famous scene from the Austin Powers films.']],
+questions: [
+ ['What is Kasselton’s record with mayors?',0],
+ ['Where is the town hall meeting held?',0],
+ ['What makes PineCliff "state-of-the-art", according to Gush?',0],
+ ['What is Gush’s offer?',0],
+ ['What legal facts favour the town?',0],
+ ['What does Adam suggest as a compromise?',0],
+ ['Is it fair for Adam to judge Gush on his looks and his town’s history?',1],
+ ['How does Coben make Gush a comic villain?',0],
+ ['What is Adam’s principle about government and happiness? Do you agree?',1],
+ ['Gush says memories can hold us back. Is he entirely wrong?',1],
+ ['Why does Adam enjoy needling Gush?',0],
+ ['What changes when Gush stops smiling?',0],
+ ['Does the "build around the house" suggestion seem realistic?',0],
+ ['How does this subplot mirror the main plot’s theme of who decides what’s good for you?',1],
+ ['The stranger also decides what’s good for people. Compare him with Gush.',1],
+ ['Why set the meeting in a retirement community?',0],
+ ['What does the chain-hotel comparison imply about the unit?',0],
+ ['Is Adam a good advocate here? What tactics does he use?',0],
+ ['How does Gush’s handshake technique work?',0],
+ ['What does "with pleasure" reveal?',0],
+ ['Does the chapter present the developers fairly?',0],
+ ['How does humour serve the argument?',0],
+ ['What would you say to Gush?',0],
+ ['What does Adam’s "I figured" ending suggest about his plan?',0],
+ ['Is there any sympathy for Gush in the chapter?',0],
+ ['How do game-show comparisons frame politics?',0],
+ ['What does the chapter say about New Jersey?',0],
+ ['Is property more than money? Discuss.',1],
+ ['How has the Rinsky case changed since chapter 11?',0],
+ ['Predict the next move in the Rinsky fight.',0]
+],
+close: [
+ { cite: 'Chapter 16, opening: Adam’s first impression of Gush and the town’s history.', focus: 'Prejudice or perception?',
+   steps: ['List the details of Gush’s appearance.','Note the facts about Kasselton’s mayors.','Find the narrator’s rule about smoke and fire (paraphrase).','Note Adam’s claim not to judge on looks.'],
+   ask: 'Does the opening judge Gush fairly? How does the narration handle its own prejudice?' },
+ { cite: 'Chapter 16, middle: the tour and the "state-of-the-art" exchange.', focus: 'Deflating a salesman',
+   steps: ['Trace Adam’s questions about "state-of-the-art".','Note Gush’s answers.','Find the hotel comparison.','Note how Gush recovers.'],
+   ask: 'How does Socratic questioning expose a sales pitch?' },
+ { cite: 'Chapter 16, close: the offer, the refusal and the threat.', focus: 'The smile drops',
+   steps: ['Find Adam’s principle about government.','Note the offer and the joke.','Find the legal reminders.','Read the final threat and Adam’s answer.'],
+   ask: 'What does the final exchange reveal about each man?' }
+],
+lenses: {
+ office: 'Comic set piece in the form of a tour. Adam plays the straight man with questions; Gush fills silence with clichés. Watch how many TV comparisons the narration uses: politics as game show.',
+ classroom: 'Paternalism is the theme: officials deciding what makes people happy. It echoes the stranger, who decides what people need to know. Who gets to decide what’s good for you?',
+ records: 'New Jersey has a long history of municipal corruption prosecutions by the US Attorney’s office. Eminent-domain takings for redevelopment were upheld in Kelo (2005), which is why the town has the law on its side.',
+ stacks: 'Ibsen’s An Enemy of the People pits one man against civic leaders who put the town’s economy first. Sandel’s Justice explains utilitarian reasoning and its critics.',
+ turnpike: 'PineCliff sits "in the heights", above the old downtown the developer wants to clear. The map of a town is also a map of who gets moved where.',
+ field: 'Adam’s line about happiness is a liberal principle (in the philosophical sense): individuals, not governments, judge their own good. John Stuart Mill made the classic case in On Liberty (1859).',
+ board: 'A subplot chapter that sharpens an antagonist and raises stakes (the law is against them). It also keeps the "nuclear option" hidden, a suspense device for a lighter strand.',
+ diner: 'Game shows, Muppets, The Price Is Right: the visual culture of American TV supplies the chapter’s comedy. Picture Gush as a host revealing a prize door.',
+ kitchen: 'A Tic Tac on the mayor’s breath as he leans in to threaten: the minty freshness of corruption. Small sensory details make villains real.',
+ driveway: 'Adam leaves knowing a fight is coming and not minding. Write about a time you were glad an opponent showed their true face, because it made your choice easier.'
+},
+acts: {
+ office: [
+  ['Straight man','Analyse Adam as the straight man. Write a comic dialogue where one character keeps asking "what does that mean?"',30],
+  ['TV comparisons','List every TV reference. What do they do?',15],
+  ['Pitch parody','Write a sales pitch for a deliberately ordinary product.',20],
+  ['Smile tracking','Track Gush’s smile through the chapter.',15],
+  ['Principle in a line','Rewrite Adam’s principle in five different registers.',20],
+  ['Villain voice','Write about why Adam’s joke works.',15],
+  ['Opening prejudice','Rewrite the opening without prejudgement.',20],
+  ['Dialogue pace','Compare pace here with the Tripp driveway scene.',15],
+  ['Last line','Analyse "I figured".',15]
+ ],
+ classroom: [
+  ['Paternalism','Discuss paternalism with examples from the novel.',25],
+  ['Who decides?','Debate: who should decide what’s good for you?',30],
+  ['Corruption','Discuss how corruption is portrayed comically.',20],
+  ['Elderly as audience','Discuss the setting at a retirement community.',20],
+  ['Progress','Revisit the progress debate.',20],
+  ['Theme update','Add "paternalism" to your themes.',15],
+  ['Stranger and Gush','Compare two characters who decide for others.',25],
+  ['Memory','Is nostalgia a trap?',20],
+  ['Seminar plan','Plan a discussion of the happiness principle.',25]
+ ],
+ records: [
+  ['NJ corruption','Research a notable New Jersey municipal corruption case.',30],
+  ['Retirement communities','Research the growth of "luxury" senior living.',20],
+  ['Appeals','Look up how eminent-domain appeals work.',20],
+  ['Mill','Read about Mill’s harm principle.',25],
+  ['Guy Smiley','Look up the Muppet and what his comparison says about Gush.',15],
+  ['Game shows','Research The Price Is Right’s history.',15],
+  ['Developers','Research how developers partner with towns.',25],
+  ['Compensation','Look up how "just compensation" is calculated.',25],
+  ['Town halls','Research the US town-hall meeting tradition.',15]
+ ],
+ stacks: [
+  ['On Liberty','Read Mill’s chapter on individuality.',35],
+  ['Enemy of the People','Read Act 4 of Ibsen’s play (the public meeting).',35],
+  ['Little Pink House','Read the chapter on the city’s offers.',30],
+  ['Satire of politicians','Find a comic portrait of a politician in fiction.',20],
+  ['Sandel','Read Sandel’s chapter on utilitarianism.',35],
+  ['Evicted','Compare forced moves.',25],
+  ['Corruption novels','List three novels about local corruption.',20],
+  ['Source list','Add two works.',15],
+  ['Senior fiction','Find a novel set in a retirement home.',20]
+ ],
+ turnpike: [
+  ['Heights and downtown','Map PineCliff and the old downtown.',20],
+  ['Development map','Draw the developer’s plan with the house in the middle.',30],
+  ['Build around','Redesign the plan to build around the house.',30],
+  ['Retirement geography','Map senior housing in your area.',20],
+  ['Mapping journal','Add chapter 16.',15],
+  ['Corridors','Describe a corridor in a new building.',15],
+  ['Chain spaces','Write about generic spaces (hotels, airports).',20],
+  ['Town hall','Map where your own town holds meetings.',15],
+  ['Status','Place Kasselton on your status ladder.',15]
+ ],
+ field: [
+  ['Happiness principle','Use the Dilemma scale.',15],
+  ['Mill','Apply Mill’s harm principle to the case.',25],
+  ['Five lenses','Apply the lenses to the taking.',30],
+  ['Offers','Is refusing more money irrational or principled?',20],
+  ['Spite','Is "with pleasure" a moral failing in an official?',15],
+  ['Lawyers’ humour','Is mocking an opponent professional?',15],
+  ['Compromise','Is building around the house a fair compromise?',20],
+  ['Paternalism','Compare Gush and the stranger ethically.',25],
+  ['Personal','Write about someone deciding what was good for you.',20]
+ ],
+ board: [
+  ['Raising stakes','Write how this chapter raises the subplot stakes.',15],
+  ['Hidden plan','Write about the suspense of a hidden plan.',15],
+  ['Antagonist','Write a short scene with a smiling antagonist.',35],
+  ['Clue cards','Pin Gush’s threat.',15],
+  ['Suspicion meter','Rate Gush.',15],
+  ['Strand braid','Note the Rinsky strand.',15],
+  ['Comic subplot','Discuss comic subplots in thrillers.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Game-show poster','Design a game-show poster for "Name That Bribe".',25],
+  ['Gush portrait','Draw Gush with his grin.',20],
+  ['Generic room','Paint a generic hotel room as a still life.',30],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a game-show theme for Gush.',15],
+  ['Flag pin','Design a lapel pin for an honest politician.',15],
+  ['Model reveal','Draw the door opening with a flourish.',20],
+  ['Sound of a tour','Describe the sounds of a new building.',15],
+  ['Cover brief','Add a civic image.',15]
+ ],
+ kitchen: [
+  ['Retirement-home menu','Design a week’s menu for PineCliff residents.',25],
+  ['Breath mints','Discuss small social props (mints, handshakes).',15],
+  ['Ledger notebook','Record the offer.',15],
+  ['Secrets box','Add Gush’s vindictiveness.',15],
+  ['Table talk','Ask: would you take the money?',25],
+  ['Making: two-faced portrait','Make a two-faced portrait of Gush.',35],
+  ['Community supper','Host a supper for an older neighbour.',60],
+  ['Recipe of a pitch','Write a recipe for a sales pitch.',15],
+  ['Comfort','Cook something Eunice might find comforting.',30]
+ ],
+ driveway: [
+  ['True colours','Write about when someone showed their true face.',20],
+  ['Happiness','Write about who decides your happiness.',20],
+  ['Mood dial','Rate feelings.',15],
+  ['Prediction','Predict Adam’s next move.',15],
+  ['Letter to Gush','Write to the mayor.',20],
+  ['Nostalgia','Write about a memory that holds you back.',20],
+  ['Home','Write about your idea of home in old age.',20],
+  ['Principle','Write about a principle you hold even when it costs.',20],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 16 use comedy to explore paternalism and power? Compare Gush with the stranger.',
+ 'Essay: Evaluate Adam’s claim that government should not decide what makes a person happy, with reference to the Rinsky case.',
+ 'Creative: Write Gush’s phone call to the developer after Adam leaves.'
+],
+reading: [
+ ['mill','The classic case that individuals should decide their own good.'],
+ ['enemy','A town’s leaders against one stubborn citizen.'],
+ ['pinkhouse','A real family’s fight against eminent domain.'],
+ ['sandel','Utilitarian reasoning and its critics.'],
+ ['evicted','The human cost of forced moves.'],
+ ['crabgrass','How suburbs and towns were built and rebuilt.'],
+ ['putnam','Civic life and its decline.'],
+ ['salesman','Salesmanship and the pitch.'],
+ ['corrections','Ageing and the question of where the old should live.']
+],
+projects: [
+ { t: 'Who Decides?', rooms: ['field','stacks','classroom'], steps: ['Read Mill on liberty.','Use the Dilemma scale.','Compare Gush and the stranger.','Write a verdict.'] },
+ { t: 'Build Around It', rooms: ['turnpike','diner','records'], steps: ['Research developer plans.','Redesign the plan.','Paint it.','Present it.'] },
+ { t: 'Corruption Comedy', rooms: ['office','records','diner'], steps: ['Research NJ corruption.','Analyse the comedy.','Design a poster.','Write a scene.'] },
+ { t: 'Rinsky File Update', rooms: ['records','board','field'], steps: ['Add the offer and threat.','Pin Gush.','Use the casebook tool.','Predict.'] },
+ { t: 'Ageing Well', rooms: ['kitchen','driveway','classroom'], steps: ['Design a menu.','Write about home in old age.','Discuss senior housing.','Visit an older neighbour.'] },
+ { t: 'Straight-Man Lab', rooms: ['office','board','diner'], steps: ['Analyse the tour.','Write a straight-man scene.','Perform it.','Discuss timing.'] }
+],
+quiz: [
+ ['What does the mayor ask Adam to call him?', ['Rick','Gush','Mr Mayor','Chief'], 1],
+ ['Where is the town hall meeting?', ['The Legion','PineCliff Luxury Village','Town Hall','The library'], 1],
+ ['What does Gush offer?', ['A new house','$50,000 more','A job','Nothing'], 1],
+ ['What does Adam suggest?', ['Suing the mayor','Building around the house','Selling','Moving Eunice'], 1],
+ ['How does Gush say he’ll throw them out?', ['Reluctantly','With pleasure','Legally','Quietly'], 1]
+]
+};

@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[17] = {
+n: 17, title: 'Four Days Before the Wedding', pov: 'The stranger', when: 'Around two in the morning, in a hotel lobby', strands: ['stranger','victims'], places: [],
+summary: [
+ 'The stranger dreads this visit. Michaela Siegel, twenty-six, a third-year internal-medicine resident at a New York hospital, is saying tipsy goodbyes to friends in a hotel lobby at two in the morning, four days before her wedding. She moved her residency from another prestigious hospital after a scandal: a sex tape of her appeared on a revenge-porn site, and everyone (colleagues, patients, teachers, parents) saw it. She blamed her ex-boyfriend, David Thornton, after a bad fight. He denied it.',
+ 'The stranger tells her David was telling the truth. The site promises its uploaders anonymity, but someone behind every anonymous site sees every keystroke. The upload came from the IP address of her fiancé, Marcus, who was David’s close friend and roommate and seized his chance. The stranger, who once glimpsed the video only long enough to confirm it, offers proof in an envelope. Michaela refuses to look. He is chosen for these visits because he has an honest face; his colleagues Eduardo and Merton would make people run.',
+ 'Michaela turns the conversation on him. Did he imagine she’d run back to David and that he’d be the hero of their love story? She had a crush on Marcus even while she was with David; maybe Marcus’s guilt is why he’s so good to her. Her choice now is between blowing up her life and living a lie. She is in love, she says, and love makes people capable of almost anything. She asks if he will tell anyone else; he won’t. As the elevator doors close she tells him he hasn’t revealed a secret at all. He has created a new one.'
+],
+beats: [
+ 'The stranger dreads this one: Michaela Siegel, resident doctor, four days before her wedding.',
+ 'Background: a revenge video, a hospital move, the ex she blamed.',
+ 'He approaches her at the elevators after two failed attempts.',
+ 'The question about David Thornton; her face shuts.',
+ 'The truth: the IP address belongs to her fiancé, Marcus.',
+ 'Anonymity is a lie: someone behind every site watches.',
+ 'Why him: his honest face; Eduardo and Merton named.',
+ 'Michaela refuses the proof and turns on him.',
+ 'She loved Marcus first; she chooses to stay, saying love excuses a great deal.',
+ 'Her parting verdict: he created a secret instead of revealing one.'
+],
+cast: [['The stranger','Uncomfortable, idealistic, hoping to "restore balance".'],['Michaela Siegel','Twenty-six, a sharp, wounded doctor-in-training.'],['Marcus','Her fiancé, who posted the video (offstage).'],['David Thornton','Her ex, wrongly blamed (offstage).'],['Eduardo & Merton','The stranger’s colleagues, named for the first time.']],
+motifs: ['secrets','technology','anonymity','truth','marriage','identity','lies','surveillance'],
+secrets: [['Marcus','He posted the revenge video from his own connection and let his friend take the blame.','Revealed to Michaela'],['Michaela','She now knows and will marry Marcus anyway.','A new secret, kept'],['The stranger','His colleagues Eduardo and Merton.','Glimpsed']],
+clues: ['The stranger works with people named Eduardo and Merton.','He has access to IP logs from an "anonymous" site.','He offers proof in an envelope.','He seems to want to restore people to their "right" paths.','He promises Michaela he will tell no one.'],
+dilemma: { q: 'Michaela chooses to marry the man who humiliated her. Should we respect that choice?', a: 'Yes: it’s her life and her judgement', b: 'No: she is choosing to live a lie' },
+food: ['A night of celebrations with friends; the slur of drink in her voice.'],
+refs: [['Revenge porn','Sharing intimate images without consent to humiliate someone; New Jersey criminalised it in 2004, and most US states followed after 2013.'],['IP address','The numerical label of an internet connection that servers log with each request.'],['Residency','The years of supervised hospital training after medical school.'],['Mount Sinai, Johns Hopkins, Columbia','Real, prestigious US medical institutions named in the chapter.']],
+questions: [
+ ['Who is Michaela Siegel?',0],
+ ['What happened to her at her previous hospital?',0],
+ ['Whom did she blame, and who was really responsible?',0],
+ ['How does the stranger know?',0],
+ ['Why is the stranger chosen for these visits?',0],
+ ['What does Michaela decide?',0],
+ ['Is anything online truly anonymous? Discuss the stranger’s claim.',1],
+ ['Why does the stranger dread this visit more than others?',0],
+ ['He admits glimpsing the video. Is that itself a violation?',1],
+ ['What did the stranger hope would happen? Is that hope naive?',0],
+ ['Michaela calls him "Mr Secret Revealer". What is she mocking?',0],
+ ['She says she had a crush on Marcus anyway. Does that change Marcus’s act?',0],
+ ['Is she choosing love or denial?',1],
+ ['Michaela says his revelation has only made a new secret. Is she right?',1],
+ ['How does this case complicate the stranger’s creed of demolition?',0],
+ ['What does the stranger owe David Thornton, the wrongly blamed ex?',1],
+ ['Who has been wronged here, and by whom?',0],
+ ['How does the setting (lobby, 2 a.m., elevators) shape the scene?',0],
+ ['Why does Coben name Eduardo and Merton now?',0],
+ ['Compare Michaela with Heidi as recipients of the stranger’s news.',0],
+ ['Compare Michaela’s choice with what Adam might choose.',0],
+ ['The stranger feels a flush remembering the video. What does that suggest about him?',0],
+ ['Why doesn’t Michaela look at the proof?',0],
+ ['Is the stranger’s promise to tell no one meaningful?',0],
+ ['What does the chapter say about forgiveness?',0],
+ ['Does this chapter make you more or less sympathetic to the stranger?',1],
+ ['How might Marcus’s guilt shape their marriage?',0],
+ ['Michaela claims love makes people capable of almost anything. What might that foreshadow?',0],
+ ['Would you tell David Thornton?',0],
+ ['Predict whether this thread returns.',0]
+],
+close: [
+ { cite: 'Chapter 17, middle: the explanation of the IP address and anonymity.', focus: 'The myth of the anonymous site',
+   steps: ['Paraphrase the stranger’s claim about anonymous sites.','Note the moment Michaela guesses the name.','Find the description of the bystanders in the lobby.','Note the envelope.'],
+   ask: 'How does the scene dramatise the gap between promised anonymity and human access?' },
+ { cite: 'Chapter 17, the passage on why the stranger is chosen for these approaches.', focus: 'An honest face',
+   steps: ['Find his explanation of his "honest face".','Note the colleagues mentioned and why they wouldn’t work.','Find Michaela’s reply about David’s face.','Consider the irony.'],
+   ask: 'Why does the novel stress that honesty can be a look, and what does Michaela’s answer teach the stranger?' },
+ { cite: 'Chapter 17, close: Michaela’s choice and her final line at the elevator.', focus: 'Turning the tables',
+   steps: ['Trace her shift from shock to anger to resignation.','Find her account of loving Marcus first.','Note the choice she names.','Paraphrase her last line.'],
+   ask: 'How does Michaela’s last line challenge the whole premise of the stranger’s work?' }
+],
+lenses: {
+ office: 'Another stranger chapter, and the most morally complicated. Notice how Michaela takes control of the dialogue from the middle on, and how the stranger, so fluent with Heidi, falls nearly silent. The final line inverts the novel’s premise.',
+ classroom: 'Anonymity, consent, forgiveness and the limits of truth-telling. Michaela’s choice to live with the truth privately complicates the idea that secrets must be destroyed. A revealed secret can become a new secret.',
+ records: 'New Jersey was the first state to criminalise non-consensual sharing of intimate images (2004); most states followed from 2013. IP addresses identify connections, not people, which is why investigators still need corroboration.',
+ stacks: 'Danielle Keats Citron’s Hate Crimes in Cyberspace (2014) documents revenge porn’s harms. Michaela’s choice to marry the man who wronged her has echoes in many marriage plots where knowledge is absorbed rather than acted on.',
+ turnpike: 'A hotel lobby in New York at 2 a.m.: concierge, elevators, a party breaking up. Transitional spaces suit transitional moments.',
+ field: 'Autonomy versus truth: if Michaela freely chooses to stay, does the stranger’s visit have any value? And what of David, the innocent party, who remains wronged?',
+ board: 'A self-contained episode that tests the antagonist’s philosophy and names two new characters. It also seeds a line about love and wrongdoing that may echo later.',
+ diner: 'Hotel lobbies at night: polished floors, a concierge, elevator lights counting floors. Photographers have long used lobbies as stages for strangers.',
+ kitchen: 'A pre-wedding night out: drinks, hugs, the slur in a voice. Celebrations are where secrets are most painful to receive, because everyone around you expects joy and you have to perform it anyway.',
+ driveway: 'Michaela chooses to keep living a life she now knows is built on a lie. Write about whether you could do the same, and what it would cost you each morning.'
+},
+acts: {
+ office: [
+  ['Who controls the scene','Mark where control shifts from the stranger to Michaela.',20],
+  ['Final line','Write about the final line as a thesis statement for the novel.',20],
+  ['Free indirect discomfort','Find the stranger’s physical discomfort and analyse it.',15],
+  ['Bystanders','Analyse the sentence about people present and absent at once.',15],
+  ['Exposition','How is Michaela’s backstory delivered?',15],
+  ['Dialogue turn','Write a scene where a messenger is turned on by the recipient.',35],
+  ['Euphemism','Note how the stranger avoids naming the video.',15],
+  ['Ironies','List the ironies in the chapter.',20],
+  ['Rewrite','Rewrite the scene from Michaela’s point of view.',35]
+ ],
+ classroom: [
+  ['Anonymity','Discuss the stranger’s claim that nothing online is anonymous.',25],
+  ['Forgiveness','Is Michaela forgiving Marcus? Discuss.',25],
+  ['New secrets','Discuss how revealing one secret creates another.',25],
+  ['Consent','Discuss consent and image-based abuse.',25],
+  ['Wrongly blamed','Discuss David’s position.',20],
+  ['Theme update','Add "new secrets" to your themes.',15],
+  ['Love and wrong','Discuss what people do "in the name of love".',20],
+  ['Messengers','Discuss the ethics of being the messenger.',20],
+  ['Seminar plan','Plan a discussion of Michaela’s choice.',25]
+ ],
+ records: [
+  ['Revenge-porn laws','Research the spread of US laws against image-based abuse.',30],
+  ['IP addresses','Read a clear explainer on IP addresses and what they can and can’t show.',25],
+  ['Medical residency','Research residency structure and transfers.',20],
+  ['Platform liability','Research Section 230 and platform responsibility (neutral source).',30],
+  ['Victim support','Look up organisations supporting victims of image-based abuse.',15],
+  ['Hotel culture','Research the history of New York hotel lobbies.',15],
+  ['Weddings','Look up statistics on called-off weddings.',15],
+  ['Digital forensics','Research how investigators attribute uploads.',25],
+  ['Citron','Look up Danielle Citron’s work.',15]
+ ],
+ stacks: [
+  ['Citron','Read an excerpt of Hate Crimes in Cyberspace.',35],
+  ['Ronson','Read Ronson on online humiliation.',35],
+  ['Marriage plots','Find a novel where a bride learns a groom’s secret before the wedding.',25],
+  ['Wild Duck','Compare Gregers’ hope for redemption with the stranger’s.',25],
+  ['Bok','Read Bok on whether revealing can harm.',25],
+  ['The Circle','Revisit transparency.',20],
+  ['Perel','Read Perel on forgiveness.',25],
+  ['Source list','Add two works.',15],
+  ['Poems of choice','Find a public-domain poem about choosing between two paths.',15]
+ ],
+ turnpike: [
+  ['New York map','Add the hotel and hospitals to your map.',15],
+  ['Network map','Add Michaela to the stranger’s case map.',15],
+  ['Lobby plan','Sketch the lobby with elevators and concierge.',15],
+  ['Hospital geography','Map the three institutions named.',15],
+  ['Mapping journal','Add chapter 17.',15],
+  ['Night city','Write 150 words on Manhattan at 2 a.m.',20],
+  ['Wedding venue','Imagine where the wedding will be.',15],
+  ['Distance','How far is New York from Cedarfield?',15],
+  ['Transitional spaces','Write about lobbies and stations as places of change.',20]
+ ],
+ field: [
+  ['Respect the choice?','Use the Dilemma scale.',15],
+  ['Court','Rule on Michaela’s case in the Tell or keep tool.',20],
+  ['Five lenses','Apply the lenses to Marcus’s act and to the stranger’s visit.',30],
+  ['Autonomy','Write about autonomous choices that look self-harming.',25],
+  ['Third parties','What is owed to David?',20],
+  ['Viewing','Was glimpsing the video wrong?',15],
+  ['Love as excuse','Can love excuse wrongdoing?',20],
+  ['Ring of Gyges','Use the Ring of Gyges tool on Marcus.',15],
+  ['Personal','Write about a truth you chose to live with.',20]
+ ],
+ board: [
+  ['Episode structure','Write about this chapter as a self-contained episode.',15],
+  ['Names','Pin Eduardo and Merton.',15],
+  ['Philosophy test','Write how this case tests the stranger.',15],
+  ['Turn scene','Write a 300-word scene that ends with a reversal line.',40],
+  ['Suspicion meter','Rate Marcus and the stranger.',15],
+  ['Strand braid','Add this to the victims strand.',15],
+  ['Echoes','Pin Michaela\u2019s claim about love as a possible echo, and note any later character who acts on the same belief.',15],
+  ['Tension curve','Rate the ending.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Lobby painting','Paint a hotel lobby at 2 a.m.',40],
+  ['Elevator doors','Draw elevator doors closing on a face.',25],
+  ['Envelope','Draw the unopened envelope.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the closing doors.',15],
+  ['Wedding invitation','Design an invitation with a hidden crack.',25],
+  ['Portrait','Draw Michaela with dignity.',25],
+  ['Sound of a lobby','Describe lobby sounds at night.',15],
+  ['Cover brief','Add an elevator image.',15]
+ ],
+ kitchen: [
+  ['Pre-wedding toast','Write a toast for Michaela that tells no lies and no secrets.',25],
+  ['Ledger notebook','Record the case.',15],
+  ['Secrets box','Add Marcus’s secret and Michaela’s new one.',15],
+  ['Table talk','Ask: would you go through with the wedding?',25],
+  ['Wedding cake','Discuss wedding cakes as symbols of public happiness.',15],
+  ['Making: secrets box','Add a "chosen silence" slip.',15],
+  ['Celebration food','Cook a celebration dish and talk about bad news at celebrations.',45],
+  ['Recipe of a choice','Write a recipe for living with a truth.',15],
+  ['Hangover cure','Make a gentle morning-after breakfast.',20]
+ ],
+ driveway: [
+  ['Living with it','Write about living with a truth you can’t share.',20],
+  ['Messengers','Write about being blamed for news.',20],
+  ['Mood dial','Rate sympathy for the stranger.',15],
+  ['Prediction','Will this case return?',15],
+  ['Letter to David','Write to the wrongly blamed ex.',20],
+  ['Letter to Michaela','Write to Michaela.',20],
+  ['Love','Write about something done "for love".',20],
+  ['Privacy','Write about your online privacy.',20],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: Michaela Siegel tells the stranger that he has created a secret rather than revealed one. Assess how this chapter challenges his philosophy.',
+ 'Essay: Discuss the novel’s treatment of online anonymity in chapters 8–17.',
+ 'Creative: Write the wedding day four days later, from Marcus’s point of view, without revealing whether he knows she knows.'
+],
+reading: [
+ ['citron','A legal scholar on revenge porn and online abuse.'],
+ ['ronson','Public shaming in the internet age.'],
+ ['boksecrets','When revelation helps and when it harms.'],
+ ['wildduck','An idealist who thinks truth will heal a marriage.'],
+ ['perelaffairs','Forgiveness and betrayal in relationships.'],
+ ['solove','Reputation and privacy online.'],
+ ['circle','A world where transparency is mandatory.'],
+ ['zuboff','Who sees what we do online.'],
+ ['missingyou','Coben on online life and hidden intentions.']
+],
+projects: [
+ { t: 'Anonymity Audit', rooms: ['records','classroom','field'], steps: ['Research IP addresses.','Discuss anonymity.','Use the Ring of Gyges tool.','Write a verdict.'] },
+ { t: 'Michaela’s Choice', rooms: ['field','driveway','kitchen'], steps: ['Use the Dilemma scale.','Write privately.','Discuss at table.','Write a toast.'] },
+ { t: 'The Stranger Tested', rooms: ['board','stacks','office'], steps: ['Close-read the final line.','Compare with Ibsen.','Write a reversal scene.','Update the case map.'] },
+ { t: 'Image-Based Abuse', rooms: ['records','stacks','classroom'], steps: ['Research the laws.','Read Citron.','Discuss consent.','Find support resources.'] },
+ { t: 'Lobby at Night', rooms: ['diner','turnpike','office'], steps: ['Paint the lobby.','Map New York.','Analyse the bystanders.','Write a lobby scene.'] },
+ { t: 'New Secrets', rooms: ['classroom','board','driveway'], steps: ['List secrets created by revelations so far.','Pin them.','Write a theme claim.','Reflect.'] }
+],
+quiz: [
+ ['What is Michaela’s job?', ['Lawyer','Medical resident','Teacher','Nurse'], 1],
+ ['Who did she blame for the video?', ['Marcus','David Thornton','A stranger','Herself'], 1],
+ ['Who actually posted it?', ['David','Marcus, her fiancé','The stranger','A friend'], 1],
+ ['How does the stranger know?', ['A confession','The IP address','A witness','A camera'], 1],
+ ['What does Michaela say he did?', ['Saved her','Created a new secret','Ruined David','Nothing'], 1]
+]
+};

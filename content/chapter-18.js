@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[18] = {
+n: 18, title: 'Face Against the Glass', pov: 'Adam', when: 'That evening', strands: ['adam'], places: ['cedarfield','hackensack'],
+summary: [
+ 'At the town line Adam texts Corinne that he and the boys are worried. Then he thinks about how he came to live in Cedarfield at all. It is, on paper, the prize: handsome houses, a pretty centre, sports fields, a duck pond, a national magazine ranking, the state’s top socioeconomic category for school districts. People grow up here, leave for college, come back and raise children who will do the same. Corinne lived here until she was ten, when her father died in a car crash at thirty-seven with almost no insurance. Her mother sold the house and moved with her two daughters, Corinne and the older Rose, into a modest apartment complex in Hackensack. The friendships faded as Corinne could no longer afford the activities. Rose rebelled; Corinne studied, kept her head down, and vowed to return. For twenty years she pressed her face to the glass. The house she and Adam bought looks suspiciously like her childhood home. When you marry, Adam thinks, you marry your spouse’s dreams.',
+ 'He finds Kristin Hoy at her gym, a temple of grunts and mirrors, coaching five women in bikinis and high heels for a fitness competition: posture, smiles, diet, water, a list of glues and tanners for the trip. Kristin drops the taskmaster role the moment she sees him in the mirror. Corinne was going to be her travel partner at Nationals, her first show as a professional. Adam asks about the pregnancy two years ago, and Kristin nearly topples off her heels. She claims not to remember how Corinne told her; then offers a theory that Corinne recovered too well from the miscarriage and bottled up her grief.',
+ 'Adam notices her phrasing: she thought that "at first". Pressed, Kristin turns on him: none of them knows what happens behind the manicured lawns; for all she knows, Adam is abusive. Tears come, and Adam wonders for the first time about her own husband, Hank, and the long sleeves she sometimes wears. Every house is its own island. When he tells her he doesn’t think Corinne was ever pregnant, Kristin, with her back to him, denies knowing anything and tells him to leave.'
+],
+beats: [
+ 'Adam texts Corinne at the town line.',
+ 'Cedarfield on paper: rankings, facilities, the cycle of leaving and returning.',
+ 'Corinne’s childhood: her father’s death at 37, the move to Hackensack, lost friendships.',
+ 'Rose rebels; Corinne vows to return; their house resembles her childhood home.',
+ 'Marrying a spouse’s dreams.',
+ 'The gym: Kristin coaching fitness competitors.',
+ 'Kristin drops the coach persona; Corinne was her travel partner.',
+ 'Adam asks about the pregnancy; Kristin wobbles, evades, theorises.',
+ 'Kristin turns on Adam: what happens behind the lawns? Could he be abusive?',
+ 'Adam wonders about her husband; Kristin denies knowing anything and sends him away.'
+],
+cast: [['Adam Price','Reflective, then probing.'],['Corinne (as a child)','Fatherless at ten, exiled to Hackensack, determined to return.'],['Rose','Corinne’s older sister, who rebelled.'],['Kristin Hoy','Coach, competitor, loyal friend; frightened and defensive.'],['Hank Hoy','Kristin’s husband (offstage), the subject of Adam’s sudden suspicion.'],['The gym desk man','A sneering bodybuilder who asks if Corinne is all right.']],
+motifs: ['dream','class','identity','secrets','marriage','violence','community','lies'],
+secrets: [['Kristin','She knows more about the pregnancy than she says.','Withheld'],['Kristin','Possibly, what happens in her own marriage.','Hinted'],['Corinne','Her childhood loss and twenty-year campaign to return.','Told to the reader']],
+clues: ['Corinne’s father died at 37 with little insurance; the family lost its Cedarfield house.','The Prices’ house resembles Corinne’s childhood home.','Kristin reacts strongly to the word "pregnancy".','Kristin says she first thought Corinne bottled up grief: "at first".','Kristin wonders aloud whether Adam is abusive.','Kristin sometimes wears long sleeves.'],
+dilemma: { q: 'Should a friend reveal what she suspects about another friend’s secret to that friend’s husband?', a: 'Yes, if he is worried for her safety', b: 'No, her loyalty is to her friend' },
+food: ['Competitors eating ninety per cent protein, carb-loading before the show, cutting water.'],
+refs: [['Money magazine rankings','An annual US list of "best places to live".'],['District Factor Groups','A real New Jersey classification of school districts by socioeconomic status, from A (lowest) to J (highest), introduced in the 1970s and revised after each census.'],['Hackensack','The Bergen County seat, more urban and less affluent than its wealthy neighbours.'],['WBFF','A fitness federation whose shows combine physique, posing and evening wear.'],['Costa del Sol','A Spanish resort coast where Adam once felt awkward among topless sunbathers.']],
+questions: [
+ ['What happened to Corinne’s father?',0],
+ ['Where did Corinne move after his death?',0],
+ ['How did Corinne and Rose respond differently?',0],
+ ['What does Kristin do at the gym?',0],
+ ['What theory does Kristin offer about Corinne’s grief?',0],
+ ['How does Kristin turn on Adam?',0],
+ ['Corinne’s face pressed to the glass for twenty years: what does that image capture?',1],
+ ['Does Corinne’s backstory make you more sympathetic to her deception?',1],
+ ['What does the novel think of Cedarfield’s rankings and "shampoo-rinse-repeat" life (Adam’s phrase, paraphrased)?',0],
+ ['When you marry, do you marry your spouse’s dreams? Discuss.',1],
+ ['Why does the house look like Corinne’s childhood home?',0],
+ ['How does the gym scene characterise Kristin beyond the earlier male gaze?',0],
+ ['Adam notices how quickly Kristin switches from coach to friend. How does that idea of switching roles apply to everyone in the book?',1],
+ ['Why does Kristin almost topple when Adam says "pregnancy"?',0],
+ ['Is Kristin lying? Find the tells.',0],
+ ['Why does Kristin suggest Adam might be abusive?',0],
+ ['Adam suddenly wonders about Hank. Is that fair or a leap?',1],
+ ['Adam comes to see every house as an island with its own secrets. Discuss.',1],
+ ['How does class shape Corinne’s character?',0],
+ ['What do Corinne’s lost childhood friendships say about money and belonging?',0],
+ ['How does the narrator describe the gym? What is the tone?',0],
+ ['What does the competition prep reveal about bodies and performance?',0],
+ ['Why does Adam feel awkward talking to Kristin in a bikini?',0],
+ ['How is Rose different from Corinne, and why mention her?',0],
+ ['How does Adam’s reflection change his understanding of the marriage?',0],
+ ['Is Kristin protecting Corinne or herself?',0],
+ ['What does Kristin\u2019s final denial really mean?',0],
+ ['How does the chapter use mirrors?',0],
+ ['Would you have pushed harder than Adam?',0],
+ ['Predict what Kristin knows.',0]
+],
+close: [
+ { cite: 'Chapter 18, opening: Adam’s reflection on Cedarfield and Corinne’s childhood.', focus: 'A town as a prize',
+   steps: ['List the credentials Cedarfield boasts.','Trace Corinne’s family story from the father’s death to Hackensack.','Contrast Rose and Corinne.','Find the image of the face pressed to glass (paraphrase).'],
+   ask: 'How does Corinne’s history recast her fake pregnancy as part of a lifelong campaign?' },
+ { cite: 'Chapter 18, middle: Kristin coaching the competitors.', focus: 'Roles we slip into',
+   steps: ['Note Kristin’s instructions to the women.','Find the list of travel supplies.','Find the moment she sees Adam.','Find Adam’s reflection on roles.'],
+   ask: 'What does the gym scene suggest about performance and identity?' },
+ { cite: 'Chapter 18, close: Kristin’s defensiveness and the island image.', focus: 'Behind the facades',
+   steps: ['Find her phrase "at first" and Adam’s pounce on it.','Note her accusation.','Find Adam’s thoughts about Hank and the sleeves.','Read the ending.'],
+   ask: 'How does the scene suggest that every house in Cedarfield hides something?' }
+],
+lenses: {
+ office: 'Two contrasting halves: a long essayistic reflection on a town and a woman’s past, then a physical, comic, then tense scene in a gym. Note how the narration uses a single repeated sight, Kristin in absurd heels, first for comedy and then to show her unsteadiness.',
+ classroom: 'Class and return: the suburban dream as something Corinne lost and won back. The idea that we marry each other’s dreams. And the suspicion that every manicured house hides its own violence or secret.',
+ records: 'New Jersey’s District Factor Groups ranked school districts by socioeconomic status from A to J; they were real and widely discussed. Money magazine has published "Best Places to Live" lists since the 1980s. Hackensack is the county seat, a working city beside wealthy suburbs.',
+ stacks: 'Gatsby is the archetype of a person pressing their face to the glass of wealth; Corinne’s version is quieter. Annette Lareau’s Unequal Childhoods explains why money determines children’s activities and friendships.',
+ turnpike: 'Ten miles between Cedarfield and Hackensack, and a social chasm. Draw them on your map and the gulf between them. Then the gym, Hard-core, with its mirrors.',
+ field: 'Kristin’s dilemma: protect her friend or help a husband who might be dangerous. Her suspicion of Adam is itself responsible: she doesn’t know him. Adam’s suspicion of Hank mirrors it.',
+ board: 'A major backstory reveal (Corinne’s childhood) and a witness who lies badly. The "at first" slip is a classic interrogation catch. Kristin moves up the suspicion meter.',
+ diner: 'A gym of mirrors, posing practice, bikinis and stilettos: a theatre of bodies. Think about the photography of fitness competitions: oiled skin, held poses, strained smiles.',
+ kitchen: 'Diet as discipline: ninety per cent protein, carb-loading, cutting water to nothing on competition day. Control of the body echoes Corinne’s control of her life.',
+ driveway: 'Corinne spent twenty years trying to get back to the town that let her go. Write about a place you lost and wanted back, and whether getting it back would be enough.'
+},
+acts: {
+ office: [
+  ['Essay in a novel','Analyse the opening reflection as a mini-essay: thesis, evidence, turn.',25],
+  ['Backstory compression','Summarise Corinne’s childhood in 50 words. What did Coben include that you cut?',20],
+  ['Comic to tense','Mark where the gym scene turns.',15],
+  ['The slip','Write a scene in which a witness gives herself away with one word.',35],
+  ['Lists','Analyse Kristin’s supply list as comedy and characterisation.',15],
+  ['Mirrors','Trace the mirrors in the scene.',15],
+  ['The island image','Write about the "island" image’s strength.',15],
+  ['Point of view','Rewrite the gym scene from one of the competitors.',30],
+  ['Narrative judgement','Find the narrator’s judgements on Cedarfield; are they Adam’s?',20]
+ ],
+ classroom: [
+  ['Return','Discuss the desire to return to a lost place.',25],
+  ['Class and childhood','Discuss how money shaped Corinne’s friendships.',25],
+  ['Marrying dreams','Debate: do we marry our partner’s dreams?',25],
+  ['Facades','Discuss "behind the facades".',20],
+  ['Performance','Discuss roles and performance (gym, school, home).',20],
+  ['Theme update','Add "return" and "class" to your themes.',15],
+  ['Siblings','Discuss Rose and Corinne’s different responses.',20],
+  ['Suspicion','Discuss how suspicion spreads.',20],
+  ['Seminar plan','Plan a discussion of Corinne’s backstory.',25]
+ ],
+ records: [
+  ['DFGs','Research New Jersey’s District Factor Groups.',25],
+  ['Best places','Find how "best places to live" rankings are calculated.',20],
+  ['Hackensack','Research Hackensack’s history and demographics.',20],
+  ['Life insurance','Research how families fare after a breadwinner dies uninsured.',20],
+  ['Fitness competitions','Research WBFF judging criteria.',20],
+  ['Water cutting','Read a reliable health source on extreme dehydration before shows.',20],
+  ['Domestic abuse signs','Read a reputable list of signs of domestic abuse.',20],
+  ['Garden apartments','Look up "garden apartment" complexes in New Jersey.',15],
+  ['Suburban return','Find research on adults returning to hometowns.',20]
+ ],
+ stacks: [
+  ['The Great Gatsby','Read the passage of Gatsby’s longing for Daisy’s world (public domain in the US since 2021).',30],
+  ['Lareau','Read about "concerted cultivation" in Unequal Childhoods.',30],
+  ['Crabgrass Frontier','Read on suburban aspiration.',30],
+  ['Dare Me','Compare bodies and competition.',20],
+  ['Goffman','Revisit roles.',20],
+  ['American Pastoral','Compare Swede Levov’s dream.',25],
+  ['Revolutionary Road','Compare April Wheeler’s yearning.',25],
+  ['Source list','Add two works.',15],
+  ['Sister novels','Find a novel about two sisters who respond differently to loss.',20]
+ ],
+ turnpike: [
+  ['Ten miles','Map Cedarfield and Hackensack and draw the "chasm".',20],
+  ['Childhood house','Draw Corinne’s childhood house and the Prices’ house side by side.',25],
+  ['Gym','Add Hard-core Gym to your map.',15],
+  ['Town facilities','Map the town centre, duck pond, fields and library.',20],
+  ['Status ladder','Use the Status ladder tool.',15],
+  ['Mapping journal','Add chapter 18.',15],
+  ['Your own return','Map a place you left and returned to.',20],
+  ['Kristin’s house','Mark it and imagine its interior.',15],
+  ['Garden apartment','Sketch a garden apartment complex.',15]
+ ],
+ field: [
+  ['Kristin’s loyalty','Use the Dilemma scale.',15],
+  ['Suspicion as duty','Was Kristin right to suspect Adam?',20],
+  ['Adam’s suspicion','Was Adam right to wonder about Hank?',20],
+  ['Five lenses','Apply the lenses to Kristin’s silence.',30],
+  ['Bodies','Is extreme bodily discipline a virtue?',20],
+  ['Class and blame','Does Corinne’s past mitigate her lie?',25],
+  ['Dreams','Is it wrong to make your partner’s dream yours?',20],
+  ['Facades','Is keeping up appearances a moral failing?',20],
+  ['Personal','Write about loyalty to a friend under pressure.',20]
+ ],
+ board: [
+  ['Backstory reveal','Write about how the backstory changes the stakes.',15],
+  ['Witness slip','Pin "at first".',15],
+  ['Hank','Pin Hank and the sleeves (mark as unsure).',15],
+  ['Suspicion meter','Rate Kristin.',15],
+  ['Plant','Pin the resemblance between the Prices\u2019 house and Corinne\u2019s childhood home, and note what it might mean.',15],
+  ['Scene','Write a 300-word scene in a gym where a secret slips.',40],
+  ['Strand braid','Note the Adam strand.',15],
+  ['Tension curve','Rate the ending.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Face at the glass','Paint a child’s face pressed to a lit window from outside.',40],
+  ['Gym mirrors','Paint a room of mirrors with one woman in heels.',35],
+  ['Two houses','Paint the two similar houses.',35],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a gym song and a song for young Corinne.',15],
+  ['Posing study','Draw three fitness poses as gesture sketches.',20],
+  ['Ranking poster','Design a satirical "Best Places" poster.',20],
+  ['Sound of a gym','Describe the gym’s sounds.',15],
+  ['Cover brief','Add the face at the glass.',15]
+ ],
+ kitchen: [
+  ['Competition diet','Plan (don’t follow) a day of a competitor’s diet and discuss discipline.',20],
+  ['Comfort for Corinne','Cook a dish from a working-class New Jersey kitchen of the 1980s.',45],
+  ['Ledger notebook','Record Corinne’s family losses.',15],
+  ['Secrets box','Add Kristin’s evasion.',15],
+  ['Table talk','Ask: is there a place you want to return to?',25],
+  ['Making: two-faced portrait','Draw Kristin as coach and as frightened friend.',30],
+  ['Protein snacks','Make high-protein snacks and talk about body culture.',30],
+  ['Sister supper','Cook for a sibling and talk about different paths.',45],
+  ['Recipe of a return','Write a recipe for coming home.',15]
+ ],
+ driveway: [
+  ['Lost place','Write about a place you lost.',20],
+  ['Dreams inherited','Write about whose dreams you live.',20],
+  ['Mood dial','Rate trust in Kristin.',15],
+  ['Prediction','What does Kristin know?',15],
+  ['Letter to young Corinne','Write to Corinne at ten.',20],
+  ['Behind your facade','Write privately about what your house hides.',20],
+  ['Roles','Write about the roles you switch between.',20],
+  ['Siblings','Write about a sibling’s different path.',20],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: Analyse how Corinne’s childhood, as told in chapter 18, reframes her actions and the novel’s portrayal of the suburban dream.',
+ 'Essay: Discuss Kristin Hoy’s suspicion of Adam and Adam’s of Hank. What does the novel suggest about what we can know of other households?',
+ 'Creative: Write ten-year-old Corinne’s last visit to an old friend’s house in Cedarfield after the move.'
+],
+reading: [
+ ['lareau','How money shapes children’s activities and friendships.'],
+ ['crabgrass','The history and psychology of suburban aspiration.'],
+ ['pastoral','A man’s faith in the American dream.'],
+ ['revroad','A woman suffocating inside a suburban ideal.'],
+ ['dareme','Discipline, bodies and loyalty.'],
+ ['goffman','The roles we perform in different settings.'],
+ ['virgin','A suburb’s view of a family it can’t see inside.'],
+ ['littlefires','Class, aspiration and a perfect suburban family.'],
+ ['shelter','Coben on New Jersey towns and hidden lives.']
+],
+projects: [
+ { t: 'Corinne’s Return', rooms: ['classroom','turnpike','driveway'], steps: ['Close-read the backstory.','Map the ten-mile chasm.','Write about a lost place.','Write a theme claim on return.'] },
+ { t: 'Class Lens', rooms: ['records','stacks','classroom'], steps: ['Research DFGs and Hackensack.','Read Lareau.','Discuss class in the novel.','Use the Status ladder.'] },
+ { t: 'Behind the Lawns', rooms: ['field','board','driveway'], steps: ['Discuss Kristin’s suspicion.','Pin Hank as unsure.','Use the Five lenses.','Reflect privately.'] },
+ { t: 'Bodies on Stage', rooms: ['diner','records','kitchen'], steps: ['Research WBFF.','Paint the mirrors.','Plan a competitor’s diet.','Discuss performance.'] },
+ { t: 'The Witness', rooms: ['office','board','field'], steps: ['Close-read the "at first" catch.','Write a slip scene.','Rate Kristin.','Debate her loyalty.'] },
+ { t: 'Two Houses', rooms: ['diner','turnpike','classroom'], steps: ['Draw both houses.','Discuss repetition and return.','Write about it.','Share.'] }
+],
+quiz: [
+ ['How old was Corinne’s father when he died?', ['30','37','45','52'], 1],
+ ['Where did Corinne’s family move?', ['Paramus','Hackensack','Newark','Ohio'], 1],
+ ['What is Corinne’s sister called?', ['Rose','Becky','Sarah','Melanie'], 0],
+ ['What is Kristin doing at the gym?', ['Lifting','Coaching women for a fitness competition','Teaching yoga','Nothing'], 1],
+ ['What does Kristin suggest about Adam?', ['He’s a liar','He might be abusive','He’s having an affair','He took the money'], 1]
+]
+};

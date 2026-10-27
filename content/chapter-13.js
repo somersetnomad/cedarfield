@@ -3,7 +3,7 @@ CF.CH[13] = {
 n: 13, title: 'Room 233', pov: 'Adam', when: 'That night and the next morning', strands: ['adam'], places: ['cedarfield'],
 summary: [
  'Adam bombards Corinne with texts, nice, angry, calm, desperate; nothing comes back. Janice insists he take two veal Milaneses home. At the door Ryan asks where his mother is and frets about his missing home uniform. Adam notices that Ryan, like Corinne, agonises over small things, while Corinne is calm, even clutch, in real crises. He snaps at the boy, then covers with a story about a teachers’ conference running over. At three in the morning he checks Ryan’s phone too. Nothing. Would Corinne abandon her sons?',
- 'At dawn a thought strikes him: whatever she does to him, Corinne never misses school. In four years she has taken one day off, the day after the "miscarriage" (a Thursday), which he insisted she take after she had driven herself to the doctor alone so as not to worry him. He marvelled then at how quickly she bounced back. Now he wonders how naive one man can be. He drives to the 1970s high school, grey with faded aqua trim, talks his way through the buzzer and signs in illegibly to wait outside her homeroom, 233. A young substitute comes out.',
+ 'At dawn a thought strikes him: whatever she does to him, Corinne never misses school. In four years she has taken one day off, the day after the "miscarriage" (a Thursday), which he insisted she take after she went to the doctor on her own so as not to worry him. He marvelled then at how quickly she bounced back. Now he wonders how naive one man can be. He drives to the 1970s high school, grey with faded aqua trim, talks his way through the buzzer and signs in illegibly to wait outside her homeroom, 233. A young substitute comes out.',
  'Kristin Hoy grabs him with a grip like a steel trap and pulls him into an empty chemistry lab. Where is Corinne? Adam admits he doesn’t know. Kristin got a text too. Reluctantly she reveals that Corinne has been acting strangely for a month, distracted, missing classes and workouts, and once asked Kristin to say she’d been with her if anyone asked. The day before, Corinne asked Kristin to cover her lunchtime study hall, ran to her car, and never came back. The text to Kristin arrived around two that afternoon.'
 ],
 beats: [
@@ -36,7 +36,7 @@ questions: [
  ['Ryan worries about small things; Corinne is "clutch" in crises. What does this tell us about her?',0],
  ['Why check Ryan’s phone at 3 a.m.?',0],
  ['How does the memory of the miscarriage day read differently now?',0],
- ['"How naive could one man be?" Is Adam naive or trusting? Is there a difference?',1],
+ ['Adam berates himself for naivety. Is he naive or trusting? Is there a difference?',1],
  ['What does the security process at school show about modern schools?',0],
  ['Why does Adam sign in illegibly?',0],
  ['What does the narrator’s comparison of the school to an old sci-fi set convey?',0],
@@ -47,7 +47,7 @@ questions: [
  ['How does the timeline change: did Corinne leave before or after their confrontation?',0],
  ['Why does this matter: odd behaviour for a month before the stranger came?',1],
  ['How does the chapter use the word "missing" without the police?',0],
- ['Adam says "it’s one thing to be mad at him". Why is abandoning the boys worse?',0],
+ ['Adam can understand Corinne being angry with him. Why is abandoning the boys worse?',0],
  ['How does the chapter treat Kristin’s body? Compare with earlier chapters.',0],
  ['What does Adam do well as an investigator here?',0],
  ['What emotions does Adam cycle through?',0],

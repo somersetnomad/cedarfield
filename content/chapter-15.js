@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[15] = {
+n: 15, title: 'Toll Records', pov: 'Adam', when: 'That day, at the office and home', strands: ['adam','lacrosse','rinsky'], places: ['paramus','cedarfield'],
+summary: [
+ 'At his desk Adam asks the obvious question: if Corinne ran, where would she go? He can’t imagine her confiding in anyone but him, so she’s probably alone in a hotel, and that costs money. He handles the family finances and knows every password. Her cards show a charge almost every day (supermarket, coffee, the lacrosse shop, lunch spots, sushi takeaway, the gym, online clothes) and then nothing, yesterday and today. Her last cash withdrawal was two hundred dollars, two weeks ago. Did she plan this? Was she surprised by the confrontation or resigned to it? He realises he knows nothing for sure, and his mind swings to darker possibilities: the texts could have come from someone else.',
+ 'Something about the texts bothers him, though he can’t say what. He thinks about going to the police, but the local chief, Len Gilman, has a son in Ryan’s homeroom, and the town would talk; Corinne fought hard to make this town hers again. Andy Gribbel, in sunglasses after a late gig, recounts the band’s set: a slow seventies ballad, then a big duet he sang both parts of himself. He also passes on a request: Kasselton’s mayor wants to meet after a town-hall event.',
+ 'Adam has another idea: E-ZPass. If she drove on toll roads, her transponder will have logged it. He needs the account details from bills at home. Driving home, he takes a call from Thomas asking where Mom is. In his driveway he finds Tripp Evans, who has been texting Corinne without reply. She missed a lacrosse board meeting; Tripp wants to "fill her in" on some business but cites board confidentiality. Both men look rattled, and both say so. Tripp leaves, asking Adam to have her call.'
+],
+beats: [
+ 'Where would Corinne go? Probably a hotel, alone.',
+ 'Adam checks every account: daily charges until two days ago, then nothing.',
+ 'Last ATM withdrawal: $200, two weeks earlier. Did she plan this?',
+ 'Darker thoughts: what if the texts didn\u2019t come from her?',
+ 'The police dilemma: the local chief, gossip, Corinne’s hard-won place in town.',
+ 'Gribbel’s gig report; the mayor wants a meeting.',
+ 'The E-ZPass idea; the account number is at home.',
+ 'Thomas calls: where’s Mom?',
+ 'Tripp Evans waiting in the drive: Corinne missed a board meeting; "board confidentiality".',
+ 'Each man tells the other he looks rattled.'
+],
+cast: [['Adam Price','Methodical, frightened, doing the research.'],['Andy Gribbel','Hungover, cheerful, a one-man duet.'],['Thomas Price','Starting to ask harder questions.'],['Tripp Evans','Awkward in a suit, evasive about lacrosse business.'],['Len Gilman','The police chief Adam doesn’t want to call.']],
+motifs: ['money','surveillance','technology','secrets','community','marriage','lies','sport'],
+secrets: [['Corinne','Whether she planned her departure; where she is.','Unknown'],['Tripp Evans','Lacrosse "business" he won’t share.','Withheld'],['The board','A meeting Corinne missed and what was discussed.','Withheld']],
+clues: ['Corinne’s card spending stops completely two days ago.','Her last ATM withdrawal was $200 two weeks ago.','Something about the texts feels "off" to Adam.','Tripp has been texting Corinne about lacrosse business.','Corinne missed a board meeting the night before.','Tripp invokes board confidentiality and looks rattled.'],
+dilemma: { q: 'Should Adam go to the police now, knowing the town will gossip and Corinne asked for space?', a: 'Yes: safety over reputation', b: 'No: wait and respect her request' },
+food: ['A list of Corinne’s usual purchases: supermarket, coffee, sushi takeaway, lunch out.','Frozen burgers Thomas is told to take out for dinner.'],
+refs: [['E-ZPass','The electronic toll-collection system used across much of the north-eastern US, which logs each tagged vehicle’s passage.'],['Garden State Parkway','A major toll road through New Jersey.'],['"Dust in the Wind"','A 1977 ballad by Kansas.'],['"Paradise by the Dashboard Light"','A 1977 Meat Loaf duet; Gribbel sings both parts.'],['"Don’t Go Breaking My Heart"','A 1976 duet by Elton John and Kiki Dee.']],
+questions: [
+ ['Where does Adam think Corinne would go?',0],
+ ['What do the card records show?',0],
+ ['When was her last cash withdrawal, and how much?',0],
+ ['Why doesn’t Adam go to the police?',0],
+ ['What is the E-ZPass idea?',0],
+ ['Why has Tripp come to the house?',0],
+ ['Adam handles all the finances and knows every password. What does this division of labour say about the marriage?',1],
+ ['What does a person’s spending reveal? List what Corinne’s charges say about her.',0],
+ ['Did Corinne plan this? Weigh the evidence.',1],
+ ['Why does Adam start to wonder whether Corinne sent the texts at all? Is that reasonable or paranoid?',0],
+ ['What is "off" about the texts? Make a list of possibilities.',1],
+ ['How do gossip and reputation shape Adam’s choices?',0],
+ ['Corinne fought to make this town hers again. Why does that matter to Adam’s decisions?',0],
+ ['Why does Coben include Gribbel’s comic gig report here?',0],
+ ['Is singing both parts of a duet a metaphor for anything in the novel?',1],
+ ['What does Thomas’s phone call add?',0],
+ ['How is Tripp described physically, and what does the suit suggest?',0],
+ ['Why might Tripp be rattled?',0],
+ ['"Board confidentiality" about a children’s sports league: plausible or suspicious?',1],
+ ['How does the chapter use money as a trail?',0],
+ ['What does Adam do well as an investigator in this chapter?',0],
+ ['How is technology both a help and a threat in this chapter?',0],
+ ['What would you search first if someone you loved vanished?',0],
+ ['How does the E-ZPass idea reflect a surveilled world? What other trails might exist?',0],
+ ['Why end the chapter on Tripp leaving?',0],
+ ['Compare Tripp in his suit with Tripp at the Legion bar.',0],
+ ['Adam senses something wrong in the texts but can\u2019t name it. What does that make you go back and check?',0],
+ ['Is it ethical for Adam to search Corinne’s accounts now?',1],
+ ['How does the narrative keep the Rinsky subplot alive?',0],
+ ['Predict what the lacrosse business is.',0]
+],
+close: [
+ { cite: 'Chapter 15, opening: Adam’s review of Corinne’s card charges and withdrawals.', focus: 'A life in transactions',
+   steps: ['List the regular charges.','Note what has stopped and when.','Find the cash-withdrawal detail.','Find the questions Adam asks about planning.'],
+   ask: 'How does a list of purchases become both a portrait and a clue?' },
+ { cite: 'Chapter 15, middle: Adam weighing the police and rereading the texts.', focus: 'Reasons not to call',
+   steps: ['List his reasons against going to the police.','Note his thoughts about gossip and Corinne’s town.','Find where he rereads the texts.','Note his inability to name what’s wrong.'],
+   ask: 'What do Adam’s reasons for not calling the police tell us about the town and about him?' },
+ { cite: 'Chapter 15, close: Tripp in the driveway.', focus: 'Two rattled men',
+   steps: ['Note Tripp’s reasons for coming.','Find the description of him in a suit.','Find the exchange about looking rattled.','Note what Tripp refuses to say.'],
+   ask: 'What tension enters with Tripp, and how does the dialogue signal it?' }
+],
+lenses: {
+ office: 'A procedural chapter: research, inference, ideas, interruption. The comic Gribbel scene sits in the middle as a hinge. The closing driveway exchange uses mirrored dialogue (each man saying "I’ll be honest") to show a shift in their relationship.',
+ classroom: 'Surveillance as care and as threat; reputation and gossip; the division of financial knowledge in marriage. The chapter also introduces institutional secrecy (board confidentiality) into the private story.',
+ records: 'E-ZPass launched in the 1990s and spread across the north-east; toll records have been used in court cases. Online banking let spouses see each other’s spending instantly. These are the trails the novel’s characters leave.',
+ stacks: 'Following the money is a staple from Chandler to modern procedurals. Gribbel’s one-man duets echo the theme of people playing both parts of a relationship.',
+ turnpike: 'Toll plazas on the Garden State Parkway near the school would have logged Corinne’s car if she drove south or north. The map of where she went is now a map of where she paid.',
+ field: 'Is checking a spouse’s finances surveillance or concern? Is gossip a reason not to call the police? The chapter weighs privacy, safety and reputation.',
+ board: 'New threads: the texts feel wrong; the cash trail stops; the lacrosse board is hiding something. The chapter adds Tripp as a figure of unease.',
+ diner: 'Gribbel’s band opens with a slow ballad about everything blowing away, then segues into a car-park duet. Think about setlists as storytelling.',
+ kitchen: 'Corinne’s card statement is a menu of her week: supermarket, coffee, sushi takeaway, lunch out. You could draw her life as a receipt.',
+ driveway: 'Adam drives home flipping radio stations looking for the right song and never finds it. Write about searching for something that keeps being almost right.'
+},
+acts: {
+ office: [
+  ['Procedural rhythm','Outline the chapter as a series of investigative steps. Write a procedural scene of your own.',35],
+  ['Mirrored dialogue','Analyse the "I’ll be honest" exchange. Write a mirrored exchange of your own.',20],
+  ['The list','Write about how a list of purchases characterises Corinne.',15],
+  ['Gribbel’s voice','Write a new gig report in Gribbel’s voice.',20],
+  ['Darker thoughts','Find where Adam’s thoughts spiral and the line that halts them.',15],
+  ['Suits','Analyse the description of men in suits. Whose view is it?',15],
+  ['Radio','Analyse the radio-flipping passage as an image of the search.',15],
+  ['Interruption','Count the interruptions in the chapter.',15],
+  ['Summary','Write a 50-word summary for a book club newsletter.',15]
+ ],
+ classroom: [
+  ['Financial knowledge','Discuss who manages money in partnerships and why it matters.',25],
+  ['Gossip','Discuss gossip as social control in small towns.',25],
+  ['Reputation vs safety','Debate calling the police.',25],
+  ['Institutional secrets','Discuss confidentiality in volunteer organisations.',20],
+  ['Surveillance as care','Discuss when tracking is caring.',20],
+  ['Theme update','Add "trails" to your themes.',15],
+  ['Planning','What would it mean if Corinne planned this?',20],
+  ['Masculinity','Discuss men "looking rattled" and admitting it.',15],
+  ['Seminar plan','Plan a discussion of the police decision.',25]
+ ],
+ records: [
+  ['E-ZPass history','Research when E-ZPass began and how toll data is stored.',25],
+  ['Toll data in court','Find a case where toll records were used as evidence.',30],
+  ['Financial abuse','Read a reputable explainer on financial control in relationships (to contrast with this marriage).',25],
+  ['ATM limits','Look up typical daily ATM limits.',15],
+  ['Volunteer boards','Research governance of youth sports nonprofits (treasurer’s duties).',30],
+  ['Missing adults policy','Research when police take a missing adult report.',20],
+  ['Kansas and Meat Loaf','Look up the songs’ histories.',15],
+  ['Bank alerts','Research when banks introduced spending alerts.',15],
+  ['Garden State Parkway','Look up its history.',15]
+ ],
+ stacks: [
+  ['Following the money','Find a classic detective story that turns on financial records.',25],
+  ['Chandler','Read Chandler’s essay "The Simple Art of Murder".',30],
+  ['Zuboff','Read an excerpt on data trails.',30],
+  ['Duet songs','List duets that tell a story of a relationship.',15],
+  ['Gossip in fiction','Find a novel where gossip drives the plot.',25],
+  ['Big Little Lies','Revisit the gossip theme.',20],
+  ['Solove','Read on gossip and the internet.',25],
+  ['Source list','Add two works.',15],
+  ['Accounting novels','Find a thriller about embezzlement.',20]
+ ],
+ turnpike: [
+  ['Toll map','Mark toll plazas near the school on your map.',20],
+  ['Spending map','Map Corinne’s regular shops.',20],
+  ['Distance','How far could she have got by the time of her text?',20],
+  ['Office to home','Map Adam’s commute via I-80.',15],
+  ['Tripp’s Durango','Mark the driveway encounter.',15],
+  ['Hotels','List hotels near major highways out of Bergen County.',20],
+  ['Mapping journal','Add chapter 15.',15],
+  ['Data map','Draw a map of all the data trails a person leaves in a day.',25],
+  ['Kasselton','Mark the town hall at PineCliff.',15]
+ ],
+ field: [
+  ['Police dilemma','Use the Dilemma scale.',15],
+  ['Financial privacy','Is searching joint accounts a violation?',20],
+  ['Confidentiality','Use the Five lenses on Tripp’s confidentiality.',30],
+  ['Gossip ethics','Is spreading news about a neighbour ever right?',20],
+  ['Reputation','How much should reputation weigh?',20],
+  ['Planning and guilt','If Corinne planned to leave, is she more culpable?',20],
+  ['Children’s right to know','Should Adam tell Thomas the truth?',20],
+  ['Trust in institutions','Why doesn’t Adam trust the local police?',20],
+  ['Personal','Write about protecting someone’s reputation.',20]
+ ],
+ board: [
+  ['Money trail','Pin the spending stop and the $200.',15],
+  ['The texts','Pin Adam\u2019s unease about the texts, and list three things that could be wrong with them.',15],
+  ['Tripp','Pin Tripp’s visit and his secrecy.',15],
+  ['Procedural scene','Write a 300-word scene of someone searching records.',40],
+  ['Suspicion meter','Rate Tripp.',15],
+  ['Timeline','Update Corinne’s timeline.',15],
+  ['Strand braid','Note three strands touched here.',15],
+  ['Tension curve','Rate the ending.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Setlist','Write a setlist for Gribbel’s band and explain its arc.',20],
+  ['One-man duet','Perform a duet alone for friends; discuss what it does.',20],
+  ['Receipt art','Make art from a receipt of a week.',30],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick the "nonexistent perfect song".',15],
+  ['Driveway','Paint two men in suits in a driveway at dusk.',35],
+  ['Toll plaza','Paint a toll plaza at night.',35],
+  ['Radio dial','Draw an old radio dial with stations as moods.',20],
+  ['Cover brief','Add a data-trail idea.',15]
+ ],
+ kitchen: [
+  ['Sushi night','Make or buy sushi and talk about habits that reveal us.',40],
+  ['Receipt diary','Keep a week’s food receipts; what do they say?',20],
+  ['Ledger notebook','Record Corinne’s charges and the stop.',15],
+  ['Secrets box','Add Tripp’s board secret.',15],
+  ['Table talk','Ask: who manages money in your home?',25],
+  ['Burgers from frozen','Cook frozen burgers and talk about convenience food in crisis.',30],
+  ['Making: licence-plate notebook','Start the licence-plate notebook project.',30],
+  ['Budget','Draw up a household budget.',25],
+  ['Recipe of a trail','Write a recipe for disappearing without trace.',15]
+ ],
+ driveway: [
+  ['Radio search','Write about searching for the right song.',15],
+  ['Where would I go?','Write privately: if you ran, where would you go?',20],
+  ['Reputation','Write about caring what the town thinks.',20],
+  ['Mood dial','Rate dread.',15],
+  ['Prediction','What is the lacrosse business?',15],
+  ['Letter to Thomas','Write what Adam might say truthfully.',20],
+  ['Rattled','Write about seeing someone strong look rattled.',20],
+  ['Passwords','Write about the passwords you share.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 15 use financial and electronic trails to explore privacy and intimacy in marriage?',
+ 'Essay: Analyse the encounter between Adam and Tripp at the end of chapter 15. How does dialogue create tension?',
+ 'Creative: Write a day in Corinne’s life as told only through her card statement, with one line per charge.'
+],
+reading: [
+ ['zuboff','How our everyday data becomes a trail others can read.'],
+ ['solove','Gossip, reputation and the internet.'],
+ ['simpleart','Chandler on what crime fiction is for.'],
+ ['biglies','Gossip as social power in a wealthy town.'],
+ ['gonebaby','Searching for a missing person.'],
+ ['ariely','How honest people rationalise small dishonesty with money.'],
+ ['putnam','Civic associations and their volunteers.'],
+ ['caught','Coben on rumour and reputation in a suburban town.'],
+ ['tellnoone','A husband following electronic traces.']
+],
+projects: [
+ { t: 'Data Trail', rooms: ['records','turnpike','board'], steps: ['Research E-ZPass and bank alerts.','Map a day of data.','Pin Corinne’s trail.','Update the timeline.'] },
+ { t: 'The Lacrosse Board', rooms: ['board','records','field'], steps: ['Pin Tripp’s secrecy.','Research board governance.','Debate confidentiality.','Predict.'] },
+ { t: 'Gossip Town', rooms: ['classroom','stacks','field'], steps: ['Discuss gossip.','Read on reputation.','Use the Dilemma scale.','Write a verdict.'] },
+ { t: 'Setlist Night', rooms: ['diner','kitchen','office'], steps: ['Listen to the songs.','Write a setlist.','Make sushi.','Write a gig report.'] },
+ { t: 'Receipts', rooms: ['kitchen','office','driveway'], steps: ['Keep receipts.','Close-read the charges.','Write a character from receipts.','Reflect.'] },
+ { t: 'Where Would You Go?', rooms: ['driveway','turnpike','classroom'], steps: ['Write privately.','Map hotels.','Discuss running away.','Compare with Corinne.'] }
+],
+quiz: [
+ ['When did Corinne’s card charges stop?', ['A week ago','Two days ago','A month ago','They didn’t'], 1],
+ ['How much was her last ATM withdrawal?', ['$50','$200','$1,000','$10,000'], 1],
+ ['What toll system does Adam think of?', ['FastTrak','E-ZPass','SunPass','Oyster'], 1],
+ ['Who is waiting in Adam’s driveway?', ['Bob Baime','Tripp Evans','Len Gilman','Kristin'], 1],
+ ['What does Tripp cite for not explaining?', ['Privacy law','Board confidentiality','A promise to Becky','Legal advice'], 1]
+]
+};
