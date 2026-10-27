@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[50] = {
+n: 50, title: 'Called to the Office', pov: 'Adam / Thomas', when: 'The next morning', strands: ['adam','stranger'], places: ['dingmans','cedarfield'],
+summary: [
+ 'Adam wakes on a concrete floor, in pain. He hears voices: someone hit him too hard; they have his gun (he had none); he came here to kill them. He sees a pair of Adidas trainers. The stranger’s voice asks why he killed Ingrid.',
+ 'Meanwhile, Thomas is in AP English with Mr Ronkowitz when he’s called to Principal Gorman’s office. Walking there, he remembers his rant against Santa Claus: parents say they’re protecting you when really they’re lying, and then they wonder why kids stop trusting them. The family is a delicate ecosystem, and it has been thrown off balance since Mom came back from her conference.',
+ 'Johanna is in the office. Dad didn’t turn up at work and his phone is off. Thomas knows that Dad never switches his phone off. Then he remembers: the family tracking app shows each phone’s last location. He looks it up.'
+],
+beats: [
+ 'Adam wakes on concrete, in pain.',
+ 'Voices: hit too hard; a gun; he came to kill us.',
+ 'Adidas trainers; the stranger asks why he killed Ingrid.',
+ 'Thomas in AP English; called to the principal’s office.',
+ 'Thomas’s Santa Claus argument: protection as lying.',
+ 'The family as an ecosystem, thrown off since the conference.',
+ 'Johanna there: Dad missing; phone off.',
+ 'Dad never switches his phone off.',
+ 'The tracking app: last location; Thomas looks it up.'
+],
+cast: [['Adam Price','Captive.'],['Thomas Price','A son who acts.'],['Johanna Griffin','Seeking Adam.'],['Principal Gorman','Host of the meeting.'],['The stranger','Interrogating Adam.']],
+motifs: ['parenting','truth','technology','surveillance','lies','violence','fatherhood'],
+secrets: [['Parents','The Santa Claus lie and all protective lies.','Argued by Thomas'],['Adam','Where he is.','About to be found via the app']],
+clues: ['Adam is held captive by the group.','The group thinks he killed Ingrid.','Thomas can use the tracking app to locate Adam’s phone’s last position.'],
+dilemma: { q: 'Thomas argues that the Santa Claus lie damages trust. Is he right?', a: 'Yes: protective lies teach distrust', b: 'No: some childhood lies are gifts' },
+food: ['None: school and a concrete floor.'],
+refs: [['AP English','Advanced Placement courses offer US high-school students college-level work.'],['Santa Claus debate','Psychologists disagree on whether the Santa myth harms trust; most children take the discovery in their stride.'],['Family tracking apps','Location-sharing apps like Find My or Life360 let families see each other’s whereabouts.'],['Ecosystems','A metaphor from ecology: interdependent parts in balance.']],
+questions: [
+ ['Where does Adam wake?',0],
+ ['What does the group accuse him of?',0],
+ ['Why is Thomas called to the office?',0],
+ ['What is Thomas’s argument about Santa Claus?',0],
+ ['What does Thomas know about his father’s phone?',0],
+ ['How does Thomas help?',0],
+ ['Is Thomas right about protective lies?',1],
+ ['How does the tracking app’s role reverse its earlier meaning?',1],
+ ['Why cut between Adam and Thomas?',0],
+ ['What does the ecosystem metaphor mean?',1],
+ ['Why does the group think Adam is dangerous?',0],
+ ['How does the chapter treat Thomas’s maturity?',0],
+ ['What is the significance of the Adidas trainers?',0],
+ ['How does surveillance save here?',1],
+ ['How does the chapter use school as setting?',0],
+ ['What does Johanna’s presence show?',0],
+ ['How does the chapter treat teenage cynicism?',0],
+ ['When did the family ecosystem break?',0],
+ ['Who has been lying to Thomas?',0],
+ ['How does the chapter link the novel’s themes?',0],
+ ['What would you do in Thomas’s place?',0],
+ ['Is the Santa Claus lie harmless?',1],
+ ['How does the chapter build double suspense?',0],
+ ['How does the novel treat technology in families?',0],
+ ['Is Thomas now the hero?',0],
+ ['How does Adam feel waking up?',0],
+ ['What does the group’s misreading cost?',0],
+ ['How does the chapter treat principals and schools?',0],
+ ['What do you think of family tracking apps?',1],
+ ['Predict what Thomas finds.',0]
+],
+close: [
+ { cite: 'Chapter 50, opening: the concrete floor.', focus: 'Waking',
+   steps: ['Note the pain.','Note the voices.','Note the trainers.','Note the question.'],
+   ask: 'How does the chapter disorient us with Adam?' },
+ { cite: 'Chapter 50, middle: the Santa Claus argument.', focus: 'Protection as lying',
+   steps: ['Paraphrase Thomas’s argument.','Note the ecosystem metaphor.','Note when it broke.','Consider the novel’s view.'],
+   ask: 'How does Thomas’s argument echo the whole novel?' },
+ { cite: 'Chapter 50, close: the app.', focus: 'Surveillance as rescue',
+   steps: ['Note Johanna’s news.','Note Thomas’s certainty.','Note the app.','Read the last line.'],
+   ask: 'How does the novel let surveillance save a life?' }
+],
+lenses: {
+ office: 'A cross-cut chapter: captive father, resourceful son. Thomas’s Santa Claus argument is a teenage version of the stranger’s creed, and the tracking app that once spied on Adam now becomes a lifeline. The cut-off ending sustains double suspense.',
+ classroom: 'Protective lies, teenage trust and the ambivalence of surveillance. Thomas speaks for everyone lied to for their own good, and the novel lets him be right and wrong at once.',
+ records: 'Psychologists disagree on Santa: some fear damage to trust; studies suggest most children take the discovery calmly. Family location apps are now widespread. AP courses offer college-level work in US high schools.',
+ stacks: 'J. D. Salinger’s The Catcher in the Rye gives a teenager’s fury at adult phoniness. Thomas shares Holden’s sense of betrayal but turns it into action rather than drift.',
+ turnpike: 'A concrete basement in Pennsylvania and a principal’s office in Cedarfield: two points on the map joined by a phone signal. The tracker will draw the line between them.',
+ field: 'Is the Santa lie harmful? Thomas argues that protection is lying; the novel’s adults have done exactly that. Yet the same family tracking app that violated privacy now saves Adam.',
+ board: 'Adam captive; the group’s misreading; Thomas with the app. Pin the tracker as the key that may find Adam, and the misreading that may kill him.',
+ diner: 'A boy in a school office staring at a phone map, a woman beside him, and far away a man on a concrete floor: paint a split panel, bright and dark.',
+ kitchen: 'No food here: a school office and a concrete floor. Hunger and fear sit in the background. Think about how quickly ordinary comforts vanish in an emergency.',
+ driveway: 'Thomas argues that parents call it protection when they lie. Write privately about a lie told to protect you, and whether you think it was right to tell it.'
+},
+acts: {
+ office: [
+  ['Cross-cut','Analyse the cross-cutting.',20],
+  ['Teen creed','Compare Thomas and the stranger.',15],
+  ['Reversal','Analyse the app’s reversal.',15],
+  ['Point of view','Rewrite from Johanna’s POV.',30],
+  ['Split scene','Write a cross-cut scene.',35],
+  ['Disorientation','Analyse the waking.',15],
+  ['Pacing','Compare with chapter 48.',15],
+  ['Metaphor','Analyse the ecosystem.',15],
+  ['Ending','Analyse the cliffhanger.',15]
+ ],
+ classroom: [
+  ['Protective lies','Discuss.',25],
+  ['Teen trust','Discuss.',20],
+  ['Surveillance','Discuss saving vs spying.',20],
+  ['Thomas','Discuss Thomas as hero.',15],
+  ['Santa','Discuss the Santa debate.',20],
+  ['Theme update','Add "lifeline".',15],
+  ['Families','Discuss family ecosystems.',15],
+  ['Schools','Discuss schools in crises.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Santa research','Research studies on Santa belief.',20],
+  ['Location apps','Research Life360 and Find My.',15],
+  ['AP courses','Research AP English.',15],
+  ['Missing adults','Research missing-adult reports.',15],
+  ['Phone off','Research last-known location.',15],
+  ['School protocol','Research school family-emergency protocols.',15],
+  ['Head injury','Research concussion.',15],
+  ['Basements','Research Pocono cabins.',15],
+  ['Trust','Research adolescent trust.',20]
+ ],
+ stacks: [
+  ['Catcher','Read about Salinger.',20],
+  ['Hold Tight','Compare teens and tracking.',20],
+  ['Little Fires','Compare teen honesty.',20],
+  ['Bok','Read on lies to children.',20],
+  ['Gopnik','Read on parenting.',20],
+  ['Zuboff','Compare surveillance.',20],
+  ['Fool Me Once','Compare tracking.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about a son.',15]
+ ],
+ turnpike: [
+  ['Two points','Map the basement and school.',15],
+  ['Tracker','Draw the tracker line.',15],
+  ['Mapping journal','Add chapter 50.',15],
+  ['School','Pin the high school.',15],
+  ['Basement','Pin the lake cabin.',15],
+  ['Case map','Add Thomas’s role.',15],
+  ['Network','Link Thomas and Johanna.',15],
+  ['Status','Place Thomas.',15],
+  ['Distance','Measure the distance.',15]
+ ],
+ field: [
+  ['Santa lie','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to protective lies.',30],
+  ['Tracking','Write 300 words: spying or saving?',35],
+  ['Group','Is the group’s fear reasonable?',15],
+  ['School','Should Thomas be involved?',15],
+  ['Court','Update the group file.',15],
+  ['Trust','Rate Thomas’s trust in parents.',15],
+  ['Protection','When is protection lying?',15],
+  ['Personal','Write about a protective lie.',20]
+ ],
+ board: [
+  ['Captive','Pin Adam captive.',15],
+  ['Tracker','Pin the app.',15],
+  ['Scene','Write a 300-word rescue setup.',40],
+  ['Suspicion meter','Rate the group.',15],
+  ['Strand braid','Note strands.',15],
+  ['Misreading','Pin the group’s error.',15],
+  ['Tension curve','Rate.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Split panel','Paint the split scene.',35],
+  ['Trainers','Draw Adidas trainers on concrete.',15],
+  ['App map','Design the tracker map.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for Thomas.',15],
+  ['Office','Draw the principal’s office.',15],
+  ['Santa','Draw Santa with a question mark.',15],
+  ['Sound','Describe a school corridor.',15],
+  ['Cover brief','Add the map pin.',15]
+ ],
+ kitchen: [
+  ['Vanished comforts','Discuss food’s absence.',15],
+  ['Ledger notebook','Record the last location.',15],
+  ['Secrets box','Add the Santa lie.',15],
+  ['Table talk','Ask: was Santa a good lie?',25],
+  ['Making: family tech pact','Write a family tech pact.',20],
+  ['School lunch','Make a school lunch.',15],
+  ['Recipe of trust','Write a recipe.',15],
+  ['Cocoa','Make cocoa.',15],
+  ['Family dinner','Plan a reunion dinner.',30]
+ ],
+ driveway: [
+  ['Protective lie','Write about it.',20],
+  ['Santa','Write about learning the truth.',20],
+  ['Mood dial','Rate suspense.',15],
+  ['Prediction','What does Thomas find?',15],
+  ['Letter to Thomas','Write as Adam.',15],
+  ['Letter to parents','Write as Thomas.',15],
+  ['Ecosystem','Write about your family’s balance.',15],
+  ['Trust','Write about earning trust back.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 50 connect Thomas’s Santa Claus argument to the novel’s themes?',
+ 'Essay: Analyse the reversal of the tracking app from spy to lifeline.',
+ 'Creative: Write Thomas’s walk to the principal’s office.'
+],
+reading: [
+ ['holdtight','Teens, parents and tracking.'],
+ ['littlefires','Teen honesty.'],
+ ['boklying','Lies to children.'],
+ ['gopnik','Parenting.'],
+ ['zuboff','Surveillance.'],
+ ['foolmeonce','Coben on tracking.'],
+ ['lareau','Family life.'],
+ ['circle','Transparency in families.'],
+ ['nevertold','Family secrets.']
+],
+projects: [
+ { t: 'Santa Debate', rooms: ['field','classroom','records'], steps: ['Use the Dilemma scale.','Discuss.','Research.','Verdict.'] },
+ { t: 'Lifeline', rooms: ['board','turnpike','office'], steps: ['Pin the tracker.','Map.','Analyse reversal.','Predict.'] },
+ { t: 'Thomas', rooms: ['diner','driveway','stacks'], steps: ['Paint.','Write as Thomas.','Read Catcher.','Discuss.'] },
+ { t: 'Family Tech Pact', rooms: ['kitchen','classroom','driveway'], steps: ['Write a pact.','Discuss.','Write.','Reflect.'] },
+ { t: 'Cross-Cut', rooms: ['office','diner','board'], steps: ['Analyse.','Paint a split.','Pin.','Write.'] },
+ { t: 'Ecosystem', rooms: ['classroom','driveway','field'], steps: ['Discuss.','Write.','Debate.','Reflect.'] }
+],
+quiz: [
+ ['Where does Adam wake?', ['A hospital','A concrete floor','His car','A field'], 1],
+ ['What do the captors think?', ['He’s police','He killed Ingrid','He’s lost','He’s Chris'], 1],
+ ['Which class is Thomas in?', ['Maths','AP English','Gym','History'], 1],
+ ['What is Thomas’s argument about?', ['Lacrosse','Santa Claus and protective lies','Phones','Money'], 1],
+ ['How will Thomas find Adam?', ['A note','The tracking app','A call','A map'], 1]
+]
+};
