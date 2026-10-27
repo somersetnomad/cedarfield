@@ -1,0 +1,228 @@
+CF.CH = CF.CH || {};
+CF.CH[36] = {
+n: 36, title: "Eduardo's Garage", pov: 'The stranger', when: 'Around the same time', strands: ['stranger'], places: ['cedarfield'],
+summary: [
+ 'The stranger’s team works out of a garage belonging to Eduardo’s father, a nod to the start-up legends of Apple, Amazon, Google, Disney, Mattel, Hewlett-Packard and Harley-Davidson, all said to have begun in garages. Four Wi-Fi routers bounce their traffic around the world. Dan Molino has paid. The team: Eduardo, stringy-haired and an old-school hacker who loves the chase; Gabrielle, forty-four, a single mother of two who once worked as a phone-sex operator and then posed as a lonely housewife on a hook-up site to lure subscribers; and Merton, nineteen, tattooed and shaven-headed with bright blue eyes, chains and a switchblade, who volunteers for a televangelist. Ingrid had brought Merton in.',
+ 'We learn the stranger’s name: Chris Taylor. He founded the group, and the rules are his. Chris is disappointed that Dan Molino gets away with it, because when people pay, the group keeps quiet. Something else bothers him: Ingrid missed a planned appearance at a football tryout. Their protocol is strict: travel separately, no real names in the field, no contact between jobs. The irony is not lost on him: a group devoted to exposing secrets lives by anonymity.',
+ 'Ingrid never returned her rental car in Philadelphia. Chris calls her through Viber, bounced through Bulgaria. A man answers and asks who is calling. Chris hangs up. They have been compromised.'
+],
+beats: [
+ 'The garage HQ and the start-up garage myths.',
+ 'Four routers bouncing traffic.',
+ 'Dan Molino has paid.',
+ 'Eduardo: hacker, loves the chase.',
+ 'Gabrielle: forty-four, single mother, an ex-phone-sex worker and fake-profile lure.',
+ 'Merton: nineteen, tattoos, switchblade, televangelist volunteer; brought in by Ingrid.',
+ 'The stranger is Chris Taylor, the founder.',
+ 'Chris dislikes it when payers get away with it.',
+ 'Ingrid missed a job; the protocol of anonymity.',
+ 'Ingrid never returned the rental.',
+ 'A Viber call via Bulgaria; a man answers.',
+ 'They’ve been compromised.'
+],
+cast: [['Chris Taylor','The stranger, founder of the group.'],['Eduardo','Hacker and data-hound.'],['Gabrielle','Former phone-sex worker; online lure; mother of two.'],['Merton','Young, tattooed, volatile.'],['Ingrid Prisby','Missing (mentioned).']],
+motifs: ['anonymity','technology','secrets','money','justice','identity','truth'],
+secrets: [['The group','Their names, methods and garage.','Revealed to the reader'],['Ingrid','She has gone silent.','Feared']],
+clues: ['The stranger is Chris Taylor.','The group’s members are named.','Dan Molino paid.','Ingrid missed a job and kept the rental.','A man answered Ingrid’s phone.'],
+dilemma: { q: 'If the group keeps quiet when people pay, is it doing justice or business?', a: 'Business, with a conscience', b: 'Blackmail, plain and simple' },
+food: ['Garage snacks and energy drinks (implied).'],
+refs: [['Garage start-up myths','Hewlett-Packard (1939), Apple (1976), Amazon (1994) and Google (1998) all began in or around garages; HP’s Palo Alto garage is a California landmark.'],['VPNs and routing','Bouncing traffic through several networks to hide its origin.'],['Viber','A messaging and calling app launched in 2010.'],['Televangelism','Religious broadcasting, often with fundraising.']],
+questions: [
+ ['Where does the group work?',0],
+ ['Name the members and describe each.',0],
+ ['What is the stranger’s name?',0],
+ ['What is the group’s protocol?',0],
+ ['What has happened to Ingrid?',0],
+ ['What happens on the Viber call?',0],
+ ['Why does the novel invoke garage start-up myths?',1],
+ ['Is the group a business, a cause or a crime?',1],
+ ['What irony lies in their anonymity?',1],
+ ['How does Gabrielle’s past connect to deception online?',0],
+ ['What does Merton’s volunteering add?',0],
+ ['Why is Chris unhappy that Dan paid?',0],
+ ['How does the chapter humanise the group?',0],
+ ['What does "compromised" mean for them?',0],
+ ['Who might have answered Ingrid’s phone?',0],
+ ['Compare the group with a tech start-up.',0],
+ ['What do the routers suggest?',0],
+ ['How does the chapter treat hackers?',0],
+ ['Is Eduardo dangerous?',0],
+ ['Is Merton?',0],
+ ['How does the chapter shift your view of the stranger?',1],
+ ['Why name him now?',0],
+ ['What does Gabrielle’s history suggest about the internet?',0],
+ ['What does the group believe it is doing?',0],
+ ['How does the chapter build menace?',1],
+ ['What might link the group to the recent killings?',0],
+ ['How does protocol fail?',0],
+ ['Would you trust these people?',0],
+ ['What does the garage represent?',1],
+ ['Predict what the group does next.',0]
+],
+close: [
+ { cite: 'Chapter 36, opening: the garage and its myths.', focus: 'Start-up legend',
+   steps: ['List the companies.','Note the tone.','Describe the routers.','Note Dan’s payment.'],
+   ask: 'How does the chapter frame the group as a start-up?' },
+ { cite: 'Chapter 36, middle: the team.', focus: 'Character sketches',
+   steps: ['Describe Eduardo.','Describe Gabrielle.','Describe Merton.','Note Chris’s role.'],
+   ask: 'How do the sketches vary the group’s motives?' },
+ { cite: 'Chapter 36, close: the Viber call.', focus: 'The voice on the line',
+   steps: ['Note the routing.','Note the voice.','Note Chris’s reaction.','Read the last line.'],
+   ask: 'How does the chapter turn the hunters into the hunted?' }
+],
+lenses: {
+ office: 'An ensemble chapter introducing the group through quick sketches, framed by the garage myth. The ending reverses the novel’s polarity: those who watch are now being watched. Naming the stranger at last shrinks him from menace to man.',
+ classroom: 'Anonymity and exposure; the start-up mythology of disruption; the morality of a vigilante business. The group lives the contradiction at the heart of the book: they reveal secrets while guarding their own.',
+ records: 'HP, Apple, Amazon and Google all have garage origin stories, some embellished. Routing traffic through several countries complicates tracing. Viber launched in 2010. Phone-sex lines and fake profiles on dating sites have both been well documented.',
+ stacks: 'Jon Ronson’s So You’ve Been Publicly Shamed and Dave Eggers’s The Circle explore exposure culture. Nick Bilton’s American Kingpin tells how the Silk Road’s founder was traced despite his anonymity.',
+ turnpike: 'A suburban garage, with traffic bounced through Bulgaria and back. Philadelphia, where Ingrid’s car should have been returned. The group’s map is digital, but its people live in ordinary houses.',
+ field: 'Is the group’s rule (pay and we stay silent) ethical? It turns revelation into a price. Chris’s discomfort suggests even he doubts it.',
+ board: 'Big reveal: the stranger’s name and crew. Ingrid’s silence and the unknown man answering her phone tie this strand to the murder in chapter 21.',
+ diner: 'A garage lit by monitors, four blinking routers, a whiteboard, a camp chair, a tattooed young man spinning a knife: paint it like a cave of screens.',
+ kitchen: 'Energy drinks and takeaway boxes in a garage: start-up food. Make a garage snack board and talk about who you would trust in a team.',
+ driveway: 'The group exposes others while hiding themselves. Write privately about whether you want to be known or hidden online. List three things about you that are findable, and one that is not.'
+},
+acts: {
+ office: [
+  ['Ensemble','Analyse the character sketches.',20],
+  ['Frame','Analyse the garage frame.',15],
+  ['Reversal','Analyse the ending’s reversal.',15],
+  ['Naming','Why name the stranger now?',15],
+  ['Point of view','Rewrite from Gabrielle’s POV.',30],
+  ['Sketches','Write three character sketches.',30],
+  ['Pacing','Compare with chapter 31.',15],
+  ['Irony','Find the irony.',15],
+  ['Ending','Analyse the last line.',15]
+ ],
+ classroom: [
+  ['Anonymity','Discuss anonymity and exposure.',25],
+  ['Start-up myth','Discuss disruption culture.',20],
+  ['Vigilante business','Discuss.',25],
+  ['Online deception','Discuss Gabrielle’s past.',20],
+  ['Hackers','Discuss portrayals of hackers.',15],
+  ['Theme update','Add "hunters hunted".',15],
+  ['Faith','Discuss Merton’s volunteering.',15],
+  ['Protocol','Discuss rules and failure.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Garage myths','Research HP’s garage.',20],
+  ['Routing','Research VPNs and onion routing.',20],
+  ['Viber','Research the app.',15],
+  ['Dating-site lures','Research fake profiles on dating sites.',20],
+  ['Phone-sex industry','Research its history.',15],
+  ['Televangelism','Research televangelism.',15],
+  ['Silk Road','Research how Ross Ulbricht was traced.',20],
+  ['Rental cars','Research rental tracking.',15],
+  ['Hacker culture','Research the hacker ethic.',15]
+ ],
+ stacks: [
+  ['Kingpin','Read about American Kingpin.',20],
+  ['Ronson','Read about public shaming.',20],
+  ['The Circle','Compare exposure culture.',20],
+  ['Zuboff','Read on data.',20],
+  ['Solove','Read on privacy.',20],
+  ['Fool Me Once','Compare tech and secrets.',20],
+  ['Orwell','Compare surveillance.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about masks.',15]
+ ],
+ turnpike: [
+  ['Garage','Imagine the garage’s town.',15],
+  ['Bulgaria','Trace the routing.',15],
+  ['Mapping journal','Add chapter 36.',15],
+  ['Philadelphia','Pin the rental return.',15],
+  ['Team map','Map where members live.',15],
+  ['Case map','Add the group.',15],
+  ['Network','Draw the group’s links.',15],
+  ['Status','Place each member.',15],
+  ['Digital map','Draw a routing diagram.',15]
+ ],
+ field: [
+  ['Pay or reveal','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to the group.',30],
+  ['Business','Write 300 words: business or crime?',35],
+  ['Anonymity','Is anonymity hypocritical here?',15],
+  ['Recruitment','Is recruiting Merton responsible?',15],
+  ['Court','Begin a file on the group.',15],
+  ['Chris','Rate Chris’s conscience.',15],
+  ['Lures','Was Gabrielle’s old work wrong?',15],
+  ['Personal','Write about online identity.',20]
+ ],
+ board: [
+  ['Names','Pin each member.',15],
+  ['Chris','Pin the stranger’s name.',15],
+  ['Scene','Write a 300-word compromised scene.',40],
+  ['Suspicion meter','Rate each member.',15],
+  ['Strand braid','Link to chapter 21.',15],
+  ['Voice','Who answered the phone?',15],
+  ['Tension curve','Rate.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Cave of screens','Paint the garage.',35],
+  ['Group portrait','Draw the four.',30],
+  ['Routers','Draw blinking routers.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a hacker theme.',15],
+  ['Switchblade','Draw Merton’s hands.',15],
+  ['Logo','Design the group’s (secret) logo.',15],
+  ['Sound','Describe a garage of machines.',15],
+  ['Cover brief','Add the garage door.',15]
+ ],
+ kitchen: [
+  ['Garage snack board','Make it and discuss team trust.',20],
+  ['Ledger notebook','Record Dan’s payment.',15],
+  ['Secrets box','Add the group’s names.',15],
+  ['Table talk','Ask: who would you trust in a crew?',25],
+  ['Making: protocol card','Write rules for a secret group.',15],
+  ['Takeaway','Order or cook takeaway-style food.',30],
+  ['Recipe of anonymity','Write a recipe.',15],
+  ['Coffee for coders','Brew strong coffee.',15],
+  ['Pizza','Make garage pizza.',45]
+ ],
+ driveway: [
+  ['Known or hidden','Write about it.',20],
+  ['Team','Write about a team that went wrong.',20],
+  ['Mood dial','Rate menace.',15],
+  ['Prediction','What next?',15],
+  ['Letter to Chris','Write to Chris.',15],
+  ['Letter to Ingrid','Write as Chris.',15],
+  ['Masks','Write about masks.',15],
+  ['Garage dreams','Write about a garage dream.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 36 use start-up mythology to characterise the stranger’s group?',
+ 'Essay: Analyse the irony of anonymity in a group devoted to exposing secrets.',
+ 'Creative: Write the group’s first meeting in the garage.'
+],
+reading: [
+ ['kingpin','Anonymity and how it fails.'],
+ ['ronson','Exposure culture.'],
+ ['circle','A company devoted to transparency.'],
+ ['zuboff','Data and its uses.'],
+ ['solove','Privacy and secrets.'],
+ ['foolmeonce','Coben on technology and deception.'],
+ ['orwell','Watching and being watched.'],
+ ['citron','Online harms.'],
+ ['goffman','Masks and presentation.']
+],
+projects: [
+ { t: 'The Garage', rooms: ['diner','records','office'], steps: ['Paint it.','Research garage myths.','Analyse the frame.','Present.'] },
+ { t: 'The Crew', rooms: ['board','office','field'], steps: ['Pin each member.','Write sketches.','Rate.','Debate.'] },
+ { t: 'Anonymity', rooms: ['classroom','stacks','driveway'], steps: ['Discuss.','Read Kingpin.','Write.','Reflect.'] },
+ { t: 'Business or Crime', rooms: ['field','classroom','board'], steps: ['Use the Dilemma scale.','Debate.','Court file.','Verdict.'] },
+ { t: 'Compromised', rooms: ['board','office','turnpike'], steps: ['Link to chapter 21.','Analyse the ending.','Map routing.','Predict.'] },
+ { t: 'Crew Night', rooms: ['kitchen','classroom','driveway'], steps: ['Snack board.','Discuss trust.','Write rules.','Reflect.'] }
+],
+quiz: [
+ ['Where does the group work?', ['An office','Eduardo’s father’s garage','A diner','A school'], 1],
+ ['What is the stranger’s name?', ['Eduardo','Chris Taylor','Merton','Tripp'], 1],
+ ['Who brought Merton in?', ['Gabrielle','Ingrid','Chris','Eduardo'], 1],
+ ['What happens when people pay?', ['The group exposes them anyway','The group keeps quiet','They’re arrested','Nothing'], 1],
+ ['Who answers Ingrid’s phone?', ['Ingrid','A man','No one','Gabrielle'], 1]
+]
+};

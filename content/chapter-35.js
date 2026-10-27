@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[35] = {
+n: 35, title: 'Almost Doesn’t Count', pov: 'Adam', when: 'That night', strands: ['adam'], places: ['cedarfield'],
+summary: [
+ 'The number belongs to Sally Perryman, a lawyer Adam once worked closely with. He calls; she agrees to meet at the bar of a chain restaurant. She arrives in a white blouse and pencil skirt with a New York Post, and saves the seat beside her with her coat. It is the first time they have spoken in a long while.',
+ 'Adam asks whether Corinne ever called her. Yes, Sally says: once, two years ago, during the big case they worked on together. Corinne knew Adam had been to Sally’s house; she had found out through a phone-tracking app. Sally told her it was work, that nothing had happened. To Adam she is franker: nothing happened, but it was nearly something.',
+ 'Adam says that nearly doesn’t count. Sally replies that, to his wife, it probably did. Adam has nothing to add. He leaves.'
+],
+beats: [
+ 'The familiar number is Sally Perryman’s.',
+ 'They meet at a chain-restaurant bar.',
+ 'Sally: white blouse, pencil skirt, a tabloid, a coat on the stool.',
+ 'Corinne called Sally once, two years ago, during their case.',
+ 'Corinne tracked Adam to Sally’s house via an app.',
+ 'Sally told Corinne it was work; nothing happened.',
+ 'To Adam she admits it was nearly something.',
+ 'Adam: nearly doesn’t count. Sally: to Corinne it did.',
+ 'Adam leaves.'
+],
+cast: [['Sally Perryman','A former colleague; the near-affair.'],['Adam Price','Confronted with his own secret.']],
+motifs: ['marriage','secrets','technology','surveillance','lies','truth','identity'],
+secrets: [['Adam','His closeness with Sally two years ago.','Exposed to the reader'],['Corinne','She knew, and called Sally.','Revealed']],
+clues: ['Corinne called Sally two years ago.','Corinne tracked Adam’s phone to Sally’s house.','The call came in the month of her first fake-pregnancy order.'],
+dilemma: { q: 'Does an emotional near-affair, with no physical contact, count as betrayal?', a: 'Yes: it counts', b: 'No: nearly isn’t the same' },
+food: ['Drinks at a chain-restaurant bar.'],
+refs: [['Emotional affairs','A term used by therapists for intimate non-physical relationships outside a marriage.'],['The New York Post','A New York tabloid newspaper founded in 1801 by Alexander Hamilton.'],['Phone-tracking apps','Location-sharing apps that let family members see each other’s whereabouts.']],
+questions: [
+ ['Who is Sally Perryman?',0],
+ ['Where do they meet?',0],
+ ['When did Corinne call Sally?',0],
+ ['How did Corinne know Adam had been to Sally’s house?',0],
+ ['What does Sally admit to Adam?',0],
+ ['How does the conversation end?',0],
+ ['Does almost count? Why or why not?',1],
+ ['How does this reframe Corinne’s first fake-pregnancy order?',1],
+ ['Is Adam a hypocrite in his anger at Corinne?',1],
+ ['What does the tracking app reveal about trust in the marriage?',1],
+ ['Why does the chapter end so abruptly?',0],
+ ['How is Sally characterised?',0],
+ ['What does the saved seat suggest?',0],
+ ['How does the chapter treat Adam’s secret?',0],
+ ['Compare Adam’s secret with Corinne’s.',1],
+ ['What does Sally’s frankness show?',0],
+ ['Was Sally right to tell Corinne it was work?',0],
+ ['How does this chapter change your view of Adam?',0],
+ ['Why place this chapter here?',0],
+ ['How does surveillance cut both ways in this marriage?',0],
+ ['What does Adam feel when he leaves?',0],
+ ['How does a near-affair start?',0],
+ ['Is emotional intimacy at work dangerous?',0],
+ ['What does the tabloid detail add?',0],
+ ['How might Corinne have felt that day?',0],
+ ['What does Sally owe Corinne?',0],
+ ['Why does Adam not argue?',0],
+ ['How does the novel treat male self-deception?',0],
+ ['Would you forgive a near-affair?',1],
+ ['Predict how Adam reconsiders the marriage.',0]
+],
+close: [
+ { cite: 'Chapter 35, opening: Sally at the bar.', focus: 'First impressions again',
+   steps: ['Describe her clothes.','Note the newspaper.','Note the saved seat.','Note the setting.'],
+   ask: 'How does the chapter make Sally both ordinary and charged?' },
+ { cite: 'Chapter 35, middle: Corinne’s call.', focus: 'The other side',
+   steps: ['Find when Corinne called.','Find how she knew.','Find what Sally told her.','Note Adam’s reaction.'],
+   ask: 'How does the chapter let us see the marriage from Corinne’s side?' },
+ { cite: 'Chapter 35, close: the exchange about almost.', focus: 'Counting',
+   steps: ['Find Sally’s admission.','Find Adam’s reply.','Find her answer.','Note his exit.'],
+   ask: 'Who wins the argument, and why does Adam leave?' }
+],
+lenses: {
+ office: 'A short, sharp chapter that turns the novel’s lens on its hero. The final exchange about what counts is the moral pivot: Adam’s own secret reframes Corinne’s fake pregnancy as a response, not just a deception.',
+ classroom: 'Emotional affairs, mutual surveillance and the asymmetry of judgment. The novel suggests that both spouses held secrets, and both watched each other. The theme of the stranger’s revelations turns inward.',
+ records: 'Therapists widely recognise emotional affairs as damaging, even without physical contact. Location-sharing apps such as Find My launched in the early 2010s and are widely used within families.',
+ stacks: 'Leo Tolstoy’s Anna Karenina and Edith Wharton’s The Age of Innocence both trace the force of an affair that might or might not be consummated. Perel’s State of Affairs (2017) discusses emotional infidelity.',
+ turnpike: 'A chain-restaurant bar on a highway, neutral ground for an awkward meeting. Somewhere on the map is Sally’s house, and once, a blue dot that Corinne watched there.',
+ field: 'Does almost count? Virtue ethics says character is shaped by intentions as well as acts; consequentialism looks at the harm done. Corinne’s pain was real either way.',
+ board: 'A motive lands: Corinne’s first fake order came in the month she learned of Sally. The pregnancy was not a whim but a response. Pin the timeline.',
+ diner: 'A woman at a bar with a newspaper and a coat on the next stool, a man arriving: paint it in amber bar light with a cold TV glow.',
+ kitchen: 'A drink at a bar, ordered and unfinished. Food and drink in this novel are often the setting for truths that end the meal early.',
+ driveway: 'Adam thought nearly didn’t count. Write privately about something you almost did, and whether it counted to someone else.'
+},
+acts: {
+ office: [
+  ['Pivot','Analyse the final exchange as a turning point.',20],
+  ['Brevity','Analyse why the chapter is short.',15],
+  ['Description','Analyse Sally’s description.',15],
+  ['Point of view','Rewrite from Sally’s POV.',30],
+  ['Dialogue','Write an exchange about almost.',30],
+  ['Reframing','How does this change chapter 1?',15],
+  ['Pacing','Compare with chapter 34.',15],
+  ['Exit','Analyse Adam’s exit.',15],
+  ['Subtext','Find subtext in the bar talk.',15]
+ ],
+ classroom: [
+  ['Emotional affairs','Discuss.',25],
+  ['Mutual surveillance','Discuss the tracking app.',20],
+  ['Asymmetry','Discuss judging Corinne vs Adam.',25],
+  ['Workplace intimacy','Discuss.',20],
+  ['Hypocrisy','Discuss Adam’s hypocrisy.',20],
+  ['Theme update','Add "almost".',15],
+  ['Motive','Discuss Corinne’s motive.',20],
+  ['Forgiveness','Discuss forgiving almost.',20],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Emotional affairs','Research what therapists say.',20],
+  ['Location sharing','Research Find My and similar apps.',15],
+  ['NY Post','Research its history.',15],
+  ['Workplace relationships','Research workplace intimacy policy.',15],
+  ['Tracking ethics','Research partner tracking.',20],
+  ['Law firms','Research long trial teams.',15],
+  ['Chain bars','Research chain restaurant culture.',15],
+  ['Infidelity rates','Research survey figures.',15],
+  ['Repair','Research couples repair after betrayal.',20]
+ ],
+ stacks: [
+  ['Anna Karenina','Read about Tolstoy’s novel.',20],
+  ['Age of Innocence','Compare an unconsummated love.',20],
+  ['State of Affairs','Read about Perel.',20],
+  ['Gottman','Read on trust.',20],
+  ['Brief Encounter','Read about the 1945 film’s story.',15],
+  ['Little Children','Compare suburban affairs.',20],
+  ['Revolutionary Road','Compare marriage and affairs.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about temptation.',15]
+ ],
+ turnpike: [
+  ['Bar','Pin the restaurant.',15],
+  ['Sally’s house','Imagine it on the map.',15],
+  ['Mapping journal','Add chapter 35.',15],
+  ['Blue dot','Draw the tracking dot.',15],
+  ['Neutral ground','Note why a chain bar.',15],
+  ['Case map','Add Sally.',15],
+  ['Timeline','Add two years ago.',15],
+  ['Status','Place Sally.',15],
+  ['Routes','Map Adam’s old route.',15]
+ ],
+ field: [
+  ['Almost','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to the near-affair.',30],
+  ['Intention','Write 300 words on intent vs act.',35],
+  ['Tracking','Was Corinne right to track Adam?',20],
+  ['Sally','Did Sally lie to Corinne?',15],
+  ['Hypocrisy','Is Adam hypocritical?',15],
+  ['Court','Add a counter-file on Adam.',15],
+  ['Forgive','Would you forgive?',15],
+  ['Personal','Write about something almost done.',20]
+ ],
+ board: [
+  ['Sally','Pin Sally.',15],
+  ['Motive','Pin Corinne’s motive for the first order.',15],
+  ['Scene','Write a 300-word confrontation.',40],
+  ['Suspicion meter','Rate Adam as a keeper of secrets.',15],
+  ['Timeline','Link the call and the order.',15],
+  ['Strand braid','Note strands.',15],
+  ['Reframe','Re-read chapter 1 notes.',15],
+  ['Tension curve','Rate.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Bar scene','Paint the bar.',35],
+  ['Coat on a stool','Paint a saved seat.',20],
+  ['Blue dot','Design a tracking-map image.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for almost.',15],
+  ['Pencil skirt','Draw Sally.',15],
+  ['Tabloid','Design a tabloid front page.',15],
+  ['Sound','Describe a bar at night.',15],
+  ['Cover brief','Add the stool.',15]
+ ],
+ kitchen: [
+  ['Unfinished drink','Mix a drink and discuss almost.',15],
+  ['Ledger notebook','Record two years ago.',15],
+  ['Secrets box','Add Adam’s secret.',15],
+  ['Table talk','Ask: does almost count?',25],
+  ['Making: two-sided ledger','Make a ledger of each spouse’s secrets.',20],
+  ['Bar snacks','Make bar snacks.',20],
+  ['Recipe of temptation','Write a recipe.',15],
+  ['Dinner for two','Cook a simple dinner for two.',40],
+  ['Coffee after','Make coffee and talk.',15]
+ ],
+ driveway: [
+  ['Almost','Write about something almost.',20],
+  ['Watched','Write about being watched.',20],
+  ['Mood dial','Rate guilt.',15],
+  ['Prediction','How will Adam change?',15],
+  ['Letter to Corinne','Write as Adam.',15],
+  ['Letter to Sally','Write as Corinne.',15],
+  ['Hypocrisy','Write about your own double standard.',15],
+  ['Work','Write about intimacy at work.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 35 reframe Corinne’s fake pregnancy, and what does it reveal about Adam?',
+ 'Essay: Analyse the novel’s treatment of mutual surveillance in marriage.',
+ 'Creative: Write Corinne’s phone call to Sally two years ago.'
+],
+reading: [
+ ['perelaffairs','Emotional infidelity.'],
+ ['gottman','Trust and betrayal.'],
+ ['littlechildren','Suburban near-affairs.'],
+ ['revroad','Marriage and temptation.'],
+ ['husbandsecret','Secrets within a marriage.'],
+ ['dollshouse','A marriage seen anew.'],
+ ['gonegirl','Spouses watching spouses.'],
+ ['boksecrets','Secrets between intimates.'],
+ ['virgin','Middle-aged men and temptation.']
+],
+projects: [
+ { t: 'Almost', rooms: ['field','classroom','driveway'], steps: ['Use the Dilemma scale.','Discuss.','Write.','Verdict.'] },
+ { t: 'Reframing the Marriage', rooms: ['office','board','stacks'], steps: ['Analyse the pivot.','Pin the motive.','Read Perel.','Re-read chapter 1.'] },
+ { t: 'Two Ledgers', rooms: ['kitchen','classroom','driveway'], steps: ['Make the ledger.','Discuss.','Write.','Reflect.'] },
+ { t: 'The Blue Dot', rooms: ['records','turnpike','field'], steps: ['Research tracking apps.','Map.','Debate.','Verdict.'] },
+ { t: 'Sally', rooms: ['diner','office','driveway'], steps: ['Paint the bar.','Write her POV.','Write a letter.','Discuss.'] },
+ { t: 'The Call Two Years Ago', rooms: ['driveway','board','office'], steps: ['Write the call.','Pin the timeline.','Discuss.','Predict.'] }
+],
+quiz: [
+ ['Whose number was it?', ['Kristin’s','Sally Perryman’s','Becky’s','Suzanne’s'], 1],
+ ['When did Corinne call her?', ['Last week','About two years ago','On draft night','Never'], 1],
+ ['How did Corinne know where Adam had been?', ['A friend told her','A phone-tracking app','A letter','A detective'], 1],
+ ['What does Sally admit?', ['An affair','Nothing happened but it nearly did','She hates Adam','She called Tripp'], 1],
+ ['What does Adam do at the end?', ['Orders food','Leaves','Stays','Calls Corinne'], 1]
+]
+};
