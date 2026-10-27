@@ -46,7 +46,7 @@ questions: [
  ['How does the novel depict middle age?',0],
  ['What does Heidi’s collapse on tape suggest?',0],
  ['How do the two strands now connect?',0],
- ['What do you think Heidi’s secret might be?',0],
+ ['What do you think Heidi’s secret might be?',1],
  ['How does the chapter use the empty seat?',0],
  ['Is grief a motivation for good policing?',1],
  ['What does Ricky mean to Johanna?',0],

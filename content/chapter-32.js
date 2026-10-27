@@ -74,7 +74,7 @@ lenses: {
  classroom: 'Class decline and resentment; gradual corruption; the trust that volunteer institutions rest on. The chapter asks how ordinary people slide into wrongdoing, one small permission at a time.',
  records: 'Family-owned sporting goods shops were squeezed by chains such as Dick’s and Modell’s from the 1980s onward. Fraud examiners note that occupational fraud often begins with small amounts and grows. The Meadowlands have been reshaped by stadiums and landfill.',
  stacks: 'Arthur Miller’s Death of a Salesman and All My Sons both explore men undone by business and their self-justifications. Tripp’s family history belongs to that tradition.',
- turnpike: 'The Meadowlands near MetLife Stadium: marsh, highways and low office blocks. The title nods to the swamps of Jersey in Springsteen’s lyrics, a phrase that has become shorthand for this landscape and its people.',
+ turnpike: 'The Meadowlands near MetLife Stadium: marsh, highways and low office blocks. Tripp jokes about working out in the swamps, a half-proud, half-rueful nickname locals use for this landscape and its people.',
  field: 'Was keeping Adam in the dark kind or wrong? Tripp claims loyalty to Corinne. Duty to a friend, duty to the club, duty to a husband: the chapter sets them against each other.',
  board: 'A major clue lands: the 7:53 call was to Tripp. The speech on embezzlement is also worth pinning: a detailed theory of how money disappears, offered by the man who presides over it.',
  diner: 'A dated office by a loading dock, mugs of bad coffee, a man in a thin shirt: paint the Meadowlands at grey midday with the stadium on the horizon.',
