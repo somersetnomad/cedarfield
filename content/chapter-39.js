@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[39] = {
+n: 39, title: 'Police at the Door', pov: 'Adam', when: 'Early the next morning', strands: ['adam'], places: ['cedarfield','fairlawn'],
+summary: [
+ 'At six in the morning Gribbel calls; he has been up after a gig at which his band played a seventies story-song about Chicago gangsters. His band has a Facebook fan page with about eighty followers. More usefully, he has found Gabrielle Dunbar: she has moved back to Fair Lawn, and he has her address.',
+ 'Upstairs Ryan is sobbing. He misses his mum. Adam feels a surge of anger at Corinne for hurting the boys. When Ryan asks where she is, Adam answers truthfully that he doesn’t know, and oddly that soothes the boy more than reassurance would. Corinne always called the boys her boys, and joked that Adam was her biggest child. She loved her life. She would not just leave it.',
+ 'A police car pulls up. Len Gilman steps out with an Essex County officer. Adam’s mind goes straight to the worst: Corinne is dead. Len says it isn’t about Corinne, as far as he knows, but Adam needs to come to the station.'
+],
+beats: [
+ 'Six a.m.: Gribbel, post-gig, with Gabrielle’s Fair Lawn address.',
+ 'The band’s fan page and its eighty-odd followers.',
+ 'Ryan sobbing for his mother.',
+ 'Adam’s anger at Corinne for hurting the boys.',
+ 'Adam answers honestly: he doesn’t know where she is; it soothes Ryan.',
+ 'Corinne’s phrase for the boys, and Adam as her biggest child.',
+ 'She loved her life.',
+ 'A police car: Len and an Essex County officer.',
+ 'Adam fears she is dead; Len says it’s not about her, he thinks.',
+ 'Adam must come to the station.'
+],
+cast: [['Andy Gribbel','Paralegal and amateur rock singer.'],['Ryan Price','Grieving his absent mother.'],['Len Gilman','Police chief.'],['Adam Price','Father, then suspect.']],
+motifs: ['parenting','truth','justice','community','marriage','fatherhood'],
+secrets: [['Adam','His anger at Corinne.','Felt'],['Police','Why they want Adam.','Not yet known']],
+clues: ['Gabrielle Dunbar lives in Fair Lawn.','The police want Adam, not about Corinne (Len thinks).','An Essex County officer is with Len.'],
+dilemma: { q: 'Adam tells Ryan he doesn’t know where Mom is, and it helps. Is honest uncertainty better than false comfort for children?', a: 'Yes: children sense the truth', b: 'No: young children need reassurance' },
+food: ['Breakfast at an unsettled table.'],
+refs: [['The Night Chicago Died','A 1974 hit by the British band Paper Lace, about a fictional gangland shoot-out.'],['Essex County, NJ','A county including Newark; its sheriff’s office handles some major investigations.'],['Fair Lawn','A Bergen County borough.'],['Facebook fan pages','Pages for bands and public figures.']],
+questions: [
+ ['What news does Gribbel bring?',0],
+ ['What is Ryan upset about?',0],
+ ['How does Adam respond to Ryan?',0],
+ ['Why does honesty soothe Ryan?',1],
+ ['What did Corinne call the boys?',0],
+ ['Who comes to the door?',0],
+ ['What does Adam fear?',0],
+ ['What does Len say?',0],
+ ['How does the chapter treat Adam’s anger at Corinne?',1],
+ ['Is Adam’s anger fair?',1],
+ ['What does the biggest-child joke reveal?',0],
+ ['What does Gribbel’s gig add?',0],
+ ['How does the chapter shift from domestic to procedural?',0],
+ ['Why is an Essex County officer there?',0],
+ ['What might the police want?',0],
+ ['How does the chapter treat children’s grief?',1],
+ ['Compare Ryan’s and Thomas’s responses.',0],
+ ['What does Corinne’s love of her life suggest?',0],
+ ['How does the chapter build dread?',0],
+ ['What does the fan page tell us about Gribbel?',0],
+ ['How does Adam cope with conflicting feelings?',0],
+ ['What do you think Adam should do at the station?',0],
+ ['How does the novel use comic relief in dark chapters?',0],
+ ['Why does Len say "I think"?',0],
+ ['How has Adam’s situation changed?',0],
+ ['What does "station" signal?',0],
+ ['Is Adam now a suspect?',0],
+ ['How should you tell a child you don’t know?',1],
+ ['What does this chapter say about mothers?',1],
+ ['Predict what awaits Adam.',0]
+],
+close: [
+ { cite: 'Chapter 39, opening: Gribbel’s call.', focus: 'Comic relief',
+   steps: ['Note the time.','Note the gig.','Note the fan page.','Note the address.'],
+   ask: 'How does comedy make room for the darker scenes that follow?' },
+ { cite: 'Chapter 39, middle: Ryan.', focus: 'Honest uncertainty',
+   steps: ['Describe Ryan’s grief.','Note Adam’s anger.','Find his honest reply.','Note its effect.'],
+   ask: 'Why does the truth calm Ryan?' },
+ { cite: 'Chapter 39, close: the police car.', focus: 'Dread',
+   steps: ['Note who arrives.','Note Adam’s assumption.','Note Len’s hedge.','Note the request.'],
+   ask: 'How does the chapter manipulate our fears?' }
+],
+lenses: {
+ office: 'A three-beat chapter: comic, tender, ominous. Gribbel’s cheerful call, Ryan’s grief and the police at the door make a rising curve of dread. Len’s hedge (not about Corinne, he thinks) keeps every possibility open.',
+ classroom: 'Children’s grief, parental anger and the value of honest uncertainty. The novel argues again that truth, even incomplete truth, can comfort more than false reassurance.',
+ records: 'Child psychologists often recommend age-appropriate honesty with children during family crises. The Night Chicago Died, by Paper Lace, was a 1974 US number one. Essex County includes Newark.',
+ stacks: 'Coben’s Hold Tight and Celeste Ng’s Little Fires Everywhere both explore what children are told. Joan Didion’s The Year of Magical Thinking shows grief’s strange logic.',
+ turnpike: 'Fair Lawn, where Gabrielle has moved back, and Essex County, whose officer stands at the door. The case is expanding across county lines and jurisdictions, and it is about to take Adam with it.',
+ field: 'Is honest uncertainty better for children than false comfort? Care ethics favours attunement to the child; the chapter suggests Ryan wanted honesty more than a promise.',
+ board: 'Gabrielle located; police escalation. An Essex County officer means something bigger than lacrosse money. Pin the escalation and Len’s hedge.',
+ diner: 'A boy crying on a bed at dawn, a father in the doorway, a police car glinting outside the window: paint it in grey morning light.',
+ kitchen: 'Breakfast that never quite happens. Make a simple breakfast for a family in crisis, and notice how cooking can be a form of steadiness for children.',
+ driveway: 'Adam tells Ryan the truth: he doesn’t know. Write privately about a time when someone admitted they didn’t know, and how it felt to hear honesty instead of comfort.'
+},
+acts: {
+ office: [
+  ['Three beats','Map the chapter’s three beats.',15],
+  ['Dread','Analyse rising dread.',15],
+  ['Comic relief','Analyse Gribbel.',15],
+  ['Point of view','Rewrite from Ryan’s POV.',30],
+  ['Scene','Write a child’s grief scene.',30],
+  ['Hedge','Analyse Len’s hedge.',15],
+  ['Pacing','Compare with chapter 34.',15],
+  ['Dialogue','Analyse Adam and Ryan.',15],
+  ['Ending','Analyse the summons.',15]
+ ],
+ classroom: [
+  ['Children’s grief','Discuss.',25],
+  ['Honest uncertainty','Discuss.',25],
+  ['Anger at a spouse','Discuss.',20],
+  ['Mothers','Discuss Corinne as mother.',20],
+  ['Escalation','Discuss the police turn.',15],
+  ['Theme update','Add "honest uncertainty".',15],
+  ['Comic relief','Discuss Gribbel.',15],
+  ['Suspects','Discuss Adam as suspect.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Talking to children','Research advice on telling children hard news.',20],
+  ['Paper Lace','Research the song.',15],
+  ['Essex County','Research the county.',15],
+  ['Fair Lawn','Research Fair Lawn.',15],
+  ['Police interviews','Research voluntary interviews.',20],
+  ['Jurisdiction','Research NJ county jurisdiction.',15],
+  ['Cover bands','Research cover-band culture.',15],
+  ['Fan pages','Research small fan pages.',15],
+  ['Missing parents','Research children of missing parents.',20]
+ ],
+ stacks: [
+  ['Hold Tight','Compare parents and children.',20],
+  ['Little Fires','Compare what children are told.',20],
+  ['Didion','Read about grief.',20],
+  ['Gopnik','Read on parenting.',20],
+  ['Lareau','Read on family life.',20],
+  ['Never Told','Compare families and loss.',20],
+  ['Bok','Read on lies to children.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about a child crying.',15]
+ ],
+ turnpike: [
+  ['Fair Lawn','Pin Gabrielle.',15],
+  ['Station','Pin the police station.',15],
+  ['Mapping journal','Add chapter 39.',15],
+  ['Jurisdiction','Map county lines.',15],
+  ['Gig','Imagine Gribbel’s venue.',15],
+  ['Case map','Add the police turn.',15],
+  ['Network','Link Essex County.',15],
+  ['Status','Place Len.',15],
+  ['Route','Map the route to the station.',15]
+ ],
+ field: [
+  ['Honest uncertainty','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to Adam and Ryan.',30],
+  ['Anger','Is Adam’s anger fair?',15],
+  ['Children','Write 300 words on truth for children.',35],
+  ['Police','Should Adam go willingly?',15],
+  ['Court','Update the Adam file.',15],
+  ['Mothers','Is leaving ever right?',15],
+  ['Process','Len’s role: friend or chief?',15],
+  ['Personal','Write about honest uncertainty.',20]
+ ],
+ board: [
+  ['Gabrielle','Pin her address.',15],
+  ['Escalation','Pin the police car.',15],
+  ['Scene','Write a 300-word summons scene.',40],
+  ['Suspicion meter','Rate Adam (from police view).',15],
+  ['Strand braid','Note strands.',15],
+  ['Guess','Why do police want him?',15],
+  ['Tension curve','Rate.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Dawn','Paint Ryan’s room at dawn.',35],
+  ['Police car','Paint a police car in a driveway.',25],
+  ['Gig poster','Design Gribbel’s band poster.',20],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a 1970s story-song.',15],
+  ['Doorway','Draw Adam in the doorway.',15],
+  ['Fan page','Design a tiny fan page.',15],
+  ['Sound','Describe a crying child at dawn.',15],
+  ['Cover brief','Add the police car.',15]
+ ],
+ kitchen: [
+  ['Crisis breakfast','Make a simple breakfast for a family in crisis.',20],
+  ['Ledger notebook','Record Gabrielle’s address.',15],
+  ['Secrets box','Add Adam’s anger.',15],
+  ['Table talk','Ask: what should children be told?',25],
+  ['Making: comfort box','Make a comfort box for a child.',20],
+  ['Pancakes','Make pancakes with a child.',30],
+  ['Recipe of honesty','Write a recipe.',15],
+  ['Cocoa','Make cocoa.',15],
+  ['Toast','Make toast and talk.',15]
+ ],
+ driveway: [
+  ['Honest uncertainty','Write about it.',20],
+  ['Missing a parent','Write about missing someone.',20],
+  ['Mood dial','Rate dread.',15],
+  ['Prediction','What awaits Adam?',15],
+  ['Letter to Ryan','Write to Ryan.',15],
+  ['Letter to Corinne','Write as Ryan.',15],
+  ['Anger','Write about anger at someone loved.',15],
+  ['Dawn','Write about a bad dawn.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 39 explore the value of honest uncertainty with children?',
+ 'Essay: Analyse how the chapter moves from comedy to tenderness to dread.',
+ 'Creative: Write Ryan’s morning from his point of view.'
+],
+reading: [
+ ['holdtight','Parents and children in crisis.'],
+ ['littlefires','What children are told.'],
+ ['gopnik','What parents owe.'],
+ ['boklying','Truth for children.'],
+ ['nevertold','Families and loss.'],
+ ['lareau','Family life.'],
+ ['caught','Coben on suspicion falling on a man.'],
+ ['tellnoone','A husband under suspicion.'],
+ ['gonebaby','A missing parent.']
+],
+projects: [
+ { t: 'Honest Uncertainty', rooms: ['field','classroom','driveway'], steps: ['Use the Dilemma scale.','Discuss.','Write.','Verdict.'] },
+ { t: 'Ryan', rooms: ['diner','driveway','kitchen'], steps: ['Paint his room.','Write as Ryan.','Make a comfort box.','Reflect.'] },
+ { t: 'Three Beats', rooms: ['office','board','diner'], steps: ['Map beats.','Pin escalation.','Paint the car.','Discuss.'] },
+ { t: 'Gribbel’s Band', rooms: ['diner','records','kitchen'], steps: ['Design a poster.','Research the song.','Party snacks.','Play it.'] },
+ { t: 'The Summons', rooms: ['board','turnpike','field'], steps: ['Pin it.','Map jurisdiction.','Debate going willingly.','Predict.'] },
+ { t: 'Talking to Children', rooms: ['records','stacks','classroom'], steps: ['Research advice.','Read Gopnik.','Discuss.','Write guidance.'] }
+],
+quiz: [
+ ['What does Gribbel find?', ['Ingrid’s address','Gabrielle’s address in Fair Lawn','Corinne','Kuntz'], 1],
+ ['Why is Ryan crying?', ['A bad grade','He misses his mother','Practice','A friend'], 1],
+ ['What does Adam tell Ryan?', ['Mom’s at work','He doesn’t know where she is','She’s dead','She’s back soon'], 1],
+ ['Who comes with Len?', ['Johanna','An Essex County officer','Tripp','Rinsky'], 1],
+ ['What does Len say it’s about?', ['Corinne','Not Corinne, he thinks','Lacrosse','Thomas'], 1]
+]
+};

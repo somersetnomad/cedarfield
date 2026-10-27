@@ -1,0 +1,227 @@
+CF.CH = CF.CH || {};
+CF.CH[37] = {
+n: 37, title: 'Holiday Party', pov: 'Adam', when: 'That night, into the small hours', strands: ['adam','stranger'], places: ['harrison','cedarfield','fairlawn'],
+summary: [
+ 'Adam remembers Sally. She was a junior partner who sat first chair with him on a long case defending a Greek diner in Harrison that had stood for forty years, threatened by a road widening tied to a hedge-fund tower and local corruption. The case consumed them. They grew very close. They never kissed; they approached lines and never crossed them. Adam came to believe that, in such a closeness, something has to wither and die, and two months after the case Sally left for a firm in Livingston. Corinne’s call to Sally explains a great deal, and the picture it paints of Adam is not pleasant.',
+ 'Rinsky reports on Ingrid: she lives in Austin, graduated from Rice eight years ago, and has worked at two internet start-ups. Her home phone goes to a robotic voicemail; Rinsky also has her mother’s number. Adam remembers Corinne once observing that on Facebook everyone looks happy, a greatest-hits album rather than real life. He joked that it was the Prozac version; she went quiet. Ingrid’s Facebook shows a single woman with 188 friends who volunteers at soup kitchens, the Red Cross, the USO and Junior Achievement, and appears only in group shots.',
+ 'Adam reasons the link is work rather than college or Austin. Fake-A-Pregnancy’s contact address is in Revere, Massachusetts; it belongs to a conglomerate, Downing Place. Following chains of Facebook friends, he finds a Gabrielle Dunbar with links to Ocean County College, Fair Lawn High and Revere. At 4:48 a.m. he finds a photograph labelled HOLIDAY PARTY, three years old. At the far left, holding a beer, is the stranger.'
+],
+beats: [
+ 'Memory: Sally as junior partner on the Greek diner case in Harrison.',
+ 'The case: forty years, a road widening, a hedge-fund tower, corruption.',
+ 'Closeness; lines approached, never crossed.',
+ 'Sally leaves for a firm in Livingston.',
+ 'Rinsky: Ingrid, Austin, Rice, two start-ups, a mother’s number.',
+ 'Corinne on Facebook as a greatest-hits album; Adam’s joke.',
+ 'Ingrid’s Facebook: single, 188 friends, volunteering, group shots.',
+ 'Adam reasons: work is the link.',
+ 'Revere, Massachusetts; Downing Place.',
+ 'Friend chains to Gabrielle Dunbar.',
+ '4:48 a.m.: HOLIDAY PARTY photo; the stranger at the far left with a beer.'
+],
+cast: [['Adam Price','Remembering, then investigating all night.'],['Sally Perryman','Remembered.'],['Mike Rinsky','Reporting on Ingrid.'],['Gabrielle Dunbar','Found online.']],
+motifs: ['marriage','technology','identity','surveillance','truth','secrets'],
+secrets: [['Adam','The full extent of his closeness to Sally.','Remembered'],['The stranger','His connection to Downing Place.','Discovered via a photo']],
+clues: ['Ingrid graduated from Rice and worked at two start-ups.','Fake-A-Pregnancy’s address leads to Downing Place in Revere, MA.','A friend chain leads to Gabrielle Dunbar.','A holiday-party photo shows the stranger.'],
+dilemma: { q: 'Adam and Sally never crossed a line. Was ending the closeness the right choice?', a: 'Yes: something had to give', b: 'They should have stayed friends' },
+food: ['A Greek diner Adam once fought to save.'],
+refs: [['Rice University','A private research university in Houston, Texas, founded in 1912.'],['Eminent domain','Government power to take private property for public use with compensation; contested in Kelo v. City of New London (2005).'],['Facebook','Launched in 2004; friends lists can reveal social networks.'],['Revere, Massachusetts','A city just north of Boston.'],['USO and Junior Achievement','Real nonprofits: the USO supports US service members; Junior Achievement teaches young people about business.']],
+questions: [
+ ['What was the Greek diner case?',0],
+ ['How close were Adam and Sally?',0],
+ ['Why did Sally leave?',0],
+ ['What does Rinsky learn about Ingrid?',0],
+ ['What did Corinne say about Facebook?',0],
+ ['How does Adam trace Gabrielle?',0],
+ ['Is the novel’s idea that something has to wither true of work intimacy?',1],
+ ['How does the diner case fit Adam’s eminent-domain career?',0],
+ ['Why does Adam’s Prozac joke silence Corinne?',1],
+ ['What does Facebook as a greatest-hits album suggest?',1],
+ ['What does Ingrid’s volunteering suggest about her?',0],
+ ['Why does Ingrid appear only in group shots?',0],
+ ['How does Adam reason his way to work as the link?',0],
+ ['What is Downing Place?',0],
+ ['How does social media betray its users here?',1],
+ ['What does the 4:48 a.m. timestamp suggest?',0],
+ ['How does the photo change things?',0],
+ ['Is Adam a good investigator now?',0],
+ ['How does the chapter combine memory and detection?',0],
+ ['What does the chapter reveal about Adam’s self-image?',0],
+ ['How does the diner case echo Rinsky’s?',0],
+ ['What do Ingrid’s charities suggest about the group’s self-image?',0],
+ ['How might Gabrielle be found?',0],
+ ['What does a holiday-party photo reveal?',0],
+ ['Why do workplaces leave digital trails?',0],
+ ['Is it creepy to trace friends lists?',0],
+ ['What would you find about yourself this way?',1],
+ ['How has Adam changed since chapter 1?',1],
+ ['What is the stranger’s link to Fake-A-Pregnancy?',0],
+ ['Predict what Adam does with this.',0]
+],
+close: [
+ { cite: 'Chapter 37, opening: the Sally memory.', focus: 'Lines approached',
+   steps: ['Summarise the case.','Note the closeness.','Paraphrase the wither-and-die idea.','Note Sally’s departure.'],
+   ask: 'How honest is Adam with himself in this memory?' },
+ { cite: 'Chapter 37, middle: Corinne on Facebook.', focus: 'A greatest-hits life',
+   steps: ['Paraphrase Corinne’s observation.','Note Adam’s joke.','Note her silence.','Consider what she meant.'],
+   ask: 'What does this memory reveal about Corinne’s inner life?' },
+ { cite: 'Chapter 37, close: the friend chain and the photo.', focus: 'Digital detection',
+   steps: ['Trace the steps.','Note Downing Place.','Note Gabrielle.','Note the time and the photo.'],
+   ask: 'How does the chapter make online research suspenseful?' }
+],
+lenses: {
+ office: 'A chapter in two modes: a confessional memory, then an all-night digital hunt. The two connect: Adam learns how secrets live online at the very moment he faces his own. The 4:48 timestamp makes exhaustion part of the drama.',
+ classroom: 'Work intimacy and its costs; the curated self on social media; how networks reveal what individuals hide. Corinne’s remark about Facebook comments on the whole novel: lives as greatest hits.',
+ records: 'Eminent-domain fights, such as Kelo v. City of New London (2005), have pitted small businesses against development. Rice University is in Houston. Friends lists have been used by investigators and journalists to map networks.',
+ stacks: 'Coben’s Missing You uses online dating and data trails. Sherry Turkle’s research on online identity and Jon Ronson’s work on shaming both inform how we read curated lives.',
+ turnpike: 'Harrison and its diner, Livingston, Austin and Houston, Revere near Boston, Fair Lawn: a map built from friends lists, spreading across the country from one laptop in Cedarfield.',
+ field: 'Was ending the closeness with Sally right? Adam chose his marriage, imperfectly. Virtue ethics asks about character over time; care ethics about the people affected, including Corinne.',
+ board: 'Big breakthroughs: Downing Place, Gabrielle Dunbar, and the stranger in a photo. The investigation turns from the stranger’s acts to his workplace and colleagues.',
+ diner: 'A Greek diner in Harrison with chrome and a neon sign, and an office holiday party captured on a phone: paint one warm memory and one cheap snapshot.',
+ kitchen: 'The Greek diner Adam fought for. Cook a Greek diner classic (souvlaki, a gyro platter, spanakopita) and talk about places worth saving.',
+ driveway: 'Corinne said Facebook shows the greatest hits. Write privately about what your own online life leaves out. Then add one ordinary, unflattering moment you would never post.'
+},
+acts: {
+ office: [
+  ['Two modes','Analyse memory and hunt.',20],
+  ['Timestamp','Analyse 4:48 a.m.',15],
+  ['Confession','Analyse Adam’s candour.',15],
+  ['Digital suspense','Write a suspenseful online search.',30],
+  ['Point of view','Rewrite the Sally memory from her POV.',30],
+  ['Dialogue','Analyse the Facebook memory.',15],
+  ['Pacing','Compare with chapter 35.',15],
+  ['Structure','Map the chain of reasoning.',15],
+  ['Ending','Analyse the photo reveal.',15]
+ ],
+ classroom: [
+  ['Work intimacy','Discuss.',25],
+  ['Greatest hits','Discuss curated lives.',25],
+  ['Networks','Discuss how networks reveal.',20],
+  ['Self-image','Discuss Adam’s self-image.',15],
+  ['Charity','Discuss Ingrid’s volunteering.',15],
+  ['Theme update','Add "curation".',15],
+  ['Exhaustion','Discuss sleeplessness.',15],
+  ['Privacy','Discuss friend-list tracing.',20],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Kelo','Research Kelo v. City of New London.',20],
+  ['Rice','Research Rice University.',15],
+  ['Revere','Research Revere, MA.',15],
+  ['OSINT','Research open-source intelligence.',20],
+  ['Facebook privacy','Research friends-list privacy.',15],
+  ['Diners','Research NJ Greek diners.',20],
+  ['USO','Research the USO.',15],
+  ['Junior Achievement','Research JA.',15],
+  ['Conglomerates','Research shell companies.',15]
+ ],
+ stacks: [
+  ['Missing You','Compare online traces.',20],
+  ['Ronson','Read on curated lives.',20],
+  ['The Circle','Compare transparency.',20],
+  ['Solove','Read on reputation.',20],
+  ['Gottman','Read on turning away.',20],
+  ['Perel','Read on affairs of the heart.',20],
+  ['Zuboff','Read on data trails.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about a party.',15]
+ ],
+ turnpike: [
+  ['Harrison','Pin the diner case.',15],
+  ['Livingston','Pin Sally’s firm.',15],
+  ['Mapping journal','Add chapter 37.',15],
+  ['Revere','Pin Downing Place.',15],
+  ['Houston and Austin','Pin Ingrid’s past.',15],
+  ['Fair Lawn','Pin Gabrielle.',15],
+  ['Case map','Add the photo.',15],
+  ['Network','Draw the friend chain.',20],
+  ['Status','Place Downing Place.',15]
+ ],
+ field: [
+  ['Ending it','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to Adam and Sally.',30],
+  ['Tracing','Is friend-chain tracing ethical?',20],
+  ['Curation','Write 300 words on online honesty.',35],
+  ['Jokes','Was Adam’s joke unkind?',15],
+  ['Court','Update the stranger file.',15],
+  ['Charity','Does Ingrid’s charity change your view?',15],
+  ['Diner','Was saving the diner just?',15],
+  ['Personal','Write about what you leave out online.',20]
+ ],
+ board: [
+  ['Downing Place','Pin it.',15],
+  ['Gabrielle','Pin her.',15],
+  ['Photo','Pin the HOLIDAY PARTY photo.',15],
+  ['Scene','Write a 300-word discovery.',40],
+  ['Suspicion meter','Rate.',15],
+  ['Strand braid','Note strands.',15],
+  ['Timeline','Add three years ago.',15],
+  ['Tension curve','Rate.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Greek diner','Paint the diner in neon.',35],
+  ['Party snapshot','Draw an office holiday party.',25],
+  ['Facebook page','Design a greatest-hits profile.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for 4:48 a.m.',15],
+  ['Laptop glow','Paint a face lit by a screen.',20],
+  ['Group shot','Draw a group photo with one face circled.',15],
+  ['Sound','Describe a house at 4:48 a.m.',15],
+  ['Cover brief','Add the photo.',15]
+ ],
+ kitchen: [
+  ['Greek diner night','Cook a Greek diner classic.',45],
+  ['Ledger notebook','Record the chain.',15],
+  ['Secrets box','Add the photo.',15],
+  ['Table talk','Ask: what do you leave off social media?',25],
+  ['Making: real album','Make a page of un-curated photos.',20],
+  ['Coffee at 4 a.m.','Make coffee and stay up a little.',15],
+  ['Spanakopita','Bake spanakopita.',60],
+  ['Recipe of a curated life','Write a recipe.',15],
+  ['Holiday party snacks','Make party snacks.',20]
+ ],
+ driveway: [
+  ['Greatest hits','Write about what you leave out.',20],
+  ['Work closeness','Write about a work friendship.',20],
+  ['Mood dial','Rate.',15],
+  ['Prediction','What does Adam do next?',15],
+  ['Letter to Sally','Write as Adam.',15],
+  ['Letter to Corinne','Write about the joke.',15],
+  ['Night','Write about an all-nighter.',15],
+  ['Findable','Write what is findable about you.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 37 link Adam’s self-knowledge with his digital detection?',
+ 'Essay: Analyse Corinne’s observation about Facebook and its relevance to the novel.',
+ 'Creative: Write the office holiday party where the photo was taken.'
+],
+reading: [
+ ['missingyou','Online traces and lost loves.'],
+ ['ronson','Curated selves and exposure.'],
+ ['circle','Transparency and identity.'],
+ ['solove','Reputation in the digital age.'],
+ ['zuboff','Data trails.'],
+ ['perelaffairs','Emotional intimacy outside marriage.'],
+ ['gottman','Turning towards and away.'],
+ ['kingpin','Identities exposed by networks.'],
+ ['goffman','Front-stage selves.']
+],
+projects: [
+ { t: 'Greatest Hits', rooms: ['classroom','kitchen','driveway'], steps: ['Discuss curation.','Make an un-curated album page.','Write.','Reflect.'] },
+ { t: 'The Diner Case', rooms: ['records','kitchen','diner'], steps: ['Research Kelo.','Cook Greek.','Paint the diner.','Present.'] },
+ { t: 'Friend Chains', rooms: ['board','turnpike','field'], steps: ['Pin the chain.','Map it.','Debate ethics.','Verdict.'] },
+ { t: 'Sally Remembered', rooms: ['office','driveway','field'], steps: ['Analyse the memory.','Write as Sally.','Use the Dilemma scale.','Discuss.'] },
+ { t: 'The Photo', rooms: ['diner','board','office'], steps: ['Draw a party.','Pin the photo.','Write the reveal.','Predict.'] },
+ { t: 'All-Nighter', rooms: ['kitchen','office','driveway'], steps: ['Make 4 a.m. coffee.','Analyse the timestamp.','Write.','Sleep.'] }
+],
+quiz: [
+ ['What case did Adam and Sally work on?', ['A divorce','A Greek diner threatened by development','A murder','A school'], 1],
+ ['Where did Ingrid go to university?', ['Princeton','Rice','Rutgers','Harvard'], 1],
+ ['Where is Fake-A-Pregnancy’s contact address?', ['Austin','Revere, Massachusetts','Newark','Paramus'], 1],
+ ['Whom does Adam trace via friends lists?', ['Merton','Gabrielle Dunbar','Kuntz','Becky'], 1],
+ ['What is the photo labelled?', ['DRAFT NIGHT','HOLIDAY PARTY','WEDDING','TEAM'], 1]
+]
+};
