@@ -1,0 +1,227 @@
+CF.CH = CF.CH || {};
+CF.CH[32] = {
+n: 32, title: 'The Swamps of Jersey', pov: 'Adam', when: 'That afternoon', strands: ['adam','lacrosse'], places: ['metlife'],
+summary: [
+ 'The number was Tripp Evans’s. Adam drives to Tripp’s office, a dated low-rise near MetLife Stadium in the Meadowlands marshes, with Tripp’s room on the ground floor by the loading dock. Tripp’s family once owned Evans Sporting Goods; the big chains crushed it and the shop is now a pharmacy. Tripp went to Madison Avenue, then started his own small marketing firm out here in the swamps. In his thin shirt, brown trousers and cheap shoes he looks ordinary, and he offers diner-style coffee.',
+ 'Tripp admits it: Corinne called him that morning. She asked for more time. Tripp had told her she’d stalled long enough; the board had been looking into the money for a month. He nearly told Adam on draft night, but Corinne begged him not to. She swore she could prove her innocence if given a week. Tripp doesn’t believe her any more; he thinks she’s off raising the money. Corinne was two years behind him at school, in Becky’s year.',
+ 'Then Tripp explains how embezzlement happens, as he sees it: a slippery slope. You buy a coffee on the club’s card; then petrol; then a dinner, a few pizzas; you hire your own kid as a referee; you borrow for a car payment, meaning to repay. Nobody plans to steal. Adam, grim, asks for more time for Corinne. Tripp says he can try.'
+],
+beats: [
+ 'The number belongs to Tripp Evans.',
+ 'Tripp’s office in the Meadowlands, by a loading dock.',
+ 'The Evans Sporting Goods story: chains crushed the family shop.',
+ 'Tripp’s ordinary look; diner coffee.',
+ 'Tripp confirms Corinne called asking for more time.',
+ 'The board has investigated for a month; Corinne begged him not to tell Adam.',
+ 'She promised to prove her innocence in a week.',
+ 'Tripp now thinks she’s raising the money.',
+ 'Corinne was in Becky’s year.',
+ 'Tripp’s slippery-slope account of embezzlement.',
+ 'Adam asks for time; Tripp says he’ll try.'
+],
+cast: [['Tripp Evans','Lacrosse board president, marketing man, family-business survivor.'],['Adam Price','Seeking answers and time.'],['Becky Evans','Tripp’s wife (mentioned).']],
+motifs: ['money','lies','class','sport','community','secrets','marriage'],
+secrets: [['Tripp','He spoke to Corinne the morning she left.','Admitted'],['Corinne','She begged Tripp not to tell Adam.','Revealed by Tripp']],
+clues: ['Corinne called Tripp at 7:53.','She asked for a week to prove her innocence.','The board has been investigating for a month.','Tripp thinks she’s raising money.','Tripp knows how small thefts begin.'],
+dilemma: { q: 'Tripp kept the investigation from Adam at Corinne’s request. Was that kindness or a betrayal of Adam?', a: 'Kindness to Corinne', b: 'A betrayal of Adam' },
+food: ['Strong, cheap, diner-style coffee in an office.'],
+refs: [['The Meadowlands','Wetlands in north-east New Jersey, home to MetLife Stadium.'],['MetLife Stadium','Home of the NFL’s Giants and Jets, opened 2010.'],['Big-box sporting retail','Chains such as Dick’s Sporting Goods displaced many family sports shops.'],['Madison Avenue','A Manhattan street long synonymous with the US advertising industry.'],['Embezzlement','Theft of funds entrusted to one’s care; in clubs, often small and gradual at first.']],
+questions: [
+ ['Whose number did Corinne call?',0],
+ ['Describe Tripp’s office and its location.',0],
+ ['What happened to Evans Sporting Goods?',0],
+ ['What does Tripp tell Adam about the call?',0],
+ ['What did Corinne ask Tripp?',0],
+ ['How does Tripp describe embezzlement?',0],
+ ['Why might Corinne not want Adam told?',1],
+ ['Is Tripp trustworthy here? Why or why not?',1],
+ ['What does the family-shop backstory add to Tripp?',1],
+ ['How does the chapter use class and setting?',0],
+ ['Why is the slippery-slope speech so persuasive?',1],
+ ['Who might Tripp be describing?',0],
+ ['What does Tripp’s ordinariness suggest?',0],
+ ['What does the Meadowlands setting add?',0],
+ ['Why does Adam ask for more time?',0],
+ ['What do we learn about Corinne and Becky?',0],
+ ['How does the chapter shift suspicion?',0],
+ ['Is Tripp kind to Adam?',0],
+ ['What do big chains have to do with this novel?',0],
+ ['How does the chapter treat failure?',0],
+ ['What is the significance of the loading dock?',0],
+ ['Would you trust a club treasurer after this speech?',1],
+ ['How does the novel treat small-town institutions?',0],
+ ['Compare Tripp’s office with Adam’s.',0],
+ ['How does Adam handle the revelation?',0],
+ ['What does Tripp believe about human nature?',0],
+ ['What does the chapter title suggest?',0],
+ ['What should Adam do next?',0],
+ ['Is Corinne innocent?',1],
+ ['Predict what Tripp will do.',0]
+],
+close: [
+ { cite: 'Chapter 32, opening: Tripp’s office and the family shop.', focus: 'Setting as biography',
+   steps: ['Describe the building.','Note the room’s location.','Summarise the shop’s fate.','Note Tripp’s clothes.'],
+   ask: 'How does setting tell Tripp’s story?' },
+ { cite: 'Chapter 32, middle: Tripp’s account of the call.', focus: 'A confidant revealed',
+   steps: ['Find what Corinne asked.','Note the board’s timeline.','Note draft night.','Note his current belief.'],
+   ask: 'How does the chapter re-frame Corinne’s silence?' },
+ { cite: 'Chapter 32, close: the slippery-slope speech.', focus: 'How theft begins',
+   steps: ['List the steps Tripp gives.','Note his tone.','Note what he claims about intent.','Read Adam’s request.'],
+   ask: 'What makes Tripp’s account of embezzlement so vivid?' }
+],
+lenses: {
+ office: 'A conversation scene in which a confidant fills in the gaps. Tripp’s slippery-slope speech is a tour de force of plausibility, built from a list of small, believable steps. Setting and costume (a dated building, cheap shoes) add quiet characterisation throughout.',
+ classroom: 'Class decline and resentment; gradual corruption; the trust that volunteer institutions rest on. The chapter asks how ordinary people slide into wrongdoing, one small permission at a time.',
+ records: 'Family-owned sporting goods shops were squeezed by chains such as Dick’s and Modell’s from the 1980s onward. Fraud examiners note that occupational fraud often begins with small amounts and grows. The Meadowlands have been reshaped by stadiums and landfill.',
+ stacks: 'Arthur Miller’s Death of a Salesman and All My Sons both explore men undone by business and their self-justifications. Tripp’s family history belongs to that tradition.',
+ turnpike: 'The Meadowlands near MetLife Stadium: marsh, highways and low office blocks. The title nods to the swamps of Jersey in Springsteen’s lyrics, a phrase that has become shorthand for this landscape and its people.',
+ field: 'Was keeping Adam in the dark kind or wrong? Tripp claims loyalty to Corinne. Duty to a friend, duty to the club, duty to a husband: the chapter sets them against each other.',
+ board: 'A major clue lands: the 7:53 call was to Tripp. The speech on embezzlement is also worth pinning: a detailed theory of how money disappears, offered by the man who presides over it.',
+ diner: 'A dated office by a loading dock, mugs of bad coffee, a man in a thin shirt: paint the Meadowlands at grey midday with the stadium on the horizon.',
+ kitchen: 'Cheap coffee in a small office. Hospitality and money mix: a club card buys a coffee, and so it begins, says Tripp. Make a cup and think about the first small step.',
+ driveway: 'Tripp argues that nobody plans to steal: they slide. Write privately about a small rule you once bent, and whether it grew.'
+},
+acts: {
+ office: [
+  ['Speech','Annotate the slippery-slope speech.',20],
+  ['Setting','Analyse setting as characterisation.',15],
+  ['Costume','Analyse Tripp’s clothes.',15],
+  ['Confidant','Analyse the confidant role.',15],
+  ['Point of view','Rewrite from Tripp’s POV.',30],
+  ['Dialogue','Write a persuasive monologue of your own.',30],
+  ['Pacing','Compare with chapter 30.',15],
+  ['Title','Analyse the title.',15],
+  ['Ending','Analyse the last line.',15]
+ ],
+ classroom: [
+  ['Slippery slope','Discuss gradual corruption.',25],
+  ['Class decline','Discuss the Evans shop.',20],
+  ['Volunteer trust','Discuss club finances.',20],
+  ['Loyalty','Discuss Tripp’s silence.',20],
+  ['Ordinariness','Discuss ordinary wrongdoers.',20],
+  ['Theme update','Add "small steps".',15],
+  ['Big business','Discuss chains and small towns.',20],
+  ['Persuasion','Discuss persuasive speech.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Sporting retail','Research the decline of family sports shops.',20],
+  ['Occupational fraud','Research how fraud begins.',20],
+  ['Meadowlands','Research the Meadowlands.',15],
+  ['MetLife','Research the stadium.',15],
+  ['Madison Avenue','Research the ad industry’s history.',15],
+  ['Club controls','Research nonprofit financial controls.',20],
+  ['Marketing firms','Research boutique marketing.',15],
+  ['Pharmacies','Research chain pharmacies replacing shops.',15],
+  ['Diner coffee','Research diner coffee culture.',15]
+ ],
+ stacks: [
+  ['Death of a Salesman','Compare business and pride.',20],
+  ['All My Sons','Compare self-justification.',20],
+  ['The Corrections','Compare family decline.',20],
+  ['Ariely','Read on small dishonesty.',20],
+  ['Putnam','Read on volunteer trust.',20],
+  ['Crabgrass','Read on suburban economy.',20],
+  ['Revolutionary Road','Compare corporate disappointment.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about trade or loss.',15]
+ ],
+ turnpike: [
+  ['Meadowlands','Pin the office.',15],
+  ['Stadium','Pin MetLife.',15],
+  ['Mapping journal','Add chapter 32.',15],
+  ['Old shop','Imagine where Evans Sporting Goods stood.',15],
+  ['Route','Trace Adam’s drive.',15],
+  ['Landscape','Describe the marsh.',15],
+  ['Case map','Add Tripp’s office.',15],
+  ['Status','Place Tripp on the ladder.',15],
+  ['Swamps','Research the Meadowlands’ ecology.',20]
+ ],
+ field: [
+  ['Silence','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to Tripp’s silence.',30],
+  ['Small theft','Is a coffee on the club card wrong?',15],
+  ['Gradualism','Write 300 words on gradual wrongdoing.',35],
+  ['Court','Update the money case.',15],
+  ['Trust','Should Adam trust Tripp?',15],
+  ['Loyalty','Duty to whom?',20],
+  ['Rules','Should clubs have stricter controls?',15],
+  ['Personal','Write about a bent rule.',20]
+ ],
+ board: [
+  ['Call','Pin the 7:53 call to Tripp.',15],
+  ['Speech','Pin the slippery-slope theory.',15],
+  ['Scene','Write a 300-word confidant scene.',40],
+  ['Suspicion meter','Rate Tripp, Corinne and Bob.',15],
+  ['Timeline','Add the board’s month of investigation.',15],
+  ['Strand braid','Note strands.',15],
+  ['Contradictions','Note anything odd in Tripp’s story.',15],
+  ['Tension curve','Rate.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Meadowlands','Paint the marsh office block.',35],
+  ['Loading dock','Draw the office by the dock.',20],
+  ['Old shop sign','Design an Evans Sporting Goods sign.',20],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the swamps.',15],
+  ['Cheap shoes','Draw Tripp’s shoes.',15],
+  ['Coffee mug','Design a dented office mug.',15],
+  ['Sound','Describe traffic and marsh birds.',15],
+  ['Cover brief','Add the stadium.',15]
+ ],
+ kitchen: [
+  ['Bad coffee','Make strong, cheap coffee and discuss small steps.',15],
+  ['Ledger notebook','Record Tripp’s steps as a ledger.',15],
+  ['Secrets box','Add the call.',15],
+  ['Table talk','Ask: when does a perk become a theft?',25],
+  ['Making: expense audit','Audit a month of your own small expenses.',30],
+  ['Pizza for a team','Make pizza and discuss team budgets.',45],
+  ['Recipe of a slide','Write a recipe.',15],
+  ['Diner breakfast','Make a diner breakfast.',30],
+  ['Receipts','Sort receipts like a treasurer.',15]
+ ],
+ driveway: [
+  ['Bent rule','Write about a bent rule.',20],
+  ['Family business','Write about a lost family business.',20],
+  ['Mood dial','Rate suspicion.',15],
+  ['Prediction','What will Tripp do?',15],
+  ['Letter to Tripp','Write to Tripp.',15],
+  ['Letter to Corinne','Write about her week.',15],
+  ['Ordinary','Write about looking ordinary.',15],
+  ['Time','Write about asking for time.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 32 use setting and backstory to characterise Tripp Evans?',
+ 'Essay: Analyse Tripp’s slippery-slope account of embezzlement. What does it reveal?',
+ 'Creative: Write Corinne’s 7:53 phone call to Tripp.'
+],
+reading: [
+ ['salesman','Business, pride and failure.'],
+ ['allmysons','A businessman’s self-justification.'],
+ ['ariely','How small dishonesty grows.'],
+ ['putnam','Trust in volunteer institutions.'],
+ ['corrections','Family decline.'],
+ ['revroad','Corporate disappointment.'],
+ ['crabgrass','The suburban economy.'],
+ ['caught','Coben on suburban reputations.'],
+ ['scorecasting','Sports and money.']
+],
+projects: [
+ { t: 'The Slippery Slope', rooms: ['office','classroom','field'], steps: ['Annotate the speech.','Discuss.','Apply lenses.','Write.'] },
+ { t: 'Family Business', rooms: ['records','stacks','driveway'], steps: ['Research retail decline.','Read Salesman.','Write.','Discuss.'] },
+ { t: 'The 7:53 Call', rooms: ['board','driveway','office'], steps: ['Pin it.','Write the call.','Analyse the confidant.','Predict.'] },
+ { t: 'Club Audit', rooms: ['kitchen','records','field'], steps: ['Audit your expenses.','Research controls.','Debate.','Verdict.'] },
+ { t: 'The Swamps', rooms: ['turnpike','diner','records'], steps: ['Map.','Paint.','Research.','Present.'] },
+ { t: 'Ordinary Men', rooms: ['classroom','stacks','driveway'], steps: ['Discuss.','Read Miller.','Write.','Reflect.'] }
+],
+quiz: [
+ ['Whose number did Corinne call?', ['Bob’s','Tripp’s','Kristin’s','Len’s'], 1],
+ ['Where is Tripp’s office?', ['Manhattan','Near MetLife Stadium','Cedarfield','Paramus'], 1],
+ ['What was Evans Sporting Goods?', ['A gym','The family shop, crushed by chains','A school','A team'], 1],
+ ['How long did Corinne ask for?', ['A day','A week','A year','A month'], 1],
+ ['What does Tripp think Corinne is doing?', ['Hiding','Raising the money','Travelling','Working'], 1]
+]
+};

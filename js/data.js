@@ -157,7 +157,7 @@ CF.PLACES = {
   hackensack:{n:'Hackensack, NJ',lat:40.8859,lon:-74.0435,ch:18,t:'The garden apartment where Corinne moved after her father died. Ten miles and a world away.'},
   ramsey:{n:'Ramsey, NJ',lat:41.0573,lon:-74.141,ch:9,t:'The coffee shop where Corinne caught Suzanne still eight months pregnant.'},
   nyack:{n:'Nyack, NY',lat:41.0907,lon:-73.9179,ch:22,t:'Across the state line on the Hudson. Suzanne Hope’s brick apartment, 9B.'},
-  newark:{n:'Newark, NJ',lat:40.7357,lon:-74.1724,ch:41,t:'The county sheriff’s office on West Market Street; the airport-hotel lot. Corinne first taught here.'},
+  newark:{n:'Newark, NJ',lat:40.7357,lon:-74.1724,ch:41,t:'Essex County law-enforcement offices downtown; an airport-hotel car park. Corinne first taught here.'},
   harrison:{n:'Harrison, NJ',lat:40.7465,lon:-74.1563,ch:37,t:'The Greek diner Adam and Sally Perryman fought to save.'},
   metlife:{n:'East Rutherford, NJ',lat:40.8135,lon:-74.0745,ch:32,t:'MetLife Stadium and the reclaimed swamp where Tripp keeps an office.'},
   sparta:{n:'Sparta, NJ',lat:41.0335,lon:-74.6385,ch:28,t:'Dan and Carly Molino’s house off the lake.'},

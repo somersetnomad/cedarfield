@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[29] = {
+n: 29, title: "Bonner's Notebook", pov: 'Adam', when: 'The next day', strands: ['adam','stranger'], places: ['cedarfield'],
+summary: [
+ 'The American Legion lot is popular with illegal parkers, so the Legion pays John Bonner to guard it. Bonner was captain of the high-school basketball team; then mental illness took hold. He spends nights at a mental-health facility and days muttering about conspiracies involving the mayor and a Civil War general. His old classmate, the Legion’s president, gave him the job to keep him from wandering. Bonner takes it seriously, keeping a vast notebook of paranoid musings and exact licence plates. When people park illegally to shop, he lets them, checks where they went, then calls the president, who happens to own a towing company. The narrator shrugs: it is all a hustle.',
+ 'Adam has decided he can’t just wait. Everything went wrong here, so he starts here. Bonner, in a many-buttoned blazer, a tablecloth-check shirt and laceless sneakers, eyes him warily and lectures him on the local buffalo wings. Adam spins a story: some out-of-towners in a grey Honda sideswiped his car on draft night and he needs their plate for the insurance. Bonner remembers the night precisely and flips frantically through his notebook.',
+ 'Then he grins. He wants two hundred dollars. Because Adam is lying: Bonner was there and would have heard a crash; Adam’s car, parked right over there, has no damage; and before Adam claims he drove another car, Bonner has the details of that night in his book. He remembers the couple, the stranger and a cute blonde, because everyone else he’d seen a million times and they didn’t belong. He wondered why they came. Now he knows. Adam asks if it’s really two hundred. It’s a fair price, says Bonner. No cheques. No quarters.'
+],
+beats: [
+ 'The Legion lot and its guardian, John Bonner.',
+ 'Bonner’s history: basketball captain, then mental illness.',
+ 'The parking racket with the towing company.',
+ 'Adam decides to stop waiting and start where it began.',
+ 'Bonner’s outfit and his opinions on wings.',
+ 'Adam’s lie about a sideswipe and a grey Honda.',
+ 'Bonner flips through his notebook.',
+ 'Bonner catches the lie, point by point.',
+ 'He remembers the stranger and the blonde: they didn’t belong.',
+ 'Two hundred dollars. No cheques, no quarters.'
+],
+cast: [['John Bonner','The lot attendant: mentally ill, obsessive, sharp, funny.'],['Rex Davies','Legion president and tow-company owner (mentioned).'],['Adam Price','A poor liar, outplayed.']],
+motifs: ['surveillance','community','identity','money','lies','class','truth'],
+secrets: [['Bonner','His notebook records every car and plate.','Revealed to Adam'],['Adam','He lies about why he wants the plate.','Exposed by Bonner']],
+clues: ['Bonner logged the grey Honda’s plate on draft night.','He remembers the young man and the blonde.','He noticed they didn’t belong.','He sells the plate for $200.'],
+dilemma: { q: 'Is it right to underestimate, or exploit, someone because of their mental illness?', a: 'Of course not, and Adam learns it', b: 'People do it constantly; the chapter shows why it fails' },
+food: ['Buffalo wings, and a strong opinion about where not to buy them.'],
+refs: [['Stonewall Jackson','A Confederate general of the American Civil War; one subject of Bonner’s conspiracy theories.'],['Chuck Taylors','Classic canvas basketball shoes, worn here without laces.'],['Predatory towing','A real problem in many towns, where tow companies profit from lot enforcement.'],['Mental-health facilities','Bonner spends nights at a local mental-health residence.']],
+questions: [
+ ['Who is John Bonner?',0],
+ ['What is his job, and how did he get it?',0],
+ ['What is the parking racket?',0],
+ ['What lie does Adam tell?',0],
+ ['How does Bonner catch him?',0],
+ ['What does Bonner remember about the stranger?',0],
+ ['How does the chapter treat Bonner’s mental illness?',1],
+ ['Why does Adam underestimate Bonner?',0],
+ ['The narrator sees rackets everywhere. Is that the book’s philosophy?',1],
+ ['Is Bonner’s fee fair?',0],
+ ['What does his notebook represent in a novel about surveillance?',0],
+ ['Why do the stranger and blonde stand out to Bonner?',0],
+ ['How does the chapter use comedy?',0],
+ ['Compare Bonner’s notebook with Corinne’s phone app.',1],
+ ['How does the town treat its former star?',0],
+ ['What does Bonner’s old team captaincy add?',0],
+ ['Is Adam a good liar? What does that say about him?',0],
+ ['What does "no quarters" reveal about Bonner?',0],
+ ['How do outsiders get noticed in Cedarfield?',0],
+ ['What is the moral of Adam being outplayed?',1],
+ ['How does the Legion president’s tow business reflect the town?',0],
+ ['Is the chapter kind to Bonner?',0],
+ ['How does Bonner’s obsession become useful?',0],
+ ['What does this chapter reveal about watchers?',0],
+ ['Why does Adam pay rather than argue?',0],
+ ['How does the chapter return to the novel’s opening place?',0],
+ ['What would you have done to get the plate?',1],
+ ['How might Bonner’s observations matter later?',0],
+ ['What does the chapter say about dignity?',1],
+ ['Predict what the plate leads to.',0]
+],
+close: [
+ { cite: 'Chapter 29, opening: Bonner’s history and the parking racket.', focus: 'A town’s outsider',
+   steps: ['Summarise Bonner’s past.','Explain the racket.','Note the narrator’s verdict on it.','Describe his notebook.'],
+   ask: 'How does the chapter present Bonner as both pitiable and powerful?' },
+ { cite: 'Chapter 29, middle: Adam’s cover story.', focus: 'Bad lying',
+   steps: ['Find Adam’s opening line.','Note the wings tangent.','Paraphrase the sideswipe lie.','Note Bonner’s reaction.'],
+   ask: 'What does Adam’s clumsy lie reveal about him?' },
+ { cite: 'Chapter 29, close: Bonner’s demolition of the lie.', focus: 'The watcher wins',
+   steps: ['List Bonner’s three points.','Find his memory of the strangers.','Note the price.','Read the final terms.'],
+   ask: 'How does the chapter reverse the power between Adam and Bonner?' }
+],
+lenses: {
+ office: 'A comic duel of wits. Bonner’s speech is erratic, funny and suddenly precise; Adam’s lies are tidy and wrong. The final terms (no cheques, no quarters) give Bonner the last laugh and the chapter its punchline.',
+ classroom: 'Surveillance by the marginal; mental illness and dignity; small-town rackets; underestimating people. The novel’s theme of watching takes a human, analogue form.',
+ records: 'Predatory towing is a real municipal issue across the US. Many towns have former local heroes struggling with mental illness; community jobs like Bonner’s are sometimes created out of kindness or convenience.',
+ stacks: 'Sherlock Holmes’s Baker Street Irregulars: unregarded people who see everything. Bonner is Cedarfield’s irregular, with a notebook.',
+ turnpike: 'Back to the Legion lot of chapter 1, with its exits and the bulk-buy shop and garden centre that draw illegal parkers. The opening place returns, seen through a different watcher.',
+ field: 'Underestimating Bonner backfires, morally and practically. Treating people as instruments (as Adam tries) invites being treated as a mark.',
+ board: 'A classic investigative step: the overlooked witness with records. The chapter delivers a clue (the plate) at a price, and plants Bonner as a source.',
+ diner: 'A man in a Civil War-style blazer, a checked tablecloth shirt and laceless sneakers, guarding a lot: a vivid portrait. Draw him with dignity.',
+ kitchen: 'Bonner has strong views on buffalo wings and which local place ruins them. Food opinions are a way of being taken seriously.',
+ driveway: 'Adam assumes Bonner is easy to fool and is caught at once. Write about a time you underestimated someone and they saw straight through you.'
+},
+acts: {
+ office: [
+  ['Comic duel','Annotate the exchange as a duel of wits.',20],
+  ['Voice','Write five lines in Bonner’s voice.',20],
+  ['Lie anatomy','Analyse why Adam’s lie fails.',15],
+  ['Punchline','Analyse the final terms.',15],
+  ['Character description','Write a vivid outfit description.',20],
+  ['Point of view','Rewrite from Bonner’s POV.',30],
+  ['Narrator verdict','Analyse the narrator’s cynical verdict on the lot.',15],
+  ['Pacing','Compare with chapter 28.',15],
+  ['Exposition','How is the racket explained?',15]
+ ],
+ classroom: [
+  ['Dignity','Discuss Bonner’s dignity.',25],
+  ['Mental illness','Discuss portrayal of mental illness.',25],
+  ['Rackets','Discuss small-town rackets.',20],
+  ['Watchers','Compare watchers in the novel.',20],
+  ['Underestimating','Discuss assumptions about people.',20],
+  ['Theme update','Add "watchers".',15],
+  ['Former stars','Discuss what happens to local heroes.',15],
+  ['Community care','Discuss Bonner’s job as care or exploitation.',20],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Predatory towing','Research towing regulation.',20],
+  ['Supportive housing','Research supportive housing for mental illness.',20],
+  ['Licence plates','Research NJ plate formats.',15],
+  ['Stonewall Jackson','Read a short factual biography.',15],
+  ['Chuck Taylors','Research the shoe’s history.',15],
+  ['Buffalo wings','Research their origin (Buffalo, NY, 1964).',15],
+  ['American Legion posts','Research post management.',15],
+  ['Plate data','Research automated plate readers and privacy.',20],
+  ['Mental illness stats','Find prevalence of serious mental illness.',15]
+ ],
+ stacks: [
+  ['Baker Street Irregulars','Read about Holmes’s street informants.',20],
+  ['Outsiders','Find a novel with a marginal witness.',20],
+  ['The Lottery','Compare community roles.',15],
+  ['Mental illness fiction','Find a novel with a mentally ill witness treated with respect.',20],
+  ['Solove','Read on records and privacy.',20],
+  ['Zuboff','Compare analogue and digital watching.',20],
+  ['Hammett','Read about Sam Spade buying information.',15],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about a watchman.',15]
+ ],
+ turnpike: [
+  ['Lot map','Map the Legion lot and nearby shops.',20],
+  ['Racket map','Diagram the towing racket.',15],
+  ['Mapping journal','Add chapter 29.',15],
+  ['Plate trail','Imagine where a plate search leads.',15],
+  ['Bub’s','Place the wings restaurant.',15],
+  ['Pines','Mark the mental-health facility.',15],
+  ['Return','Note returning to the opening place.',15],
+  ['Outsider map','Map who belongs in the lot.',15],
+  ['Status','Place Bonner on the ladder.',15]
+ ],
+ field: [
+  ['Underestimating','Use the Dilemma scale.',15],
+  ['Paying for info','Is buying the plate ethical?',20],
+  ['Racket','Is the towing racket wrong?',15],
+  ['Five lenses','Apply the lenses to Bonner’s job.',30],
+  ['Lying','Was Adam’s lie wrong?',15],
+  ['Care','Does the town care for Bonner?',20],
+  ['Records','Is Bonner’s notebook a privacy violation?',20],
+  ['Fairness','Is $200 fair?',15],
+  ['Personal','Write about underestimating someone.',20]
+ ],
+ board: [
+  ['Witness','Pin Bonner as a witness.',15],
+  ['Clue','Pin the plate.',15],
+  ['Scene','Write a 300-word scene of an overlooked witness.',40],
+  ['Suspicion meter','Rate Bonner.',15],
+  ['Strand braid','Note strands.',15],
+  ['Plant','Pin Bonner’s notebook as a future source.',15],
+  ['Tension curve','Rate.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Portrait','Draw Bonner with dignity.',30],
+  ['Notebook page','Design a page of his notebook.',20],
+  ['Lot at noon','Paint the Legion lot by day.',30],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick Bonner’s theme.',15],
+  ['Blazer','Design the many-buttoned blazer.',15],
+  ['Wings sign','Design a sign for the good wings place.',15],
+  ['Sound','Describe frantic page-flipping.',15],
+  ['Cover brief','Add the notebook.',15]
+ ],
+ kitchen: [
+  ['Buffalo wings','Cook buffalo wings and debate the best place.',45],
+  ['Ledger notebook','Record $200 for the plate.',15],
+  ['Secrets box','Add Bonner’s notebook.',15],
+  ['Table talk','Ask: who notices everything in your town?',25],
+  ['Making: licence-plate notebook','Spend an hour logging cars like Bonner.',45],
+  ['Lunch for a guard','Make a packed lunch for a lot attendant.',15],
+  ['Recipe of a racket','Write a recipe.',15],
+  ['Cash only','Discuss cash and dignity.',15],
+  ['Celery and dip','Make the classic wing sides.',15]
+ ],
+ driveway: [
+  ['Seen through','Write about being seen through.',20],
+  ['Former glory','Write about someone whose life changed.',20],
+  ['Mood dial','Rate feelings.',15],
+  ['Prediction','Where does the plate lead?',15],
+  ['Letter to Bonner','Write to Bonner.',15],
+  ['Watching','Write about what you notice.',15],
+  ['Lying','Write about a bad lie you told.',15],
+  ['Dignity','Write about treating people with dignity.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 29 portray John Bonner, and what does he contribute to the novel’s theme of watching?',
+ 'Essay: Analyse the reversal of power between Adam and Bonner.',
+ 'Creative: Write a page of Bonner’s notebook from draft night.'
+],
+reading: [
+ ['zuboff','Watching, recording and who profits.'],
+ ['solove','Records and reputation.'],
+ ['lottery','A community and its roles.'],
+ ['bigsleep','A detective paying for information.'],
+ ['purloined','The overlooked in plain sight.'],
+ ['inthewoods','A town’s overlooked witnesses.'],
+ ['putnam','Community, roles and belonging.'],
+ ['caught','Coben on suburban outsiders.'],
+ ['goffman','Stigma and the presentation of self.']
+],
+projects: [
+ { t: 'The Watcher', rooms: ['classroom','diner','board'], steps: ['Discuss Bonner.','Draw him.','Pin him as a witness.','Write his notebook page.'] },
+ { t: 'Rackets', rooms: ['records','field','turnpike'], steps: ['Research towing.','Map the racket.','Debate.','Verdict.'] },
+ { t: 'Analogue Surveillance', rooms: ['stacks','classroom','kitchen'], steps: ['Compare the notebook and the app.','Log cars for an hour.','Discuss.','Write.'] },
+ { t: 'Dignity', rooms: ['field','driveway','classroom'], steps: ['Discuss mental illness portrayal.','Write privately.','Apply lenses.','Discuss.'] },
+ { t: 'Wings Night', rooms: ['kitchen','diner','office'], steps: ['Cook wings.','Design a sign.','Read the chapter aloud.','Discuss comedy.'] },
+ { t: 'Back to the Legion', rooms: ['turnpike','board','office'], steps: ['Map the lot.','Compare chapters 1 and 29.','Write about returning.','Pin.'] }
+],
+quiz: [
+ ['What is Bonner’s job?', ['Bartender','Guarding the Legion lot','Coach','Mechanic'], 1],
+ ['What did he once captain?', ['Football','Basketball','Lacrosse','Baseball'], 1],
+ ['What lie does Adam tell?', ['He lost a wallet','His car was sideswiped','He’s a cop','He’s buying the hall'], 1],
+ ['What does Bonner want?', ['$20','$200','A job','Wings'], 1],
+ ['What payment won’t he take?', ['Cash','Cheques or quarters','Notes','Card'], 1]
+]
+};

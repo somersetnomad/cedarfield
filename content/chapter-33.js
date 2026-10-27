@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[33] = {
+n: 33, title: 'Lunch with the Girls', pov: 'Johanna', when: 'A few days after the murder', strands: ['heidi'], places: ['beachwood','columbus'],
+summary: [
+ 'The county investigators are fixated on Marty, though his alibi in Columbus is solid. Johanna has lunch with her friends Audrey Fine, Katey Brannum and Stephanie Keiles, the old circle, with an empty seat where Heidi should be. Memories rise. Twenty years ago Johanna had what the doctors called a miracle IVF pregnancy, then lost it. Heidi was the friend who came; Johanna remembers her crying in the car afterwards, head on the steering wheel, hair spread out like a fan. Johanna and her husband, Ricky, never had children.',
+ 'Audrey mentions that, not long before the murder, she saw Heidi talking with a young couple: a blonde woman and a guy in a baseball cap. Heidi looked shaken. Where? In the car park at the Red Lobster. Johanna goes to the restaurant and persuades the manager to give her a copy of the security footage on a DVD (which she must return).',
+ 'At home, she watches: Heidi meets the pair; her legs seem to buckle as they speak; after they go, Heidi sits in her car with her head on the steering wheel, crying, just as she once did for Johanna. Johanna takes down the plate of the couple’s car and asks Norbert to run it.'
+],
+beats: [
+ 'The county fixates on Marty despite his solid alibi.',
+ 'Lunch with Audrey, Katey and Stephanie.',
+ 'Memory: Johanna’s IVF pregnancy and miscarriage.',
+ 'Heidi crying in the car for her, head on the wheel.',
+ 'Johanna and Ricky never had children.',
+ 'Audrey saw Heidi with a young couple: a blonde and a man in a cap.',
+ 'The Red Lobster lot; security footage on DVD.',
+ 'On tape: Heidi’s legs buckle; then she weeps at the wheel.',
+ 'Johanna takes the plate; Norbert will run it.'
+],
+cast: [['Johanna Griffin','Chief, friend, investigator off the books.'],['Audrey Fine, Katey Brannum, Stephanie Keiles','Johanna’s friends.'],['Heidi Dann','Remembered, and seen on tape.'],['Ricky Griffin','Johanna’s husband (mentioned).']],
+motifs: ['community','surveillance','truth','secrets','violence','parenting','identity'],
+secrets: [['Johanna','Her lost pregnancy, long ago.','Remembered'],['Heidi','She was approached by the young couple.','Discovered on tape']],
+clues: ['A young couple, a blonde and a man in a cap, approached Heidi.','Heidi was shaken and wept afterwards.','The meeting was caught on Red Lobster CCTV.','Johanna has the plate.'],
+dilemma: { q: 'Johanna is investigating a friend’s death outside proper channels. Is that justified?', a: 'Yes: love and knowledge help', b: 'No: it risks the case' },
+food: ['A ladies’ lunch; the Red Lobster car park.'],
+refs: [['IVF','In vitro fertilisation; the first IVF baby, Louise Brown, was born in 1978. Success rates in the 1990s were much lower than today.'],['Red Lobster','An American seafood restaurant chain founded in 1968.'],['CCTV','Closed-circuit television; most chain restaurants record their car parks.'],['Alibis','A suspect’s proof of being elsewhere; Marty was at a convention in Columbus.']],
+questions: [
+ ['Why is the county fixed on Marty?',0],
+ ['Who are Johanna’s lunch friends?',0],
+ ['What does Johanna remember about her IVF pregnancy?',0],
+ ['How did Heidi support her?',0],
+ ['What does Audrey see?',0],
+ ['What does the footage show?',0],
+ ['Why does the image of Heidi crying in a car recur?',1],
+ ['How does the chapter link private grief and investigation?',1],
+ ['Why do the county police suspect the husband?',0],
+ ['What does friendship mean in this chapter?',1],
+ ['How does the chapter mirror Adam’s investigation?',0],
+ ['What do you think the couple told Heidi?',0],
+ ['How does the chapter treat childlessness?',1],
+ ['Is Johanna overstepping?',0],
+ ['What does the lunch reveal about women’s friendships?',0],
+ ['Why must the DVD be returned? Why might this matter?',0],
+ ['How does surveillance help here?',0],
+ ['What does Norbert add to Johanna’s story?',0],
+ ['How does the novel depict middle age?',0],
+ ['What does Heidi’s collapse on tape suggest?',0],
+ ['How do the two strands now connect?',0],
+ ['What do you think Heidi’s secret might be?',0],
+ ['How does the chapter use the empty seat?',0],
+ ['Is grief a motivation for good policing?',1],
+ ['What does Ricky mean to Johanna?',0],
+ ['How does the chapter manage emotion?',0],
+ ['What does a ladies’ lunch represent?',0],
+ ['What does the plate lead to?',0],
+ ['How do memories work in this chapter?',0],
+ ['Predict what Norbert finds.',0]
+],
+close: [
+ { cite: 'Chapter 33, the lunch.', focus: 'An empty seat',
+   steps: ['List the friends.','Note who is absent.','Note how they talk of Heidi.','Find Audrey’s detail.'],
+   ask: 'How does the lunch create a portrait of Heidi through her friends?' },
+ { cite: 'Chapter 33, the IVF memory.', focus: 'A remembered kindness',
+   steps: ['Summarise the pregnancy.','Note the loss.','Describe Heidi in the car.','Note Johanna’s life after.'],
+   ask: 'Why does the novel give Johanna this memory now?' },
+ { cite: 'Chapter 33, the footage.', focus: 'Seeing a friend from outside',
+   steps: ['Describe the meeting.','Note Heidi’s body.','Note her weeping.','Note the plate.'],
+   ask: 'How does the echo of the car memory deepen the scene?' }
+],
+lenses: {
+ office: 'A chapter built on echo: Heidi weeping at the wheel in memory, then on tape. The lunch provides gossip as evidence; the DVD turns grief into procedure. Johanna’s strand is now running parallel to Adam’s, and the novel lets us feel the gap closing.',
+ classroom: 'Friendship, childlessness, grief and the investigator’s motive. The chapter suggests that love is a form of knowledge: Johanna sees what the county cannot because she knew Heidi.',
+ records: 'IVF success rates in the 1990s were far lower than today. Chain restaurants routinely record car parks. Spouses are often investigated first in homicides, and alibis are checked carefully.',
+ stacks: 'Tana French’s In the Woods and Kate Atkinson’s Case Histories both mix personal grief with detection. Women’s friendships at midlife are central to Liane Moriarty’s Big Little Lies.',
+ turnpike: 'A Red Lobster car park in Bergen County, the restaurant chain spread across American highways. The stranger and Ingrid worked both sides of the Hudson: Cedarfield, Beachwood and beyond.',
+ field: 'Is Johanna right to investigate alone? Her friendship gives her insight but also bias. The chapter honours her motive while hinting at the risk to proper process.',
+ board: 'The link between the strands is visible now: a blonde and a man in a cap approached Heidi, just as the stranger and his blonde partner approached Adam. The plate is the bridge.',
+ diner: 'A woman alone at night, head on a steering wheel, hair fanned out: paint it twice, once from memory (warm, blurred) and once on grainy security footage (cold, pixelated).',
+ kitchen: 'A ladies’ lunch with an empty chair. Set a table for an absent friend and talk about who she was. Food is how friends keep someone present.',
+ driveway: 'Johanna remembers who came when she lost her pregnancy. Write privately about someone who showed up for you in your worst moment.'
+},
+acts: {
+ office: [
+  ['Echo','Analyse the car image echo.',20],
+  ['Gossip as evidence','Analyse Audrey’s role.',15],
+  ['Footage','Write a scene described as CCTV.',30],
+  ['Point of view','Rewrite the lunch from Audrey’s POV.',30],
+  ['Memory','Analyse the memory’s placement.',15],
+  ['Pacing','Compare with chapter 26.',15],
+  ['Parallel','Compare Johanna’s and Adam’s methods.',20],
+  ['Dialogue','Analyse the lunch talk.',15],
+  ['Ending','Analyse the plate ending.',15]
+ ],
+ classroom: [
+  ['Friendship','Discuss friendship as knowledge.',25],
+  ['Childlessness','Discuss with care.',20],
+  ['Grief','Discuss grief as motive.',20],
+  ['Husbands suspected','Discuss suspecting spouses.',15],
+  ['Women at midlife','Discuss the lunch circle.',20],
+  ['Theme update','Add "showing up".',15],
+  ['Surveillance','Discuss CCTV.',15],
+  ['Process','Discuss off-book investigation.',20],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['IVF history','Research IVF success rates over time.',20],
+  ['CCTV','Research restaurant CCTV retention.',15],
+  ['Alibis','Research how alibis are verified.',15],
+  ['Red Lobster','Research the chain.',15],
+  ['Spousal suspicion','Research homicide statistics on partners.',20],
+  ['Plate lookups','Research police plate searches.',15],
+  ['Miscarriage','Research pregnancy loss support.',20],
+  ['Columbus','Research Columbus conventions.',15],
+  ['Small-town chiefs','Research small police departments.',15]
+ ],
+ stacks: [
+  ['Case Histories','Read about Atkinson.',20],
+  ['In the Woods','Compare grief and detection.',20],
+  ['Big Little Lies','Compare women’s circles.',20],
+  ['Moriarty','Read The Husband’s Secret summary.',20],
+  ['Tell No One','Compare old grief.',20],
+  ['Gottman','Read on friendship and marriage.',20],
+  ['Putnam','Read on social circles.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about a friend.',15]
+ ],
+ turnpike: [
+  ['Red Lobster','Pin the restaurant lot.',15],
+  ['Columbus','Pin Marty’s convention.',15],
+  ['Mapping journal','Add chapter 33.',15],
+  ['Lunch spot','Imagine the lunch place.',15],
+  ['Bridge','Draw the plate linking strands.',15],
+  ['Case map','Add the couple.',15],
+  ['Network','Link Heidi to the stranger.',15],
+  ['Status','Place the friends on the ladder.',15],
+  ['Radius','Draw the strangers’ range.',15]
+ ],
+ field: [
+  ['Off-book','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to Johanna.',30],
+  ['Bias','Write about love and bias.',25],
+  ['Husbands','Is suspecting Marty fair?',15],
+  ['Court','Begin a Heidi case file.',15],
+  ['Footage','Is borrowed footage proper evidence?',15],
+  ['Friendship','What do friends owe the dead?',20],
+  ['Process','Should Johanna hand over?',15],
+  ['Personal','Write about someone who showed up.',20]
+ ],
+ board: [
+  ['Couple','Pin the couple.',15],
+  ['Footage','Pin the DVD.',15],
+  ['Scene','Write a 300-word footage scene.',40],
+  ['Suspicion meter','Rate Marty.',15],
+  ['Bridge','Connect Heidi and Adam.',15],
+  ['Strand braid','Note the convergence.',15],
+  ['Timeline','Add the Red Lobster meeting.',15],
+  ['Tension curve','Rate.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Two cars','Paint Heidi at the wheel twice.',40],
+  ['CCTV still','Make a pixelated CCTV-style picture.',20],
+  ['Lunch table','Paint the lunch with an empty chair.',30],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the friends.',15],
+  ['Hair like a fan','Draw the image.',15],
+  ['DVD','Design a DVD label.',15],
+  ['Sound','Describe a restaurant car park.',15],
+  ['Cover brief','Add the steering wheel.',15]
+ ],
+ kitchen: [
+  ['Empty chair lunch','Host a lunch with a place for an absent friend.',45],
+  ['Ledger notebook','Record the plate.',15],
+  ['Secrets box','Add the footage.',15],
+  ['Table talk','Ask: who showed up for you?',25],
+  ['Making: memory card','Write a card for an absent friend.',15],
+  ['Seafood','Cook a simple seafood dish.',30],
+  ['Biscuits','Bake cheddar biscuits.',40],
+  ['Recipe of friendship','Write a recipe.',15],
+  ['Tea after','Make tea and talk.',15]
+ ],
+ driveway: [
+  ['Showed up','Write about someone who came.',20],
+  ['Loss','Write privately about a loss.',20],
+  ['Mood dial','Rate sorrow.',15],
+  ['Prediction','What will the plate show?',15],
+  ['Letter to Heidi','Write as Johanna.',15],
+  ['Letter to friends','Write to your circle.',15],
+  ['Childlessness','Write about lives without children.',15],
+  ['Grief','Write about grief as fuel.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 33 use the repeated image of Heidi weeping in her car?',
+ 'Essay: Analyse friendship as a form of knowledge in Johanna’s strand.',
+ 'Creative: Write the Red Lobster meeting from Heidi’s point of view (keeping the content of the conversation unknown).'
+],
+reading: [
+ ['inthewoods','Grief and detection.'],
+ ['biglies','Women’s circles at midlife.'],
+ ['husbandsecret','Friends and hidden truths.'],
+ ['tellnoone','Old grief returning.'],
+ ['gottman','Friendship in long relationships.'],
+ ['putnam','Social circles and belonging.'],
+ ['deadknow','A seasoned woman investigator.'],
+ ['nevertold','Families and loss.'],
+ ['zuboff','Watching and recording.']
+],
+projects: [
+ { t: 'The Steering Wheel', rooms: ['office','diner','driveway'], steps: ['Analyse the echo.','Paint both scenes.','Write privately.','Discuss.'] },
+ { t: 'Empty Chair', rooms: ['kitchen','classroom','driveway'], steps: ['Host a lunch.','Discuss friendship.','Write a card.','Reflect.'] },
+ { t: 'Converging Strands', rooms: ['board','turnpike','office'], steps: ['Pin the couple.','Map.','Compare methods.','Predict.'] },
+ { t: 'Off the Books', rooms: ['field','records','classroom'], steps: ['Use the Dilemma scale.','Research process.','Debate.','Verdict.'] },
+ { t: 'Women Detectives', rooms: ['stacks','classroom','office'], steps: ['Read about Atkinson and French.','Discuss.','Write.','Present.'] },
+ { t: 'Showing Up', rooms: ['driveway','kitchen','classroom'], steps: ['Write.','Make a memory card.','Discuss.','Act.'] }
+],
+quiz: [
+ ['Who does the county suspect?', ['Kimberly','Marty','Johanna','Norbert'], 1],
+ ['What did Johanna lose years ago?', ['A job','An IVF pregnancy','A house','A dog'], 1],
+ ['Who saw Heidi with a young couple?', ['Katey','Audrey','Stephanie','Ricky'], 1],
+ ['Where was the meeting recorded?', ['Starbucks','Red Lobster car park','A school','A bank'], 1],
+ ['Who will run the plate?', ['Marty','Norbert','Len','Rinsky'], 1]
+]
+};

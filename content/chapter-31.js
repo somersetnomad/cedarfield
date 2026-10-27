@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[31] = {
+n: 31, title: 'Room 715', pov: 'Kuntz', when: 'The same days, in Manhattan', strands: ['kuntz'], places: ['washingtonheights','newark'],
+summary: [
+ 'John Kuntz gets rid of two guns in the Hudson and takes the A train up to 168th Street, to the children’s hospital where his son lies ill. He notes the irony of the building’s grand donor names. His ten-year-old, Robby, has bone cancer and is in room 715. Kuntz’s wife, Barb, keeps vigil; their other children, Kari and Harry, are shuffled between relatives. The family’s whole life is the hospital now.',
+ 'Kuntz was once an NYPD officer. During an arrest of a shoplifting suspect, a Black man, Kuntz used a restraint that killed him, with his partner beside him. The video spread, the department fired him, and he lost his pension and health benefits. His interior monologue is bitter, self-pitying and openly racist: he blames the media, protesters and politicians, never himself. The novel lets us hear this voice without endorsing it, and it is deliberately ugly.',
+ 'Then a lifeline. Larry Powers, a young Ivy Leaguer, hired Kuntz as head of security for his start-up, an app that connects Christian handymen with people needing home repairs. The company is heading for a public offering with Bank of America in two months. Kuntz’s stock options could be worth around seventeen million dollars: treatment for Robby, security for Barb, everything. Someone is threatening to take it away, and Kuntz has decided nothing will.'
+],
+beats: [
+ 'Kuntz drops two guns into the Hudson.',
+ 'The A train to 168th Street and the children’s hospital.',
+ 'Robby, ten, with bone cancer in room 715; Barb’s vigil.',
+ 'Kari and Harry farmed out to relatives.',
+ 'Kuntz’s firing after a fatal arrest.',
+ 'His bitter, racist self-justification.',
+ 'Lost pension and benefits.',
+ 'Larry Powers and the Christian handyman app.',
+ 'The IPO in two months; options worth about $17 million.',
+ 'Someone threatens it; Kuntz won’t allow that.'
+],
+cast: [['John Kuntz','Ex-NYPD, fired after a fatal arrest; father of a sick child; now a security chief.'],['Robby Kuntz','Ten, with bone cancer.'],['Barb Kuntz','His wife, at Robby’s side.'],['Larry Powers','Young founder of a faith-based handyman app.']],
+motifs: ['fatherhood','money','violence','justice','class','identity','parenting'],
+secrets: [['Kuntz','He has just disposed of two guns.','Shown to the reader'],['Larry','Something threatens his company.','Implied']],
+clues: ['Kuntz disposes of two guns.','His son is gravely ill.','His fortune depends on the IPO.','Someone is threatening Larry’s company.'],
+dilemma: { q: 'Does a sympathetic motive (a dying child) change how we judge a violent man?', a: 'It explains, and that matters', b: 'It changes nothing about what he does' },
+food: ['Hospital vending machines and cafeteria trays.'],
+refs: [['NewYork-Presbyterian Morgan Stanley Children’s Hospital','A real children’s hospital in Washington Heights, Manhattan, near 168th Street.'],['The A train','A New York subway line running up Manhattan’s west side to Washington Heights.'],['Osteosarcoma','The most common bone cancer in children and teenagers.'],['IPOs','Initial public offerings, when a private company first sells shares to the public.'],['Police use of force','Fatal restraint cases have been at the centre of US debates on policing, especially since 2014.']],
+questions: [
+ ['What does Kuntz do with the guns?',0],
+ ['Where is Robby, and what is wrong with him?',0],
+ ['Why was Kuntz fired from the NYPD?',0],
+ ['How does Kuntz explain his firing to himself?',0],
+ ['What is Larry Powers’ company?',0],
+ ['What does the IPO mean for Kuntz?',0],
+ ['Why does the novel give a killer a sick child?',1],
+ ['How does the chapter handle Kuntz’s racism?',1],
+ ['Is it right for a novel to voice ugly views from the inside?',1],
+ ['Compare Kuntz’s fatherhood with Adam’s.',1],
+ ['How does money drive Kuntz?',0],
+ ['What irony does Kuntz notice at the hospital?',0],
+ ['How does the chapter link violence and love?',0],
+ ['What does the start-up’s religious branding suggest?',0],
+ ['What threat might face the company?',0],
+ ['How does Kuntz see himself: hero or victim?',0],
+ ['What has the firing cost his family?',0],
+ ['How does this chapter recast earlier events?',0],
+ ['Is Kuntz frightening? Why?',0],
+ ['How does the novel treat American healthcare costs?',1],
+ ['What does the A train ride add?',0],
+ ['Why name the room number in the chapter title?',0],
+ ['Does sympathy for Robby make you complicit?',0],
+ ['How does the chapter structure reveal and withhold?',0],
+ ['What would Kuntz say justice is?',0],
+ ['How does the chapter treat police culture?',0],
+ ['What does Kuntz think of Larry?',0],
+ ['How might Kuntz’s path cross Adam’s?',0],
+ ['Is the novel fair to Kuntz?',1],
+ ['Predict what Kuntz will do to protect the IPO.',0]
+],
+close: [
+ { cite: 'Chapter 31, opening: the river and the train.', focus: 'A cold start',
+   steps: ['Note what he throws away.','Trace the route.','Find the hospital’s donor-name irony.','Note his tone.'],
+   ask: 'How does the opening make us complicit with a man disposing of weapons?' },
+ { cite: 'Chapter 31, middle: the firing.', focus: 'Self-justification',
+   steps: ['Summarise the incident.','List those he blames.','Note what he never admits.','Consider the narrative distance.'],
+   ask: 'How does the novel show self-justification without endorsing it?' },
+ { cite: 'Chapter 31, close: Larry and the IPO.', focus: 'Stakes',
+   steps: ['Describe the app.','Note the timing.','Find the figure.','Read the final resolve.'],
+   ask: 'How does the chapter turn money into a matter of life and death?' }
+],
+lenses: {
+ office: 'A villain’s POV chapter with no shrinking from his ugliness. Coben uses close third person so the reader hears Kuntz’s logic from inside, then sets it against the facts the logic avoids. The chapter title is a hospital room: love sits at the centre of menace.',
+ classroom: 'The monster as father; self-justification; race and policing; money as survival. The novel complicates its themes: Kuntz also protects his family at any cost, a dark mirror of the question the whole book asks.',
+ records: 'Fatal restraint cases have driven US debate on policing, especially since 2014. Osteosarcoma is the most common childhood bone cancer. US medical costs can bankrupt families; losing employer insurance is catastrophic. IPOs can make early employees rich overnight.',
+ stacks: 'Patricia Highsmith’s Ripley novels let readers inhabit a killer. Dennis Lehane’s Mystic River shows love and violence entangled in fathers. Kuntz is a darker, uglier case of the same pull.',
+ turnpike: 'The Hudson River, the A train, 168th Street and Washington Heights: the novel’s map crosses into Manhattan. Kuntz commutes between violence in New Jersey and a hospital bed in upper Manhattan, carrying both.',
+ field: 'Does a dying child change how we judge a violent man? Explanation is not excuse, and the chapter wants us to feel the pull of both. Care ethics meets justice head-on here.',
+ board: 'The reader now knows more than Adam: a hired protector with motive, method and a disposed weapon. The chapter turns the mystery into suspense: we wait for the paths to cross.',
+ diner: 'A hospital corridor at night, a boy in room 715, a man in a chair: paint the scene in cold fluorescent light with one warm lamp by the bed. No glamour.',
+ kitchen: 'Hospital vending machines, cafeteria trays and sleep-deprived parents. Families of sick children often live on whatever is quickest. Food here is endurance, not comfort.',
+ driveway: 'Kuntz would do anything for his son, and the novel makes that frightening. Write privately about where your own love for someone might lead you too far.'
+},
+acts: {
+ office: [
+  ['Villain POV','Analyse how Coben voices Kuntz.',25],
+  ['Narrative distance','Find where the narration undercuts Kuntz.',20],
+  ['Title','Analyse the chapter’s title.',15],
+  ['Opening image','Analyse the river opening.',15],
+  ['Point of view','Rewrite one moment from Barb’s POV.',30],
+  ['Withholding','What does the chapter not say?',15],
+  ['Pacing','Compare with chapter 21.',15],
+  ['Structure','Map reveal and withhold.',15],
+  ['Style','Note the tonal shifts.',15]
+ ],
+ classroom: [
+  ['Monster as father','Discuss the father-villain.',25],
+  ['Self-justification','Discuss how people excuse harm.',25],
+  ['Policing','Discuss the use-of-force strand with care.',25],
+  ['Money and survival','Discuss medical costs and motive.',20],
+  ['Mirror','Compare Kuntz and Adam.',20],
+  ['Theme update','Add "protection".',15],
+  ['Voicing ugliness','Discuss voicing racist views in fiction.',20],
+  ['Sympathy','Discuss complicity in sympathy.',20],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Children’s hospital','Research NewYork-Presbyterian’s children’s hospital.',15],
+  ['Osteosarcoma','Research childhood bone cancer.',20],
+  ['Use of force','Research US restraint policy reforms.',25],
+  ['Pensions','Research police pension rules on dismissal.',15],
+  ['IPO','Research how an IPO works.',20],
+  ['Stock options','Research employee stock options.',15],
+  ['Medical debt','Research US medical debt.',20],
+  ['A train','Research the A line.',15],
+  ['Faith-based tech','Research faith-branded start-ups.',15]
+ ],
+ stacks: [
+  ['Ripley','Read about Highsmith’s killer-protagonist.',20],
+  ['Mystic River','Compare fathers and violence.',20],
+  ['Crime and Punishment','Compare self-justification.',20],
+  ['Death of a Salesman','Compare a man and his worth.',20],
+  ['Evicted','Read on money and survival.',20],
+  ['Sandel','Read on markets and medicine.',20],
+  ['Gone Baby Gone','Compare protecting children.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about a sick child.',15]
+ ],
+ turnpike: [
+  ['Hudson','Pin where he might drop the guns.',15],
+  ['A train','Trace the route to 168th.',15],
+  ['Mapping journal','Add chapter 31.',15],
+  ['Washington Heights','Research the neighbourhood.',15],
+  ['Commute','Map Kuntz’s two worlds.',15],
+  ['Case map','Add Kuntz as a node.',15],
+  ['Network','Link Kuntz to Larry.',15],
+  ['Distance','Manhattan to Beachwood.',15],
+  ['Status','Place Kuntz and Larry on the ladder.',15]
+ ],
+ field: [
+  ['Motive','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to Kuntz.',30],
+  ['Explanation vs excuse','Write 300 words.',35],
+  ['Policing','Debate accountability.',25],
+  ['Healthcare','Is it just that money decides care?',20],
+  ['Loyalty','Is Kuntz loyal or just desperate?',15],
+  ['Court','Begin a case file on Kuntz.',15],
+  ['Sympathy','Rate your sympathy.',15],
+  ['Personal','Write about love going too far.',20]
+ ],
+ board: [
+  ['Kuntz','Pin Kuntz.',15],
+  ['Guns','Pin the disposed guns.',15],
+  ['Scene','Write a 300-word villain-POV scene.',40],
+  ['Suspicion meter','Rate Kuntz.',15],
+  ['Strand braid','Note the Kuntz strand.',15],
+  ['Suspense','Note what the reader now knows.',15],
+  ['Tension curve','Rate.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Room 715','Paint the hospital room at night.',35],
+  ['River','Paint the Hudson at dusk.',30],
+  ['Subway','Draw an A train carriage.',20],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a bleak theme.',15],
+  ['Corridor','Draw a fluorescent corridor.',15],
+  ['Stock ticker','Design an IPO ticker.',15],
+  ['Sound','Describe a hospital at night.',15],
+  ['Cover brief','Add the room number.',15]
+ ],
+ kitchen: [
+  ['Hospital food','Discuss what families eat during long stays.',15],
+  ['Ledger notebook','Record $17 million.',15],
+  ['Secrets box','Add the guns.',15],
+  ['Table talk','Ask: how far for your child?',25],
+  ['Making: care package','Assemble a care package for a hospital family.',30],
+  ['Volunteer','Research a children’s hospital charity.',20],
+  ['Recipe of rage','Write a recipe.',15],
+  ['Coffee in a cup','Make hospital-style coffee and reflect.',15],
+  ['Sandwich','Make a sandwich for a vigil.',15]
+ ],
+ driveway: [
+  ['Too far','Write about love going too far.',20],
+  ['Sick child','Write about a hospital memory.',20],
+  ['Mood dial','Rate unease.',15],
+  ['Prediction','What will Kuntz do?',15],
+  ['Letter to Robby','Write to Robby.',15],
+  ['Letter to Barb','Write to Barb.',15],
+  ['Blame','Write about blaming others.',15],
+  ['Money','Write about money and fear.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 31 make John Kuntz both a father and a menace, and why does the novel take this risk?',
+ 'Essay: Analyse how the novel voices Kuntz’s self-justification without endorsing it.',
+ 'Creative: Write a night in room 715 from Barb’s point of view.'
+],
+reading: [
+ ['ripley','Living inside a killer’s head.'],
+ ['mystic','Fathers, love and violence.'],
+ ['crime','The self-justifying mind.'],
+ ['salesman','A man measured by money.'],
+ ['evicted','Money and survival.'],
+ ['sandel','What money should not buy.'],
+ ['gonebaby','Protecting children at any cost.'],
+ ['kingpin','A tech empire and the cost of protecting it.'],
+ ['foolmeonce','Coben on hired violence.']
+],
+projects: [
+ { t: 'The Father-Villain', rooms: ['classroom','office','field'], steps: ['Discuss.','Analyse POV.','Apply lenses.','Write.'] },
+ { t: 'Room 715', rooms: ['diner','driveway','kitchen'], steps: ['Paint the room.','Write as Barb.','Assemble a care package.','Reflect.'] },
+ { t: 'Money and Medicine', rooms: ['records','stacks','field'], steps: ['Research costs.','Read Sandel.','Debate.','Verdict.'] },
+ { t: 'Kuntz File', rooms: ['board','turnpike','records'], steps: ['Pin him.','Map his commute.','Research IPOs.','Predict.'] },
+ { t: 'Policing Strand', rooms: ['classroom','records','field'], steps: ['Research reforms.','Discuss carefully.','Debate accountability.','Write.'] },
+ { t: 'Mirror Fathers', rooms: ['stacks','classroom','driveway'], steps: ['Compare Kuntz and Adam.','Read Mystic River.','Write.','Discuss.'] }
+],
+quiz: [
+ ['What is Robby’s illness?', ['Leukaemia','Bone cancer','Heart disease','Asthma'], 1],
+ ['What room is Robby in?', ['512','715','303','101'], 1],
+ ['Why was Kuntz fired?', ['Theft','A fatal arrest','Lying','Drinking'], 1],
+ ['What is Larry’s company?', ['A dating app','An app connecting Christian handymen','A bank','A gym'], 1],
+ ['What could Kuntz’s options be worth?', ['$170,000','About $17 million','$1 million','$500'], 1]
+]
+};

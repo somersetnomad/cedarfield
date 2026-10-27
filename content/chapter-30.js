@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[30] = {
+n: 30, title: 'BARISTA77', pov: 'Adam', when: 'That day, in Kasselton', strands: ['adam','rinsky','stranger'], places: ['kasselton'],
+summary: [
+ 'Rinsky, dressed in beige from head to toe, has traced the plate. Eunice, made up for a garden party, greets Adam as "Norman"; Rinsky stops him correcting her, explaining it’s validation therapy. The car was a rental hired under the name Lauren Barna, which Rinsky has found is a cover for a real woman, Ingrid Prisby, of Austin, Texas. He offers to run a background check. Then he offers to listen, and Adam, against all his own advice to clients, tells him everything.',
+ 'Should he go to the police? Rinsky asks what Adam, as a former prosecutor, would think of a husband whose wife ran off after learning of her betrayal: that he did something to her. And if not that, that she stole the lacrosse money to get away from him. The local chief’s wife would spread the pregnancy story all over town. Use her text as your answer, Rinsky advises; keep looking, but don’t hand the police anything that incriminates her. Gently, Rinsky says the likeliest story is that Corinne took the money. Adam answers that, if so, something drove her to it.',
+ 'Adam remembers the phone call in the garden the morning she vanished. On Rinsky’s computer he logs into their phone account. He knows the password because he and Corinne always use the same word, chosen at random in a coffee shop because it meant nothing to them: BARISTA, sometimes doubled, sometimes with 77 when numbers are required. The second try works. The last call Corinne made was that one, placed at 7:53 that morning and lasting three minutes. Adam stares at the number. He recognises it.'
+],
+beats: [
+ 'Rinsky in beige; Eunice calls Adam "Norman"; validation therapy.',
+ 'The plate: a rental under "Lauren Barna" = Ingrid Prisby, Austin, Texas.',
+ 'Adam tells Rinsky the whole story.',
+ 'Rinsky on the police: they’d suspect Adam, or Corinne of theft; gossip.',
+ 'Advice: cite her text; don’t incriminate her.',
+ 'Rinsky bets on theft; Adam insists any theft must have had a cause.',
+ 'The garden phone call remembered.',
+ 'The shared password system: BARISTA, BARISTABARISTA, BARISTA77.',
+ 'Her last call: 7:53 a.m., three minutes. Adam knows the number.'
+],
+cast: [['Mike Rinsky','Investigator, confessor, realist.'],['Eunice Rinsky','Gracious, confused, calling Adam "Norman".'],['Ingrid Prisby','The blond driver, identified (offstage).'],['Adam Price','Confiding at last, then finding a lead.']],
+motifs: ['secrets','technology','marriage','justice','surveillance','truth','community'],
+secrets: [['The couple','Their shared password system.','Revealed to the reader'],['Corinne','Whom she called at 7:53 the morning she left.','Discovered by Adam (not yet named)'],['Ingrid','Her real name behind a rental alias.','Discovered']],
+clues: ['The driver is Ingrid Prisby of Austin, Texas, renting as Lauren Barna.','Rinsky thinks Corinne likely took the money.','Corinne’s final outgoing call came at 7:53 on the day she left.','Adam recognises the number.'],
+dilemma: { q: 'Rinsky advises Adam not to give police anything that could incriminate Corinne. Is that right?', a: 'Yes: protect her until you know', b: 'No: the truth should come out' },
+food: ['Eunice’s tea, served as for a garden party.'],
+refs: [['Validation therapy','An approach to dementia care, developed by Naomi Feil, that accepts a person’s reality rather than correcting it.'],['Rental cars and aliases','Rentals require ID; aliases suggest false or borrowed documents.'],['Austin, Texas','The state capital and a technology hub.'],['Password reuse','A common habit security experts warn against.']],
+questions: [
+ ['What does Rinsky discover about the car?',0],
+ ['Who is Ingrid Prisby?',0],
+ ['What is validation therapy, and why does Rinsky use it?',0],
+ ['What does Rinsky advise about the police?',0],
+ ['What is the couple’s password system?',0],
+ ['What does Adam find in the phone records?',0],
+ ['Why does Adam tell Rinsky everything, against his own advice?',1],
+ ['Is validation therapy a kind of lie? Is it kind?',1],
+ ['How does Rinsky’s view of the police reflect his career?',0],
+ ['Is Rinsky right that Corinne probably took the money?',1],
+ ['Adam insists Corinne would only have taken the money for a cause. Loyalty or denial?',1],
+ ['What does the shared password say about the marriage?',1],
+ ['Why choose a word that means nothing?',0],
+ ['What does it mean that the password protects their joint account and also leads him to her secret?',0],
+ ['How does the chapter mix tenderness and investigation?',0],
+ ['What does Eunice’s presence add?',0],
+ ['Is Adam a good investigator now?',0],
+ ['Why might Corinne have called that number?',0],
+ ['Who might it be? Speculate.',1],
+ ['What does an alias suggest about Ingrid?',0],
+ ['How is the Rinsky friendship developing?',0],
+ ['How does the chapter treat the ethics of withholding from police?',0],
+ ['Compare Rinsky and Len Gilman as cops.',0],
+ ['What does "Norman" suggest about Eunice’s past?',0],
+ ['How does the chapter end, and why so abruptly?',0],
+ ['What do you think of password reuse?',0],
+ ['Is protecting a spouse from police ever wrong?',0],
+ ['How does technology help here?',0],
+ ['What is Rinsky’s view of human nature?',0],
+ ['Predict whose number it is.',0]
+],
+close: [
+ { cite: 'Chapter 30, opening: Eunice calling Adam by another name.', focus: 'Kind untruths',
+   steps: ['Find Eunice’s greeting.','Find Rinsky’s instruction.','Paraphrase validation therapy.','Consider how this frames the chapter.'],
+   ask: 'How does this small moment comment on the novel’s debate about truth?' },
+ { cite: 'Chapter 30, middle: Rinsky’s advice about the police.', focus: 'Thinking like a prosecutor',
+   steps: ['Find Rinsky’s question to Adam.','List the two theories police would form.','Note the gossip point.','Find his advice about the text.'],
+   ask: 'How does Rinsky use Adam’s own expertise against him?' },
+ { cite: 'Chapter 30, close: the password and the call log.', focus: 'A word that meant nothing',
+   steps: ['Find the story of how the password was chosen.','List its variants.','Find the call time and duration.','Read the last line.'],
+   ask: 'Why make the key to the mystery a word chosen for meaning nothing?' }
+],
+lenses: {
+ office: 'A conversation chapter with two turns: Rinsky’s cold logic and the password anecdote, a warm, comic glimpse of the marriage that suddenly becomes a key. The chapter ends on a recognition withheld from the reader.',
+ classroom: 'Kind untruths (validation therapy) versus harmful lies; loyalty; the private codes couples share. The password, chosen because it meant nothing, ends up meaning everything.',
+ records: 'Validation therapy, developed by Naomi Feil from the 1960s, is a recognised approach in dementia care. Car-rental aliases imply false ID. Security experts have long warned against reusing one password.',
+ stacks: 'Shared codes between spouses appear in literature from Victorian letters to modern thrillers. Coben’s Fool Me Once (2016) also turns on what a spouse’s devices reveal.',
+ turnpike: 'Back in the Rinskys’ tech nook in Kasselton. A rental car links New Jersey to Austin, Texas: the map widens again, from a Bergen County kitchen table to a state capital two thousand miles away, all through one licence plate.',
+ field: 'Is it right to protect someone from the police before knowing the truth? Loyalty and justice pull apart. Rinsky, an ex-cop, chooses loyalty.',
+ board: 'Two clues land: Ingrid’s identity and the 7:53 call. The chapter ends on a recognition the reader doesn’t share, a classic withholding.',
+ diner: 'Eunice in garden-party make-up applied a little too boldly, serving tea; Rinsky all in beige: a picture of an old marriage that still holds.',
+ kitchen: 'Tea at the kitchen table, served by a woman who believes it is a garden party. Hospitality survives memory: the rituals of welcome outlast names and dates, and Rinsky lets them stand.',
+ driveway: 'Adam and Corinne picked a password because it meant nothing, sitting in a coffee shop. Write about a private code you share with someone and what it has come to mean.'
+},
+acts: {
+ office: [
+  ['Two turns','Map the chapter’s two turns.',15],
+  ['Anecdote','Write about the password anecdote’s tone.',15],
+  ['Withholding','Write a scene ending on an unshared recognition.',30],
+  ['Rinsky’s logic','Analyse his argument.',15],
+  ['Eunice','Analyse the "Norman" moment.',15],
+  ['Point of view','Rewrite from Rinsky’s POV.',30],
+  ['Dialogue','Analyse Adam’s defence of Corinne’s motives.',15],
+  ['Pacing','Compare with chapter 29.',15],
+  ['Description','Analyse the beige outfit.',15]
+ ],
+ classroom: [
+  ['Kind untruths','Discuss validation therapy as truth ethics.',25],
+  ['Loyalty','Discuss loyalty vs justice.',25],
+  ['Couple codes','Discuss shared codes.',20],
+  ['Confiding','Discuss why Adam confides.',20],
+  ['Police','Discuss police assumptions.',20],
+  ['Theme update','Add "codes".',15],
+  ['Ageing marriages','Discuss the Rinskys.',15],
+  ['Probability','Discuss "odds are".',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Validation therapy','Research Naomi Feil.',20],
+  ['Rental ID','Research car rental ID rules.',15],
+  ['Austin','Research Austin’s tech scene.',15],
+  ['Passwords','Research password security advice.',15],
+  ['Phone records','Research what carriers show online.',15],
+  ['Dementia care','Research dementia at home.',20],
+  ['Aliases','Research legal name use.',15],
+  ['Prosecutors','Research spousal suspicion in investigations.',20],
+  ['Coffee shops','Research the rise of the barista.',15]
+ ],
+ stacks: [
+  ['Fool Me Once','Read about Coben’s 2016 novel.',20],
+  ['Dementia fiction','Find a novel about a spouse with dementia.',20],
+  ['Codes in fiction','Find a story turning on a password.',20],
+  ['Perel','Read on intimacy and shared language.',20],
+  ['Tell No One','Compare a code between spouses.',20],
+  ['Bok','Read on loyalty and truth.',20],
+  ['The Corrections','Compare ageing and memory.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about old love.',15]
+ ],
+ turnpike: [
+  ['Austin','Pin Austin on your map.',15],
+  ['Rental','Trace a rental from Newark.',15],
+  ['Mapping journal','Add chapter 30.',15],
+  ['Kasselton','Detail the Rinsky house.',15],
+  ['Coffee shop','Imagine the coffee shop where the password was chosen.',15],
+  ['Case map','Add Ingrid.',15],
+  ['Network','Draw Ingrid’s links.',15],
+  ['Distance','Austin to Cedarfield.',15],
+  ['Garden','Imagine Eunice’s garden party.',15]
+ ],
+ field: [
+  ['Withholding from police','Use the Dilemma scale.',15],
+  ['Validation','Is validation therapy honest?',20],
+  ['Five lenses','Apply the lenses to Rinsky’s advice.',30],
+  ['Loyalty','Write 300 words on loyalty vs justice.',35],
+  ['Probability','Is it fair to judge by odds?',15],
+  ['Accessing accounts','Is logging into her phone account ethical?',20],
+  ['Court','Update the money case.',15],
+  ['Confidences','Will Rinsky keep Adam’s secrets?',15],
+  ['Personal','Write about protecting someone from authorities.',20]
+ ],
+ board: [
+  ['Ingrid','Pin Ingrid Prisby.',15],
+  ['Call','Pin the 7:53 call.',15],
+  ['Scene','Write a 300-word password-reveal scene.',40],
+  ['Suspicion meter','Rate Corinne on the money.',15],
+  ['Timeline','Add the 7:53 call.',15],
+  ['Strand braid','Note strands.',15],
+  ['Withheld recognition','List possible callers.',15],
+  ['Tension curve','Rate.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Old couple','Paint the Rinskys at the table.',35],
+  ['Beige','Make a beige-only still life.',20],
+  ['Password art','Design a typographic poster of a meaningless word.',20],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for Eunice.',15],
+  ['Garden party make-up','Draw Eunice made up.',15],
+  ['Screen','Design the call log screen.',15],
+  ['Sound','Describe a computer login.',15],
+  ['Cover brief','Add the password.',15]
+ ],
+ kitchen: [
+  ['Garden-party tea','Host a garden-party tea and discuss memory.',40],
+  ['Ledger notebook','Record Ingrid’s alias.',15],
+  ['Secrets box','Add the 7:53 call.',15],
+  ['Table talk','Ask: what codes do you share?',25],
+  ['Making: password card','Revisit your card: is it meaningless enough?',15],
+  ['Coffee','Make coffee like a barista.',20],
+  ['Beige food','Cook an all-beige comfort meal (jokingly).',30],
+  ['Recipe of loyalty','Write a recipe.',15],
+  ['Tea for Eunice','Make tea gently.',15]
+ ],
+ driveway: [
+  ['Codes','Write about a private code.',20],
+  ['Confiding','Write about confiding when you shouldn’t.',20],
+  ['Mood dial','Rate trust.',15],
+  ['Prediction','Whose number?',15],
+  ['Letter to Rinsky','Write thanks.',15],
+  ['Letter to Eunice','Write as "Norman".',15],
+  ['Odds','Write about being judged by odds.',15],
+  ['Loyalty','Write about defending someone.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 30 explore kind untruths and loyal silences, from validation therapy to Rinsky’s advice?',
+ 'Essay: Analyse the significance of the couple’s shared password in the novel.',
+ 'Creative: Write the afternoon in the coffee shop when Adam and Corinne chose the password.'
+],
+reading: [
+ ['foolmeonce','Coben on what a spouse’s devices reveal.'],
+ ['tellnoone','Codes between a husband and wife.'],
+ ['corrections','Ageing parents and fading memory.'],
+ ['perelcaptivity','Private languages of couples.'],
+ ['boklying','Kind lies and their ethics.'],
+ ['bigsleep','A detective protecting a client.'],
+ ['sandel','Loyalty and justice.'],
+ ['solove','Passwords and privacy.'],
+ ['evicted','Home and the elderly.']
+],
+projects: [
+ { t: 'Kind Untruths', rooms: ['classroom','records','field'], steps: ['Research validation therapy.','Discuss.','Use the Five lenses.','Write.'] },
+ { t: 'The Password', rooms: ['office','driveway','diner'], steps: ['Close-read the anecdote.','Write about your codes.','Design a poster.','Discuss.'] },
+ { t: 'Ingrid File', rooms: ['board','turnpike','records'], steps: ['Pin Ingrid.','Map Austin.','Research aliases.','Predict.'] },
+ { t: 'Loyalty vs Justice', rooms: ['field','stacks','classroom'], steps: ['Use the Dilemma scale.','Read Bok.','Debate.','Verdict.'] },
+ { t: 'Garden-Party Tea', rooms: ['kitchen','diner','driveway'], steps: ['Host tea.','Paint the Rinskys.','Write to Eunice.','Discuss memory.'] },
+ { t: 'The 7:53 Call', rooms: ['board','office','driveway'], steps: ['Pin it.','List callers.','Write the call.','Predict.'] }
+],
+quiz: [
+ ['What name does Eunice call Adam?', ['Mike','Norman','David','Tripp'], 1],
+ ['Who rented the car?', ['Lauren Barna, really Ingrid Prisby','Corinne','Kristin','Gabrielle'], 0],
+ ['Where does Ingrid live?', ['Ohio','Austin, Texas','Nyack','Boston'], 1],
+ ['What is the shared password word?', ['LoveMyFamily','BARISTA','Cedarfield','Jersey'], 1],
+ ['What time was Corinne’s last call?', ['7:53 a.m.','Noon','2 p.m.','7:45 p.m.'], 0]
+]
+};
