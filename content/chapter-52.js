@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[52] = {
+n: 52, title: 'Eight Rounds', pov: 'Kuntz / Johanna', when: 'The same hours', strands: ['kuntz','heidi'], places: ['dingmans'],
+summary: [
+ 'Kuntz got the garage address from Ingrid before he killed her; under his knife she gave up every detail and pleaded for the end. He followed Eduardo over the Dingmans Ferry Bridge to the lake. He knows their names now: Merton Sules, Gabrielle Dunbar. He watched someone take a bat to Adam and was surprised, because Ingrid had said the group was non-violent. Chris arrived later. Kuntz waited for hours with his Sig Sauer P239 and its eight nine-millimetre rounds.',
+ 'Listening, he learns that the group doesn’t know who killed Ingrid, and that Adam has connected Heidi to it. That makes them all a danger to the IPO, and so to Robby. He tells himself it is for his son. When Eduardo spots him at the window, Kuntz fires: Merton, then Eduardo.',
+ 'Meanwhile Johanna, with Thomas, has found Adam’s last location: Lake Charmaine, near Dingmans Ferry in Pennsylvania. She calls the Shohola Township police and Sheriff Lowell. They begin going door to door.'
+],
+beats: [
+ 'Ingrid gave Kuntz everything before she died.',
+ 'Kuntz tails Eduardo over the Dingmans Ferry Bridge.',
+ 'He knows the names: Merton Sules, Gabrielle Dunbar.',
+ 'He watched the bat attack, surprised.',
+ 'Chris arrives; Kuntz waits hours; Sig Sauer P239, eight rounds.',
+ 'He learns they don’t know who killed Ingrid; Adam knows about Heidi.',
+ 'His justification: Robby.',
+ 'Eduardo spots him; Kuntz shoots Merton and Eduardo.',
+ 'Johanna and Thomas locate the lake; local police go door to door.'
+],
+cast: [['John Kuntz','Killer, waiting.'],['Merton Sules','Shot.'],['Eduardo','Shot.'],['Johanna Griffin','Coordinating the search.'],['Sheriff Lowell','Local law (offstage).']],
+motifs: ['violence','fatherhood','money','justice','surveillance','technology'],
+secrets: [['Kuntz','How he found the group.','Revealed to the reader'],['Johanna','Adam’s location.','Found via Thomas']],
+clues: ['Kuntz extracted the address from Ingrid.','Kuntz is at the lake with a pistol.','Johanna and police are searching nearby.'],
+dilemma: { q: 'Kuntz kills for his son’s future. Does love ever excuse murder?', a: 'Never', b: 'It explains, but cannot excuse' },
+food: ['None: hours of waiting in the trees.'],
+refs: [['Sig Sauer P239','A compact single-stack pistol, discontinued around 2018.'],['Shohola Township','A township in Pike County, Pennsylvania.'],['Pike County, PA','A rural county along the Delaware River.'],['Door-to-door canvassing','Standard police practice to locate a missing person.']],
+questions: [
+ ['How did Kuntz find the garage?',0],
+ ['How did he reach the lake?',0],
+ ['What did he see?',0],
+ ['Why does he wait?',0],
+ ['What does he learn by listening?',0],
+ ['What does he do when spotted?',0],
+ ['How does Kuntz justify the killings?',1],
+ ['How does the chapter use cross-cutting?',0],
+ ['What does the detail of eight rounds add?',0],
+ ['Why was Kuntz surprised by the bat?',0],
+ ['How does the chapter make us dread the count?',1],
+ ['Compare Kuntz’s patience with Adam’s rashness.',0],
+ ['How does Johanna find the lake?',0],
+ ['What role does Thomas play?',0],
+ ['Is Kuntz a professional?',0],
+ ['How does the chapter treat Ingrid’s death?',1],
+ ['What does Robby’s name do in Kuntz’s mind?',0],
+ ['How does local policing enter the novel?',0],
+ ['What would you feel as Johanna?',0],
+ ['How does the chapter create a race against time?',0],
+ ['Is there any sympathy left for Kuntz?',1],
+ ['What does the chapter say about violence and love?',1],
+ ['How does the novel treat guns?',0],
+ ['Why name the gun so precisely?',0],
+ ['What do the names Merton Sules and Gabrielle Dunbar add?',0],
+ ['How does the group’s innocence of murder matter?',0],
+ ['What does Kuntz fear?',1],
+ ['How does this chapter mirror chapter 21?',0],
+ ['What will Johanna find?',0],
+ ['Predict how Adam survives.',0]
+],
+close: [
+ { cite: 'Chapter 52, opening: Ingrid’s last words.', focus: 'Cruelty recalled',
+   steps: ['Note what Ingrid gave.','Note how.','Note Kuntz’s tone.','Consider the narration.'],
+   ask: 'How does the chapter handle Kuntz’s cruelty without dwelling on it?' },
+ { cite: 'Chapter 52, middle: waiting.', focus: 'Patience as menace',
+   steps: ['Note the gun.','Note the waiting.','Note what he overhears.','Note his reasoning.'],
+   ask: 'How does patience make Kuntz more frightening?' },
+ { cite: 'Chapter 52, close: shots and search.', focus: 'Race',
+   steps: ['Note who spots him.','Note the shots.','Cut to Johanna.','Note the door-to-door.'],
+   ask: 'How does cross-cutting create a race against time?' }
+],
+lenses: {
+ office: 'A cross-cut chapter: killer’s patience, then search party. Precise details (eight rounds, a named pistol) create a countdown. The narration stays cool, letting Kuntz’s self-justification condemn him.',
+ classroom: 'Love as a motive for murder; the banality of a killer’s logic; the race between violence and rescue. The novel insists that explaining Kuntz is not excusing him.',
+ records: 'The Sig Sauer P239 was a compact pistol discontinued around 2018. Shohola Township is in Pike County, Pennsylvania. Local police canvass door to door when searching for missing people in rural areas.',
+ stacks: 'Truman Capote’s In Cold Blood shows killers’ logic coolly; Cormac McCarthy’s No Country for Old Men gives a patient, terrifying killer. Kuntz belongs to that line, made pitiable and monstrous by his love for a child.',
+ turnpike: 'Dingmans Ferry Bridge, Lake Charmaine, Shohola Township in Pike County: the climax converges on a rural corner of Pennsylvania where the nearest police are local and few.',
+ field: 'Does love excuse murder? Every ethical lens says no; yet the novel makes us feel Kuntz’s logic. That discomfort is the point.',
+ board: 'Kuntz at the lake; Merton and Eduardo shot; Johanna and local police closing in. Pin the race and the count of rounds. Note too what Kuntz overhears: he now knows the group is innocent of Ingrid.',
+ diner: 'A wooded slope above a cabin, a man crouched with a pistol, a lake beyond; then a police cruiser on a dirt road: paint a two-part scene.',
+ kitchen: 'Hours of waiting with no food: Kuntz’s discipline and coldness. Contrast it with the warm, chaotic kitchens of the Price family and Cedarfield.',
+ driveway: 'Kuntz tells himself he kills for his son. Write privately about how love can become an excuse, and the line you would never cross for anyone, however much you loved them.'
+},
+acts: {
+ office: [
+  ['Countdown','Analyse the rounds as countdown.',20],
+  ['Cross-cut','Analyse the race.',15],
+  ['Cool narration','Analyse the tone.',15],
+  ['Point of view','Rewrite from Johanna’s POV.',30],
+  ['Race scene','Write a 300-word race scene.',35],
+  ['Precision','Analyse named weapons.',15],
+  ['Pacing','Compare with chapter 21.',15],
+  ['Justification','Analyse his logic.',15],
+  ['Ending','Analyse the door-to-door.',15]
+ ],
+ classroom: [
+  ['Love and murder','Discuss.',25],
+  ['Banality','Discuss a killer’s logic.',20],
+  ['Rescue','Discuss Johanna and Thomas.',20],
+  ['Rural policing','Discuss.',15],
+  ['Guns','Discuss.',15],
+  ['Theme update','Add "countdown".',15],
+  ['Ingrid','Discuss her death with care.',20],
+  ['Sympathy','Discuss remaining sympathy.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['P239','Research the pistol.',15],
+  ['Shohola','Research the township.',15],
+  ['Pike County','Research the county.',15],
+  ['Canvassing','Research door-to-door searches.',15],
+  ['Cross-border','Research NJ–PA police cooperation.',15],
+  ['Phone location','Research last-known-location accuracy.',15],
+  ['Hostage response','Research rural SWAT.',15],
+  ['Murder statistics','Research multiple homicides.',15],
+  ['Delaware River','Research the river.',15]
+ ],
+ stacks: [
+  ['In Cold Blood','Read about Capote.',20],
+  ['No Country','Read about McCarthy’s killer.',20],
+  ['Crime and Punishment','Compare justification.',20],
+  ['Mystic River','Compare fathers and violence.',20],
+  ['Gone Baby Gone','Compare rescue.',20],
+  ['Ripley','Compare cool killers.',20],
+  ['Sandel','Read on love and duty.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about a vigil.',15]
+ ],
+ turnpike: [
+  ['Bridge','Pin Dingmans Ferry.',15],
+  ['Lake','Pin the cabin.',15],
+  ['Mapping journal','Add chapter 52.',15],
+  ['Shohola','Pin the police.',15],
+  ['Race map','Draw the race.',15],
+  ['Case map','Add Kuntz at the lake.',15],
+  ['Network','Link Thomas to the search.',15],
+  ['Status','Place Sheriff Lowell.',15],
+  ['Terrain','Note the woods.',15]
+ ],
+ field: [
+  ['Love excuses?','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to Kuntz.',30],
+  ['Explain vs excuse','Write 300 words.',35],
+  ['Ingrid','What did she deserve?',15],
+  ['Group','Did the group deserve this?',15],
+  ['Court','Update the Kuntz charges.',15],
+  ['Thomas','Was involving Thomas right?',15],
+  ['Police','Should Johanna wait for police?',15],
+  ['Personal','Write about love as excuse.',20]
+ ],
+ board: [
+  ['Kuntz','Pin him at the lake.',15],
+  ['Count','Pin the rounds.',15],
+  ['Search','Pin the search.',15],
+  ['Scene','Write a 300-word shooting aftermath.',40],
+  ['Suspicion meter','Rate.',15],
+  ['Strand braid','Mark convergence.',15],
+  ['Victims','List victims so far.',15],
+  ['Tension curve','Rate.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Two-part scene','Paint the slope and the cruiser.',35],
+  ['Pistol','Draw a silhouette only.',15],
+  ['Cruiser','Paint a police car on a dirt road.',20],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a countdown theme.',15],
+  ['Trees','Paint woods at dusk.',20],
+  ['Map','Design the search map.',15],
+  ['Sound','Describe a shot in woods.',15],
+  ['Cover brief','Add the slope.',15]
+ ],
+ kitchen: [
+  ['No food','Contrast with Cedarfield kitchens.',15],
+  ['Ledger notebook','Record the rounds.',15],
+  ['Secrets box','Add how Kuntz found the group.',15],
+  ['Table talk','Ask: can love excuse?',25],
+  ['Making: rescue flask','Make a flask of tea for searchers.',15],
+  ['Searcher sandwiches','Make sandwiches.',15],
+  ['Recipe of patience','Write a recipe.',15],
+  ['Soup','Make soup for waiting.',40],
+  ['Water','Pack water.',15]
+ ],
+ driveway: [
+  ['Love as excuse','Write about it.',20],
+  ['Line','Write about a line you won’t cross.',20],
+  ['Mood dial','Rate dread.',15],
+  ['Prediction','How does Adam survive?',15],
+  ['Letter to Robby','Write about his father.',15],
+  ['Letter to Ingrid','Write a memorial.',15],
+  ['Waiting','Write about waiting for news.',15],
+  ['Search','Write about searching for someone.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 52 create suspense through cross-cutting and precise detail?',
+ 'Essay: Analyse how the novel presents Kuntz’s logic without excusing it.',
+ 'Creative: Write the door-to-door search from Sheriff Lowell’s view.'
+],
+reading: [
+ ['crime','The self-justifying killer.'],
+ ['ripley','A cool killer.'],
+ ['mystic','Fathers and violence.'],
+ ['gonebaby','Searches and rescue.'],
+ ['sandel','Love and duty.'],
+ ['salesman','A father’s desperation.'],
+ ['foolmeonce','Coben’s violent climaxes.'],
+ ['thewoods','Danger in the woods.'],
+ ['strangersontrain','Strangers and murder.']
+],
+projects: [
+ { t: 'Countdown', rooms: ['office','board','diner'], steps: ['Analyse the rounds.','Pin.','Paint.','Write.'] },
+ { t: 'Love and Murder', rooms: ['field','classroom','driveway'], steps: ['Use the Dilemma scale.','Discuss.','Write.','Verdict.'] },
+ { t: 'The Search', rooms: ['turnpike','board','kitchen'], steps: ['Map.','Pin.','Make a searchers’ flask.','Discuss.'] },
+ { t: 'Cold Killers', rooms: ['stacks','classroom','office'], steps: ['Read Capote.','Discuss.','Compare.','Write.'] },
+ { t: 'Victims', rooms: ['board','driveway','classroom'], steps: ['List victims.','Write memorials.','Discuss.','Reflect.'] },
+ { t: 'Rural Policing', rooms: ['records','turnpike','field'], steps: ['Research.','Map.','Debate.','Present.'] }
+],
+quiz: [
+ ['How did Kuntz find the garage?', ['A tip','From Ingrid','From the DVD','From Larry'], 1],
+ ['Whom did he follow to the lake?', ['Chris','Eduardo','Gabrielle','Adam'], 1],
+ ['How many rounds does his pistol hold?', ['Six','Eight','Ten','Fifteen'], 1],
+ ['Who spots Kuntz?', ['Merton','Eduardo','Adam','Chris'], 1],
+ ['Which police does Johanna call?', ['NYPD','Shohola Township police and Sheriff Lowell','Cedarfield','FBI'], 1]
+]
+};

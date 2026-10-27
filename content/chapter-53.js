@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[53] = {
+n: 53, title: 'The Basement', pov: 'Adam', when: 'Moments later', strands: ['adam','kuntz'], places: ['dingmans'],
+summary: [
+ 'Adam has his right hand free. Merton’s blood and brains are on his face. Chris dives through the basement window as shots follow him; he may have been hit. Adam scrambles under the stairs. Gabrielle pleads with the gunman, and is executed.',
+ 'Adam lunges for Merton’s gun. Kuntz kicks it away under a chest of drawers and takes aim. Then a foot comes through the window, Chris’s, and kicks Kuntz in the head; Kuntz fires twice out of the window. Adam swings the bike chain like a whip, punches, grapples Kuntz in a bear hug. Sirens sound in the distance.',
+ 'Kuntz drives punches into Adam’s kidneys. Adam bites his wrist, wrenches away the Sig Sauer, and smashes the butt into Kuntz’s nose. Standing over him, gun in hand, Adam asks what he did to his wife.'
+],
+beats: [
+ 'Adam’s right hand is free.',
+ 'Chris escapes through the window, maybe hit.',
+ 'Adam hides under the stairs.',
+ 'Gabrielle pleads; she is killed.',
+ 'Adam dives for Merton’s gun; Kuntz kicks it away.',
+ 'Chris kicks Kuntz through the window; Kuntz fires out.',
+ 'Adam swings the chain, punches, bear-hugs.',
+ 'Sirens; kidney punches.',
+ 'Adam bites, takes the gun, strikes Kuntz.',
+ 'What did you do to my wife?'
+],
+cast: [['Adam Price','Fighting for his life.'],['John Kuntz','The gunman.'],['Chris Taylor','Escaping, then helping.'],['Gabrielle Dunbar','Killed.']],
+motifs: ['violence','fatherhood','justice','marriage','truth'],
+secrets: [['Kuntz','Whether he knows anything about Corinne.','Asked']],
+clues: ['Chris escaped and helped.','Gabrielle, Merton and Eduardo are dead.','Adam disarms Kuntz.','Police sirens approach.'],
+dilemma: { q: 'Gabrielle pleaded and was killed. Did the group deserve any of what happened?', a: 'No one deserved this', b: 'They courted danger, but not death' },
+food: ['None.'],
+refs: [['Fight choreography','Thrillers often choreograph close combat for clarity; real fights are chaotic and short.'],['Bike chain as weapon','Improvised weapons appear often in thrillers.'],['Sirens','US police sirens differ in pattern (wail, yelp).']],
+questions: [
+ ['How does Adam get free?',0],
+ ['What happens to Chris?',0],
+ ['What happens to Gabrielle?',0],
+ ['How does Chris help Adam?',0],
+ ['How does Adam disarm Kuntz?',0],
+ ['What does Adam ask at the end?',0],
+ ['How does the chapter stage violence?',1],
+ ['Why does Chris come back to help?',1],
+ ['How does Gabrielle’s death affect you?',1],
+ ['What does the bike chain become?',0],
+ ['Why does Adam ask about his wife first?',1],
+ ['How does the chapter use sound?',0],
+ ['Is Adam heroic here?',0],
+ ['How realistic is the fight?',0],
+ ['What does biting suggest?',0],
+ ['How does the chapter treat Chris?',0],
+ ['What does the window represent?',0],
+ ['How does the novel treat the deaths of the group?',1],
+ ['What does Adam feel?',0],
+ ['How does the chapter end?',0],
+ ['Compare this fight with the novel’s earlier violence.',0],
+ ['What is the effect of the sirens?',0],
+ ['Is Kuntz defeated?',0],
+ ['What does Adam owe Chris?',0],
+ ['How does the chapter use space?',0],
+ ['What does Adam’s question reveal about his priorities?',0],
+ ['How does the novel use thriller conventions?',0],
+ ['Did Adam want to kill Kuntz?',0],
+ ['How should the group be remembered?',1],
+ ['Predict what Kuntz says.',0]
+],
+close: [
+ { cite: 'Chapter 53, opening: the shots.', focus: 'Chaos',
+   steps: ['Note Adam’s free hand.','Note Chris’s escape.','Note Adam’s hiding place.','Note Gabrielle’s plea.'],
+   ask: 'How does the chapter convey chaos and horror?' },
+ { cite: 'Chapter 53, middle: the struggle.', focus: 'Choreography',
+   steps: ['Note the gun under the drawers.','Note Chris’s kick.','Note the chain.','Note the sirens.'],
+   ask: 'How does the chapter keep a chaotic fight clear?' },
+ { cite: 'Chapter 53, close: the question.', focus: 'Priorities',
+   steps: ['Note the bite.','Note the gun.','Note the blow.','Note the question.'],
+   ask: 'Why does Adam’s first question concern Corinne?' }
+],
+lenses: {
+ office: 'A pure action chapter, choreographed in short sentences. Every object (window, drawers, chain, stairs) becomes part of the fight. The final question turns physical victory back to the novel’s mystery.',
+ classroom: 'Violence and its victims; the group’s deaths; Chris’s redemption-by-kick. The novel refuses to make the deaths glamorous; Gabrielle’s plea is the chapter’s moral weight.',
+ records: 'Real fights are typically brief and chaotic; thrillers compress and clarify them. Police sirens vary in pattern. Improvised weapons such as chains appear in many crime narratives.',
+ stacks: 'Lee Child’s Jack Reacher novels choreograph fights with technical precision. Coben’s fights, by contrast, emphasise the amateur’s desperation: Adam bites, flails and survives.',
+ turnpike: 'A cabin basement by a Pennsylvania lake: the novel’s smallest and most violent space. Outside, sirens on the dirt road. The tracker has brought help, just in time.',
+ field: 'Did the group deserve any of this? Their exposures caused harm, but none deserved death. Care ethics mourns them; justice condemns Kuntz alone.',
+ board: 'Kuntz disarmed; Gabrielle, Merton, Eduardo dead; Chris fled. Pin the casualties and the question Adam asks: what about Corinne?',
+ diner: 'A basement in chaos, broken window, a chest of drawers, a man standing over another with a gun: paint it with a flare of light from the window and red tones.',
+ kitchen: 'No food in a fight. Afterwards, survivors need water, warmth and something simple to hold. Think about what you would offer Adam.',
+ driveway: 'Gabrielle pleaded and was killed. Write privately about how fiction should treat the deaths of minor characters, and whether you mourned her as you read.'
+},
+acts: {
+ office: [
+  ['Choreography','Analyse the fight’s clarity.',20],
+  ['Objects','List objects in the fight.',15],
+  ['Short sentences','Analyse sentence length.',15],
+  ['Point of view','Rewrite from Chris’s POV.',30],
+  ['Fight scene','Write a 300-word amateur fight.',35],
+  ['Final question','Analyse the ending.',15],
+  ['Pacing','Compare with chapter 52.',15],
+  ['Sound','Analyse sirens.',15],
+  ['Redemption','Analyse Chris’s kick.',15]
+ ],
+ classroom: [
+  ['Deaths','Discuss the group’s deaths.',25],
+  ['Glamour','Discuss unglamorous violence.',20],
+  ['Chris','Discuss his return.',20],
+  ['Amateur hero','Discuss Adam.',15],
+  ['Priorities','Discuss Adam’s question.',15],
+  ['Theme update','Add "survival".',15],
+  ['Thriller form','Discuss conventions.',15],
+  ['Mourning','Discuss mourning minor characters.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Real fights','Research how real fights unfold.',20],
+  ['Sirens','Research siren patterns.',15],
+  ['Self-defence','Research self-defence law in PA.',20],
+  ['Trauma','Research acute stress.',15],
+  ['Kidney punches','Research kidney injury.',15],
+  ['Bites','Research human bites.',15],
+  ['Crime scenes','Research scene processing.',15],
+  ['Survivors','Research survivor guilt.',20],
+  ['Police response','Research rural response times.',15]
+ ],
+ stacks: [
+  ['Reacher','Read about Lee Child.',20],
+  ['Deliverance','Compare survival.',20],
+  ['No Country','Compare violence.',20],
+  ['And Then There Were None','Compare deaths.',20],
+  ['Mystic River','Compare violence’s cost.',20],
+  ['Gone Baby Gone','Compare climaxes.',20],
+  ['The Woods','Compare Coben’s climaxes.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about survival.',15]
+ ],
+ turnpike: [
+  ['Basement','Map the basement.',15],
+  ['Window','Mark the window.',15],
+  ['Mapping journal','Add chapter 53.',15],
+  ['Chris’s route','Imagine Chris’s escape.',15],
+  ['Sirens','Map the police approach.',15],
+  ['Case map','Mark casualties.',15],
+  ['Network','Update the group network.',15],
+  ['Status','Place Chris as fugitive.',15],
+  ['Lake','Pin the scene.',15]
+ ],
+ field: [
+  ['Deserved?','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to the group’s fate.',30],
+  ['Self-defence','Write 300 words on Adam’s violence.',35],
+  ['Chris','Does the kick redeem him?',15],
+  ['Mercy','Should Adam spare Kuntz?',15],
+  ['Court','Update the Kuntz charges.',15],
+  ['Gabrielle','Write a memorial line.',15],
+  ['Justice','What justice now?',15],
+  ['Personal','Write about mourning a minor character.',20]
+ ],
+ board: [
+  ['Casualties','Pin the dead.',15],
+  ['Disarmed','Pin Kuntz disarmed.',15],
+  ['Question','Pin Adam’s question.',15],
+  ['Scene','Write a 300-word aftermath.',40],
+  ['Suspicion meter','Rate.',15],
+  ['Strand braid','Mark the climax.',15],
+  ['Chris','Pin Chris as fugitive.',15],
+  ['Tension curve','Rate.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Basement chaos','Paint it.',35],
+  ['Window flare','Paint light through a broken window.',20],
+  ['Chain whip','Draw motion lines.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a fight theme.',15],
+  ['Stairs','Draw under the stairs.',15],
+  ['Memorial','Design a memorial card for the group.',15],
+  ['Sound','Describe sirens through trees.',15],
+  ['Cover brief','Add the window.',15]
+ ],
+ kitchen: [
+  ['Aftermath','Plan what to offer a survivor.',15],
+  ['Ledger notebook','Record casualties.',15],
+  ['Secrets box','Add Adam’s question.',15],
+  ['Table talk','Ask: how should fiction treat death?',25],
+  ['Making: memorial candle','Light a candle for the fictional dead.',15],
+  ['Sweet tea','Make sweet tea for shock.',15],
+  ['Recipe of survival','Write a recipe.',15],
+  ['Broth','Make broth.',40],
+  ['Water','Pour water.',15]
+ ],
+ driveway: [
+  ['Mourning','Write about it.',20],
+  ['Survival','Write about surviving something.',20],
+  ['Mood dial','Rate.',15],
+  ['Prediction','What does Kuntz say?',15],
+  ['Letter to Gabrielle’s kids','Write gently.',15],
+  ['Letter to Chris','Write as Adam.',15],
+  ['Fight','Write about fighting back.',15],
+  ['Priorities','Write about what you’d ask first.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 53 choreograph violence, and to what end?',
+ 'Essay: Analyse the novel’s treatment of the group’s deaths.',
+ 'Creative: Write the basement from Chris’s point of view as he escapes and returns.'
+],
+reading: [
+ ['thewoods','Coben’s climaxes.'],
+ ['mystic','The cost of violence.'],
+ ['gonebaby','Violent climaxes.'],
+ ['strangersontrain','Strangers and murder.'],
+ ['crime','The aftermath of killing.'],
+ ['owens','Violence in nature.'],
+ ['dareme','Rash courage.'],
+ ['foolmeonce','Coben’s violence.'],
+ ['ackroyd','A closed space and its secrets.']
+],
+projects: [
+ { t: 'Choreography', rooms: ['office','diner','board'], steps: ['Analyse.','Paint.','Pin.','Write.'] },
+ { t: 'The Group’s End', rooms: ['classroom','field','driveway'], steps: ['Discuss.','Use the Dilemma scale.','Write memorials.','Reflect.'] },
+ { t: 'Chris Returns', rooms: ['office','field','board'], steps: ['Write his POV.','Debate redemption.','Pin.','Discuss.'] },
+ { t: 'Amateur Hero', rooms: ['stacks','classroom','office'], steps: ['Read about Reacher.','Compare.','Discuss.','Write.'] },
+ { t: 'Aftermath', rooms: ['kitchen','driveway','field'], steps: ['Make sweet tea.','Write.','Debate justice.','Reflect.'] },
+ { t: 'The Question', rooms: ['board','office','driveway'], steps: ['Pin.','Analyse.','Write.','Predict.'] }
+],
+quiz: [
+ ['Which hand does Adam free?', ['Left','Right','Both','Neither'], 1],
+ ['How does Chris escape?', ['Stairs','Through the window','A door','He doesn’t'], 1],
+ ['Where does Kuntz kick Merton’s gun?', ['Into the lake','Under a chest of drawers','Up the stairs','Out the window'], 1],
+ ['What does Adam use as a weapon?', ['A bat','The bike chain','A knife','A chair'], 1],
+ ['What does Adam ask Kuntz?', ['Who sent you?','What did you do to my wife?','Why?','Nothing'], 1]
+]
+};
