@@ -50,7 +50,7 @@ const SCENES = {
     <g><rect x="880" y="300" width="150" height="34" rx="10" fill="${P.n3}"/><rect x="905" y="282" width="90" height="24" rx="8" fill="${P.n3}"/><circle cx="905" cy="334" r="10" fill="${P.ink}"/><circle cx="1005" cy="334" r="10" fill="${P.ink}"/>
     <path d="M1030 312 L1200 290 L1200 345 Z" fill="${P.sodiumL}" opacity=".18"/></g>
     <rect x="60" y="240" width="54" height="60" fill="${P.n3}"/><rect x="68" y="250" width="38" height="20" fill="${P.sodiumL}" opacity=".6"/>`
-    + curio('hall',88,318,`<rect x="-9" y="-6" width="18" height="12" fill="${P.paper}" transform="rotate(-14)"/><path d="M-6 -2 h12 M-6 2 h10" stroke="${P.ink}" stroke-width="1" transform="rotate(-14)"/>`), {label:'The American Legion Hall at night: a low brick building with neon in the windows, a parking lot and sodium lamps.'}); },
+    + curio('hall',318,330,`<rect x="-9" y="-6" width="18" height="12" fill="${P.paper}" transform="rotate(-14)"/><path d="M-6 -2 h12 M-6 2 h10" stroke="${P.ink}" stroke-width="1" transform="rotate(-14)"/>`), {label:'The American Legion Hall at night: a low brick building with neon in the windows, a parking lot and sodium lamps.'}); },
 
   office(id){ return wrap(id, `<rect width="1200" height="400" fill="url(#sky${id})"/>${stars(id,30,3,140)}
     <rect x="0" y="340" width="1200" height="60" fill="#121A20"/>
@@ -118,7 +118,7 @@ const SCENES = {
     <path d="M190 70 L370 100 L590 60 L830 90 L1030 70 M370 100 L270 240 L510 230 L750 250 L970 230 M590 60 L510 230" stroke="${P.red}" stroke-width="2.5" fill="none"/>
     <circle cx="1080" cy="340" r="34" fill="none" stroke="#3A2414" stroke-width="5" opacity=".5"/>
     <rect x="300" y="250" width="70" height="90" fill="${P.n3}" transform="rotate(-6 300 250)"/><rect x="306" y="258" width="58" height="56" fill="${P.greyL}" transform="rotate(-6 300 250)"/>`
-    + curio('board',1070,250,`<rect x="-14" y="-2.5" width="26" height="5" fill="${P.sodium}" transform="rotate(-30)"/><path d="M12 -2.5 l6 2.5 l-6 2.5 z" fill="${P.paper}" transform="rotate(-30)"/>`), {label:'A corkboard covered with index cards, photographs and red string.'}); },
+    + curio('board',860,262,`<rect x="-14" y="-2.5" width="26" height="5" fill="${P.sodium}" transform="rotate(-30)"/><path d="M12 -2.5 l6 2.5 l-6 2.5 z" fill="${P.paper}" transform="rotate(-30)"/>`), {label:'A corkboard covered with index cards, photographs and red string.'}); },
 
   diner(id){ return wrap(id, `<rect width="1200" height="400" fill="url(#sky${id})"/>${stars(id,40,17,140)}
     <rect x="0" y="330" width="1200" height="70" fill="#141B21"/>
@@ -128,7 +128,7 @@ const SCENES = {
     <text x="600" y="150" font-family="Big Shoulders Display, sans-serif" font-size="46" fill="#FF6B5A" text-anchor="middle">DINER</text><circle cx="600" cy="136" r="120" fill="url(#red${id})" opacity=".6"/>
     <text x="600" y="290" font-family="Newsreader, serif" font-size="16" fill="${P.ink}" text-anchor="middle">OPEN 24 HOURS</text>
     ${lamp(id,120,210,120,90)}${lamp(id,1080,210,120,90)}`
-    + curio('diner',1000,336,`<rect x="-9" y="-6" width="18" height="12" fill="${P.paper}"/><path d="M-6 -1 h12" stroke="${P.red}" stroke-width="2"/>`), {label:'A chrome all-night diner with red neon and a glowing jukebox in the window.'}); },
+    + curio('diner',880,340,`<rect x="-9" y="-6" width="18" height="12" fill="${P.paper}"/><path d="M-6 -1 h12" stroke="${P.red}" stroke-width="2"/>`), {label:'A chrome all-night diner with red neon and a glowing jukebox in the window.'}); },
 
   kitchen(id){ return wrap(id, `<rect width="1200" height="400" fill="#2A2420"/><rect x="0" y="0" width="1200" height="250" fill="#3A322B"/>
     <rect x="80" y="40" width="300" height="170" fill="${P.n1}"/>${stars(id,18,23,160).replace(/cy="(\d+)"/g,(m,a)=>`cy="${50+(+a%150)}"`).replace(/cx="(\d+)"/g,(m,a)=>`cx="${90+(+a%280)}"`)}

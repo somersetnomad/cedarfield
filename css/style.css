@@ -209,7 +209,12 @@ textarea{ width:100%; border:1px solid var(--rule); padding:.6rem; line-height:1
   background-image: repeating-linear-gradient(to bottom, transparent 0 calc(1.55em - 1px), var(--rule2) calc(1.55em - 1px) 1.55em); background-attachment:local; }
 
 /* Tools */
-.tools{ display:grid; gap:.6rem; }
+.tools{ display:grid; grid-template-columns:minmax(0,1fr); gap:.6rem; }
+.tool, .toolbody{ min-width:0; max-width:100%; }
+.toolbody{ overflow-x:auto; }
+.toolbody svg{ max-width:100%; height:auto; }
+.toolbody select, .toolbody label{ max-width:100%; }
+.toolbody select{ width:100%; }
 .tool{ border:2px solid var(--ink); background:var(--paper); }
 .tool > summary{ list-style:none; padding:.75rem 1rem; display:flex; flex-direction:column; gap:.1rem; color:var(--ink); }
 .tool > summary::-webkit-details-marker{ display:none; }
