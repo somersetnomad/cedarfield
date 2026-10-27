@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cedarfield After Dark</title>
+<meta name="description" content="A free, fan-made reading companion for adults reading Harlan Coben's The Stranger: chapter guides, discussion questions, close reading, activities and tools, set in an illustrated Cedarfield at night.">
+<meta name="theme-color" content="#121A21">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121A21'/%3E%3Crect x='8' y='14' width='16' height='12' fill='%238C3A2B'/%3E%3Cpath d='M6 14 L16 6 L26 14Z' fill='%235E261D'/%3E%3Crect x='14' y='17' width='4' height='4' fill='%23F6D08A'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="topin">
+    <a class="brand" href="#/">Cedarfield After Dark<span>A fan-made companion to Harlan Coben’s The Stranger. Use it with your own copy.</span></a>
+    <div class="controls">
+      <button class="btn ghost" id="satchelBtn" aria-expanded="false" aria-controls="satchelDrawer">Satchel <small id="satchelCount"></small></button>
+      <button class="btn ghost" id="soundBtn" aria-pressed="false">Sound off</button>
+      <span id="volWrap" hidden><label for="vol">Volume</label><input id="vol" type="range" min="0" max="1" step="0.05" value="0.5"></span>
+      <button class="btn ghost" id="themeBtn">Theme: auto</button>
+    </div>
+  </div>
+  <nav class="navrooms" aria-label="Rooms">
+    <a href="#/">Legion Hall</a><a href="#/room/office">Law Office</a><a href="#/room/classroom">Room 233</a><a href="#/room/records">Records</a><a href="#/room/stacks">Stacks</a><a href="#/room/turnpike">Turnpike</a><a href="#/room/field">Field</a><a href="#/room/board">Incident Board</a><a href="#/room/diner">Diner</a><a href="#/room/kitchen">Kitchen</a><a href="#/room/driveway">Driveway</a>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1"></main>
+
+<aside id="satchelDrawer" hidden aria-label="Your satchel"><button class="btn ghost close">Close</button><h2>Your satchel</h2><div id="satchelBody"></div></aside>
+
+<button id="dotBtn" aria-controls="dot" aria-label="Talk to Dot, the bartender">Dot</button>
+<div id="dot" role="status" aria-live="polite" aria-hidden="true"><p class="who">Dot</p><p id="dotMsg"></p>
+  <div class="actions"><button class="btn" id="dotSpeak">Read aloud</button><button class="btn ghost" id="dotMore">Say something else</button><button class="btn ghost" id="dotHide">Hide</button></div></div>
+
+<footer class="site">
+  <p><strong>Fan-made. Use alongside your own copy.</strong> Cedarfield After Dark is an unofficial, non-commercial reading companion. It is not affiliated with Harlan Coben, his publishers, or any film or television adaptation. <cite>The Stranger</cite> is in copyright (© 2015 Harlan Coben); nothing from the novel is quoted here. All summaries, questions and art are original.</p>
+  <p>Your progress is stored only in this browser. <a href="companion-guide.pdf">Printable guide (PDF)</a> · <a href="#/howto">How to use</a></p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/art.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

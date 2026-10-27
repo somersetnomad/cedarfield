@@ -1,0 +1,57 @@
+/* Print stylesheet for the companion guide PDF (print.html). Grayscale-friendly. */
+@font-face{ font-family:'Newsreader'; font-style:normal; font-weight:200 800; src:url(../assets/fonts/newsreader-latin-opsz-normal.woff2) format('woff2'); }
+@font-face{ font-family:'Newsreader'; font-style:italic; font-weight:200 800; src:url(../assets/fonts/newsreader-latin-opsz-italic.woff2) format('woff2'); }
+@font-face{ font-family:'Big Shoulders Display'; font-weight:600; src:url(../assets/fonts/big-shoulders-display-latin-600-normal.woff2) format('woff2'); }
+@font-face{ font-family:'Big Shoulders Display'; font-weight:700; src:url(../assets/fonts/big-shoulders-display-latin-700-normal.woff2) format('woff2'); }
+@font-face{ font-family:'Big Shoulders Display'; font-weight:800; src:url(../assets/fonts/big-shoulders-display-latin-800-normal.woff2) format('woff2'); }
+@page{ size:A4; margin:18mm 17mm 20mm; }
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; }
+body{ font:400 10.4pt/1.45 'Newsreader', Georgia, serif; color:#111; background:#fff; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+h1,h2,h3,h4{ font-family:'Big Shoulders Display', 'Arial Narrow', sans-serif; font-weight:700; line-height:1.05; margin:0 0 .35em; color:#111; }
+h1{ font-size:30pt; font-weight:800; } h2{ font-size:16pt; margin-top:1.1em; border-bottom:1.5pt solid #111; padding-bottom:.1em; } h3{ font-size:12.5pt; margin-top:.8em; } h4{ font-size:11pt; }
+p{ margin:.25em 0 .5em; orphans:3; widows:3; }
+a{ color:#111; text-decoration:none; }
+cite{ font-style:italic; }
+.page{ break-before:page; }
+.fine{ color:#444; font-size:9pt; }
+/* Cover */
+.cover{ height:257mm; display:flex; flex-direction:column; justify-content:space-between; }
+.cover .art{ border:2pt solid #111; height:105mm; overflow:hidden; }
+.cover .art svg{ width:100%; height:100%; display:block; }
+.cover h1{ font-size:54pt; margin:6mm 0 2mm; letter-spacing:.01em; }
+.cover .subt{ font-size:15pt; font-style:italic; margin:0 0 4mm; }
+.notice{ border:1.5pt solid #111; padding:3mm 4mm; font-size:10pt; }
+.notice strong{ font-family:'Big Shoulders Display', sans-serif; font-size:13pt; display:block; }
+/* TOC */
+.toc ol{ columns:2; column-gap:10mm; padding-left:0; list-style:none; margin:0; }
+.toc li{ break-inside:avoid; display:flex; gap:2mm; font-size:9.6pt; padding:.4mm 0; border-bottom:.4pt dotted #999; }
+.toc .n{ font-family:'Big Shoulders Display', sans-serif; font-weight:700; min-width:7mm; }
+.toc .front li{ font-size:10.4pt; }
+/* Rooms guide */
+.roomgrid{ display:grid; grid-template-columns:1fr 1fr; gap:3mm 6mm; }
+.roomgrid div{ border-left:3pt solid #555; padding-left:3mm; break-inside:avoid; }
+.mapbox svg{ width:100%; height:auto; border:1.5pt solid #111; }
+/* Chapter */
+.chhead{ border-bottom:3pt solid #111; margin-bottom:3mm; padding-bottom:2mm; }
+.chhead .kick{ font-family:'Big Shoulders Display', sans-serif; font-size:12pt; font-weight:600; color:#333; margin:0; }
+.cols2{ columns:2; column-gap:8mm; }
+ol.q{ padding-left:6mm; margin:.2em 0; } ol.q li{ margin:.15em 0; break-inside:avoid; }
+.club{ font-weight:600; } .club::after{ content:' [book club]'; font-family:'Big Shoulders Display', sans-serif; font-weight:700; font-size:8.5pt; }
+.closeex{ border:1pt solid #777; padding:2mm 3mm; margin:2mm 0; break-inside:avoid; }
+.closeex .cite{ font-style:italic; color:#333; }
+.roomacts{ break-inside:auto; margin-top:2mm; }
+.roomacts h3{ border-left:3pt solid #111; padding-left:2mm; }
+.roomacts .lens{ font-style:italic; color:#333; font-size:9.6pt; }
+.acts{ list-style:none; padding:0; margin:0; }
+.acts li{ display:grid; grid-template-columns:5mm 1fr; gap:1.5mm; margin:.6mm 0 1.4mm; break-inside:avoid; }
+.box{ width:3.4mm; height:3.4mm; border:.8pt solid #111; margin-top:1.1mm; display:inline-block; }
+.acts b{ font-family:'Big Shoulders Display', sans-serif; font-weight:700; font-size:10.4pt; }
+.acts .m{ color:#555; font-size:8.6pt; }
+.proj{ border:1pt solid #777; padding:2mm 3mm; margin:2mm 0; break-inside:avoid; }
+.proj ul{ list-style:none; padding:0; margin:1mm 0 0; } .proj li{ display:grid; grid-template-columns:5mm 1fr; }
+dl.cast{ display:grid; grid-template-columns:max-content 1fr; gap:.5mm 4mm; margin:0; } dl.cast dt{ font-weight:600; } dl.cast dd{ margin:0; }
+/* Notes pages */
+.lined{ height:235mm; background:repeating-linear-gradient(#fff 0 8.5mm, #aaa 8.5mm 8.8mm); border-top:1pt solid #111; }
+.toc ol.front{ columns:1; }
+svg rect[filter]{ display:none; }

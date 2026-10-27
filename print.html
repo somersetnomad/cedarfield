@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cedarfield After Dark: Companion Guide to The Stranger</title>
+<link rel="stylesheet" href="css/print.css">
+<script src="js/data.js"></script>
+<script src="js/art.js"></script>
+</head>
+<body>
+<main id="guide"><p>Building the guide…</p></main>
+<script>
+/* The printable guide is built from the same content/chapter-NN.js files as the website. */
+(function(){
+  CF.CH = CF.CH || {};
+  const params = new URLSearchParams(location.search);
+  const upto = Math.min(56, +params.get('chapters') || 56);
+  const esc = s => String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const load = n => new Promise(res => { const s = document.createElement('script'); s.src = 'content/chapter-' + String(n).padStart(2,'0') + '.js'; s.onload = s.onerror = () => res(); document.head.appendChild(s); });
+  Promise.all(Array.from({length: upto}, (_, i) => load(i+1))).then(build);
+
+  function build(){
+    const chs = []; for (let n = 1; n <= upto; n++) if (CF.CH[n]) chs.push(CF.CH[n]);
+    const R = CF.ROOMS, rooms = CF.STUDY_ROOMS;
+    let h = '';
+    // Cover
+    h += `<section class="cover"><div><div class="art">${CF.art.cover()}</div>
+      <h1>Cedarfield After Dark</h1><p class="subt">A companion guide for adult readers of Harlan Coben’s <cite>The Stranger</cite> (2015), for solo readers and book clubs.</p></div>
+      <div class="notice"><strong>Fan-made. Use alongside your own copy.</strong>
+      This is an unofficial, non-commercial guide, not affiliated with the author, his publishers, or any adaptation. Copyright status: <cite>The Stranger</cite> is in copyright (© 2015 Harlan Coben). Nothing from the novel is quoted here; all summaries, questions, activities and art are original, and passages are cited by chapter and scene. The website version, with interactive tools, sound and secret rooms, lives at somersetnomad.github.io/cedarfield.
+      <p class="fine">Contains ${chs.length} chapter${chs.length===1?'':'s'}. Each chapter begins on a new page, so you can stop where you are without reading ahead.</p></div></section>`;
+    // Contents
+    h += `<section class="page toc"><p class="fine">Cedarfield After Dark</p><h1 id="contents">Contents</h1><ol class="front">
+      <li><span class="n"></span><a href="#howto">How to use this guide</a></li><li><span class="n"></span><a href="#rooms">The rooms of Cedarfield</a></li><li><span class="n"></span><a href="#map">Map of the town</a></li></ol>
+      <h2>Chapters</h2><ol>${chs.map(d => `<li><span class="n">${d.n}</span><a href="#ch-${d.n}">${esc(d.title)}</a></li>`).join('')}</ol>
+      <ol class="front" style="margin-top:4mm"><li><span class="n"></span><a href="#notes">Commonplace pages</a></li></ol></section>`;
+    // How to use
+    h += `<section class="page"><p class="fine">Before you begin</p><h1 id="howto">How to use this guide</h1>
+      <p>Read a chapter of the novel first, then turn to that chapter here. Every chapter has the same parts:</p>
+      <ul><li><strong>What happens</strong>: a summary in fresh words and a scene-by-scene list, to refresh your memory or catch what you missed.</li>
+      <li><strong>Thirty questions</strong>: moving from what happened, to how it’s written, to what it means. Six are marked for book clubs because they start real disagreements.</li>
+      <li><strong>Three close-reading exercises</strong>: each tells you where to find the passage (chapter and scene, since page numbers differ by edition) and walks you through it step by step.</li>
+      <li><strong>Ninety activities</strong>: nine for each of the ten rooms, each taking 15 to 60 minutes, with a box to tick.</li>
+      <li><strong>Six cross-room projects</strong> with checklists, <strong>three essay or writing prompts</strong>, and <strong>nine further readings</strong>, all of which are real, published works.</li></ul>
+      <p>You don’t need to do everything. A book club might take two marked questions and one project per meeting. A solo reader might choose one room and follow it through the whole book. A student might work through all three close readings.</p>
+      <p>The website version adds interactive tools (sixty of them), a spoiler guard that hides later chapters, painted rooms with ambient sound, a narrator called Dot, hidden curios, seven secret rooms behind riddles, and a commonplace book that collects your notes.</p>
+      <h2>A note on quotations</h2><p>${esc(CF.BOOK.copyright)}</p></section>`;
+    // Rooms
+    h += `<section class="page"><p class="fine">Room guide</p><h1 id="rooms">The rooms of Cedarfield</h1><p>The guide is organised as a walk through an invented New Jersey town at night. Each room is a place from the novel’s world and a way of reading.</p>
+      <div class="roomgrid">${CF.ROOM_ORDER.map(k => `<div><h3>${esc(R[k].name)}</h3><p><strong>${esc(R[k].subject)}.</strong> ${esc(R[k].blurb)}</p><p class="fine">${esc(R[k].caption)}</p></div>`).join('')}</div></section>`;
+    h += `<section class="page mapbox"><p class="fine">Room guide</p><h1 id="map">Map of the town</h1><p>Cedarfield is fictional. Lit buildings are rooms; roads show which rooms open onto each other.</p>${CF.art.map({roomPct: () => .6, has: () => false})}
+      <h2>Which room for what</h2><ul>${rooms.map(k=>`<li><strong>${esc(R[k].short)}</strong>: ${esc(R[k].subject)}. Next door: ${CF.LINKS[k].map(x=>esc(R[x].short)).join(', ')}.</li>`).join('')}</ul></section>`;
+    // Chapters
+    chs.forEach(d => {
+      h += `<section class="page chapter"><header class="chhead"><p class="kick">Chapter ${d.n} of 56 · told through ${esc(d.pov)}</p><h1 id="ch-${d.n}">${d.n}. ${esc(d.title)}</h1></header>
+      <h2>What happens</h2>${d.summary.map(p=>`<p>${esc(p)}</p>`).join('')}
+      <h3>Scene by scene</h3><ol class="q">${d.beats.map(b=>`<li>${esc(b)}</li>`).join('')}</ol>
+      <h3>Who’s here</h3><dl class="cast">${d.cast.map(([a,b])=>`<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join('')}</dl>
+      <h2>Thirty questions</h2><ol class="q cols2">${d.questions.map(q=>`<li class="${q[1]?'club':''}">${esc(q[0])}</li>`).join('')}</ol>
+      <h2>Close reading</h2>${d.close.map((c,i)=>`<div class="closeex"><h3>${i+1}. ${esc(c.focus)}</h3><p class="cite">Find it: ${esc(c.cite)}</p><ol class="q">${c.steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol><p><strong>${esc(c.ask)}</strong></p></div>`).join('')}
+      <h2>Activities by room</h2>${rooms.map(r=>`<div class="roomacts"><h3>${esc(R[r].name)}: ${esc(R[r].subject)}</h3><p class="lens">${esc(d.lenses[r])}</p><ul class="acts">${(d.acts[r]||[]).map(a=>`<li><span class="box"></span><span><b>${esc(a[0])}</b> <span class="m">(${a[2]} min)</span> ${esc(a[1])}</span></li>`).join('')}</ul></div>`).join('')}
+      <h2>Cross-room projects</h2>${d.projects.map(p=>`<div class="proj"><h3>${esc(p.t)}</h3><p class="fine">Rooms: ${p.rooms.map(r=>esc(R[r].short)).join(', ')}</p><ul>${p.steps.map(s=>`<li><span class="box"></span><span>${esc(s)}</span></li>`).join('')}</ul></div>`).join('')}
+      <h2>Essay and writing prompts</h2><ol class="q">${d.prompts.map(p=>`<li>${esc(p)}</li>`).join('')}</ol>
+      <h2>Further reading</h2><ul>${d.reading.map(([id,why])=>{ const b = CF.BANK[id]; return b ? `<li><cite>${esc(b[0])}</cite>, ${esc(b[1])} (${esc(b[2])}). ${esc(why)}</li>` : ''; }).join('')}</ul></section>`;
+    });
+    // Notes pages
+    h += `<section class="page"><p class="fine">Your pages</p><h1 id="notes">Commonplace pages</h1><p class="fine">For your own notes, in your own words.</p><div class="lined"></div></section>`;
+    for (let i = 0; i < 5; i++) h += `<section class="page"><p class="fine">Your pages</p><h2>Notes</h2><div class="lined"></div></section>`;
+    document.getElementById('guide').innerHTML = h;
+    document.title = 'Cedarfield After Dark: Companion Guide to The Stranger';
+    (document.fonts ? document.fonts.ready : Promise.resolve()).then(() => { document.body.dataset.ready = '1'; });
+  }
+})();
+</script>
+</body>
+</html>
