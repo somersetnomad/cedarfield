@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[25] = {
+n: 25, title: 'The Smell Test', pov: 'Adam', when: 'Driving home that afternoon', strands: ['adam','lacrosse'], places: ['cedarfield'],
+summary: [
+ 'Could it all be that simple, a blackmail scheme gone wrong? The stranger asks for money; you refuse; he tells. On the drive home Adam tests the theory and it fails the smell test. Corinne is a planner, a worrier, the perfect student. If she had been threatened and decided not to pay, she would have been ready for exposure. Instead, when Adam confronted her, she was clearly surprised and could only stall. And running off haphazardly, barely contacting anyone, leaving the boys: that isn’t Corinne. Something else is going on.',
+ 'He replays the stranger at the Legion: calm, concerned, taking no pleasure in it, not a psychopath but not businesslike either. He checks the locator app again; no sign of Corinne’s phone. He guesses she was only passing through Pittsburgh and has switched the phone off, perhaps realising the boys could track her. Passing through to where? He has no idea. Should he respect her request, or get help, or call the police?',
+ 'The question answers itself as he turns into his street. Three men are waiting at the edge of his lawn: his neighbour Cal Gottesman, Tripp Evans, and Bob Baime. For a split second Adam fears the worst about Corinne, then reasons that if Corinne were hurt the news would come from Len Gilman, not from these three. A police car marked with the town’s name slides up and Len Gilman steps out. Adam sprints toward them on unsteady legs. We need to talk, Len says.'
+],
+beats: [
+ 'The blackmail theory, stated plainly.',
+ 'Why it doesn’t pass the smell test: Corinne the planner was surprised.',
+ 'Running off haphazardly and leaving the boys isn’t like her.',
+ 'Replaying the stranger: calm, concerned, neither psycho nor businesslike.',
+ 'The locator app: still nothing; she was probably passing through Pittsburgh.',
+ 'Respect her request, get help, or go to the police?',
+ 'Three men on the curb: Cal, Tripp and Bob.',
+ 'A police car: Len Gilman.',
+ '"We need to talk."'
+],
+cast: [['Adam Price','Reasoning like a lawyer, then running like a husband.'],['Cal Gottesman','Neighbour, glasses-pusher, board secretary.'],['Tripp Evans','League president.'],['Bob Baime','Board vice-president.'],['Len Gilman','Police chief, arriving in a squad car.']],
+motifs: ['secrets','lies','marriage','community','truth','justice','sport'],
+secrets: [['The board','Why four men have come to Adam’s house.','About to be revealed'],['Corinne','Where she was going after Pittsburgh.','Unknown']],
+clues: ['Corinne was surprised by the confrontation, which doesn’t fit blackmail.','She left in a hurry and left the boys, which doesn’t fit her character.','The stranger seemed neither psychopathic nor businesslike.','Cal Gottesman is Adam’s neighbour.','Four men from the lacrosse world arrive together, one of them the police chief.'],
+dilemma: { q: 'When an explanation is simple but doesn’t fit someone’s character, should you trust the explanation or your knowledge of the person?', a: 'The explanation: people surprise us', b: 'My knowledge of the person' },
+food: [],
+refs: [['Occam’s razor','The principle that the simplest explanation is usually best; Adam resists it here.'],['The smell test','An informal check of whether something seems legitimate.'],['Captain Obvious','A joking name for someone stating the obvious; Adam mocks himself.']],
+questions: [
+ ['What is the simple theory Adam tests?',0],
+ ['Why does it fail the smell test?',0],
+ ['What does Adam conclude about Corinne’s surprise?',0],
+ ['What does he think happened in Pittsburgh?',0],
+ ['Who is waiting at his house?',0],
+ ['What does Len say?',0],
+ ['Is character evidence reliable? Adam uses Corinne’s nature as proof.',1],
+ ['Adam decides the stranger seemed neither unhinged nor coldly professional. What does that suggest?',1],
+ ['Why would Corinne turn off her phone?',0],
+ ['Is Adam right to resist the simplest explanation?',1],
+ ['What does Adam fear when he sees the men?',0],
+ ['Why does he reason that Len, not the others, would deliver bad news?',0],
+ ['What could bring these four men together?',0],
+ ['How does the chapter use the street as a stage?',0],
+ ['Why is Cal described as a neighbour now?',0],
+ ['How does the chapter end on an unspecified threat?',0],
+ ['What does the speed of Adam’s run say?',0],
+ ['Compare Adam’s reasoning here with chapter 3’s "do the work".',0],
+ ['How does the narration self-mock ("Captain Obvious")?',0],
+ ['Is Adam’s indecision about the police reasonable?',1],
+ ['What has changed in Adam’s understanding of the stranger?',0],
+ ['How might the lacrosse board be connected?',0],
+ ['What would you do if four neighbours were waiting for you?',0],
+ ['Is the novel playing fair with its clues so far?',0],
+ ['How does the chapter mix reasoning and fear?',0],
+ ['Adam concludes there must be more to it than blackmail. What does that imply about the structure of the mystery?',1],
+ ['How does Adam know his wife? Does he?',1],
+ ['What is the effect of the squad car?',0],
+ ['Why such a short chapter?',0],
+ ['Predict what Len will say.',0]
+],
+close: [
+ { cite: 'Chapter 25, opening: testing the blackmail theory.', focus: 'Reasoning from character',
+   steps: ['State the theory in your own words.','List Adam’s objections.','Find his description of Corinne as a student and planner.','Find his conclusion.'],
+   ask: 'How strong is an argument from someone’s character, and how does the novel use it?' },
+ { cite: 'Chapter 25, middle: replaying the stranger and checking the app.', focus: 'Reassessing the messenger',
+   steps: ['Find how Adam now describes the stranger.','Note the two categories he rules out.','Find his theory about the phone.','Note his unresolved choice.'],
+   ask: 'How has the stranger changed in Adam’s mind since chapter 1?' },
+ { cite: 'Chapter 25, close: the men on the curb.', focus: 'A street as a tribunal',
+   steps: ['List the men in order of appearance.','Find Adam’s flash of fear.','Find his reasoning about who brings bad news.','Read the last line.'],
+   ask: 'How does the chapter stage a domestic street as a scene of judgement?' }
+],
+lenses: {
+ office: 'A reasoning chapter written in the rhythm of argument: a theory, objections, conclusion, then a jolt of action. The ending uses a classic image of dread, men waiting on a lawn, and a four-word line.',
+ classroom: 'Knowing a person versus explaining their actions; the limits of simple theories; community as tribunal. The novel signals that its mystery has more layers.',
+ records: 'Occam’s razor is attributed to the fourteenth-century philosopher William of Ockham. Police notifications of bad news are typically made in person, often in pairs, which Adam knows.',
+ stacks: 'Detectives from Poirot onward argue from character and psychology. Christie’s The Murder of Roger Ackroyd is the great warning about trusting appearances.',
+ turnpike: 'Adam drives home from Nyack thinking, and the novel’s map shrinks with each turn: the state line, the town, his street, his curb, the length of his own front walk, where a squad car glides to a stop.',
+ field: 'Is it rational to trust what you know of someone over a neat explanation? Epistemology meets love: how do we know the people we live with?',
+ board: 'The chapter clears one theory and sets up another; the ending introduces a group of possible antagonists at once. A tidy example of misdirection and escalation.',
+ diner: 'Four men in a row on a suburban curb, a police car gliding in: an image straight out of a Gregory Crewdson photograph, everything still and wrong.',
+ kitchen: 'No food; the house waits behind the men, its kitchen empty. Their wives and kitchens are elsewhere: this is a delegation of fathers and board members, and kitchens, where the women of Cedarfield make many decisions, are pointedly absent.',
+ driveway: 'Adam’s knees nearly give way when he sees men waiting for him. Write about a time you feared bad news from the sight of people waiting.'
+},
+acts: {
+ office: [
+  ['Argument structure','Outline Adam’s argument as premises and conclusion.',20],
+  ['Self-mockery','Analyse "Captain Obvious".',15],
+  ['Image of dread','Write a scene ending with people waiting on a lawn.',30],
+  ['Four words','Write about the final line.',15],
+  ['Fear and logic','Trace where fear interrupts logic.',15],
+  ['Pacing','Compare with chapters 23–24.',15],
+  ['Rewrite','Rewrite the ending from Len’s POV.',30],
+  ['Short chapter craft','Why short?',15],
+  ['Tense','Note tense and time shifts.',15]
+ ],
+ classroom: [
+  ['Knowing people','Discuss how well we know those close to us.',25],
+  ['Simple theories','Discuss when simple explanations fail.',20],
+  ['Community tribunal','Discuss groups judging individuals.',20],
+  ['Character evidence','Debate its reliability.',25],
+  ['Messenger','Discuss Adam’s new view of the stranger.',20],
+  ['Theme update','Add "knowing".',15],
+  ['Police','Discuss police as neighbours.',15],
+  ['Fear','Discuss anticipatory fear.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Occam','Research William of Ockham.',15],
+  ['Death notifications','Research how police deliver bad news.',20],
+  ['Character evidence law','Research character evidence in US trials.',25],
+  ['Phone tracking','Research how switching off affects tracking.',15],
+  ['Youth sports boards','Research typical board structure.',15],
+  ['Neighbours','Research neighbourhood watch culture.',15],
+  ['Smell test','Look up the idiom.',15],
+  ['Pittsburgh routes','Research routes west from Pittsburgh.',15],
+  ['Police cars','Look up municipal police in NJ.',15]
+ ],
+ stacks: [
+  ['Roger Ackroyd','Read about Christie’s famous twist.',20],
+  ['Poirot','Read a Poirot passage on psychology.',25],
+  ['Crewdson','Look at Twilight photographs.',20],
+  ['Tell No One','Compare a husband’s certainty about his wife.',20],
+  ['Rebecca','Compare knowing a spouse.',20],
+  ['Epistemology','Read a short piece on knowledge of other minds.',25],
+  ['The Lottery','Compare community gatherings.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about waiting for news.',15]
+ ],
+ turnpike: [
+  ['Street','Sketch the street with the men and the car.',20],
+  ['Neighbours','Mark Cal’s house.',15],
+  ['Pittsburgh onward','Map routes beyond Pittsburgh.',20],
+  ['Mapping journal','Add chapter 25.',15],
+  ['Nyack to home','Map the drive.',15],
+  ['Lawn','Write about lawns as stages.',15],
+  ['Police station','Mark the Cedarfield police station.',15],
+  ['Board members’ homes','Mark them.',15],
+  ['Status','Place each man on the status ladder.',15]
+ ],
+ field: [
+  ['Character vs explanation','Use the Dilemma scale.',15],
+  ['Respect or report','Revisit the police decision.',20],
+  ['Five lenses','Apply the lenses to Adam’s choice.',30],
+  ['Group power','Is a delegation intimidation?',15],
+  ['Knowing','Write about the ethics of assuming you know someone.',25],
+  ['Trust','Is trusting Corinne’s character loyal or naive?',20],
+  ['Stranger','Reassess the stranger in the court tool.',15],
+  ['Police as friends','Discuss conflicts of roles.',15],
+  ['Personal','Write about defending someone’s character.',20]
+ ],
+ board: [
+  ['Theory cleared','Pin the failed blackmail theory.',15],
+  ['Delegation','Pin the four men.',15],
+  ['Scene','Write a 300-word scene of a delegation at a door.',35],
+  ['Suspicion meter','Rate all four.',15],
+  ['Misdirection','Write about clearing a theory.',15],
+  ['Timeline','Update.',15],
+  ['Tension curve','Rate the ending.',15],
+  ['Strand braid','Note the lacrosse strand.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Curb tableau','Paint four men on a curb at dusk.',40],
+  ['Squad car','Draw a police car gliding in.',20],
+  ['Crewdson style','Photograph your street at dusk in a staged way.',30],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the turn into the street.',15],
+  ['Sketch','Draw Adam running.',15],
+  ['Sound','Describe a car door in a quiet street.',15],
+  ['Storyboard','Storyboard the last page.',20],
+  ['Cover brief','Add the curb.',15]
+ ],
+ kitchen: [
+  ['Visitors','Discuss what you offer unexpected visitors.',15],
+  ['Ledger notebook','Record theories.',15],
+  ['Secrets box','Add "why are they here?"',15],
+  ['Table talk','Ask: how well do we know each other?',25],
+  ['Making: notebook','Add a theories page.',20],
+  ['Comfort','Cook something for a frightened neighbour.',40],
+  ['Neighbours supper','Invite neighbours and discuss trust.',60],
+  ['Recipe of dread','Write a recipe.',15],
+  ['Coffee','Make coffee for four.',15]
+ ],
+ driveway: [
+  ['Waiting people','Write about fearing news.',20],
+  ['Knowing someone','Write privately about how well you know your partner.',20],
+  ['Mood dial','Rate dread.',15],
+  ['Prediction','What will Len say?',15],
+  ['Letter to Corinne','Write again.',15],
+  ['Character','Write about defending someone’s character.',20],
+  ['Simple answers','Write about rejecting a simple answer.',15],
+  ['Neighbours','Write about your neighbours.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: Assess Adam’s reasoning in chapter 25. Is an argument from Corinne’s character convincing, and how does the novel test it?',
+ 'Essay: How does chapter 25 use setting and image to create dread?',
+ 'Creative: Write the conversation among the four men on the curb before Adam arrived.'
+],
+reading: [
+ ['ackroyd','A classic warning about trusting appearances.'],
+ ['crewdson','Staged suburban dread in photographs.'],
+ ['tellnoone','A husband’s faith in his wife’s character.'],
+ ['rebecca','How well can we know a spouse?'],
+ ['lottery','A community gathering with a dark purpose.'],
+ ['goffman','Public faces and private selves.'],
+ ['gottman','What partners know about each other.'],
+ ['inthewoods','A detective whose theories keep failing.'],
+ ['caught','Coben on rumour and community judgement.']
+],
+projects: [
+ { t: 'The Smell Test', rooms: ['office','field','board'], steps: ['Outline Adam’s argument.','Use the Dilemma scale.','Pin the cleared theory.','Write a verdict.'] },
+ { t: 'Dread on the Curb', rooms: ['diner','turnpike','office'], steps: ['Paint the tableau.','Map the street.','Write a delegation scene.','Discuss.'] },
+ { t: 'Knowing Each Other', rooms: ['classroom','driveway','kitchen'], steps: ['Discuss.','Write privately.','Hold a neighbours supper.','Reflect.'] },
+ { t: 'Clue Fairness', rooms: ['board','stacks','classroom'], steps: ['Review clues so far.','Read about Ackroyd.','Debate fair play.','Pin.'] },
+ { t: 'Four Men', rooms: ['board','field','turnpike'], steps: ['Rate each.','Map their homes.','Discuss group power.','Predict.'] },
+ { t: 'Occam’s Razor', rooms: ['records','field','office'], steps: ['Research Ockham.','Apply to the case.','Discuss.','Write.'] }
+],
+quiz: [
+ ['What theory does Adam test?', ['Corinne has a lover','A blackmail scheme gone wrong','Corinne is ill','The stranger is a cop'], 1],
+ ['Why does it fail?', ['No money is missing','Corinne was surprised and left in a hurry','The stranger confessed','Suzanne lied'], 1],
+ ['Who is Adam’s neighbour?', ['Tripp','Cal Gottesman','Bob','Len'], 1],
+ ['Who arrives in a police car?', ['Johanna','Len Gilman','Kuntz','A state trooper'], 1],
+ ['What does Len say?', ['She’s dead','We need to talk','You’re under arrest','Nothing'], 1]
+]
+};

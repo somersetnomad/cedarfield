@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[23] = {
+n: 23, title: 'Apartment 9B', pov: 'Adam', when: 'That afternoon', strands: ['adam','victims'], places: ['nyack'],
+summary: [
+ 'The drive takes exactly twenty minutes. Suzanne Hope lives in one of those monotonous brick garden-apartment complexes that house young couples saving for a first home and divorced parents who can’t afford more. Adam knocks on 9B with no plan. She won’t open the door; he talks to it. When he says his wife is missing, it opens a crack, the chain still on. A postman eyes him suspiciously.',
+ 'Suzanne last saw Corinne two or three years ago, at the coffee shop where she was caught out. Adam half-trusts a pop-psychology rule about eyes moving up and to the right when someone remembers rather than invents, and decides she isn’t lying. Yes, Corinne asked a lot of questions: where to buy the belly, how to get the sonograms. Suzanne says they felt like kindred spirits; Corinne didn’t judge her. Adam notices she wears no ring. Suzanne was married to Harold, who had a low sperm count; she was never pregnant at all. The stillborn story she told Corinne was a lie to win sympathy.',
+ 'She wanted children badly. Her sister, who swore she’d never have any, has three and glowed with the attention pregnancy brought. Suzanne tried faking it once as a joke, and people held doors, offered parking spaces, asked how she was. It was a high, she says, a dopamine hit. She stopped a few months back, after Harold discovered it and discarded her; she’s in therapy and owns her illness. Harold never loved her, maybe. Then she says she’s glad she didn’t pay the money; maybe the man who told Harold did her a favour. Adam goes cold. What man? Suzanne opens the door fully, stricken. He told you too.'
+],
+beats: [
+ 'Twenty minutes to Nyack; a sad brick garden-apartment complex.',
+ 'Talking to a closed door; the chain; a suspicious postman.',
+ 'Suzanne last saw Corinne two or three years ago at the coffee shop.',
+ 'Adam’s eye-movement rule of thumb, with caveats.',
+ 'Corinne asked about bellies and sonograms; "kindred spirits".',
+ 'No ring: Suzanne was married to Harold, who had a low sperm count.',
+ 'She was never pregnant; the stillborn story was a lie.',
+ 'Her sister’s glow and the high of attention; rock bottom a few months back, after Harold discovered it.',
+ 'Therapy, ownership, a toxic marriage.',
+ 'She didn’t pay the money; a man told Harold. "He told you too."'
+],
+cast: [['Suzanne Hope','Lonely, candid, in therapy, frightened at the door.'],['Harold','Her ex-husband, infertile, who discarded her (offstage).'],['Sarah','Suzanne’s sister, mother of three (offstage).'],['Adam Price','Patient, careful, then chilled.'],['A postman','Suspicious of a man at a woman’s door.']],
+motifs: ['lies','secrets','identity','marriage','truth','fatherhood','anonymity'],
+secrets: [['Suzanne','She was never pregnant, not even the stillbirth she claimed.','Told to Adam'],['Suzanne','She was blackmailed and refused to pay.','Told to Adam'],['The stranger','He has approached Suzanne too.','Discovered by Adam']],
+clues: ['Suzanne was approached by a man who demanded money.','She refused, and he told her husband.','Corinne and Suzanne haven’t been in touch for years.','Corinne asked practical questions about faking a pregnancy.','Suzanne’s husband, like Adam, had a low sperm count.'],
+dilemma: { q: 'Suzanne says the man who exposed her may have done her a favour. Can exposure be a gift?', a: 'Yes: it ended a toxic marriage and a compulsion', b: 'No: it was cruelty, whatever came of it' },
+food: [],
+refs: [['Garden apartments','Low-rise suburban apartment complexes with lawns between buildings, built widely from the 1950s.'],['Eye-accessing cues','A popular belief from neuro-linguistic programming that eye direction reveals lying; research has not supported it.'],['Dopamine','A neurotransmitter linked to reward; popularly invoked to explain cravings.'],['Sherlock','Suzanne’s sarcastic nickname for Adam’s deduction about her ring.']],
+questions: [
+ ['Where does Suzanne live?',0],
+ ['How does she first respond to Adam?',0],
+ ['When did she last see Corinne?',0],
+ ['What did Corinne ask her?',0],
+ ['Was Suzanne ever pregnant?',0],
+ ['Why did she fake pregnancy?',0],
+ ['What does Adam learn at the very end?',0],
+ ['Adam half-trusts the eye-movement rule. Should he?',0],
+ ['Why does Suzanne call Corinne a kindred spirit? What does that imply about Corinne?',1],
+ ['How does Suzanne’s honesty now compare with her past lies?',0],
+ ['Suzanne’s husband had a low sperm count, like Adam. What does this parallel suggest?',1],
+ ['Is Suzanne’s compulsion an illness, a choice, or both?',1],
+ ['How does the novel treat Suzanne? With mockery, pity or respect?',0],
+ ['What role does her sister’s experience play?',0],
+ ['How does the chain on the door work as an image?',0],
+ ['Why does the postman matter?',0],
+ ['What changes for Adam when Suzanne realises he has been visited too?',1],
+ ['Is the man who exposed Suzanne a villain or an agent of truth?',1],
+ ['How does Suzanne’s marriage mirror the Prices’?',0],
+ ['Suzanne says she owns her illness. What does that mean?',0],
+ ['How does Adam earn her trust?',0],
+ ['What does Suzanne lose by talking?',0],
+ ['How does therapy language appear in the chapter, and how does Adam react?',0],
+ ['Would you have opened the door?',0],
+ ['What does "kindred spirits" say about loneliness?',1],
+ ['How does the setting contrast with Cedarfield?',0],
+ ['How is attention like a drug, according to Suzanne?',0],
+ ['Is Adam kind to Suzanne?',0],
+ ['What will Adam ask next?',0],
+ ['Predict how this changes his view of Corinne’s situation.',0]
+],
+close: [
+ { cite: 'Chapter 23, opening: talking through the door.', focus: 'A conversation through a chain',
+   steps: ['Note each of Suzanne’s defensive replies.','Find what makes her open the door a crack.','Note the postman.','Find Adam’s eye-movement reasoning and its caveats.'],
+   ask: 'How does the physical barrier shape the conversation?' },
+ { cite: 'Chapter 23, middle: Suzanne’s confession about Harold and her sister.', focus: 'The story beneath the lie',
+   steps: ['Find the clue that leads to Harold.','Summarise the fertility story.','Note her sister’s experience.','Find her description of the high.'],
+   ask: 'How does Suzanne’s history complicate the harsh judgement Adam passed on her in chapter 9?' },
+ { cite: 'Chapter 23, close: Suzanne’s remark about not paying, and the reveal that follows.', focus: 'The chill',
+   steps: ['Find her remark about not paying.','Find Adam’s physical reaction.','Note his question.','Read her final line.'],
+   ask: 'How does a throwaway remark become the chapter’s turning point?' }
+],
+lenses: {
+ office: 'A conversation conducted through a door chain, slowly loosening. Notice how Suzanne’s voice moves from defensive snaps to therapy-speak to an unguarded remark that changes everything. The final line reverses who knows what.',
+ classroom: 'Loneliness, the craving for attention, infertility and male shame, and therapy as a way of owning one’s story. The chapter also discovers a pattern: the stranger blackmails.',
+ records: 'Eye-movement "tells" of lying come from neuro-linguistic programming and are not supported by research. Male infertility is common, contributing to a substantial share of couples’ infertility.',
+ stacks: 'Suzanne’s attention-seeking echoes Goffman on self-presentation; her pain echoes literature of childlessness. The blackmail reveal links back to Conan Doyle’s Milverton.',
+ turnpike: 'Nyack, across the New York state line on the Hudson; a complex of identical brick buildings. Twenty minutes and a world away from Cedarfield.',
+ field: 'Suzanne’s exposure ended her marriage and her compulsion. Does a good outcome redeem a cruel act? And was Corinne’s exposure the same kind of act?',
+ board: 'A thread from chapter 9 pays off with a twist: the stranger blackmails. Adam now has a pattern. The final line is a reversal: Suzanne realises Adam is a victim too.',
+ diner: 'A woman’s face in the gap of a chained door: a classic thriller image. Paint the sliver of light and the hand on the frame.',
+ kitchen: 'Suzanne’s life in this chapter has no table, no meal, no guest: only a door kept on its chain. Hospitality begins when the chain comes off. Notice what she does as soon as she lets Adam in.',
+ driveway: 'Suzanne says she wanted to be noticed so badly she invented a pregnancy. Write about a time you wanted to be seen, and what you did, or didn’t do, to make it happen.'
+},
+acts: {
+ office: [
+  ['Door dialogue','Write a scene conducted through a door.',30],
+  ['Voice shifts','Trace Suzanne’s voice through the scene.',20],
+  ['Therapy language','Find therapy terms; analyse their effect.',15],
+  ['Eye rule','Analyse how Adam’s caveats shape our trust.',15],
+  ['Reversal line','Write about the final line.',15],
+  ['Sherlock','Analyse the sarcasm about deduction.',15],
+  ['Point of view','Rewrite from Suzanne’s side of the door.',30],
+  ['Detail','Analyse the description of the complex.',15],
+  ['Pacing','Compare with chapter 22.',15]
+ ],
+ classroom: [
+  ['Loneliness','Discuss loneliness and attention.',25],
+  ['Male infertility','Discuss male shame in the novel.',25],
+  ['Owning illness','Discuss therapy and accountability.',20],
+  ['Exposure as gift','Debate the dilemma.',25],
+  ['Kindred spirits','Discuss what Suzanne saw in Corinne.',20],
+  ['Theme update','Add "attention" again with new evidence.',15],
+  ['Pattern','Discuss the stranger’s blackmail pattern.',20],
+  ['Judgement','Revisit Adam’s earlier judgement of Suzanne.',20],
+  ['Seminar plan','Plan a discussion of Suzanne.',25]
+ ],
+ records: [
+  ['Lie detection myths','Research the evidence on eye-movement cues.',20],
+  ['Male infertility','Read a reputable explainer on male factor infertility.',20],
+  ['Garden apartments','Research the history of garden apartment complexes.',15],
+  ['Nyack','Research Nyack.',15],
+  ['Factitious pregnancy','Find a documented case in reputable press.',20],
+  ['Therapy','Research cognitive-behavioural therapy for compulsions.',20],
+  ['Dopamine','Read a reliable explainer on dopamine and reward.',20],
+  ['Postal workers','Research mail carriers as community watchers.',15],
+  ['Blackmail statistics','Research sextortion and blackmail trends.',20]
+ ],
+ stacks: [
+  ['Goffman','Apply Goffman to Suzanne.',25],
+  ['Childlessness literature','Find a memoir or novel about longing for children.',25],
+  ['Milverton','Revisit the blackmailer.',20],
+  ['Ekman','Read on lie detection.',25],
+  ['Perel','Read on secrets and shame in couples.',25],
+  ['Ladder of Years','Compare Delia’s need to be seen.',20],
+  ['Rebecca','Compare jealousy of attention.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about longing.',15]
+ ],
+ turnpike: [
+  ['Nyack pin','Add Suzanne’s complex.',15],
+  ['Twenty minutes','Map the drive.',15],
+  ['Complex plan','Sketch the garden-apartment complex.',20],
+  ['State line','Write about crossing a state line.',15],
+  ['Mapping journal','Add chapter 23.',15],
+  ['Coffee shops','Map Suzanne’s lunch spots.',15],
+  ['Contrast','Compare Nyack and Cedarfield.',20],
+  ['Sister','Imagine Sarah’s town.',15],
+  ['Case map','Add Suzanne to the stranger’s case map.',15]
+ ],
+ field: [
+  ['Exposure','Use the Dilemma scale.',15],
+  ['Court','Rule on Suzanne’s case.',20],
+  ['Five lenses','Apply the lenses to the stranger’s blackmail.',30],
+  ['Illness and blame','Is Suzanne responsible?',20],
+  ['Harold','Was Harold cruel or wounded?',20],
+  ['Lies to strangers','Who did Suzanne harm?',20],
+  ['Kindness','Was Adam kind?',15],
+  ['Good outcomes','Do outcomes justify acts?',20],
+  ['Personal','Write about wanting attention.',20]
+ ],
+ board: [
+  ['Pattern','Pin blackmail as the method.',15],
+  ['Thread','Pin the chapter 9 thread paid off.',15],
+  ['Reversal','Write a scene ending on "you too".',35],
+  ['Suspicion meter','Rate the stranger.',15],
+  ['Strand braid','Add victims strand.',15],
+  ['Timeline','Add Suzanne’s exposure four months ago.',15],
+  ['Plant','Pin Harold’s infertility parallel.',15],
+  ['Tension curve','Rate the ending.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Chained door','Paint a face in a chained door.',35],
+  ['Brick complex','Paint the monotonous complex.',30],
+  ['Glow','Paint a pregnant woman glowing with attention.',30],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for Suzanne.',15],
+  ['Bracelets','Draw her bracelets.',15],
+  ['Postman','Draw the suspicious postman.',15],
+  ['Sound','Describe a chain sliding.',15],
+  ['Cover brief','Add the door chain.',15]
+ ],
+ kitchen: [
+  ['Tea for a stranger','Make tea for an unexpected visitor; discuss hospitality and fear.',20],
+  ['Ledger notebook','Record Suzanne’s blackmail.',15],
+  ['Secrets box','Add Suzanne’s secrets.',15],
+  ['Table talk','Ask: when have you craved attention?',25],
+  ['Making: two-faced portrait','Draw Suzanne glowing and Suzanne alone.',30],
+  ['Sister supper','Cook for a sibling.',45],
+  ['Comfort','Discuss foods of loneliness.',15],
+  ['Recipe of attention','Write a recipe for being noticed.',15],
+  ['Baby shower','Discuss baby showers as attention rituals.',15]
+ ],
+ driveway: [
+  ['Being seen','Write about wanting to be seen.',20],
+  ['Longing','Write privately about something you longed for.',20],
+  ['Mood dial','Rate feelings.',15],
+  ['Prediction','Did Corinne pay?',15],
+  ['Letter to Suzanne','Write kindly.',20],
+  ['Letter to Harold','Write to Harold.',15],
+  ['Doors','Write about a door you wouldn’t open.',15],
+  ['Therapy','Write about owning a problem.',20],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 23 complicate the novel’s portrayal of Suzanne Hope, and what does she reveal about attention and loneliness?',
+ 'Essay: Discuss the parallels between the Hopes’ marriage and the Prices’.',
+ 'Creative: Write the moment Harold found out, from Harold’s side.'
+],
+reading: [
+ ['goffman','Self-presentation and audiences.'],
+ ['milverton','The blackmailer pattern.'],
+ ['ekman','What really signals a lie.'],
+ ['perelaffairs','Shame, secrecy and marriage.'],
+ ['ladder','A woman wanting to be seen differently.'],
+ ['boklying','Lies told to strangers and their costs.'],
+ ['nevertold','Longing and what it does to families.'],
+ ['ronson','Exposure and its aftermath.'],
+ ['missingyou','Coben on loneliness and online deception.']
+],
+projects: [
+ { t: 'Suzanne’s Story', rooms: ['office','classroom','driveway'], steps: ['Close-read her confession.','Discuss attention.','Write privately.','Write her story in her voice.'] },
+ { t: 'The Pattern', rooms: ['board','field','records'], steps: ['Pin blackmail.','Research blackmail law.','Use the court tool.','Predict.'] },
+ { t: 'Eyes and Lies', rooms: ['records','stacks','office'], steps: ['Research lie-detection myths.','Read Ekman.','Analyse Adam’s caveats.','Discuss.'] },
+ { t: 'Parallel Marriages', rooms: ['classroom','field','stacks'], steps: ['Compare the Hopes and the Prices.','Discuss male infertility.','Apply ethics.','Write.'] },
+ { t: 'The Chained Door', rooms: ['diner','office','turnpike'], steps: ['Paint the door.','Write a door scene.','Map Nyack.','Discuss barriers.'] },
+ { t: 'Exposure as Gift?', rooms: ['field','driveway','kitchen'], steps: ['Use the Dilemma scale.','Discuss at table.','Write privately.','Verdict.'] }
+],
+quiz: [
+ ['What is Suzanne’s apartment number?', ['233','9B','715','12'], 1],
+ ['When did Suzanne last see Corinne?', ['Last week','Two or three years ago','Yesterday','Never'], 1],
+ ['Who is Harold?', ['Her brother','Her ex-husband','Her therapist','Her neighbour'], 1],
+ ['Was Suzanne ever pregnant?', ['Yes, once','No, never','Twice','Unclear'], 1],
+ ['What did a man do when she refused to pay?', ['Nothing','Told her husband','Called the police','Posted online'], 1]
+]
+};

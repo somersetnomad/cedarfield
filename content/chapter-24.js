@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[24] = {
+n: 24, title: 'The Picnic Table', pov: 'Adam', when: 'Continuing, inside the apartment', strands: ['adam','stranger','victims'], places: ['nyack'],
+summary: [
+ 'Inside, Suzanne’s apartment has white walls and white furniture and still feels dark and grimy, its art too bland for a budget motel. She wears a stack of jangling bracelets; her eyes blink as if expecting a blow. She offers wine. Adam, remembering that alcohol loosens tongues, accepts a glass he finds undrinkable and drinks anyway.',
+ 'Suzanne works part-time at a department store till. One day on her lunch break a young man in a baseball cap was waiting at the picnic tables behind the store: thin, white, a bit of a geek, with a smile that made her relax. He asked if her husband knew she had faked pregnancies, called himself something like a stranger who reveals truth, and said he had proof. He wanted five thousand dollars, once. If she paid and stopped the deception, he would vanish; if she kept faking, he’d tell her husband. Asked how she could trust him not to come back for more, he smiled and said his people don’t operate that way. Oddly, she believed him.',
+ 'She didn’t pay. What had she done wrong, she reasoned? She’d lied to strangers, not to Harold. Maybe she wanted him to find out; maybe he’d see a cry for help. The man sent Harold a link to everything she’d ordered from the fake-pregnancy site. Harold exploded; it fed every insecurity about his manhood and infertility. Suzanne tells Adam she’s surprised Corinne made the same choice and didn’t pay. She’d have expected Corinne to pay: Corinne loved him, and had so much to lose.'
+],
+beats: [
+ 'Suzanne’s white, dark apartment; bracelets; wary eyes.',
+ 'Wine as an interrogation tool; Adam drinks something awful.',
+ 'Her job and the picnic tables behind the store.',
+ 'The young man in the cap: thin, nerdy, kind smile.',
+ 'The demand: $5,000, once, and stop faking; or Harold finds out.',
+ 'Trust: he insists his group doesn’t come back for more, and she strangely believes him.',
+ 'She refuses; she lied to strangers, not to Harold.',
+ 'Maybe she wanted to be caught; a cry for help.',
+ 'Harold gets the link and explodes; manhood and infertility.',
+ 'Suzanne’s surprise that Corinne didn’t pay: she had so much to lose.'
+],
+cast: [['Suzanne Hope','Candid, rueful, still a little in thrall to the stranger.'],['The stranger','Described by a victim for the first time: young, thin, gentle, a smile that disarms.'],['Harold Hope','Who learned the truth by link and turned on her.'],['Adam Price','Calculating, sympathetic, increasingly uneasy.']],
+motifs: ['secrets','money','lies','marriage','anonymity','truth','identity'],
+secrets: [['The stranger','He offers silence for a one-time fee if the deception stops.','Revealed to Adam'],['Suzanne','She may have wanted to be caught.','Admitted']],
+clues: ['The stranger’s method: research, approach in person, a one-time demand, a condition to stop lying, exposure if refused.','He uses "we": he is part of a group.','The fee was $5,000 for Suzanne.','He exposes by sending the spouse a link to the purchases.','Suzanne assumes Corinne also refused to pay.'],
+dilemma: { q: 'The stranger demanded money but also demanded that Suzanne stop lying. Does the condition make his blackmail more defensible?', a: 'Yes: he was forcing honesty', b: 'No: money for silence is extortion, whatever the condition' },
+food: ['A glass of very bad wine, accepted to keep a witness talking.'],
+refs: [['Kohl’s','A US department-store chain.'],['Picnic tables behind stores','Staff break areas, where workers are alone and predictable.'],['Cry for help','A phrase for self-destructive behaviour that signals distress.'],['In vino veritas','Latin: "in wine, truth"; Adam half-believes it.']],
+questions: [
+ ['Describe Suzanne’s apartment.',0],
+ ['Why does Adam accept the wine?',0],
+ ['Where did the stranger approach Suzanne?',0],
+ ['How does Suzanne describe him?',0],
+ ['What were his terms?',0],
+ ['What happened when she refused?',0],
+ ['Why does Suzanne say she believed him?',0],
+ ['Is the condition to stop lying a moral fig leaf or a genuine principle?',1],
+ ['Suzanne says she lied to strangers, not to her husband. Is that a real distinction?',1],
+ ['Did Suzanne want to be caught? What evidence?',0],
+ ['How does the stranger’s smile function in all his approaches?',0],
+ ['What does Harold’s reaction reveal about infertility and masculinity?',0],
+ ['Why does Suzanne expect Corinne to have paid?',1],
+ ['What does "she had so much to lose" make Adam realise?',0],
+ ['How does Adam use the wine strategically? Is that fair?',0],
+ ['How does the stranger’s "we" change our understanding?',0],
+ ['Compare the stranger’s approach to Suzanne with his approach to Adam.',1],
+ ['Is a one-time fee more ethical than ongoing blackmail?',0],
+ ['How does the white-but-dark apartment reflect Suzanne?',0],
+ ['Do you trust Suzanne’s account?',0],
+ ['Why is the picnic-table setting effective for the stranger?',0],
+ ['What new questions does this raise about Corinne?',0],
+ ['Is Harold a victim?',0],
+ ['How does the chapter handle Suzanne’s self-awareness?',0],
+ ['What would you have done in Suzanne’s place?',1],
+ ['How does Coben make the stranger more human here?',0],
+ ['What is Adam drinking to?',0],
+ ['Why might Corinne not have paid?',0],
+ ['Is truth that arrives as a weapon still truth?',1],
+ ['Predict Adam’s next theory.',0]
+],
+close: [
+ { cite: 'Chapter 24, opening: the apartment and Suzanne’s appearance.', focus: 'A room as a person',
+   steps: ['Note the contradictions in the description (white yet dark, clean yet grimy).','Find the detail of her eyes.','Find the bracelets.','Note Adam’s decision about wine.'],
+   ask: 'How does the description of the room prepare us for Suzanne’s story?' },
+ { cite: 'Chapter 24, middle: the encounter at the picnic tables.', focus: 'The stranger seen by a victim',
+   steps: ['List Suzanne’s description of the man.','Paraphrase his terms.','Find his answer about trust.','Note her reaction to his smile.'],
+   ask: 'How does seeing the stranger through Suzanne’s eyes change him?' },
+ { cite: 'Chapter 24, close: Harold’s reaction and Suzanne’s surprise about Corinne.', focus: 'So much to lose',
+   steps: ['Find how Harold learned.','Note Suzanne’s analysis of his reaction.','Find her surprise about Corinne.','Note her reasons.'],
+   ask: 'Why does the chapter end on Corinne’s refusal to pay, and why should that bother Adam?' }
+],
+lenses: {
+ office: 'Reported narrative inside dialogue: Suzanne tells the stranger’s approach in her own words, so we see him secondhand. Adam’s silent strategies (accepting wine, letting her talk) are the chapter’s quiet craft.',
+ classroom: 'Blackmail with a moral condition; lies to strangers versus lies to intimates; wanting to be caught; masculinity and infertility. The novel complicates the stranger again.',
+ records: 'Extortion is a crime whatever the demand’s condition. Research on self-sabotage suggests some secret-keepers do unconsciously seek discovery.',
+ stacks: 'Conan Doyle’s Milverton and the stranger differ: Milverton profits only. Hawthorne’s Minister’s Black Veil explores a man who wants his secret seen.',
+ turnpike: 'Behind a department store: picnic tables, a loading area, the edge of a car park. The stranger’s settings are always transitional and public.',
+ field: 'Is coercion toward honesty still coercion? The stranger’s condition looks principled, but the money muddies it. Kantian ethics forbids using people as means; consequentialists may disagree.',
+ board: 'The method is now explicit and a new suspicion emerges: if Corinne didn’t pay, why? Note the stranger’s "we". The chapter ends with an anomaly to pin.',
+ diner: 'A white room that feels dark, art too generic for a motel, bracelets jangling: interior design as psychology. Paint a room that looks clean and feels sad.',
+ kitchen: 'Wine as a tool of interrogation: Adam drinks something that tastes terrible to keep a witness talking. Hospitality and strategy share a glass.',
+ driveway: 'Suzanne wonders whether some part of her wanted her husband to find out, hoping he would finally pay attention. Write about a secret you half wanted someone to discover, and what you hoped would happen when they did.'
+},
+acts: {
+ office: [
+  ['Secondhand portrait','Analyse the stranger as described by Suzanne.',20],
+  ['Interrogation tactics','List Adam’s quiet tactics.',15],
+  ['Room description','Write a room that is clean but sad.',25],
+  ['Reported dialogue','Rewrite the picnic-table scene as direct dramatisation.',35],
+  ['Final line','Analyse the ending’s implication.',15],
+  ['Bracelets','Write about a single detail that characterises.',15],
+  ['Pacing','Compare with chapter 23.',15],
+  ['Point of view','Write the stranger’s version of the picnic table.',30],
+  ['Irony','Find ironies in Suzanne’s account.',15]
+ ],
+ classroom: [
+  ['Condition','Debate the moral condition on blackmail.',25],
+  ['Intimate vs public lies','Discuss the distinction.',25],
+  ['Wanting to be caught','Discuss self-sabotage.',20],
+  ['Masculinity','Discuss Harold’s reaction.',20],
+  ['Trusting a blackmailer','Why did she believe him?',20],
+  ['Theme update','Add "coerced honesty".',15],
+  ['Loss','Discuss "so much to lose".',20],
+  ['Method','Discuss the stranger’s method as a system.',20],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Extortion law','Research extortion definitions.',20],
+  ['Self-sabotage','Read on the psychology of wanting to be caught.',20],
+  ['Retail work','Research part-time retail work and breaks.',15],
+  ['Infertility and masculinity','Find research on men’s experience of infertility.',25],
+  ['In vino veritas','Research alcohol and disclosure.',15],
+  ['Online purchase records','Research how purchase histories are stored.',20],
+  ['Blackmail history','Research the history of blackmail as a crime.',25],
+  ['Department stores','Look up Kohl’s history.',15],
+  ['Cry for help','Research the phrase’s use in psychology.',15]
+ ],
+ stacks: [
+  ['Milverton','Compare Milverton and the stranger.',25],
+  ['Black Veil','Read Hawthorne’s story.',30],
+  ['Bok','Read Bok on blackmail.',25],
+  ['Gone Girl','Compare coerced revelation.',20],
+  ['Perel','Read on wanting to be caught in affairs.',25],
+  ['Crime and Punishment','Compare Raskolnikov’s urge to confess.',30],
+  ['Tell-Tale Heart','Read Poe’s story of a secret that wants out.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about confession.',15]
+ ],
+ turnpike: [
+  ['Store map','Sketch the back of a department store.',15],
+  ['Settings','Map all the stranger’s approach settings so far.',20],
+  ['Case map','Update the case map.',15],
+  ['Mapping journal','Add chapter 24.',15],
+  ['Lunch break','Map a worker’s lunch-break world.',15],
+  ['Distance','Nyack to Cedarfield.',15],
+  ['Public places','Write about public places for private news.',20],
+  ['Suzanne’s town','Map Suzanne’s routine.',15],
+  ['Harold','Imagine where Harold lives now.',15]
+ ],
+ field: [
+  ['Condition','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to the blackmail.',30],
+  ['Court','Update Suzanne’s case.',15],
+  ['Wine','Is plying a witness with drink fair?',15],
+  ['Intimate lies','Write 300 words on Suzanne’s distinction.',35],
+  ['Harold','Discuss Harold’s response ethically.',20],
+  ['Trust','Can a blackmailer be trustworthy?',20],
+  ['Paying','Would paying have been wrong?',20],
+  ['Personal','Write about a secret you half wanted found.',20]
+ ],
+ board: [
+  ['Method card','Write the stranger’s method as a card.',15],
+  ['Anomaly','Pin "Corinne didn’t pay?"',15],
+  ['"We"','Pin the group.',15],
+  ['Scene','Write a 300-word scene of a blackmail approach.',40],
+  ['Suspicion meter','Rate the stranger.',15],
+  ['Strand braid','Note strands.',15],
+  ['Plant and payoff','Log the payment question.',15],
+  ['Tension curve','Rate the ending.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Sad room','Paint a white, sad room.',35],
+  ['Picnic tables','Paint picnic tables behind a store.',30],
+  ['Smile','Draw a disarming smile under a cap.',20],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the picnic table.',15],
+  ['Bracelets','Design a bracelet stack.',15],
+  ['Bad wine label','Design a label for the worst wine.',15],
+  ['Sound','Describe jangling bracelets.',15],
+  ['Cover brief','Add the picnic table.',15]
+ ],
+ kitchen: [
+  ['Wine tasting','Taste a cheap and a good wine (or juices) and discuss hospitality.',30],
+  ['Ledger notebook','Record $5,000.',15],
+  ['Secrets box','Add the stranger’s method.',15],
+  ['Table talk','Ask: would you have paid?',25],
+  ['Lunch break','Pack a lunch for a store worker.',15],
+  ['Making: secrets box','Sort secrets into "told for money" and "told for free".',20],
+  ['Comfort','Cook for a lonely neighbour.',45],
+  ['Recipe of trust','Write a recipe for trusting a stranger.',15],
+  ['Picnic','Hold a picnic and discuss public privacy.',45]
+ ],
+ driveway: [
+  ['Half-wanted','Write about a secret you half wanted found.',20],
+  ['Loss','Write about having much to lose.',20],
+  ['Mood dial','Rate trust in Corinne.',15],
+  ['Prediction','Why didn’t Corinne pay?',15],
+  ['Letter to Suzanne','Write to Suzanne.',15],
+  ['Letter to the stranger','Write to the stranger.',20],
+  ['Cry for help','Write about a cry for help you heard or made.',20],
+  ['Rooms','Write about a room that matched your mood.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: Analyse the stranger’s method as described by Suzanne. Does the condition that she stop lying change the moral character of his blackmail?',
+ 'Essay: How does chapter 24 raise a new question about Corinne, and why is it unsettling for Adam?',
+ 'Creative: Write the email Harold received, as he read it.'
+],
+reading: [
+ ['milverton','A blackmailer for profit only.'],
+ ['blackveil','A secret that wants to be seen.'],
+ ['telltale','A guilty heart that wants to confess.'],
+ ['crime','The urge to confess and be caught.'],
+ ['boksecrets','The ethics of revelation and coercion.'],
+ ['perelaffairs','Wanting to be caught in affairs.'],
+ ['gonegirl','Revelation as a weapon in marriage.'],
+ ['ariely','How people justify dishonesty.'],
+ ['sixyears','Coben on secrets and the people who keep them.']
+],
+projects: [
+ { t: 'The Method', rooms: ['board','field','records'], steps: ['Write the method card.','Research extortion.','Apply ethics.','Update the case map.'] },
+ { t: 'Wanting to Be Caught', rooms: ['stacks','classroom','driveway'], steps: ['Read "The Tell-Tale Heart".','Discuss self-sabotage.','Write privately.','Compare with Suzanne.'] },
+ { t: 'Coerced Honesty', rooms: ['field','classroom','kitchen'], steps: ['Use the Dilemma scale.','Debate.','Discuss at table.','Verdict.'] },
+ { t: 'Rooms and Selves', rooms: ['diner','office','driveway'], steps: ['Paint a sad room.','Write a room description.','Reflect.','Share.'] },
+ { t: 'Why Didn’t She Pay?', rooms: ['board','driveway','classroom'], steps: ['Pin the anomaly.','List theories.','Discuss.','Revisit later.'] },
+ { t: 'Picnic Interview', rooms: ['kitchen','office','turnpike'], steps: ['Hold a picnic.','Analyse the picnic-table scene.','Map approach settings.','Discuss public privacy.'] }
+],
+quiz: [
+ ['Where was Suzanne approached?', ['At home','At picnic tables behind the store where she works','At a café','At the gym'], 1],
+ ['How much did he ask for?', ['$1,000','$5,000','$10,000','$387'], 1],
+ ['What condition did he set?', ['Leave town','Stop faking pregnancies','Tell her husband','Pay monthly'], 1],
+ ['How did Harold find out?', ['Suzanne told him','He was sent a link','A friend told him','He saw her'], 1],
+ ['What surprises Suzanne?', ['That Adam came','That Corinne didn’t pay','That Harold left','That the stranger smiled'], 1]
+]
+};
