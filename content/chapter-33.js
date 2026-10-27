@@ -72,7 +72,7 @@ lenses: {
  classroom: 'Friendship, childlessness, grief and the investigator’s motive. The chapter suggests that love is a form of knowledge: Johanna sees what the county cannot because she knew Heidi.',
  records: 'IVF success rates in the 1990s were far lower than today. Chain restaurants routinely record car parks. Spouses are often investigated first in homicides, and alibis are checked carefully.',
  stacks: 'Tana French’s In the Woods and Kate Atkinson’s Case Histories both mix personal grief with detection. Women’s friendships at midlife are central to Liane Moriarty’s Big Little Lies.',
- turnpike: 'A Red Lobster car park in Bergen County, the restaurant chain spread across American highways. The stranger and Ingrid worked both sides of the Hudson: Cedarfield, Beachwood and beyond.',
+ turnpike: 'A Red Lobster car park in suburban Ohio, near Cleveland, one outpost of a chain spread along American highways. The stranger and Ingrid travelled far for their work: Cedarfield in New Jersey, Beachwood in Ohio, and beyond.',
  field: 'Is Johanna right to investigate alone? Her friendship gives her insight but also bias. The chapter honours her motive while hinting at the risk to proper process.',
  board: 'The link between the strands is visible now: a blonde and a man in a cap approached Heidi, just as the stranger and his blonde partner approached Adam. The plate is the bridge.',
  diner: 'A woman alone at night, head on a steering wheel, hair fanned out: paint it twice, once from memory (warm, blurred) and once on grainy security footage (cold, pixelated).',

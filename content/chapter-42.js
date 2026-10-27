@@ -1,0 +1,227 @@
+CF.CH = CF.CH || {};
+CF.CH[42] = {
+n: 42, title: 'So Hum', pov: 'Adam', when: 'That afternoon, in Fair Lawn', strands: ['adam','stranger'], places: ['fairlawn'],
+summary: [
+ 'Adam takes an Uber to Fair Lawn, where Gabrielle Dunbar lives, a once-modest Cape Cod swollen into a McMansion, with an elaborate doorbell; Gribbel will collect him later. Adam tries a pretext about an inheritance case. Gabrielle denies everything and begins to panic. Adam drops the act: his wife is missing, and he will not stop looking. Tell him that.',
+ 'Alone, Gabrielle tries to calm herself with the mantra So Hum. Her children, Missy and Paul, will soon need dropping at their father’s; her ex calls her Gabs and has moved to Chicago with a woman called Tami. She had always known the group was playing with fire. People kill for secrets. She curls up on the floor, thumb at her mouth.',
+ 'Then she pulls herself together. She uses the VPN as instructed. She concludes that Adam must have killed Ingrid: a man who can’t handle the truth. She takes out the Glock that Merton gave her, after teaching her to shoot at a range in Randolph. Then she photographs a card on which she has written two words, HE KNOWS, and emails it.'
+],
+beats: [
+ 'Uber to Fair Lawn; a McMansion grown from a Cape Cod.',
+ 'An elaborate doorbell.',
+ 'Adam’s inheritance pretext; Gabrielle denies and panics.',
+ 'Adam: my wife is missing; tell him I won’t stop.',
+ 'Gabrielle’s So Hum mantra.',
+ 'Her kids Missy and Paul; her ex in Chicago with Tami.',
+ 'People kill for secrets.',
+ 'Curled on the floor, thumb to mouth.',
+ 'VPN; she decides Adam killed Ingrid.',
+ 'A Glock from Merton; shooting lessons in Randolph.',
+ 'She emails a photo of a card: HE KNOWS.'
+],
+cast: [['Gabrielle Dunbar','Group member; mother; terrified.'],['Adam Price','Direct at last.'],['Missy and Paul','Gabrielle’s children (mentioned).']],
+motifs: ['secrets','violence','anonymity','parenting','technology','truth','identity'],
+secrets: [['Gabrielle','Her role in the group.','Denied, then confirmed by her actions'],['Gabrielle','She owns a gun.','Revealed']],
+clues: ['Gabrielle is part of the group.','She believes Adam killed Ingrid.','She has a gun from Merton.','She sends a warning: HE KNOWS.'],
+dilemma: { q: 'Gabrielle believes Adam is a killer. Is her fear reasonable given what she knows?', a: 'Yes: Ingrid is dead and Adam appears', b: 'No: she’s leaping to conclusions' },
+food: ['Nothing eaten; a frightened kitchen.'],
+refs: [['So Hum','A Sanskrit mantra, often glossed as I am that, used in breathing meditation.'],['McMansions','A pejorative for large, mass-produced suburban houses.'],['VPNs','Virtual private networks that mask a user’s location.'],['Glock 19','A widely sold compact 9mm pistol.'],['Cape Cod houses','A modest one-and-a-half-storey style common in US suburbs.']],
+questions: [
+ ['How does Adam get to Gabrielle’s?',0],
+ ['What pretext does he use?',0],
+ ['What does Adam tell her?',0],
+ ['What is So Hum?',0],
+ ['Why does Gabrielle think Adam killed Ingrid?',0],
+ ['What does she send, and to whom?',0],
+ ['How does the chapter make Gabrielle sympathetic?',1],
+ ['Is her conclusion about Adam reasonable?',1],
+ ['What does the McMansion tell us?',0],
+ ['Why does Adam drop the pretext?',0],
+ ['How does fear change people?',1],
+ ['What does the gun mean in her hands?',0],
+ ['Why did Merton give her a gun?',0],
+ ['How does the chapter treat the ex-husband?',0],
+ ['What does the thumb-sucking image suggest?',0],
+ ['How does the chapter switch POV?',0],
+ ['Is the group unravelling?',0],
+ ['What does HE KNOWS mean to the group?',0],
+ ['What will the group do with that message?',0],
+ ['How does the chapter build danger for Adam?',0],
+ ['What does the chapter say about mothers in danger?',1],
+ ['How do misunderstandings drive the plot here?',0],
+ ['Was Adam reckless?',0],
+ ['What does a mantra offer in crisis?',0],
+ ['How does the novel treat guns?',1],
+ ['Compare Gabrielle and Suzanne.',0],
+ ['What does she fear most: Adam, police, or exposure?',0],
+ ['How does the chapter use children offstage?',0],
+ ['Would you have gone to her door?',1],
+ ['Predict what HE KNOWS triggers.',0]
+],
+close: [
+ { cite: 'Chapter 42, opening: the house and the door.', focus: 'Swollen houses',
+   steps: ['Describe the house.','Note the doorbell.','Note the pretext.','Note her panic.'],
+   ask: 'How does the setting reflect Gabrielle’s life?' },
+ { cite: 'Chapter 42, middle: So Hum.', focus: 'Fear from inside',
+   steps: ['Note the mantra.','Note the children and ex.','Paraphrase her fear about secrets.','Note her posture.'],
+   ask: 'How does the chapter make us feel Gabrielle’s terror?' },
+ { cite: 'Chapter 42, close: the gun and the card.', focus: 'Misreading',
+   steps: ['Note the VPN.','Note her conclusion.','Note the gun’s origin.','Note the message.'],
+   ask: 'How does a misreading become dangerous?' }
+],
+lenses: {
+ office: 'A chapter that changes POV mid-scene, from Adam at the door to Gabrielle alone. Dramatic irony is intense: we know Adam isn’t the killer; Gabrielle doesn’t. Two words on a card turn misunderstanding into a threat to Adam’s life.',
+ classroom: 'Fear, misreading and the violence that grows from assumption. The group’s philosophy of exposure has a cost they never priced: people do kill for secrets, as Gabrielle now realises.',
+ records: 'So Hum is a Sanskrit mantra used in breath meditation. McMansion is a pejorative coined in the 1980s. VPNs mask location. The Glock 19 is one of the best-selling handguns in the US.',
+ stacks: 'Shirley Jackson’s We Have Always Lived in the Castle and Daphne du Maurier’s My Cousin Rachel both turn on misreading a stranger’s intent. Fear makes interpretation dangerous.',
+ turnpike: 'Fair Lawn, a Bergen County borough; a range in Randolph, Morris County; an ex in Chicago. Gabrielle’s small world stretches between motherhood and a secret life.',
+ field: 'Is Gabrielle’s fear reasonable? From her information, yes; from ours, no. The chapter asks how much moral blame attaches to acting on a reasonable but false belief.',
+ board: 'HE KNOWS is a turning point: the group now sees Adam as a threat. Pin the message, the gun and the misreading. Danger has moved to Adam.',
+ diner: 'A swollen suburban house, a woman curled on a kitchen floor, a gun on the counter, a card on the table: paint it with harsh overhead light and long shadows.',
+ kitchen: 'A kitchen where no one eats: a place of fear, not nourishment. Gabrielle’s kitchen shows how terror empties ordinary rooms of their purpose.',
+ driveway: 'Gabrielle misreads Adam completely and acts on it. Write privately about a time fear made you misjudge someone, and what happened when you discovered your mistake.'
+},
+acts: {
+ office: [
+  ['POV switch','Analyse the mid-scene switch.',20],
+  ['Dramatic irony','Analyse what we know that she doesn’t.',15],
+  ['Two words','Analyse the card.',15],
+  ['Point of view','Rewrite the door scene from Gabrielle’s POV.',30],
+  ['Scene','Write a misreading scene.',30],
+  ['Mantra','Analyse So Hum.',15],
+  ['Pacing','Compare with chapter 36.',15],
+  ['Setting','Analyse the McMansion.',15],
+  ['Ending','Analyse the email.',15]
+ ],
+ classroom: [
+  ['Misreading','Discuss fear and assumption.',25],
+  ['Cost of exposure','Discuss the group’s blind spot.',25],
+  ['Guns','Discuss guns and fear.',20],
+  ['Mothers','Discuss Gabrielle as a mother.',15],
+  ['Mantras','Discuss coping.',15],
+  ['Theme update','Add "misreading".',15],
+  ['Suburbs','Discuss McMansions.',15],
+  ['Danger','Discuss danger to Adam.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['So Hum','Research the mantra.',15],
+  ['McMansions','Research the term.',15],
+  ['VPNs','Research VPN use.',15],
+  ['Glock','Research the Glock 19.',15],
+  ['Gun ranges','Research NJ ranges and permits.',20],
+  ['NJ gun law','Research NJ handgun permits.',20],
+  ['Cape Cod style','Research the style.',15],
+  ['Fear response','Research fear and decision-making.',20],
+  ['Custody','Research weekend custody.',15]
+ ],
+ stacks: [
+  ['Castle','Read about Shirley Jackson.',20],
+  ['My Cousin Rachel','Compare misreading.',20],
+  ['Rebecca','Compare fear in a house.',20],
+  ['Kahneman','Read on fast thinking under fear.',20],
+  ['Ronson','Read on exposure.',20],
+  ['Big Little Lies','Compare suburban mothers.',20],
+  ['Fool Me Once','Compare guns at home.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about fear.',15]
+ ],
+ turnpike: [
+  ['Fair Lawn','Pin the house.',15],
+  ['Randolph','Pin the range.',15],
+  ['Mapping journal','Add chapter 42.',15],
+  ['Chicago','Pin the ex.',15],
+  ['Uber','Trace Adam’s route.',15],
+  ['Case map','Add Gabrielle.',15],
+  ['Network','Link Gabrielle and Merton.',15],
+  ['Status','Place Gabrielle.',15],
+  ['Message','Trace the email.',15]
+ ],
+ field: [
+  ['Reasonable fear','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to Gabrielle.',30],
+  ['False belief','Write 300 words on blame and false belief.',35],
+  ['Adam’s visit','Was it wise?',15],
+  ['Gun','Should she have a gun?',15],
+  ['Court','Update the group file.',15],
+  ['Message','Is HE KNOWS a threat?',15],
+  ['Children','What about Missy and Paul?',15],
+  ['Personal','Write about misjudging.',20]
+ ],
+ board: [
+  ['HE KNOWS','Pin the message.',15],
+  ['Gun','Pin the Glock.',15],
+  ['Scene','Write a 300-word card scene.',40],
+  ['Suspicion meter','Rate Gabrielle.',15],
+  ['Strand braid','Note strands.',15],
+  ['Danger','Pin danger to Adam.',15],
+  ['Tension curve','Rate.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Kitchen floor','Paint the scene.',35],
+  ['Swollen house','Draw the McMansion.',25],
+  ['Card','Design the HE KNOWS card.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a fearful theme.',15],
+  ['Doorbell','Draw the elaborate doorbell.',15],
+  ['Mantra','Letter So Hum.',15],
+  ['Sound','Describe a doorbell chime.',15],
+  ['Cover brief','Add the card.',15]
+ ],
+ kitchen: [
+  ['Empty kitchen','Discuss kitchens emptied by fear.',15],
+  ['Ledger notebook','Record HE KNOWS.',15],
+  ['Secrets box','Add the gun.',15],
+  ['Table talk','Ask: when has fear misled you?',25],
+  ['Making: calm tea','Make a calming tea and breathe.',15],
+  ['Breathing','Try a simple breathing exercise.',15],
+  ['Recipe of panic','Write a recipe.',15],
+  ['Kid’s lunch','Make a school lunch.',15],
+  ['Simple supper','Cook a steadying supper.',40]
+ ],
+ driveway: [
+  ['Misjudged','Write about it.',20],
+  ['Panic','Write about a panic.',20],
+  ['Mood dial','Rate fear.',15],
+  ['Prediction','What will the group do?',15],
+  ['Letter to Gabrielle','Write to her.',15],
+  ['Letter to her kids','Write as Gabrielle.',15],
+  ['Mantra','Write your own mantra.',15],
+  ['Fire','Write about playing with fire.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 42 use dramatic irony to create danger?',
+ 'Essay: Analyse Gabrielle’s fear and its consequences.',
+ 'Creative: Write Gabrielle’s evening after sending the card.'
+],
+reading: [
+ ['rebecca','Fear in a house.'],
+ ['ronson','The costs of exposure.'],
+ ['biglies','Suburban mothers and secrets.'],
+ ['foolmeonce','Guns in suburban homes.'],
+ ['circle','Exposure and its victims.'],
+ ['citron','Online harms.'],
+ ['lottery','Fear and community.'],
+ ['shelter','Coben’s misread strangers.'],
+ ['goffman','Masks dropped.']
+],
+projects: [
+ { t: 'Misreading', rooms: ['office','classroom','driveway'], steps: ['Analyse irony.','Discuss.','Write privately.','Reflect.'] },
+ { t: 'HE KNOWS', rooms: ['board','diner','field'], steps: ['Pin it.','Design the card.','Debate.','Predict.'] },
+ { t: 'Gabrielle', rooms: ['diner','driveway','stacks'], steps: ['Paint her kitchen.','Write to her.','Read Jackson.','Discuss.'] },
+ { t: 'Guns and Fear', rooms: ['records','field','classroom'], steps: ['Research NJ law.','Debate.','Discuss.','Verdict.'] },
+ { t: 'So Hum', rooms: ['kitchen','records','driveway'], steps: ['Breathe.','Research the mantra.','Write.','Reflect.'] },
+ { t: 'Fair Lawn', rooms: ['turnpike','diner','board'], steps: ['Map.','Draw the house.','Pin.','Present.'] }
+],
+quiz: [
+ ['How does Adam get to Gabrielle’s?', ['He drives','By Uber','By train','Gribbel drives'], 1],
+ ['What mantra does Gabrielle use?', ['Om','So Hum','Breathe','Relax'], 1],
+ ['Who gave her a gun?', ['Chris','Merton','Eduardo','Her ex'], 1],
+ ['What does she believe?', ['Adam is police','Adam killed Ingrid','Adam is lost','Adam is Chris'], 1],
+ ['What does the card say?', ['RUN','HE KNOWS','HELP','STOP'], 1]
+]
+};
