@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[26] = {
+n: 26, title: 'A Rug from Ravi', pov: 'Johanna', when: 'Ohio, the same days', strands: ['heidi'], places: ['beachwood','columbus'],
+summary: [
+ 'Johanna Griffin, police chief of Beachwood, Ohio, has seen plenty of death: natural causes, overdoses, suicides, terrible car crashes. She has never stood at a murder scene. Murder offends her on another level; it is a person taking on a god’s power over life for the worst of reasons. And this victim is Heidi Dann, her friend, lying on the Oriental rug she bought for four hundred dollars from a cheerful man called Ravi who sells them out of a truck outside the Whole Foods. Heidi was shot in the knee and in the forehead.',
+ 'Her young officer, Norbert Pendergast, tries not to look excited and points out the county will take the case; local departments handle traffic and bike licences, not homicide. Johanna knows that, and resents it. This is her town. She knew Heidi: her dancing, her bridge, her naughty laugh, her taste in nail polish and in television. She goes to the kitchen, where Marty sits shattered, back from a convention in Columbus. She sits in Heidi’s chair and asks quick questions before the county arrives.',
+ 'Nothing seems stolen; Heidi’s grandmother’s engagement ring is still on her finger. Marty can’t think of an enemy; Heidi didn’t have one. He asks Johanna to help tell the children. Johanna knows the county detectives will fixate on the husband, and knows, as only a friend can, that he didn’t do it. When the county men arrive she hands over without a fight. Heidi deserves the experts. But she has no intention of stopping.'
+],
+beats: [
+ 'Johanna Griffin, Beachwood police chief, at her first homicide scene.',
+ 'Murder as an obscenity; the victim is her friend Heidi.',
+ 'The rug from Ravi; the wounds.',
+ 'Norbert notes the county will take over.',
+ 'Johanna’s knowledge of Heidi’s life.',
+ 'Marty in the kitchen, back from Columbus; questions in Heidi’s chair.',
+ 'No robbery: the grandmother’s ring remains.',
+ 'No enemies; Marty asks her to help tell the kids.',
+ 'The county detectives arrive; Johanna steps aside but won’t stop.'
+],
+cast: [['Johanna Griffin','Police chief of Beachwood: blunt, warm, grieving, determined.'],['Norbert Pendergast','A rookie officer, eager despite himself.'],['Marty Dann','Heidi’s husband, devastated, with an alibi.'],['Heidi Dann','The victim, remembered vividly.'],['Ravi','A rug seller with a ready smile who keeps coming back.'],['County detectives','The specialists who take over homicides.']],
+motifs: ['violence','justice','community','marriage','truth','secrets'],
+secrets: [['The killer','Who shot Heidi and why.','Unknown to police'],['Heidi','What she learned from the stranger.','Unknown to Johanna and Marty']],
+clues: ['Heidi was shot in the knee before the head: torture, not robbery.','Her valuable ring was not taken.','Marty was at a convention in Columbus.','Johanna will investigate independently.','The county will suspect the husband.'],
+dilemma: { q: 'Should Johanna investigate her friend’s murder unofficially when it isn’t her case?', a: 'Yes: she knows things the experts don’t', b: 'No: personal involvement clouds judgement' },
+food: ['Whole Foods in the background, where Ravi sells rugs from a truck.'],
+refs: [['County homicide units','In many US regions, small municipal forces hand murders to county or state investigators.'],['The Mary Tyler Moore Show','A 1970s sitcom about an independent single woman at work, one of Heidi’s favourites.'],['Breaking Bad','A 2008–13 crime drama about a chemistry teacher turned drug manufacturer; Heidi’s other favourite.'],['Interstate 271','A highway near Beachwood.']],
+questions: [
+ ['Who is Johanna Griffin?',0],
+ ['Why is this scene different from others she has seen?',0],
+ ['Who will take the case?',0],
+ ['Where was Marty?',0],
+ ['Why does Johanna rule out robbery?',0],
+ ['What does Marty ask her to do?',0],
+ ['How does the chapter make Heidi present though she is dead?',0],
+ ['Johanna calls murder an obscenity. What distinguishes it from other deaths?',1],
+ ['Why include Ravi and the rug?',0],
+ ['Is Johanna’s certainty about Marty professional or personal?',1],
+ ['What does the chapter say about jurisdiction and expertise?',0],
+ ['How does Johanna’s voice differ from Adam’s?',0],
+ ['Heidi loved a show about a single woman and a show about a criminal. What does that say about her?',0],
+ ['Why does the novel introduce a new investigator now?',0],
+ ['How do readers know more than Johanna?',1],
+ ['What does sitting in Heidi’s chair mean?',0],
+ ['Is Johanna right to resent the county detectives?',0],
+ ['How does the chapter treat Norbert’s excitement?',0],
+ ['What is the effect of the kneecap detail on readers who remember chapter 14?',0],
+ ['How does grief motivate investigation?',1],
+ ['What will Johanna need to discover?',0],
+ ['How does this chapter connect Ohio to New Jersey?',0],
+ ['Is the dark humour about "county dicks" appropriate in a grief scene?',1],
+ ['Compare Johanna and Len Gilman as police chiefs.',1],
+ ['How does the chapter characterise Marty in a few lines?',0],
+ ['What does it mean that Heidi had no enemies?',0],
+ ['How might the stranger’s visit lead to Heidi’s death?',0],
+ ['What is the moral weight of being the one to tell children?',0],
+ ['Who do you think killed Heidi, from the reader’s vantage?',0],
+ ['Predict Johanna’s first lead.',0]
+],
+close: [
+ { cite: 'Chapter 26, opening: Johanna’s reflections on death and murder.', focus: 'The obscenity of murder',
+   steps: ['List the kinds of death she has seen.','Find her description of murder.','Note the turn to the personal.','Find the image of Heidi on the rug.'],
+   ask: 'How does the chapter build from the general to the personal?' },
+ { cite: 'Chapter 26, middle: Johanna’s knowledge of Heidi.', focus: 'A life in details',
+   steps: ['List what Johanna knows about Heidi.','Note the repetition of the rug story.','Find Norbert’s question.','Note her resentment of the county.'],
+   ask: 'Why does the chapter insist on trivial details about Heidi’s life?' },
+ { cite: 'Chapter 26, close: Marty in the kitchen and the county’s arrival.', focus: 'Questions before the experts',
+   steps: ['Note Marty’s state.','List Johanna’s questions.','Find the ring detail.','Note her final resolve.'],
+   ask: 'How does the chapter set up Johanna as an unofficial detective?' }
+],
+lenses: {
+ office: 'A new point-of-view character with a strong, colloquial, Midwestern voice. The chapter uses repetition (the rug, Ravi, the price) as a grief mechanism: Johanna keeps returning to small details because the large one is unbearable.',
+ classroom: 'Murder, grief, jurisdiction, friendship and the limits of institutions. The novel’s secrets now have a body count; the theme shifts from moral to mortal stakes.',
+ records: 'In many US metro areas, small municipal police forces call in county or state investigators for homicides. Beachwood is real; its police chief in the novel is fictional. Heidi’s favourite shows are real.',
+ stacks: 'The friend who investigates outside official channels is a crime-fiction staple, from Agatha Christie’s amateurs to Laura Lippman’s Tess Monaghan. Johanna is a chief working like an amateur.',
+ turnpike: 'Beachwood again: the Dann house, the Whole Foods, Interstate 271, Columbus three hours away. Johanna knows every inch; the county men don’t.',
+ field: 'Partiality again: Johanna’s love for Heidi gives her insight and bias. Should friends investigate friends’ deaths? Professional ethics say no; loyalty says yes.',
+ board: 'A second investigator enters. The reader knows more than she does (Kuntz, the restaurant), creating dramatic irony. Johanna becomes a parallel to Adam.',
+ diner: 'An Oriental rug bought from a truck outside a supermarket: a small comic history now stained. Paint the rug, not the body.',
+ kitchen: 'Johanna sits in Heidi’s own chair at the kitchen table to question Marty, the seat still shaped by her friend. Kitchens recur in this novel as places of interrogation and confession, because they are where families sit facing each other every day.',
+ driveway: 'Johanna keeps thinking about the rug and what Heidi paid for it because the larger fact is unbearable. Write about the small details your mind clung to when you had bad news.'
+},
+acts: {
+ office: [
+  ['New voice','Compare Johanna’s voice with Adam’s and Heidi’s.',20],
+  ['Repetition as grief','Trace the rug detail’s repetitions.',15],
+  ['Restraint','Analyse how the body is described.',15],
+  ['Dark humour','Analyse the humour about county detectives.',15],
+  ['Interview scene','Write a short interview of a grieving spouse.',35],
+  ['Details','Write a paragraph of trivial details that portray a friend.',20],
+  ['Point of view','Rewrite one paragraph from Norbert’s view.',25],
+  ['Ending','Analyse the final resolve.',15],
+  ['Pacing','Compare with chapter 25.',15]
+ ],
+ classroom: [
+  ['Murder','Discuss what makes murder distinct.',25],
+  ['Grief and work','Discuss working through grief.',20],
+  ['Jurisdiction','Discuss institutional limits.',20],
+  ['Friendship','Discuss loyalty after death.',20],
+  ['Stakes','Discuss how the novel’s stakes have changed.',20],
+  ['Theme update','Add "consequences" with new weight.',15],
+  ['Women in authority','Discuss Johanna as a female chief.',20],
+  ['Telling children','Discuss breaking bad news to children.',20],
+  ['Seminar plan','Plan a discussion of Johanna.',25]
+ ],
+ records: [
+  ['Homicide jurisdiction','Research county homicide units in Ohio.',25],
+  ['Beachwood','Research Beachwood.',15],
+  ['Female police chiefs','Research women police chiefs in the US.',20],
+  ['TV shows','Look up the two shows Heidi loved.',15],
+  ['Alibis','Research how alibis are checked.',20],
+  ['Spouse suspicion','Research why spouses are first suspects.',20],
+  ['Rug trade','Research street sales of rugs.',15],
+  ['Death notifications','Research guidance on telling children.',20],
+  ['Crime scenes','Research crime-scene procedure.',20]
+ ],
+ stacks: [
+  ['Lippman','Read about Laura Lippman’s detective novels.',20],
+  ['Christie','Read about Miss Marple as amateur.',20],
+  ['Grief literature','Find a novel narrated by a grieving friend.',20],
+  ['Mystic River','Compare grief and investigation.',25],
+  ['Tana French','Compare personal involvement.',20],
+  ['Breaking Bad','Read about the show’s premise.',15],
+  ['Female detectives','List three female detectives.',15],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain elegy.',15]
+ ],
+ turnpike: [
+  ['Beachwood map','Detail Beachwood: house, Whole Foods, I-271.',20],
+  ['Columbus','Map Marty’s alibi trip.',15],
+  ['Distance','Beachwood to Columbus.',15],
+  ['Mapping journal','Add chapter 26.',15],
+  ['Case map','Link Heidi’s death to the stranger’s visit.',15],
+  ['Johanna’s town','Write about policing your hometown.',20],
+  ['County seat','Find Cuyahoga County’s seat.',15],
+  ['Neighbours','Map Heidi’s friends.',15],
+  ['Danger map','Update.',15]
+ ],
+ field: [
+  ['Unofficial investigation','Use the Dilemma scale.',15],
+  ['Bias','Can love be evidence?',20],
+  ['Five lenses','Apply the lenses to Johanna’s choice.',30],
+  ['Stranger’s responsibility','Is the stranger responsible for Heidi’s death?',25],
+  ['Court','Update Heidi’s case in the court tool.',15],
+  ['Duty to tell','Discuss telling the children.',15],
+  ['Murder','Why is murder uniquely wrong?',20],
+  ['Institutions','When should you work around institutions?',20],
+  ['Personal','Write about grief and duty.',20]
+ ],
+ board: [
+  ['Second detective','Pin Johanna.',15],
+  ['Dramatic irony','List what we know that she doesn’t.',15],
+  ['Clues','Pin the kneecap and the ring.',15],
+  ['Scene','Write a 300-word first-homicide scene.',40],
+  ['Suspicion meter','Rate Marty.',15],
+  ['Strand braid','Add the Heidi strand.',15],
+  ['Parallel','Compare Johanna and Adam.',15],
+  ['Tension curve','Rate.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['The rug','Paint an Oriental rug pattern.',35],
+  ['Truck','Draw Ravi’s rug truck.',20],
+  ['Portrait','Draw Johanna in her ill-fitting uniform.',20],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for Heidi.',15],
+  ['Nail polish','Design weird nail colours for Heidi.',15],
+  ['Kitchen','Paint a kitchen with a grieving man.',30],
+  ['Sound','Describe a crime scene’s quiet.',15],
+  ['Cover brief','Add the rug.',15]
+ ],
+ kitchen: [
+  ['Casserole','Cook a casserole for a grieving family.',45],
+  ['Ledger notebook','Record Heidi’s case.',15],
+  ['Secrets box','Add "who killed Heidi?"',15],
+  ['Table talk','Ask: how do we honour friends?',25],
+  ['Bridge night','Play bridge or cards in Heidi’s honour.',60],
+  ['Making: memory box','Make a memory box for a friend.',40],
+  ['Recipe of grief','Write a recipe.',15],
+  ['Tea','Make tea for someone in shock.',15],
+  ['Chair','Discuss the empty chair.',15]
+ ],
+ driveway: [
+  ['Small details','Write about details you clung to.',20],
+  ['Friend','Write about a friend who made you feel special.',20],
+  ['Mood dial','Rate dread.',15],
+  ['Prediction','Johanna’s first lead?',15],
+  ['Letter to Heidi','Write to Heidi.',20],
+  ['Letter to Johanna','Write to Johanna.',15],
+  ['Grief','Write about grief and work.',20],
+  ['Home town','Write about your town.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 26 change the novel’s stakes and tone? Discuss Johanna Griffin as a new point of view.',
+ 'Essay: Analyse the role of small details (the rug, the ring, the shows) in characterising Heidi after her death.',
+ 'Creative: Write Johanna telling Kimberly the news.'
+],
+reading: [
+ ['mystic','Grief and investigation in a close community.'],
+ ['deadknow','A detective and a family’s long secret.'],
+ ['inthewoods','A detective too close to the case.'],
+ ['gonebaby','Investigators working against the odds.'],
+ ['bigsleep','The detective as moral witness.'],
+ ['simpleart','What crime fiction owes the dead.'],
+ ['goneforgood','Coben on murder in an ordinary family.'],
+ ['sixyears','Coben on grief and pursuit.'],
+ ['lottery','A friendly community and sudden violence.']
+],
+projects: [
+ { t: 'Johanna’s File', rooms: ['board','records','turnpike'], steps: ['Pin Johanna and the clues.','Research jurisdiction.','Map Beachwood.','Track her from now on.'] },
+ { t: 'In Memory of Heidi', rooms: ['kitchen','diner','driveway'], steps: ['Play cards.','Paint the rug.','Write a letter.','Make a memory box.'] },
+ { t: 'Grief and Duty', rooms: ['field','classroom','driveway'], steps: ['Use the Dilemma scale.','Discuss.','Write privately.','Verdict.'] },
+ { t: 'Second Detective', rooms: ['office','stacks','board'], steps: ['Compare voices.','Read about amateur detectives.','Write a scene.','Pin parallels.'] },
+ { t: 'Consequences', rooms: ['field','board','classroom'], steps: ['Trace the chain from the stranger to the murder.','Debate responsibility.','Use the court tool.','Write.'] },
+ { t: 'Telling the Children', rooms: ['classroom','records','driveway'], steps: ['Research guidance.','Discuss.','Write the scene.','Reflect.'] }
+],
+quiz: [
+ ['What is Johanna’s job?', ['Detective','Police chief of Beachwood','FBI agent','Coroner'], 1],
+ ['Where did Heidi buy the rug?', ['A department store','From Ravi’s truck outside Whole Foods','Online','In Turkey'], 1],
+ ['Where was Marty?', ['At work','At a convention in Columbus','In New York','At home'], 1],
+ ['Why isn’t it a robbery?', ['The door was locked','Her ring was still on her finger','Nothing was in the house','The dog barked'], 1],
+ ['Who will take the case?', ['The FBI','The county','Johanna','The state'], 1]
+]
+};

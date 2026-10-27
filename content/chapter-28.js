@@ -1,0 +1,225 @@
+CF.CH = CF.CH || {};
+CF.CH[28] = {
+n: 28, title: 'The Forty-Yard Dash', pov: 'Dan', when: 'A recruiting combine', strands: ['stranger','victims'], places: ['sparta'],
+summary: [
+ 'Dan Molino, a big ex-linebacker who runs a small furniture-delivery business from Sparta, New Jersey, stands in the bleachers trying not to cry. He always cries at his children’s triumphs and hides it behind sunglasses and excuses; his wife Carly, whom he thinks married beneath her, loves him for it. His son Kenny, a 285-pound high-school senior, is about to run the forty-yard dash at a football combine. A time under 5.2 seconds would clinch a full scholarship; big programmes are watching, even Notre Dame.',
+ 'A small, nerdy man in a too-big baseball cap, plainly not a football person, asks if Dan knows. Kenny runs a personal-best 5.07, and Dan’s tears, for once, won’t come. The stranger hands him a manila envelope. Kenny gained fifty-five pounds in a year; it wasn’t puberty and hard work. It was steroids, bought on the hidden online marketplace Silk Road with bitcoin, the purchases traceable to the family computer’s IP address. Every trophy since junior year is tainted.',
+ 'The stranger asks for ten thousand dollars, once, a bargain, he notes, given college costs. He sketches what exposure would mean: the scouts, the pub where everyone slaps Dan’s back, what the town would think of Carly. Kenny jogs over, beaming, looking for his father’s approval. The stranger tells Dan to look at the envelope at home, and meanwhile to enjoy this special moment with his son.'
+],
+beats: [
+ 'Dan Molino in the bleachers: a crier who hides it.',
+ 'His business, his marriage to Carly, his three children.',
+ 'Kenny, 285 pounds, needs under 5.2 in the forty.',
+ 'The stranger appears and asks whether Dan already knows.',
+ 'Kenny runs 5.07; Dan’s tears don’t come.',
+ 'The envelope: steroids from Silk Road, paid in bitcoin, traceable to the home IP.',
+ 'Ten thousand dollars, once.',
+ 'The threat to Dan’s standing, and to Carly.',
+ 'Kenny arrives; the stranger tells Dan to savour the moment.'
+],
+cast: [['Dan Molino','A soft-hearted big man, proud father, small-business owner.'],['Kenny Molino','A senior football prospect, devoted son, secret steroid user.'],['Carly Molino','Dan’s wife, née Applegate.'],['The stranger','Small, nerdy, out of place, smiling.'],['Eddie Thompson','Carly’s wealthy former admirer, whose family owns fast-food franchises (mentioned).']],
+motifs: ['secrets','sport','money','parenting','fatherhood','technology','lies','class'],
+secrets: [['Kenny Molino','He has used performance-enhancing drugs since junior year.','Revealed to his father'],['The stranger','His fee and method.','Shown again'],['Dan','His tears, and his insecurity about Carly.','Kept']],
+clues: ['The stranger again asks for $10,000, once.','He has data from Silk Road, including IP addresses.','He approaches in person, at moments of triumph.','He mentions college costs: he knows the family’s situation.'],
+dilemma: { q: 'Should a parent who discovers a child has cheated with drugs report it, even if it costs a scholarship?', a: 'Yes: the truth matters more', b: 'No: protect the child’s future' },
+food: [],
+refs: [['Forty-yard dash','A standard sprint test for American football prospects; times near or under 5 seconds are prized for big linemen.'],['Silk Road','A hidden online marketplace on the Tor network (2011–2013) where drugs were sold for bitcoin; the FBI shut it down in 2013.'],['Winstrol, Anadrol, Deca-Durabolin','Brand names of anabolic steroids.'],['Notre Dame','A Catholic university in Indiana with a storied football programme.'],['Combine','A showcase where athletes perform standard tests before scouts.']],
+questions: [
+ ['Who is Dan Molino?',0],
+ ['Why does he wear sunglasses?',0],
+ ['What time does Kenny need, and what does he run?',0],
+ ['What is in the envelope?',0],
+ ['How much does the stranger ask for?',0],
+ ['What does the stranger say about Carly?',0],
+ ['Why do Dan’s tears stop when the stranger appears?',0],
+ ['Did Dan know, on some level? The stranger thinks so.',1],
+ ['Is the stranger cruel to choose this moment?',1],
+ ['How does the novel present Dan’s soft-heartedness?',0],
+ ['What does Dan’s insecurity about Carly reveal?',0],
+ ['Is a scholarship won with steroids stolen from another boy?',1],
+ ['Should Dan pay?',1],
+ ['What does the stranger’s parting advice to savour the moment suggest about him?',0],
+ ['How does this case differ from Heidi’s and Suzanne’s?',0],
+ ['How does the chapter use sport as a mirror of the lacrosse world?',0],
+ ['Why is the stranger described as small and out of place?',0],
+ ['What does the reference to college costs reveal?',0],
+ ['How does technology betray Kenny?',0],
+ ['What would you do as Dan?',1],
+ ['Is the stranger targeting wrongdoing or vulnerability?',0],
+ ['What does the "pub" detail show about small-town status?',0],
+ ['How does Kenny’s devotion to his father complicate the moral picture?',0],
+ ['Why might the novel keep showing these other cases?',0],
+ ['Compare Dan and Bob Baime as sports fathers.',0],
+ ['Is doping in high-school sport common, and does that matter morally?',0],
+ ['How is timing used for drama?',0],
+ ['What does the stranger know that worries you?',0],
+ ['Do you think Dan will pay?',1],
+ ['Predict the consequences.',0]
+],
+close: [
+ { cite: 'Chapter 28, opening: Dan’s tears and his marriage.', focus: 'A soft giant',
+   steps: ['Find Dan’s tear habit and his cover stories.','Note his view of Carly’s choice.','Find the background on his business.','Note Kenny’s character.'],
+   ask: 'How does Coben make us like Dan before the blow?' },
+ { cite: 'Chapter 28, middle: the race.', focus: 'Time slowing',
+   steps: ['Find the stranger’s first words.','Note Dan’s reaction.','Read the race description.','Find the missing tears.'],
+   ask: 'How does the race scene combine triumph and dread?' },
+ { cite: 'Chapter 28, close: the envelope and the stranger’s parting words.', focus: 'Blackmail at a celebration',
+   steps: ['List the drugs and the evidence.','Note the demand.','Find the threat to Carly.','Read the parting words.'],
+   ask: 'Is the stranger’s parting advice kindness or cruelty?' }
+],
+lenses: {
+ office: 'Another victim POV, deftly characterised: Dan’s tears, his sunglasses, his sense of having married above himself. The race is written in slow motion with an aside about time slowing during new experiences. The final line pairs tenderness and menace.',
+ classroom: 'Cheating, parental complicity, the cost of college, and blackmail at the moment of triumph. The sports world here mirrors the lacrosse world of Cedarfield: scholarships and status corrupt.',
+ records: 'Silk Road operated from 2011 until the FBI shut it in 2013; drugs were bought with bitcoin. Anabolic steroid use among US high-school athletes has been documented by surveys. Forty-yard dash times are central to football recruiting.',
+ stacks: 'Doping scandals and the fathers who push sons echo throughout sports fiction and journalism; Nick Bilton’s American Kingpin tells the real Silk Road story.',
+ turnpike: 'Sparta, a lake town in Sussex County, north-west New Jersey; a combine at a stadium somewhere; the scouts’ universities far away. Dan’s world is local; Kenny’s chance is national.',
+ field: 'Is a scholarship won by doping theft from another child? Should a father report his son? Love and fairness collide. The stranger’s fee makes the dilemma worse: silence can be bought.',
+ board: 'A third blackmail case confirms the pattern and shows the stranger working alone, which may matter. The chapter deepens our sense of the operation’s reach.',
+ diner: 'A big man weeping behind sunglasses in bleachers: tender and comic. Paint the sunglasses with the race reflected in them.',
+ kitchen: 'Kenny gained fifty-five pounds; the official story was eating and lifting. Bodies are fed and built, and the line between nutrition and doping is the secret here.',
+ driveway: 'Dan’s tears refuse to come at the moment he has dreamed of. Write about a moment you had waited for that was spoiled by something only you knew.'
+},
+acts: {
+ office: [
+  ['Character in habits','Analyse Dan’s crying habit as characterisation.',15],
+  ['Slow motion','Write a 150-word slow-motion sports moment.',25],
+  ['Juxtaposition','Analyse triumph and blackmail side by side.',15],
+  ['Stranger’s language','Compare the stranger’s lines here and in chapter 8.',20],
+  ['Ending','Analyse the parting line.',15],
+  ['Point of view','Rewrite from Kenny’s view.',30],
+  ['Detail','Analyse the drug names as realism.',15],
+  ['Insecurity','Write about Dan’s view of Carly.',15],
+  ['Pacing','Compare with chapter 27.',15]
+ ],
+ classroom: [
+  ['Cheating','Discuss cheating in youth sport.',25],
+  ['Complicity','Did Dan know?',20],
+  ['College costs','Discuss scholarship pressure.',20],
+  ['Timing','Discuss cruelty of timing.',20],
+  ['Masculine tears','Discuss men crying.',20],
+  ['Theme update','Add "cheating".',15],
+  ['Pattern','Discuss the stranger’s pattern.',20],
+  ['Status','Discuss local fame.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Silk Road','Research Silk Road and its shutdown.',25],
+  ['Teen steroids','Find survey data on teen steroid use.',20],
+  ['Recruiting','Research football recruiting combines.',20],
+  ['Forty-yard dash','Look up typical lineman times.',15],
+  ['Bitcoin','Read a basic explainer.',15],
+  ['Sparta NJ','Research Sparta.',15],
+  ['Scholarships','Research athletic scholarships.',20],
+  ['Steroid health risks','Read a reliable health source.',20],
+  ['Delivery businesses','Research small delivery firms vs chains.',15]
+ ],
+ stacks: [
+  ['American Kingpin','Read an excerpt.',35],
+  ['Sports doping writing','Find a reputable book or long article on doping.',25],
+  ['Friday Night Lights','Read about H. G. Bissinger’s 1990 book on high-school football.',20],
+  ['Fathers and sons','Revisit Death of a Salesman.',20],
+  ['Milverton','Compare blackmail at a celebration.',15],
+  ['Game On','Read on youth sport pressures.',25],
+  ['Ariely','Read on cheating.',25],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about a runner (Housman’s "To an Athlete Dying Young").',15]
+ ],
+ turnpike: [
+  ['Sparta','Pin Sparta.',15],
+  ['Stadium','Imagine the combine location.',15],
+  ['Colleges','Map Alabama, Ohio State, Penn State, Notre Dame.',20],
+  ['Case map','Add Dan.',15],
+  ['Mapping journal','Add chapter 28.',15],
+  ['Delivery routes','Map Dan’s delivery area.',15],
+  ['Lake town','Write about lake towns.',15],
+  ['Distance','Sparta to Cedarfield.',15],
+  ['Pub','Imagine O’Malley’s.',15]
+ ],
+ field: [
+  ['Report or protect?','Use the Dilemma scale.',15],
+  ['Court','Rule on Dan’s case.',20],
+  ['Five lenses','Apply the lenses to paying.',30],
+  ['Fairness','Write 300 words on the scholarship and the boy who lost it.',35],
+  ['Timing','Is cruel timing a moral wrong?',15],
+  ['Complicity','Is willful blindness culpable?',20],
+  ['Fee','Is a modest fee better than a large one?',15],
+  ['Ring of Gyges','Did anonymity enable Kenny?',15],
+  ['Personal','Write about protecting a child from consequences.',20]
+ ],
+ board: [
+  ['Pattern','Pin the third case.',15],
+  ['Alone','Note the stranger works alone here.',15],
+  ['Scene','Write a 300-word blackmail-at-a-celebration scene.',40],
+  ['Suspicion meter','Rate Dan and the stranger.',15],
+  ['Strand braid','Add victims strand.',15],
+  ['Plant','Pin the absence of Ingrid.',15],
+  ['Tension curve','Rate.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Sunglasses','Paint sunglasses reflecting a race.',30],
+  ['Big man','Draw Dan in the bleachers.',20],
+  ['Envelope','Draw the manila envelope.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the dash.',15],
+  ['Trophies','Paint a shelf of trophies, one cracked.',25],
+  ['Stopwatch','Design a stopwatch reading 5.07.',15],
+  ['Sound','Describe a starter’s gun.',15],
+  ['Cover brief','Add the envelope.',15]
+ ],
+ kitchen: [
+  ['Training table','Cook a high-protein athlete’s meal and discuss bodies.',40],
+  ['Ledger notebook','Record $10,000.',15],
+  ['Secrets box','Add Kenny’s secret.',15],
+  ['Table talk','Ask: would you report your child?',25],
+  ['Making: two-faced portrait','Draw Kenny the hero and Kenny the cheat.',30],
+  ['Victory dinner','Plan a victory dinner and discuss its new meaning.',20],
+  ['Supplements','Discuss legal supplements vs drugs.',20],
+  ['Recipe of cheating','Write a recipe.',15],
+  ['Pub snacks','Make pub snacks and discuss local fame.',30]
+ ],
+ driveway: [
+  ['Spoiled moment','Write about a spoiled moment.',20],
+  ['Tears','Write about crying in public.',20],
+  ['Mood dial','Rate sympathy.',15],
+  ['Prediction','Will Dan pay?',15],
+  ['Letter to Kenny','Write from Dan.',20],
+  ['Letter to Dan','Write to Dan.',15],
+  ['Pride','Write about pride in a child.',15],
+  ['Cheating','Write about a time you cut a corner.',20],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: Compare the stranger’s approach to Dan Molino with his approaches to Heidi and Suzanne. What patterns emerge?',
+ 'Essay: Discuss the ethics of youth sport in the novel, from the lacrosse draft to Kenny’s steroids.',
+ 'Creative: Write the conversation between Dan and Kenny that night.'
+],
+reading: [
+ ['kingpin','The real story of Silk Road and its founder.'],
+ ['gameon','The pressures of youth sport.'],
+ ['salesman','A father, a son, and the gap between image and truth.'],
+ ['ariely','Why cheating spreads and how we justify it.'],
+ ['milverton','Blackmail and its victims.'],
+ ['playingtowin','Competition and parental investment.'],
+ ['boksecrets','When to reveal a child’s secret.'],
+ ['dealbreaker','Coben’s sports-world intrigue.'],
+ ['scorecasting','The hidden forces in sporting outcomes.']
+],
+projects: [
+ { t: 'Cheating and Sport', rooms: ['classroom','records','field'], steps: ['Research teen steroid use.','Discuss.','Use the Dilemma scale.','Verdict.'] },
+ { t: 'The Stranger’s Pattern', rooms: ['board','turnpike','field'], steps: ['Pin all cases.','Map them.','Compare methods.','Write a profile.'] },
+ { t: 'Silk Road', rooms: ['records','stacks','classroom'], steps: ['Research.','Read Bilton.','Discuss the dark web.','Write a note.'] },
+ { t: 'Fathers in the Stands', rooms: ['driveway','diner','classroom'], steps: ['Compare Dan and Bob.','Paint the bleachers.','Write privately.','Discuss.'] },
+ { t: 'Victory Dinner', rooms: ['kitchen','field','office'], steps: ['Cook.','Discuss reporting.','Analyse the ending.','Write.'] },
+ { t: 'Housman’s Athlete', rooms: ['stacks','diner','driveway'], steps: ['Read the poem.','Paint the trophy shelf.','Discuss glory.','Reflect.'] }
+],
+quiz: [
+ ['What does Dan do for a living?', ['Coaching','Furniture delivery','Insurance','Law'], 1],
+ ['What time does Kenny run?', ['5.3','5.07','4.5','6.0'], 1],
+ ['What did Kenny take?', ['Painkillers','Steroids','Stimulants','Nothing'], 1],
+ ['Where did he buy them?', ['A gym','Silk Road','A doctor','A friend'], 1],
+ ['How much does the stranger ask?', ['$5,000','$10,000','$100,000','$1,000'], 1]
+]
+};

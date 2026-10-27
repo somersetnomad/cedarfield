@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[27] = {
+n: 27, title: 'Friends and Neighbors', pov: 'Adam', when: 'That evening', strands: ['adam','lacrosse'], places: ['cedarfield'],
+summary: [
+ 'Len Gilman asks whether the boys are home. He looks less like a police chief than an ageing biker, with a nicotine-stained handlebar moustache and furry forearms. The five men stand on the curb, absurdly, until Len leads them inside. Jersey the dog offers a muted greeting and slinks off. Len takes Adam’s armchair; the other three line up on the couch like the three wise monkeys. Adam stays standing. Two feelings hit him at once: relief, because if Corinne were hurt Len would know where she was; and fear, because whatever this is, it’s bad.',
+ 'Len insists he’s here as a friend and neighbour, not as police chief. They are looking for Corinne. She missed a board meeting and hasn’t answered texts, emails or calls; Len even went to the school and spoke to the principal. Adam recognises the cop technique of waiting in silence for the subject to fill it. Tripp, as president, finally says it: there are discrepancies in the lacrosse finances. Bob snaps that money is missing. Cal nods.',
+ 'Len plays Mr Reasonable: if the books are made whole, it stays in the room. No questions. Adam, through his fear, feels disgust: organisations always cover up for the greater good. How much is missing? Confidential. You can’t think Corinne would… Right now they just need to talk to her. Where is she? The lawyer in Adam takes over; he has warned too many clients not to talk. He tells them to leave.'
+],
+beats: [
+ 'Len asks if the boys are home; his biker look.',
+ 'Five men on the curb; inside, Jersey slinks away.',
+ 'Len takes Adam’s chair; the three monkeys on the couch.',
+ 'Relief and fear.',
+ '"Friend and neighbour", not police chief.',
+ 'Corinne missed the board meeting; Len went to the school.',
+ 'The cop’s silence technique.',
+ 'Tripp: discrepancies in the finances. Bob: money missing.',
+ 'Make the books whole and it stays in the room.',
+ 'Adam’s disgust at cover-ups; lawyer’s instinct; "leave".'
+],
+cast: [['Len Gilman','Police chief playing neighbour.'],['Tripp Evans','President, reluctant spokesman.'],['Bob Baime','Vice-president, aggressive.'],['Cal Gottesman','Secretary, nervous.'],['Adam Price','Relieved, afraid, then guarded.'],['Tom Gorman','The school principal (offstage).']],
+motifs: ['money','justice','community','secrets','sport','lies','surveillance'],
+secrets: [['The board','Money is missing from the lacrosse accounts.','Revealed to Adam'],['The board','How much is missing.','Withheld'],['Corinne','Whether she took it.','Unknown']],
+clues: ['Money is missing from the lacrosse funds; Corinne is treasurer.','The board wants the money returned quietly.','The amount is "very" large but confidential.','Len visited the school and spoke to the principal.','Bob is the most aggressive; Tripp speaks for the group.'],
+dilemma: { q: 'Should an organisation handle a suspected theft privately if the money is returned?', a: 'Yes: protect the community and the person', b: 'No: wrongdoing should be reported' },
+food: [],
+refs: [['Three wise monkeys','The proverbial see-no-evil, hear-no-evil, speak-no-evil trio.'],['Member at large','A board member without a specific office.'],['Right to silence','The constitutional protection against self-incrimination, which Adam has advised clients to use.']],
+questions: [
+ ['Why have the four men come?',0],
+ ['What roles do they hold on the board?',0],
+ ['What does Len say about why he is there?',0],
+ ['What is missing?',0],
+ ['What deal do they offer?',0],
+ ['How does Adam respond?',0],
+ ['Is Len really there "as a friend"? Can a police chief ever be off duty?',1],
+ ['Why does Len take Adam’s chair?',0],
+ ['Why does Adam feel relief and fear?',0],
+ ['Is the offer to keep it quiet generous or corrupt?',1],
+ ['Why does Adam feel disgust?',0],
+ ['Is Adam right not to tell them where she is (which he doesn’t know anyway)?',0],
+ ['What does the cop technique of silence reveal?',0],
+ ['How do the three men on the couch behave?',0],
+ ['Does Corinne’s secret pregnancy make the theft charge more believable?',1],
+ ['How does the chapter link the lacrosse board to Corinne’s disappearance?',0],
+ ['What does "board confidentiality" now mean?',0],
+ ['Is Adam acting like a husband or a lawyer?',1],
+ ['How does the dog respond, and why mention it?',0],
+ ['What does Len’s visit to the school show about small towns?',0],
+ ['How does the chapter treat institutional power?',0],
+ ['Compare this group visit with the stranger’s solo visits.',0],
+ ['Who seems most hostile, and why?',0],
+ ['What would you do in Adam’s place?',1],
+ ['How does this change your theory about Corinne?',0],
+ ['Is it plausible Corinne stole money?',1],
+ ['What does "it stays in this room" remind you of?',0],
+ ['How might the missing money relate to the fake pregnancy?',0],
+ ['How does the chapter use the living room as a stage?',0],
+ ['Predict how much is missing.',0]
+],
+close: [
+ { cite: 'Chapter 27, opening: the men entering the house.', focus: 'Taking the room',
+   steps: ['Note Len’s appearance.','Note the dog’s reaction.','Find who sits where.','Find Adam’s double reaction.'],
+   ask: 'How does the chapter show power through seating and movement?' },
+ { cite: 'Chapter 27, middle: Len’s "friend and neighbour" speech and the silence.', focus: 'Two hats',
+   steps: ['Find Len’s disclaimer.','Find his account of visiting the school.','Note his use of silence.','Note Adam’s recognition of it.'],
+   ask: 'How does Len try to be two things at once, and does it work?' },
+ { cite: 'Chapter 27, close: the accusation and the offer.', focus: 'The cover-up offer',
+   steps: ['Find who speaks the accusation.','Note the offer’s terms.','Find Adam’s reflection on organisations.','Read his final line.'],
+   ask: 'Why does Adam respond as a lawyer rather than a husband?' }
+],
+lenses: {
+ office: 'A scene of power choreography: who enters first, who sits where, who speaks, who stays silent. The comic image of three men on a couch as the wise monkeys undercuts the menace. Watch the dialogue alternate between Len’s smoothness and Bob’s snaps.',
+ classroom: 'Institutions and cover-ups; friendship as a mask for authority; the presumption of guilt. The novel connects the private lie (pregnancy) to a public accusation (theft), testing how one colours the other.',
+ records: 'Embezzlement from volunteer youth sports organisations is a real and recurring problem, often by trusted treasurers; many cases end with quiet repayment. The right to silence is protected by the Fifth Amendment.',
+ stacks: 'The genial authority figure who promises it will stay in the room recurs in crime fiction. Tripp’s earlier speeches and this scene recall Miller’s All My Sons, where community loyalty shades into complicity.',
+ turnpike: 'The novel’s map contracts to a single living room: armchair, couch, front door, a dog’s path to the kitchen. Yet the whole town has come inside with these four men: the league, the police, the school and the neighbours, all mapped onto Adam’s furniture.',
+ field: 'Is private resolution of wrongdoing mercy or corruption? Restorative justice values repair; rule-of-law values accountability. The board’s offer sits between.',
+ board: 'A major new plot thread: missing money, with Corinne as suspect. It retroactively explains Tripp’s visit. The board members now form a suspect pool.',
+ diner: 'Three men in a row on a couch, one sprawled in the host’s armchair, the host himself left standing: a group portrait that is also a diagram of power. Paint it, and decide where the light falls and who is in shadow.',
+ kitchen: 'Adam offers no drinks, no coffee, no seat. In a town where hospitality is a reflex, withholding it is a statement: this is not a social call, whatever Len claims, and Adam will not pretend it is.',
+ driveway: 'Adam’s first feeling is relief: if they’re asking where Corinne is, she isn’t dead. Write about a time bad news came as a relief because it wasn’t the worst news.'
+},
+acts: {
+ office: [
+  ['Choreography','Diagram the movements and seating.',20],
+  ['Monkeys','Analyse the comic image.',15],
+  ['Dialogue roles','Assign each speaker a role (smooth, snappy, silent).',15],
+  ['Silence','Write a scene where silence is a tactic.',30],
+  ['Relief and fear','Analyse the double reaction.',15],
+  ['Point of view','Rewrite from Cal’s POV.',30],
+  ['Ending','Analyse "leave".',15],
+  ['Repetition','Note repeated "friend and neighbour".',15],
+  ['Pacing','Compare with chapter 25.',15]
+ ],
+ classroom: [
+  ['Cover-ups','Discuss organisational cover-ups.',25],
+  ['Two hats','Discuss conflicts of role.',20],
+  ['Presumption','Discuss presumption of guilt.',20],
+  ['Private lie, public charge','Does one lie make another believable?',25],
+  ['Silence','Discuss the right to silence.',20],
+  ['Theme update','Add "institutions".',15],
+  ['Small towns','Discuss everyone knowing everyone.',20],
+  ['Volunteer power','Revisit volunteer boards.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Youth sports embezzlement','Research real cases of treasurers embezzling from youth leagues.',30],
+  ['Restorative justice','Research restorative justice.',20],
+  ['Fifth Amendment','Research the right to silence.',15],
+  ['Board roles','Research nonprofit board officer duties.',20],
+  ['Police ethics','Research off-duty conduct rules.',15],
+  ['Three monkeys','Look up the proverb’s origins (Japan).',15],
+  ['Principals','Research principal confidentiality.',15],
+  ['Forensic accounting','Research how missing funds are traced.',20],
+  ['Audits','Research audits of small nonprofits.',15]
+ ],
+ stacks: [
+  ['All My Sons','Revisit community complicity.',25],
+  ['Enemy of the People','Revisit town interest.',20],
+  ['Embezzlement fiction','Find a novel about embezzlement.',20],
+  ['Ariely','Read on everyday dishonesty.',25],
+  ['Bok','Read Bok on secrecy in institutions.',25],
+  ['The Corrections','Compare family and money.',15],
+  ['Caught','Compare Coben’s community accusations.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about suspicion.',15]
+ ],
+ turnpike: [
+  ['Living room','Sketch the room with positions.',20],
+  ['Board homes','Map the four men’s houses.',15],
+  ['School','Mark Len’s visit.',15],
+  ['Mapping journal','Add chapter 27.',15],
+  ['Lacrosse fields','Mark the turf fields the money funded.',15],
+  ['Bank','Imagine where the league banks.',15],
+  ['Neighbourhood','Map who can see the Price curb.',15],
+  ['Status ladder','Rank the four men.',15],
+  ['Town hall','Mark the police station.',15]
+ ],
+ field: [
+  ['Private resolution','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to the offer.',30],
+  ['Presumption','Write 300 words on presumption of guilt.',35],
+  ['Role conflict','Is Len’s visit improper?',20],
+  ['Silence','Is Adam right to stay silent?',20],
+  ['Loyalty','What does Adam owe Corinne here?',20],
+  ['Court','Begin a case file on the money.',15],
+  ['Institutions','When do institutions deserve trust?',20],
+  ['Personal','Write about being accused.',20]
+ ],
+ board: [
+  ['New thread','Pin the missing money.',15],
+  ['Suspects','Pin the four men and Corinne.',15],
+  ['Retroactive','Revisit Tripp’s earlier visit.',15],
+  ['Scene','Write a 300-word accusation scene.',40],
+  ['Suspicion meter','Rate all four men.',15],
+  ['Timeline','Add the board meeting.',15],
+  ['Strand braid','Note the lacrosse strand.',15],
+  ['Tension curve','Rate.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Group portrait','Paint the living-room tableau.',40],
+  ['Monkeys','Draw the three monkeys as the board.',20],
+  ['Moustache','Draw Len.',15],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for the accusation.',15],
+  ['Ledger art','Design a page of a doctored ledger.',20],
+  ['Sound','Describe a deliberate silence.',15],
+  ['Dog','Draw Jersey slinking away.',15],
+  ['Cover brief','Add a ledger.',15]
+ ],
+ kitchen: [
+  ['Hospitality withheld','Discuss refusing hospitality.',15],
+  ['Ledger notebook','Start a page on the lacrosse money.',15],
+  ['Secrets box','Add the missing money.',15],
+  ['Table talk','Ask: would you keep it quiet?',25],
+  ['Making: ledger','Bind a second ledger signature for the league’s accounts.',40],
+  ['Bake sale','Discuss bake sales and volunteer funds.',15],
+  ['Budget','Draft a youth league budget.',25],
+  ['Recipe of a cover-up','Write a recipe.',15],
+  ['Coffee for five','Discuss what you’d serve and why.',15]
+ ],
+ driveway: [
+  ['Relief','Write about relief that it wasn’t the worst.',20],
+  ['Accused','Write about being suspected.',20],
+  ['Mood dial','Rate trust in Corinne.',15],
+  ['Prediction','Did Corinne take it?',15],
+  ['Letter to Len','Write to Len.',15],
+  ['Letter to Corinne','Write about the money.',15],
+  ['Silence','Write about choosing silence.',20],
+  ['Neighbours','Write about neighbours as judges.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: Analyse the power dynamics of the living-room scene in chapter 27.',
+ 'Essay: How does the accusation of theft interact with what we already know of Corinne’s deception?',
+ 'Creative: Write the board meeting Corinne missed, from Cal’s minutes.'
+],
+reading: [
+ ['allmysons','Community, money and complicity.'],
+ ['ariely','How ordinary people rationalise taking a little.'],
+ ['enemy','A town’s leaders protecting the town’s interest.'],
+ ['boksecrets','Secrecy in institutions.'],
+ ['caught','Accusation and reputation in a suburb.'],
+ ['corrections','Families, money and shame.'],
+ ['sandel','Justice, fairness and repair.'],
+ ['lottery','The community that turns on one of its own.'],
+ ['putnam','The volunteer life of American towns.']
+],
+projects: [
+ { t: 'The Lacrosse Money', rooms: ['board','records','field'], steps: ['Pin the thread.','Research youth-league embezzlement.','Start a case file.','Debate private resolution.'] },
+ { t: 'Power in a Room', rooms: ['office','diner','turnpike'], steps: ['Diagram the room.','Paint it.','Write a scene.','Discuss.'] },
+ { t: 'Cover-ups', rooms: ['classroom','stacks','field'], steps: ['Discuss.','Read All My Sons again.','Apply lenses.','Write.'] },
+ { t: 'Suspect Pool', rooms: ['board','classroom','driveway'], steps: ['Rate the men.','Discuss motives.','Predict.','Reflect.'] },
+ { t: 'League Budget', rooms: ['kitchen','records','board'], steps: ['Draft a budget.','Research audits.','Discuss.','Bind the ledger.'] },
+ { t: 'Two Hats', rooms: ['field','classroom','records'], steps: ['Research police ethics.','Discuss.','Use the Dilemma scale.','Verdict.'] }
+],
+quiz: [
+ ['Who does the talking for the group?', ['Bob','Len Gilman','Cal','Tripp only'], 1],
+ ['What role does Cal have on the board?', ['President','Secretary','Treasurer','VP'], 1],
+ ['What do they say is wrong?', ['A fight','Discrepancies in the lacrosse finances','A coach’s record','The draft'], 1],
+ ['What do they offer?', ['Immunity','If the money is returned, it stays in the room','A reward','Nothing'], 1],
+ ['What does Adam tell them?', ['Where she is','To leave','He’ll pay','To call a lawyer'], 1]
+]
+};
