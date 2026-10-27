@@ -1,0 +1,228 @@
+CF.CH = CF.CH || {};
+CF.CH[48] = {
+n: 48, title: 'Lake Charmaine', pov: 'Adam', when: 'That evening', strands: ['adam','stranger'], places: ['skyline','dingmans'],
+summary: [
+ 'The tail takes Adam along Skyline Drive in the Ramapo Mountains. He thinks of the region’s legends: the Ramapough Lenape people, whose origins are debated, and the derogatory name outsiders once used for them; the ghost stories teenagers told about these roads. Myths have power. Gabrielle drives on via Route 23 and over the Dingmans Ferry Bridge into Pennsylvania. Adam’s phone battery is at 10 per cent.',
+ 'A sign: LAKE CHARMAINE – PRIVATE, at the end of a dirt drive. Adam leaves his car and walks the overgrown path. A buck watches him. The lake is still. Corinne loved lakes; the ocean frightened her. Before the boys, they would rent a cottage on a lake up in the north of Passaic County, with a shared hammock where he watched her read with total concentration and smile at the page.',
+ 'He sees a log cabin and Gabrielle’s car. He wishes he were armed; his uncle Greg once took him shooting. Gabrielle stands in a clearing, staring at him. Adam asks where his wife is. Then a bat strikes the back of his head, and again, on his skull.'
+],
+beats: [
+ 'Skyline Drive and the Ramapo Mountains.',
+ 'Legends of the Ramapough Lenape; teenage ghost stories; the power of myth.',
+ 'Route 23; the Dingmans Ferry Bridge into Pennsylvania.',
+ 'Phone at 10 per cent.',
+ 'LAKE CHARMAINE – PRIVATE; a dirt drive.',
+ 'An overgrown path; a buck; a still lake.',
+ 'Memory: Corinne loved lakes; the hammock; her reading.',
+ 'A log cabin; Gabrielle’s car.',
+ 'Wishing he were armed; Uncle Greg.',
+ 'Gabrielle in the clearing.',
+ 'Where’s my wife?',
+ 'A bat to the back of the head, then the skull.'
+],
+cast: [['Adam Price','Alone, unarmed, remembering.'],['Gabrielle Dunbar','In the clearing.'],['Unknown attacker','With a bat.']],
+motifs: ['marriage','identity','violence','community','secrets','truth'],
+secrets: [['The group','Their hideout at Lake Charmaine.','Found by Adam'],['Corinne','Her love of lakes.','Remembered']],
+clues: ['The group’s hideout is a cabin at Lake Charmaine, Pennsylvania.','Adam’s phone is nearly dead.','Someone attacks Adam from behind.'],
+dilemma: { q: 'Adam walks into an unknown place alone, unarmed. Brave or foolish?', a: 'Brave: he had no choice', b: 'Foolish: Johanna warned him' },
+food: ['None: a dangerous walk at dusk.'],
+refs: [['Ramapough Lenape Nation','A Native American community in the Ramapo Mountains of NJ and NY, recognised by New Jersey (1980) though not federally.'],['Skyline Drive (NJ)','A scenic road through the Ramapo Mountains in Passaic County, subject of local ghost lore.'],['Dingmans Ferry Bridge','A privately owned toll bridge over the Delaware River between NJ and PA, one of the last of its kind.'],['Delaware Water Gap National Recreation Area','A protected area along the Delaware River.']],
+questions: [
+ ['What legends does Adam think of on Skyline Drive?',0],
+ ['Where does Gabrielle cross into Pennsylvania?',0],
+ ['What does the sign say?',0],
+ ['What memory does the lake bring?',0],
+ ['What does Adam find?',0],
+ ['What happens to him?',0],
+ ['Why include the legends of Skyline Drive?',1],
+ ['How does the novel handle the Ramapough history?',1],
+ ['What does the memory of Corinne reading reveal?',1],
+ ['Why was Corinne afraid of the ocean but loved lakes?',0],
+ ['What does the buck symbolise?',0],
+ ['How does the chapter build dread?',0],
+ ['Why mention the phone battery?',0],
+ ['Was Adam foolish?',1],
+ ['What does wishing to be armed say about Adam?',0],
+ ['How does the chapter use landscape?',0],
+ ['Why does Gabrielle stand and stare?',0],
+ ['Who attacked Adam?',0],
+ ['How does the chapter end?',0],
+ ['What does myth have to do with the novel?',1],
+ ['How does nature contrast with violence?',0],
+ ['What is the significance of crossing state lines?',0],
+ ['How does this chapter echo earlier memories of Corinne?',0],
+ ['What does "private" mean here?',0],
+ ['How does Adam’s love shape his recklessness?',1],
+ ['What does the hammock memory mean?',0],
+ ['How does the chapter use silence?',0],
+ ['Is the lake a trap?',0],
+ ['What will happen next?',0],
+ ['Predict what the group will do with Adam.',0]
+],
+close: [
+ { cite: 'Chapter 48, opening: Skyline Drive.', focus: 'Myth and road',
+   steps: ['Note the legends.','Note the debate over origins.','Note the ghost stories.','Note the idea about myth.'],
+   ask: 'Why does the novel pause on myth at its moment of greatest danger?' },
+ { cite: 'Chapter 48, middle: the lake memory.', focus: 'Love remembered',
+   steps: ['Note Corinne’s fear of the ocean.','Describe the lake house.','Describe her reading.','Note Adam’s feeling.'],
+   ask: 'How does this memory change our image of Corinne?' },
+ { cite: 'Chapter 48, close: the clearing.', focus: 'Ambush',
+   steps: ['Note the cabin and car.','Note Uncle Greg.','Note Gabrielle’s stare.','Note the blows.'],
+   ask: 'How does the chapter stage the ambush?' }
+],
+lenses: {
+ office: 'A journey chapter that slows to memory just before violence. Landscape, legend and love build a hush that the bat shatters. The memory of Corinne reading in a hammock is one of the novel’s most tender images, placed for maximum contrast.',
+ classroom: 'Myth and its power; love remembered; courage and folly. The chapter asks what drives Adam into the woods alone: love, desperation, or the stories men tell themselves about being heroes.',
+ records: 'The Ramapough Lenape Nation was recognised by New Jersey in 1980 but not federally; a derogatory name was long used against them. The Dingmans Ferry Bridge is one of the last privately owned toll bridges across the Delaware.',
+ stacks: 'Coben’s The Woods (2007) is set around a summer camp in the woods. Tana French’s In the Woods uses forest and myth as menace. Robert Frost’s poems of woods and choices offer a quieter echo.',
+ turnpike: 'Skyline Drive in the Ramapos, Route 23, the Dingmans Ferry Bridge, Pennsylvania, Lake Charmaine: the map leaves the suburbs and enters forest. The private lake is the end of the road.',
+ field: 'Brave or foolish? Aristotle would ask whether Adam’s courage is a mean or rashness. He was warned. Love blinds as well as drives.',
+ board: 'The hideout found: Lake Charmaine, Pennsylvania. Adam is attacked and unconscious. Pin the location and the attack; no one knows where he is except, perhaps, a phone at 10 per cent.',
+ diner: 'A still lake at dusk, a log cabin, a buck in the trees, a woman standing in a clearing: paint it in deep greens and violet, with one figure about to fall.',
+ kitchen: 'No food in this chapter, only a memory of lazy lake days. Think of a lake-house lunch: simple, slow, eaten in the shade, with someone reading beside you.',
+ driveway: 'Adam remembers watching Corinne read with total concentration and smile at the page. Write privately about a small, ordinary sight of someone you love that you keep in your memory.'
+},
+acts: {
+ office: [
+  ['Slowing','Analyse the slowing before violence.',20],
+  ['Hammock','Analyse the hammock image.',15],
+  ['Landscape','Analyse landscape as mood.',15],
+  ['Point of view','Rewrite from Gabrielle’s POV.',30],
+  ['Ambush scene','Write a 300-word ambush.',35],
+  ['Myth','Analyse the myth passage.',15],
+  ['Pacing','Compare with chapter 47.',15],
+  ['Contrast','Analyse memory vs violence.',15],
+  ['Ending','Analyse the blows.',15]
+ ],
+ classroom: [
+  ['Myth','Discuss myth’s power.',20],
+  ['Ramapough history','Discuss with care and accuracy.',25],
+  ['Love remembered','Discuss Corinne reading.',20],
+  ['Courage or folly','Discuss.',20],
+  ['Masculinity','Discuss wishing to be armed.',15],
+  ['Theme update','Add "the woods".',15],
+  ['Nature','Discuss nature and violence.',15],
+  ['Private','Discuss private places.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['Ramapough Lenape','Research their history and recognition.',25],
+  ['Skyline Drive','Research the road and its legends.',15],
+  ['Dingmans Ferry Bridge','Research the bridge.',15],
+  ['Water Gap','Research the recreation area.',15],
+  ['Private lakes','Research private lake communities in the Poconos.',15],
+  ['Phone batteries','Research tracking with low battery.',15],
+  ['Head injuries','Research blunt head trauma.',15],
+  ['Bucks','Research white-tailed deer.',15],
+  ['Lake houses','Research Passaic County lakes.',15]
+ ],
+ stacks: [
+  ['The Woods','Read about Coben’s 2007 novel.',20],
+  ['In the Woods','Compare forest menace.',20],
+  ['Frost','Read a Frost woods poem (pre-1929).',15],
+  ['Deliverance','Read about Dickey’s 1970 novel.',20],
+  ['Thoreau','Read from Walden on lakes.',20],
+  ['Aristotle','Read on courage.',20],
+  ['Mystic River','Compare violence and water.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain lake poem.',15]
+ ],
+ turnpike: [
+  ['Skyline Drive','Map the drive.',15],
+  ['Bridge','Pin Dingmans Ferry.',15],
+  ['Mapping journal','Add chapter 48.',15],
+  ['Lake','Pin Lake Charmaine (fictional).',15],
+  ['State line','Mark the NJ–PA border.',15],
+  ['Lake house','Pin the old Passaic County rental.',15],
+  ['Case map','Add the hideout.',15],
+  ['Elevation','Note the climb into the hills.',15],
+  ['Isolation','Mark how far from help.',15]
+ ],
+ field: [
+  ['Brave or foolish','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to Adam’s choice.',30],
+  ['Courage','Write 300 words.',35],
+  ['Guns','Would a gun have helped?',15],
+  ['Myth','Is myth harmful?',15],
+  ['Court','Update the group file.',15],
+  ['Gabrielle','Is she complicit in the attack?',15],
+  ['Warning','Should Adam have listened?',15],
+  ['Personal','Write about a memory of love.',20]
+ ],
+ board: [
+  ['Hideout','Pin Lake Charmaine.',15],
+  ['Attack','Pin the attack.',15],
+  ['Scene','Write a 300-word aftermath.',40],
+  ['Suspicion meter','Rate the attacker.',15],
+  ['Strand braid','Note strands.',15],
+  ['Phone','Pin the dying phone.',15],
+  ['Tension curve','Rate.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Lake at dusk','Paint the lake.',35],
+  ['Hammock','Paint Corinne reading.',30],
+  ['Buck','Draw the buck.',20],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a song for a lake.',15],
+  ['Sign','Design LAKE CHARMAINE – PRIVATE.',15],
+  ['Bridge','Draw the Dingmans Ferry Bridge.',20],
+  ['Sound','Describe a still lake.',15],
+  ['Cover brief','Add the lake.',15]
+ ],
+ kitchen: [
+  ['Lake lunch','Make a slow lake-house lunch.',30],
+  ['Ledger notebook','Record the hideout.',15],
+  ['Secrets box','Add the lake.',15],
+  ['Table talk','Ask: lake or ocean?',25],
+  ['Making: picnic','Pack a picnic.',20],
+  ['Lemonade','Make lemonade.',15],
+  ['Recipe of a still lake','Write a recipe.',15],
+  ['Campfire food','Make campfire food (safely).',40],
+  ['Tea','Make tea and remember.',15]
+ ],
+ driveway: [
+  ['Small sight','Write about it.',20],
+  ['Lake or ocean','Write about your fear or love of water.',20],
+  ['Mood dial','Rate dread.',15],
+  ['Prediction','What happens next?',15],
+  ['Letter to Corinne','Write as Adam.',15],
+  ['Letter from the woods','Write as Adam, unconscious.',15],
+  ['Courage','Write about rash courage.',15],
+  ['Myth','Write about a local legend.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 48 use landscape, myth and memory before violence?',
+ 'Essay: Analyse the image of Corinne reading in the hammock and its place in the novel.',
+ 'Creative: Write a local legend about Lake Charmaine.'
+],
+reading: [
+ ['thewoods','Coben’s woods.'],
+ ['inthewoods','Forest and menace.'],
+ ['mystic','Violence and water.'],
+ ['owens','The lyrical natural world in a crime novel.'],
+ ['tellnoone','A lake and a lost wife.'],
+ ['gonebaby','Searching in the wild.'],
+ ['borntorun','Wild places.'],
+ ['virgin','Men and quests.'],
+ ['dareme','Rash courage.']
+],
+projects: [
+ { t: 'The Lake', rooms: ['diner','driveway','kitchen'], steps: ['Paint the lake.','Write privately.','Make a lake lunch.','Reflect.'] },
+ { t: 'Ramapo Myths', rooms: ['records','classroom','turnpike'], steps: ['Research the Ramapough.','Discuss carefully.','Map Skyline Drive.','Present.'] },
+ { t: 'Brave or Foolish', rooms: ['field','stacks','classroom'], steps: ['Use the Dilemma scale.','Read Aristotle.','Debate.','Verdict.'] },
+ { t: 'The Hammock', rooms: ['office','diner','driveway'], steps: ['Analyse.','Paint.','Write.','Discuss.'] },
+ { t: 'Into the Woods', rooms: ['stacks','turnpike','board'], steps: ['Read about The Woods.','Map.','Pin.','Predict.'] },
+ { t: 'Ambush', rooms: ['office','board','field'], steps: ['Write.','Pin.','Debate Gabrielle’s role.','Predict.'] }
+],
+quiz: [
+ ['What road does Adam take through the mountains?', ['Route 17','Skyline Drive','The Turnpike','I-80'], 1],
+ ['Which bridge crosses into Pennsylvania?', ['George Washington','Dingmans Ferry','Verrazzano','Tappan Zee'], 1],
+ ['What did Corinne love?', ['The ocean','Lakes','Cities','Mountains'], 1],
+ ['What is Adam’s phone battery at?', ['80%','10%','50%','Dead'], 1],
+ ['What happens at the end?', ['He finds Corinne','He is struck with a bat','He calls Johanna','He leaves'], 1]
+]
+};

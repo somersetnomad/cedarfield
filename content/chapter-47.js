@@ -1,0 +1,226 @@
+CF.CH = CF.CH || {};
+CF.CH[47] = {
+n: 47, title: 'The Tail', pov: 'Adam', when: 'The next day', strands: ['adam','stranger'], places: ['fairlawn','pequannock'],
+summary: [
+ 'Adam watches Gabrielle’s house. Her children look about twelve and ten. She loads one suitcase into the car, then another, then a third. Adam has already called the other people in the holiday-party photo; none of them led anywhere. He decides to follow her, drawing on everything he has learned about tailing from television.',
+ 'She drives Route 208, then I-287. Johanna rings from Cleveland’s airport: she has taken Kimberly home and is flying back to Newark. The stranger, she says, has access to other websites too: this is a blackmail ring. She won’t tell Adam what Kimberly’s secret is.',
+ 'Gabrielle exits Route 23 onto Lockwood Avenue in Pequannock and stops at a yellow split-level: her ex-husband’s house, with a much younger woman. She drops the children; the ex looks surprised at the luggage. Then Gabrielle drives off with her suitcases. Johanna’s parting words to Adam: don’t do anything stupid.'
+],
+beats: [
+ 'Adam watches Gabrielle load three suitcases.',
+ 'Her kids, about twelve and ten.',
+ 'The other photo contacts led nowhere.',
+ 'Adam tails her, using TV knowledge.',
+ 'Route 208, I-287.',
+ 'Johanna calls from Cleveland: a blackmail ring; Kimberly’s secret withheld.',
+ 'Route 23 to Lockwood Avenue, Pequannock.',
+ 'A yellow split-level; the ex and a younger woman.',
+ 'The kids dropped; the ex surprised by luggage.',
+ 'Gabrielle drives off; Johanna warns Adam off stupidity.'
+],
+cast: [['Adam Price','Amateur tail.'],['Gabrielle Dunbar','Fleeing.'],['Johanna Griffin','On the phone.'],['Gabrielle’s ex','Surprised.']],
+motifs: ['surveillance','parenting','secrets','technology','truth','identity'],
+secrets: [['Gabrielle','She is running somewhere.','Observed'],['Kimberly','Her secret, which Johanna keeps.','Withheld from Adam'],['The group','It operates across several websites.','Revealed']],
+clues: ['Gabrielle is fleeing with luggage.','The stranger’s group mines multiple websites.','Johanna is protecting Kimberly’s secret.','Gabrielle left her children with their father.'],
+dilemma: { q: 'Johanna keeps Kimberly’s secret from Adam. Right?', a: 'Yes: it’s Kimberly’s to keep', b: 'No: Adam needs every fact' },
+food: ['Road food, if any: a long drive.'],
+refs: [['Route 208 and I-287','Real highways in northern New Jersey.'],['Route 23','A highway running north-west from the Newark area into Sussex County.'],['Tailing','Following a car unobserved; professionals use multiple vehicles.'],['Split-level','A house style common in post-war US suburbs.'],['Cleveland Hopkins Airport','The main airport serving Cleveland, Ohio.']],
+questions: [
+ ['What does Adam watch Gabrielle do?',0],
+ ['How does Adam learn to tail someone?',0],
+ ['What does Johanna tell Adam?',0],
+ ['Where does Gabrielle stop?',0],
+ ['What does she do with the children?',0],
+ ['What does Johanna warn?',0],
+ ['Why does Johanna keep Kimberly’s secret?',1],
+ ['What does the third suitcase signal?',0],
+ ['How does the chapter treat Gabrielle as a mother?',1],
+ ['Is Adam’s tail realistic?',0],
+ ['What does the ex’s surprise reveal?',0],
+ ['Why include the younger woman?',0],
+ ['How does the chapter build suspense on the road?',0],
+ ['What does "a blackmail ring" change for Adam?',0],
+ ['How do TV tropes shape Adam’s actions?',1],
+ ['Why does Adam keep going?',0],
+ ['Is Adam about to do something stupid?',0],
+ ['How does the road function as setting?',0],
+ ['What does it mean to leave your kids and run?',1],
+ ['Compare Gabrielle and Corinne as mothers who leave.',1],
+ ['How does the chapter use phone calls?',0],
+ ['What is the effect of Johanna in the air?',0],
+ ['How does the chapter treat divorce?',0],
+ ['Why might Gabrielle go somewhere remote?',0],
+ ['What would you do in Adam’s place?',0],
+ ['How has Adam changed as an investigator?',1],
+ ['What does the yellow house add?',0],
+ ['How does the chapter treat surveillance by amateurs?',0],
+ ['Why does Gabrielle not see Adam?',0],
+ ['Predict where Gabrielle is heading.',0]
+],
+close: [
+ { cite: 'Chapter 47, opening: the suitcases.', focus: 'Reading luggage',
+   steps: ['Count the suitcases.','Note the children.','Note Adam’s failed calls.','Note his decision.'],
+   ask: 'How does the chapter make suitcases tell a story?' },
+ { cite: 'Chapter 47, middle: Johanna’s call.', focus: 'A wider ring',
+   steps: ['Note where Johanna is.','Note the blackmail-ring theory.','Note what she withholds.','Note Adam’s reaction.'],
+   ask: 'Why does Johanna share some things and keep others?' },
+ { cite: 'Chapter 47, close: Pequannock.', focus: 'A mother leaving',
+   steps: ['Describe the house.','Note the ex and his partner.','Note the luggage.','Note Johanna’s warning.'],
+   ask: 'How does the chapter make Gabrielle’s departure poignant and ominous?' }
+],
+lenses: {
+ office: 'A road chapter: suspense built from routes, mirrors and phone calls. Adam’s TV-learned tail is gently comic; Gabrielle’s drop-off is quietly sad. Johanna’s warning not to do anything stupid foreshadows exactly that.',
+ classroom: 'Surveillance by amateurs, mothers who leave, divorce and the ethics of keeping another person’s secret. Johanna’s discretion about Kimberly is a model of what the stranger’s group never does.',
+ records: 'Routes 208, 287 and 23 are real highways across northern New Jersey. Professional surveillance teams use several vehicles to avoid detection. Split-level houses spread across post-war suburbs from the 1950s.',
+ stacks: 'Dashiell Hammett’s The Maltese Falcon and Raymond Chandler’s novels feature tailing as a set piece. Adam’s amateur version echoes and gently mocks the convention.',
+ turnpike: 'Fair Lawn to Route 208, I-287 and Route 23, then Lockwood Avenue in Pequannock: trace the tail. The road leads north-west towards the mountains, away from Cedarfield’s cul-de-sacs.',
+ field: 'Is Johanna right to keep Kimberly’s secret from Adam? The chapter suggests respect for a secret’s owner can be a moral act, the very opposite of the stranger’s creed.',
+ board: 'The group is a ring across websites; Gabrielle is running; Kimberly’s secret is known to Johanna. Pin all three, and the route Gabrielle takes.',
+ diner: 'A yellow split-level, a car loaded with suitcases, two children on a lawn, a man in the doorway: paint it in flat afternoon light with one car idling down the street.',
+ kitchen: 'Road snacks, a coffee in a cup holder: the food of a long tail. Pack a road snack and think about what you would take if you had to leave in a hurry.',
+ driveway: 'Gabrielle leaves her children with their father and drives off with three suitcases. Write privately about what you would pack, and whom you would leave behind, if you had to run.'
+},
+acts: {
+ office: [
+  ['Road suspense','Analyse suspense on the road.',20],
+  ['Comic tail','Analyse the TV tail.',15],
+  ['Foreshadowing','Analyse Johanna’s warning.',15],
+  ['Point of view','Rewrite from Gabrielle’s POV.',30],
+  ['Tail scene','Write a 300-word tail.',35],
+  ['Luggage','Analyse the suitcases.',15],
+  ['Pacing','Compare with chapter 43.',15],
+  ['Phone call','Analyse the call.',15],
+  ['Ending','Analyse the warning.',15]
+ ],
+ classroom: [
+  ['Amateur surveillance','Discuss.',20],
+  ['Mothers who leave','Discuss Gabrielle and Corinne.',25],
+  ['Keeping secrets','Discuss Johanna’s discretion.',20],
+  ['Divorce','Discuss.',15],
+  ['TV tropes','Discuss TV and real life.',15],
+  ['Theme update','Add "discretion".',15],
+  ['Rings','Discuss the blackmail ring.',15],
+  ['Risk','Discuss Adam’s risk.',15],
+  ['Seminar plan','Plan a discussion.',25]
+ ],
+ records: [
+  ['NJ highways','Research Routes 208, 287 and 23.',15],
+  ['Surveillance','Research professional tailing.',20],
+  ['Split-levels','Research the style.',15],
+  ['Pequannock','Research the township.',15],
+  ['Cleveland airport','Research Hopkins.',15],
+  ['Custody','Research emergency custody.',15],
+  ['Blackmail rings','Research online extortion rings.',20],
+  ['Dashcams','Research tailing detection.',15],
+  ['Luggage','Research what people pack when fleeing.',15]
+ ],
+ stacks: [
+  ['Maltese Falcon','Read about Hammett’s tail scenes.',20],
+  ['Chandler','Compare tails in Chandler.',20],
+  ['Big Sleep','Compare a detective on the road.',20],
+  ['Revolutionary Road','Compare leaving.',20],
+  ['Big Little Lies','Compare mothers.',20],
+  ['Bok','Read on keeping others’ secrets.',20],
+  ['Gone Girl','Compare a spouse who runs.',20],
+  ['Source list','Add two works.',15],
+  ['Poems','Find a public-domain poem about a road.',15]
+ ],
+ turnpike: [
+  ['The tail','Map Fair Lawn to Pequannock.',20],
+  ['Route 23','Trace Route 23 north-west.',15],
+  ['Mapping journal','Add chapter 47.',15],
+  ['Cleveland','Pin Johanna’s airport.',15],
+  ['Yellow house','Pin Lockwood Avenue.',15],
+  ['Case map','Add Gabrielle’s route.',15],
+  ['Network','Add the ring’s websites.',15],
+  ['Status','Place the ex.',15],
+  ['Direction','Mark the direction of travel.',15]
+ ],
+ field: [
+  ['Discretion','Use the Dilemma scale.',15],
+  ['Five lenses','Apply the lenses to Gabrielle’s leaving.',30],
+  ['Tailing','Is tailing her wrong?',15],
+  ['Leaving','Write 300 words on mothers who run.',35],
+  ['Risk','Should Adam stop?',15],
+  ['Court','Update the group file.',15],
+  ['Johanna','Rate her discretion.',15],
+  ['Children','What do Gabrielle’s kids deserve?',15],
+  ['Personal','Write about running.',20]
+ ],
+ board: [
+  ['Ring','Pin the blackmail ring.',15],
+  ['Route','Pin Gabrielle’s route.',15],
+  ['Scene','Write a 300-word tail scene.',40],
+  ['Suspicion meter','Rate Gabrielle.',15],
+  ['Strand braid','Note strands.',15],
+  ['Warning','Pin Johanna’s warning.',15],
+  ['Tension curve','Rate.',15],
+  ['Chapter architecture','Use the tool.',15],
+  ['Pacing','Add to chart.',15]
+ ],
+ diner: [
+  ['Yellow house','Paint the drop-off.',35],
+  ['Suitcases','Draw three suitcases.',15],
+  ['Highway','Paint I-287.',25],
+  ['Palette','Use the Chapter palette tool.',15],
+  ['Soundtrack','Pick a driving song.',15],
+  ['Mirror','Paint a rear-view mirror.',15],
+  ['Map','Design a route map.',15],
+  ['Sound','Describe tyres on a highway.',15],
+  ['Cover brief','Add the suitcases.',15]
+ ],
+ kitchen: [
+  ['Road snack','Pack a road snack.',15],
+  ['Ledger notebook','Record the route.',15],
+  ['Secrets box','Add Kimberly’s secret (withheld).',15],
+  ['Table talk','Ask: what would you pack?',25],
+  ['Making: go-bag','List a go-bag.',15],
+  ['Thermos coffee','Make thermos coffee.',15],
+  ['Recipe of a getaway','Write a recipe.',15],
+  ['Diner stop','Make a diner sandwich.',20],
+  ['Kids’ dinner','Make a simple kids’ dinner.',30]
+ ],
+ driveway: [
+  ['Running','Write about it.',20],
+  ['Leaving children','Write about separation.',20],
+  ['Mood dial','Rate suspense.',15],
+  ['Prediction','Where is she going?',15],
+  ['Letter to Gabrielle','Write to her.',15],
+  ['Letter from her kids','Write as her child.',15],
+  ['Stupid','Write about a stupid brave thing.',15],
+  ['Discretion','Write about keeping a secret for someone.',15],
+  ['Reading log','Log this session.',15]
+ ]
+},
+prompts: [
+ 'Essay: How does chapter 47 build suspense through a road journey?',
+ 'Essay: Analyse Johanna’s discretion as a counterpoint to the stranger’s creed.',
+ 'Creative: Write Gabrielle’s goodbye to her children.'
+],
+reading: [
+ ['bigsleep','A detective on the road.'],
+ ['simpleart','Chandler on the detective story.'],
+ ['boksecrets','Keeping others’ secrets.'],
+ ['biglies','Mothers under pressure.'],
+ ['gonegirl','A spouse who runs.'],
+ ['revroad','Leaving.'],
+ ['shelter','Coben’s amateur investigators.'],
+ ['citron','Online extortion.'],
+ ['inthewoods','A road into the woods.']
+],
+projects: [
+ { t: 'The Tail', rooms: ['turnpike','office','diner'], steps: ['Map the route.','Analyse suspense.','Paint the highway.','Present.'] },
+ { t: 'Discretion', rooms: ['field','classroom','stacks'], steps: ['Use the Dilemma scale.','Discuss.','Read Bok.','Verdict.'] },
+ { t: 'Mothers Who Leave', rooms: ['classroom','driveway','field'], steps: ['Compare.','Write.','Debate.','Reflect.'] },
+ { t: 'The Ring', rooms: ['board','records','office'], steps: ['Pin it.','Research rings.','Analyse.','Predict.'] },
+ { t: 'Go-Bag', rooms: ['kitchen','driveway','diner'], steps: ['List a go-bag.','Write.','Draw suitcases.','Discuss.'] },
+ { t: 'Detective Tails', rooms: ['stacks','office','classroom'], steps: ['Read about Hammett.','Compare.','Discuss.','Write.'] }
+],
+quiz: [
+ ['How many suitcases does Gabrielle load?', ['One','Three','Five','None'], 1],
+ ['Where is Johanna calling from?', ['Newark','Cleveland airport','Manhattan','Beachwood'], 1],
+ ['What does Johanna call the group?', ['A cult','A blackmail ring','A start-up','A family'], 1],
+ ['Where does Gabrielle drop her kids?', ['School','Her ex’s house in Pequannock','A friend’s','Her mother’s'], 1],
+ ['What does Johanna warn Adam?', ['Go home','Don’t do anything stupid','Call the police','Nothing'], 1]
+]
+};
